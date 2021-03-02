@@ -1,0 +1,64 @@
+# Sample config file
+# Default keys are
+#   use_mpi
+#   max_threads
+
+
+globals:
+    ignore: True
+    name: None
+
+    config:
+        use_mpi: False
+        chunk_size: 1
+
+    generator:
+        solver: "ff"
+        
+    solver:
+        dir: "test_data"
+
+phases:
+    - config:
+        name: "example"
+        ignore: False
+
+        phases:    
+            - generator:
+                name: "training_data"
+                type: "blocksworld"
+                total_problems: 100
+                min_blocks: 2
+                max_blocks: 8
+                ignore: False
+            - solver:
+                name: "ff"
+                type: "ff"
+                input_dir: "training_data"
+                ignore: False
+            - model:
+                name: "m1"
+                nn_type: "generic"
+                nn_name: "gms"
+                input_dir: "training_data"
+                solver_name: "ff"
+                epochs: 100
+                batchsize: 32
+                shuffle: True
+                ignore: False
+            - generator:
+                name: "test_data"
+                type: "blocksworld"
+                total_problems: 1
+                min_blocks: 12
+                max_blocks: 12
+                ignore: False
+            - solver:
+                name: "nn"
+                type: "astar"    
+                input_dir: "test_data"
+                heuristic: "nn_plact"
+                model_dir: "m1"
+                model_name: "gms"
+                ignore: False
+

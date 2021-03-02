@@ -1,0 +1,105 @@
+# Sample config file
+# Default keys are
+#   use_mpi
+#   max_threads
+
+
+globals:
+
+    name: None
+
+    config:
+        use_mpi: False
+        chunk_size: 1
+
+    generator:
+        solver: "ff"
+        
+    solver:
+        dir: "test_data"
+
+phases:
+    - config:
+        name: "blocksworld"
+        ignore: False
+
+        phases:
+        
+            # First, generate all the evaluation data.
+            - generator:
+                name: "test_data"
+                type: "blocksworld"
+                total_problems: 100
+                min_blocks: 1
+                max_blocks: 12
+
+            - solver:
+                name: "ff"
+                type: "ff"
+                input_dir: "test_data"
+
+            - solver:
+                name: "fd_lama"
+                type: "fd"
+                mode: "lama_first"
+                input_dir: "test_data"
+
+            - solver:
+                name: "fd_astar"
+                type: "fd"
+                mode: "astar_ff"
+                input_dir: "test_data"
+
+                
+            # Get the results from the oracle network.
+            - model:
+                name: "oracle"
+                nn_type: "blocksworld"
+                nn_name: "2p_7h"
+                input_dir: "test_data"
+                solver_name: "ff"
+                epochs: 50
+                batchsize: 32
+                shuffle: True
+
+            - solver:
+                name: "oracle"
+                type: "astar"    
+                input_dir: "test_data"
+                heuristic: "nn_plact"
+                model_dir: "oracle"
+                model_name: "2p_7h"
+
+            - leapfrog:
+                name: "blocksworld-leapfrog"
+                num_loops: 5
+
+                phases:
+                    - generator:
+                        type: "blocksworld"
+                        total_problems: 100
+                        min_blocks: [1, 1, 1, 1,  1]
+                        max_blocks: [2, 4, 6, 8, 12]
+                    - trainer:
+                        model_name: [None, "2p_7h"]
+                        type: ["ff", "astar"]
+                        heuristic: [None, "nn_plact"]
+                        time_limit: [None, 600]
+                    - model:
+                        nn_type: "blocksworld"
+                        nn_name: "2p_7h"
+                        epochs: 100
+                        batchsize: 32
+                        shuffle: True
+                    - evaluator:
+                        type: "astar"    
+                        input_dir: "test_data"
+                        heuristic: "nn_plact"
+                        model_name: "2p_7h"
+                        time_limit: 480
+
+            - plotter:
+                name: "plots"
+                input_dir: "test_data"
+                num_bins: 6
+                ignore: False
