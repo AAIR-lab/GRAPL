@@ -63,6 +63,9 @@ The setup involves a training_directory where the training problem files are kep
 
 You can use the `oracle` model and solver from the yaml config files to solve the training problems using FF (without leapfrogging) and train the GHN and then use it to solve the problems in the test directory.
 
+For examples of such configuration files, please take a look at the `example.yaml` files found in `generalized_learning/benchmarks/<domain>`.
+The only change needed in those files is the solver for the test problems with pyperplan instead of our own internal A* implementation. The pyperplan config can be found in the YAML files for the AAAI-21 experiments.
+
 # Using your own data/new domains
 Follow the setup in the Fast training section above to train and use GHNs with your own data.
 
