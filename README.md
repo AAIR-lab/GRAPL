@@ -1,8 +1,11 @@
-# GHN
-Python implementation of Generalized Heuristic Networks
+# Generalized Relational Abstractions for Planning and Learning
 
-This repo is being updated with new changes (You can refer to the aaai-21 branch for the exact code used for the AAAI-21
-submission). 
+Python implementation of the ideas presented in
+
+[AAAI-21]: Learning Generalized Relational Heuristics for Model-Agnostic Planning
+[IJCAI-22]: Relational Abstractions for Generalized Reinforcement Learning on Symbolic Problems
+
+To find the exact source code submitted for each paper, please visit the corresponding branch.
 
 # Installation
 
