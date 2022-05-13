@@ -3,6 +3,7 @@
 Python implementation of the ideas presented in
 
 [AAAI-21]: Learning Generalized Relational Heuristics for Model-Agnostic Planning
+
 [IJCAI-22]: Relational Abstractions for Generalized Reinforcement Learning on Symbolic Problems
 
 To find the exact source code submitted for each paper, please visit the corresponding branch.
