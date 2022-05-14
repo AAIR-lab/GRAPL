@@ -79,4 +79,5 @@ The command line arguments to enable the GHN heuristic are `python3 dependencies
 
 # Contributors
 [Rushang Karia](https://rushangkaria.github.io) <br>
+Julia Nakhleh <br>
 [Siddharth Srivastava](https://siddharthsrivastava.net)
