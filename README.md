@@ -77,3 +77,6 @@ As an additional note, once you have trained a model, you can run pyperplan indi
 
 The command line arguments to enable the GHN heuristic are `python3 dependencies/pyperplan/src/pyperplan.py -s <search_algorithm> -H nnplact --model-dir <path_to_model_dir> --model-name <model_name_as_in_yaml> <domain_file> <problem_file>`
 
+# Contributors
+[Rushang Karia](https://rushangkaria.github.io) <br>
+[Siddharth Srivastava](https://siddharthsrivastava.net)
