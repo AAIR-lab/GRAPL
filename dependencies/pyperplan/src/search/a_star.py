@@ -40,6 +40,18 @@ def ordered_node_astar(node, h, node_tiebreaker):
     return (f, h, node_tiebreaker, node)
 
 
+def ordered_node_astar_nnplact(node, h, node_tiebreaker):
+    """
+    With the nnplact heuristic, we add the artificial_g instead of the real_g
+    to compute the f-score.
+
+    The real_g is only used to determine if a node must be added to the open
+    list or not.
+    """
+    f = node.artificial_g + h
+    return (f, h, node_tiebreaker, node)
+
+
 def ordered_node_weighted_astar(weight):
     """
     Creates an ordered search node (basically, a tuple containing the node
@@ -132,6 +144,7 @@ def astar_search(
     try:
         if heuristic.__getattribute__("_nnplact"):
 
+            make_open_entry = ordered_node_astar_nnplact
             task.initial_state = frozenset(
                 heuristic.encode_pyperplan_initial_state())
             nnplact = True

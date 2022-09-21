@@ -1,0 +1,40 @@
+# Sample config file
+# Default keys are
+#   use_mpi
+#   max_threads
+
+
+globals:
+    name: None
+
+    config:
+        use_mpi: False
+        chunk_size: 1
+
+    generator:
+        solver: "ff"
+        
+    solver:
+        dir: "test_data"
+
+phases:
+    - config:
+        name: "visitall"
+        ignore: False
+
+        phases:
+            - leapfrog:
+                name: "visitall-problem-gen"
+                num_loops: 9
+                ignore: False
+                phases:
+                    - generator:
+                        type: "visitall"
+                        total_problems: [1, 1, 1, 1, 1, 1, 1, 1]
+                        min_size: [2, 3, 4, 5, 6, 7, 8, 9, 10]
+                        max_size: [2, 3, 4, 5, 6, 7, 8, 9, 10]
+                        min_g_percent: 100
+                        max_g_percent: 100
+                        min_hole_percent: 0
+                        max_hole_percent: 0
+                        ignore: False

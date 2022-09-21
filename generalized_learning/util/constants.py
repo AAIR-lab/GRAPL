@@ -1,7 +1,7 @@
 '''
 Created on Mar 26, 2020
 
-@author: rkaria
+@author: anonymous
 '''
 
 import datetime
@@ -12,6 +12,7 @@ import time
 
 from matplotlib import rcParams
 
+import numpy as np
 from util import git
 
 
@@ -50,8 +51,13 @@ def get_solution_file_regex(solver_name):
         SOLUTION_FILE_EXT))
 
 
+# Small constant to keep the predictions +ve.
+EPSILON = np.finfo(np.float32).eps.item()
+
+
 #: The root directory of the project.
 ROOT_DIR = (pathlib.Path(__file__).parent / "../../").absolute()
+BENCHMARKS_DIR = ROOT_DIR / "generalized_learning" / "benchmarks"
 
 HOSTNAME = os.uname().nodename
 
@@ -66,6 +72,9 @@ PROBLEM_FILE_EXT = "problem.pddl"
 DOMAIN_FILE_EXT = "domain.pddl"
 SOLUTION_FILE_EXT = "soln"
 LOG_FILE_EXT = "log"
+
+RDDL_PROBLEM_FILE_EXT = "problem.rddl"
+RDDL_DOMAIN_FILE_EXT = "domain.rddl"
 
 PROBLEM_FILE_REGEX = re.compile("(\w|\W)*.%s($|\n)" % (PROBLEM_FILE_EXT))
 DOMAIN_FILE_REGEX = re.compile("(\w|\W)*.%s($|\n)" % (DOMAIN_FILE_EXT))

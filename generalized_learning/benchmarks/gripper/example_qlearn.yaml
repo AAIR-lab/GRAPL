@@ -1,0 +1,88 @@
+# Sample config file
+# Default keys are
+#   use_mpi
+#   max_threads
+
+
+globals:
+    name: None
+
+    config:
+        use_mpi: False
+        chunk_size: 1
+
+    generator:
+        solver: "ff"
+        
+    solver:
+        dir: "test_data"
+
+phases:
+    - config:
+        name: "gripper"
+        ignore: False
+
+        phases:
+            - leapfrog:
+                name: "gripper-problem-gen"
+                num_loops: 3
+                ignore: True
+                phases:
+                    - generator:
+                        type: "gripper"
+                        total_problems: [1, 1, 1, 1, 1, 1, 1, 1, 1]
+                        min_balls: [1, 2, 3, 4, 6, 8, 12, 16, 32]
+                        max_balls: [1, 2, 3, 4, 6, 8, 12, 16, 32]
+                        ignore: False
+                    - qlearning:
+                        simulator_type: "generic"
+                        nn_type: "invalid"
+                        nn_name: "invalid"
+                        algorithm: "concrete_td"
+                        experiment_name: "concrete_td"
+                        write_mode: "a"
+                        ignore: True
+                    - qlearning:
+                        simulator_type: "generic"
+                        nn_type: "torch_generic"
+                        nn_name: "dl_sat_td"
+                        algorithm: "abstract_td"
+                        abstraction: "description_logic_mlp"
+                        experiment_name: "dl_sat_td"
+                        feature_file: "gripper_sat_features.io"
+                        write_mode: "a"
+                        ignore: False
+                    - qlearning:
+                        simulator_type: "generic"
+                        nn_type: "torch_generic"
+                        nn_name: "dl_full_td"
+                        algorithm: "abstract_td"
+                        abstraction: "description_logic_mlp"
+                        experiment_name: "dl_full_td"
+                        feature_file: "gripper_full_features.io"
+                        write_mode: "a"
+                        ignore: True
+                    - qlearning:
+                        simulator_type: "generic"
+                        nn_type: "torch_generic"
+                        nn_name: "canonical_abstraction_td"
+                        algorithm: "abstract_td"
+                        abstraction: "canonical_abstraction_mlp"
+                        experiment_name: "canonical_abstraction_td"
+                        write_mode: "a"
+                        ignore: True
+            - generator:
+                type: "gripper"
+                name: "test_data"
+                total_problems: 1
+                min_balls: 4
+                max_balls: 4
+                ignore: False
+            - evaluator:
+                name: "solver"
+                type: "policy"
+                model_dir: "l2"
+                nn_type: "invalid"
+                nn_name: "dl_sat_td"
+                input_dir: "test_data"
+                ignore: False

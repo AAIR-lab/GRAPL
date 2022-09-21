@@ -13,6 +13,9 @@ logger = logging.getLogger(__name__)
 
 class Generator(Phase):
 
+    # The maximum number of tries to generate a solvable problem.
+    MAX_TRIES = 100
+
     #: The set of required keys for this phase in order to function correctly.
     #:
     #: Besides the default keys, we also need "total_problems" to be specified.

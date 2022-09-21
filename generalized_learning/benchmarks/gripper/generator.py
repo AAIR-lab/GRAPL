@@ -5,6 +5,8 @@ import shutil
 import subprocess
 
 from benchmarks.generator import Generator
+from generalized_learning.concretized.problem import Problem
+
 from util import constants
 from util import file
 
@@ -44,6 +46,35 @@ class GripperDomainGenerator(Generator):
         shutil.copy(GripperDomainGenerator.DOMAIN_FILE,
                     file_path)
 
+    def _generate_problem(self, domain_file, problem_file,
+                          min_balls, max_balls, balls):
+
+        file_handle = open("%s/%s" % (self._base_dir, problem_file), "w")
+
+        properties = {
+
+            "min_balls": min_balls,
+            "max_balls": max_balls,
+            "balls": balls,
+
+            "bin_params": ["balls"],
+        }
+
+        file.write_properties(file_handle, properties,
+                              constants.PDDL_COMMENT_PREFIX)
+
+        gen_cmd = "%s -n %u" % (
+            GripperDomainGenerator.GENERATOR_BIN,
+            balls)
+
+        unused_completed_process = subprocess.run(
+            gen_cmd, shell=True, stdout=file_handle)
+
+        file_handle.close()
+
+        problem = Problem(domain_file, problem_file, directory=self._base_dir)
+        return problem.requires_planning()
+
     def generate_problem(self, problem_range):
 
         min_balls = self.get_value("min_balls")
@@ -51,31 +82,28 @@ class GripperDomainGenerator(Generator):
 
         assert min_balls >= GripperDomainGenerator.MIN_BALLS
 
+        domain_file = "%s.domain.pddl" % (
+            GripperDomainGenerator._DOMAIN_NAME)
+
         for problem_no in problem_range:
 
             problem_file = "problem_%u.problem.pddl" % (problem_no)
-            file_handle = open("%s/%s" % (self._base_dir, problem_file), "w")
 
             balls = random.randint(min_balls, max_balls)
 
-            properties = {
+            i = 0
+            success = False
+            while i < Generator.MAX_TRIES and not success:
 
-                "min_balls": min_balls,
-                "max_balls": max_balls,
-                "balls": balls,
+                i += 1
 
-                "bin_params": ["balls"],
-            }
+                success |= self._generate_problem(domain_file, problem_file,
+                                                  min_balls, max_balls,
+                                                  balls)
 
-            file.write_properties(file_handle, properties,
-                                  constants.PDDL_COMMENT_PREFIX)
+            if not success:
 
-            gen_cmd = "%s -n %u" % (
-                GripperDomainGenerator.GENERATOR_BIN,
-                balls)
-
-            unused_completed_process = subprocess.run(
-                gen_cmd, shell=True, stdout=file_handle)
+                raise Exception("Could not generate problem")
 
         # Just return an empty list.
         return []

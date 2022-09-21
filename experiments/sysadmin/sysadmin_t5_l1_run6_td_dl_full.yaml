@@ -1,0 +1,63 @@
+
+globals:
+    name: None
+
+    config:
+        use_mpi: False
+        chunk_size: 1
+
+    generator:
+        solver: "ff"
+        
+    solver:
+        dir: "test_data"
+
+phases:
+    - config:
+        name: sysadmin/l6
+        ignore: False
+
+        phases:
+            - qlearning:
+                name: t5
+                input_dir: t5
+                model_dir: l0
+                simulator_type: rddl
+                nn_type: torch_generic
+                nn_name: l1_td_dl_full
+                algorithm: abstract_td
+                experiment_name: l1_td_dl_full
+                
+                episodes_per_epoch: 10
+                num_episodes: 100
+                timesteps_per_episode: 40
+                epsilon: 0.0
+                min_epsilon: 0.0
+                epsilon_decay_rate: 0.99
+                learning_rate: 0.0
+                gamma: 0.0
+                
+                abstraction: description_logic_mlp
+                feature_file: sysadmin_full_features.io
+                
+                abstraction_weight: 0.9
+                min_abstraction_weight: 0.0
+                abstraction_weight_decay_rate: 0.99
+                
+                replay_memory_size: 2000
+                epochs: 25
+                batch_size: 32
+                training_interval: 32
+                total_train_iterations: 1
+
+                output_prefix: l1_td_dl_full
+                ignore_stats_till: 0
+                start_episode: 0
+                lambda: 0.8
+
+                should_evaluate_greedy: False
+                num_greedy_evaluations_per_episode: 10
+                greedy_evaluation_epsilon: 0
+
+                write_mode: "w"
+                ignore: False 

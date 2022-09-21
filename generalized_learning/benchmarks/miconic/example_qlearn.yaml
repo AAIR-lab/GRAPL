@@ -1,0 +1,79 @@
+# Sample config file
+# Default keys are
+#   use_mpi
+#   max_threads
+
+
+globals:
+    name: None
+
+    config:
+        use_mpi: False
+        chunk_size: 1
+
+    generator:
+        solver: "ff"
+        
+    solver:
+        dir: "test_data"
+
+phases:
+    - config:
+        name: "example"
+        ignore: False
+
+        phases:    
+            - leapfrog:
+                name: "miconic-leapfrog"
+                num_loops: 9
+                ignore: False
+                phases:
+                    - generator:
+                        type: "miconic"
+                        total_problems: [1, 1, 1, 1, 1, 1, 1, 1, 1]
+                        min_floors: [3, 3, 3, 4, 4, 4, 6, 6, 6, 9]
+                        max_floors: [3, 3, 3, 4, 4, 4, 6,   6, 6,  9]
+                        min_passengers: [1, 2, 3, 4, 6, 8, 10, 12, 14, 18]
+                        max_passengers: [1, 2, 3, 4, 6, 8, 10, 12, 14, 18]
+                        ignore: False
+                    - qlearning:
+                        max_timesteps: [1000, 2000, 4000, 6000, 8000, 10000, 15000, 20000, 20000]
+                        simulator_type: "miconic"
+                        nn_type: "invalid"
+                        nn_name: "invalid"
+                        algorithm: "concrete_td"
+                        experiment_name: "concrete_td"
+                        write_mode: "w"
+                        ignore: False
+                    - qlearning:
+                        max_timesteps: [1000, 2000, 4000, 6000, 8000, 10000, 15000, 20000, 20000]
+                        simulator_type: "miconic"
+                        nn_type: "torch_generic"
+                        nn_name: "dl_sat_td"
+                        algorithm: "abstract_td"
+                        abstraction: "canonical_abstraction_mlp"
+                        experiment_name: "dl_sat_td"
+                        feature_file: "miconic_sat_features.io"
+                        write_mode: "a"
+                        ignore: False
+                    - qlearning:
+                        max_timesteps: [1000, 2000, 4000, 6000, 8000, 10000, 15000, 20000, 20000]
+                        simulator_type: "miconic"
+                        nn_type: "torch_generic"
+                        nn_name: "dl_full_td"
+                        algorithm: "abstract_td"
+                        abstraction: "description_logic_mlp"
+                        experiment_name: "dl_full_td"
+                        feature_file: "miconic_full_features.io"
+                        write_mode: "a"
+                        ignore: False
+                    - qlearning:
+                        max_timesteps: [1000, 2000, 4000, 6000, 8000, 10000, 15000, 20000, 20000]
+                        simulator_type: "miconic"
+                        nn_type: "torch_generic"
+                        nn_name: "canonical_abstraction_td"
+                        algorithm: "abstract_td"
+                        abstraction: "canonical_abstraction_mlp"
+                        experiment_name: "canonical_abstraction_td"
+                        write_mode: "a"
+                        ignore: False

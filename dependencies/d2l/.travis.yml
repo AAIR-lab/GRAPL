@@ -1,0 +1,29 @@
+language: python
+
+matrix:
+  include:
+    - python: 3.6
+      env: TOXENV=py36
+
+    # We test the lint script with Python 3.6 only
+    - python: 3.6
+      env: TOXENV=pylint
+
+#    - python: 3.7-dev
+#      env: TOXENV=py37
+#    - python: pypy3.5
+#      env: TOXENV=pypy3
+
+before_install:
+  - sudo apt-get install -y --no-install-recommends build-essential g++ python3 git scons libboost-all-dev
+
+install:
+  - git clone https://github.com/sat-group/open-wbo.git
+  - cd open-wbo
+  - make rs
+
+  - pip install tox
+
+script:
+  - tox --version
+  - tox

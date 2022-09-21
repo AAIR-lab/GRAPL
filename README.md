@@ -1,83 +1,86 @@
-# Generalized Relational Abstractions for Planning and Learning
+System Requirements
+====================
+Ubuntu 18.04.5
+Python 3.6.9
 
-Python implementation of the ideas presented in
+Installation
+=============
 
-[AAAI-21]: Learning Generalized Relational Heuristics for Model-Agnostic Planning
+Use the following commands to install our software on your box.
+Its best to create a virtual environment to not pollute your environemnt.
 
-[IJCAI-22]: Relational Abstractions for Generalized Reinforcement Learning on Symbolic Problems
+sudo apt install cmake git python3-venv python3-pip openjdk-11-jdk
 
-To find the exact source code submitted for each paper, please visit the corresponding branch.
+python3 -m venv grl_env
+source grl_env/bin/activate
 
-# Installation
+# Upgrade pip first.
+pip3 install pip --upgrade
 
-Use the following commands to install the GHN system on an Ubuntu 18.04 machine.
+# Install all the packages.
+pip3 install tensorflow==2.5.0
+pip3 install networkx
+pip3 install pygraphviz
+pip3 install dulwich
+pip3 install tqdm
+pip3 install matplotlib
+pip3 install pydot
+pip3 install pyyaml==5.3.1
+pip3 install tinydb
+pip3 install pandas
+pip3 install bokeh
+pip3 install psutil
+pip3 install torch==1.9.0+cpu torchvision==0.10.0+cpu torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+pip3 install torch-scatter torch-sparse torch-cluster torch-spline-conv torch-geometric -f https://pytorch-geometric.com/whl/torch-1.9.0+cpu.html
+pip3 install bitarray
+pip3 install natsort==7.1.1
+pip3 install antlr4-python3-runtime==4.7.2
+pip3 install multipledispatch==0.6.0
+pip3 install JPype1
 
-    sudo apt install graphviz graphviz-dev python3-pip cmake
+Running our experiments
+========================
 
-    pip3 install --upgrade pip
-    pip3 install networkx
-    pip3 install tensorflow==2.3.1
-    pip3 install pygraphviz
-    pip3 install dulwich
-    pip3 install tqdm
-    pip3 install matplotlib
-    pip3 install pydot
-    pip3 install pyyaml==5.3.1
-    pip3 install tinydb
-    pip3 install pandas
-    pip3 install bokeh
-    pip3 install psutil
+All the problem files and configuration are included in the experiments/ directory.
 
-Next from the project root directory,
+Run this command first to setup the dataset.
+cp -fr experiments/ /tmp/results
 
-    cd bin/fast-downward
-    ./build.py release
+The directory structure is as follows:
 
-# Reproducing the AAAI-21 experiments
+domain
+    - l<run_no>
+        - l<leapfrog_iteration_no>
+        - t<competition_instance_no>
 
-The GHN system uses YAML config files for supported domains to run the experiments.
-The AAAI-21 YAML files can be found in the experiments/ directory.
+Most experiments should take less than 1 hour to complete.
 
-Each YAML file consists of several phases which
+Running IJCAI-22 GRL training experiments
+------------------------------------------
 
- 1. Generates problem files for training and testing
- 2. Runs baseline solvers FF and FD (and Pyperplan) to solve the test problems.
- 3. Runs the leapfrogging steps for 3 iterations to train GHN leapfrog networks.
- 4. Runs all GHN trained networks on the test data.
+PYTHONHASHSEED=0 python3 generalized_learning.py --base-dir /tmp/results \
+    --config-file experiments/<domain>/<domain>_l3_run<run_no>_td_dl_full.yaml
 
-These experiments take an average of 12 hours to complete for all phases in a multicore setting.
+where
 
-Use the following command line to run the experiments from the root directory.
+domain = ["academic_advising", "game_of_life_2", "sysadmin", "wildfire_2"]
+run_no = [0..9]
 
-python3 generalized_learning.py --base-dir `<directory_where_to_store_results>` --config-file `<path_to_yaml_file>`
+For example, to run sysadmin training for run 0, run
 
-#### Example:
+PYTHONHASHSEED=0 python3 generalized_learning.py --base-dir /tmp/results \
+    --config-file experiments/sysadmin/sysadmin_l3_run0_td_dl_full.yaml
+    
+Running IJCAI-22 GRL zero-shot transfer experiments
+----------------------------------------------------
 
-To run blocksworld experiments, run the following
+PYTHONHASHSEED=0 python3 generalized_learning.py --base-dir /tmp/results \
+    --config-file experiments/<domain>/<domain>_t<instance_no>_l3_run<run_no>_td_dl_full.yaml
 
-`python3 generalized_learning.py --base-dir ./results --config-file experiments/aaai21/leapfrogs/blocksworld.yaml`
+where
 
-# Fast training
+domain = ["academic_advising", "game_of_life_2", "sysadmin", "wildfire_2"]
+instance_no = [5..10]
+run_no = [0..9]
 
-If you do not wish to run the complete AAAI-21 suite, then the bare minimum required is the `oracle` phases that are present in the YAML files.
-
-The `oracle` solver uses an external solver (FF) to solve the training problems, the `oracle` model then trains a GHN using the solved problems and finally, the `pyperplan oracle solver` uses pyperplan and the learned GHN to solve the test problems. This pipeline takes under 20 mins to complete training in most cases.
-
-The setup involves a training_directory where the training problem files are kept and a test_directory to store the test files. Note that the domain file and problem file must end with extensions `*.domain.pddl` and `*.problem.pddl`.
-
-You can use the `oracle` model and solver from the yaml config files to solve the training problems using FF (without leapfrogging) and train the GHN and then use it to solve the problems in the test directory.
-
-For examples of such configuration files, please take a look at the `example.yaml` files found in `generalized_learning/benchmarks/<domain>`.
-The only change needed in those files is the solver for the test problems with pyperplan instead of our own internal A* implementation. The pyperplan config can be found in the YAML files for the AAAI-21 experiments.
-
-# Using your own data/new domains
-Follow the setup in the Fast training section above to train and use GHNs with your own data.
-
-As an additional note, once you have trained a model, you can run pyperplan individually using the sourced version of pyperplan provided in the dependencies/ directory.
-
-The command line arguments to enable the GHN heuristic are `python3 dependencies/pyperplan/src/pyperplan.py -s <search_algorithm> -H nnplact --model-dir <path_to_model_dir> --model-name <model_name_as_in_yaml> <domain_file> <problem_file>`
-
-# Contributors
-[Rushang Karia](https://rushangkaria.github.io) <br>
-Julia Nakhleh <br>
-[Siddharth Srivastava](https://siddharthsrivastava.net)
+See training section for an example command.

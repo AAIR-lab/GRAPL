@@ -1,0 +1,78 @@
+# Sample config file
+# Default keys are
+#   use_mpi
+#   max_threads
+
+
+globals:
+    name: None
+
+    config:
+        use_mpi: False
+        chunk_size: 1
+
+    generator:
+        solver: "ff"
+        
+    solver:
+        dir: "test_data"
+
+phases:
+    - config:
+        name: "example"
+        ignore: False
+
+        phases:    
+            - leapfrog:
+                name: "blocksworld_on-leapfrog"
+                num_loops: 9
+                ignore: False
+                phases:
+                    - generator:
+                        type: "blocksworld"
+                        goal_type: "on_a_b"
+                        total_problems: [5, 5, 5, 5, 5, 5, 5, 5, 5]
+                        min_blocks: [3, 4, 5, 6, 8, 10, 12, 14, 16]
+                        max_blocks: [3, 4, 5, 6, 8, 10, 12, 14, 16]
+                        ignore: False
+                    - qlearning:
+                        max_timesteps: [2500, 4000, 4000, 6000, 8000, 10000, 15000, 20000, 20000]
+                        simulator_type: "blocksworld"
+                        nn_type: "invalid"
+                        nn_name: "invalid"
+                        algorithm: "concrete_td"
+                        experiment_name: "concrete_td"
+                        write_mode: "w"
+                        ignore: False
+                    - qlearning:
+                        max_timesteps: [2500, 4000, 4000, 6000, 8000, 10000, 15000, 20000, 20000]
+                        simulator_type: "blocksworld"
+                        nn_type: "torch_generic"
+                        nn_name: "dl_sat_td"
+                        algorithm: "abstract_td"
+                        abstraction: "description_logic_mlp"
+                        experiment_name: "dl_sat_td"
+                        feature_file: "on_a_b_sat_features.io"
+                        write_mode: "a"
+                        ignore: False
+                    - qlearning:
+                        max_timesteps: [2500, 4000, 4000, 6000, 8000, 10000, 15000, 20000, 20000]
+                        simulator_type: "blocksworld"
+                        nn_type: "torch_generic"
+                        nn_name: "dl_full_td"
+                        algorithm: "abstract_td"
+                        abstraction: "description_logic_mlp"
+                        experiment_name: "dl_full_td"
+                        feature_file: "on_a_b_full_features.io"
+                        write_mode: "a"
+                        ignore: False
+                    - qlearning:
+                        max_timesteps: [2500, 4000, 4000, 6000, 8000, 10000, 15000, 20000, 20000]
+                        simulator_type: "blocksworld"
+                        nn_type: "torch_generic"
+                        nn_name: "canonical_abstraction_td"
+                        algorithm: "abstract_td"
+                        abstraction: "canonical_abstraction_mlp"
+                        experiment_name: "canonical_abstraction_td"
+                        write_mode: "a"
+                        ignore: False

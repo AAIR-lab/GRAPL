@@ -1,0 +1,40 @@
+# Sample config file
+# Default keys are
+#   use_mpi
+#   max_threads
+
+
+globals:
+    ignore: True
+    name: None
+
+    config:
+        use_mpi: False
+        chunk_size: 1
+
+    generator:
+        solver: "ff"
+        
+    solver:
+        dir: "test_data"
+
+phases:
+    - config:
+        name: "example"
+        ignore: False
+
+        phases:    
+            - generator:
+                name: "training_data"
+                type: "blocksworld"
+                total_problems: 1
+                min_blocks: 3
+                max_blocks: 3
+                ignore: False
+            - qlearning:
+                name: "m1"
+                nn_type: "generic"
+                nn_name: "gms"
+                algorithm: "tableq"
+                input_dir: "training_data"
+                ignore: False

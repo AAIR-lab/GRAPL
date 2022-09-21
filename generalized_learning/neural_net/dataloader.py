@@ -6,10 +6,31 @@ import numpy as np
 
 class KerasDataset(keras.utils.Sequence):
 
+    @staticmethod
+    def filter_data_to_np(layer_names, nn_pkg_list):
+
+        filtered_dict = {}
+
+        for layer_name in layer_names:
+
+            data = map(lambda nn_pkg: nn_pkg.decode(layer_name), nn_pkg_list)
+            data = np.asarray(list(data))
+
+            filtered_dict[layer_name] = data
+
+        return filtered_dict
+
     def __init__(self, abstract_domain, nn_package_list, batch_size, shuffle=True):
-        self.nn_input_dict, self.nn_label_dict = abstract_domain.get_nn_train_dict(
-            nn_package_list)
+
+        self.nn_input_dict = KerasDataset.filter_data_to_np(
+            abstract_domain.get_nn_inputs(), nn_package_list)
+
+        self.nn_label_dict = KerasDataset.filter_data_to_np(
+            abstract_domain.get_nn_outputs(), nn_package_list)
+
         self.batch_size = batch_size
+        self.len = len(nn_package_list)
+
         if shuffle:
             indices = list(
                 range(len(self.nn_input_dict[list(self.nn_input_dict)[0]])))
@@ -21,7 +42,7 @@ class KerasDataset(keras.utils.Sequence):
                 self.nn_label_dict[k] = self.nn_label_dict[k][indices]
 
     def __len__(self):
-        return int(np.ceil(len(self.nn_input_dict['state_unary_preds']) / float(self.batch_size)))
+        return int(np.ceil(self.len / float(self.batch_size)))
 
     def __getitem__(self, idx):
         x, y = {}, {}
@@ -34,7 +55,8 @@ class KerasDataset(keras.utils.Sequence):
         return x, y
 
 
-def get_loader(abstract_domain, nn_package_list, batch_size, arch, root="/tmp", shuffle=True, phase="train"):
+def get_loader(abstract_domain, nn_package_list, batch_size, arch,
+               shuffle=True):
 
     dataloader = None
 

@@ -7,6 +7,25 @@ Contains classes for representing states in PDDL problems.
 
 class State:
 
+    @staticmethod
+    def _get_arity_atom_set_dict(state_atom_set, arities=None):
+
+        arity_atom_set_dict = {}
+
+        for atom in state_atom_set:
+
+            arity = len(atom.args)
+            if arities is None or arity in arities:
+
+                try:
+                    arity_atom_set_dict[arity].add(atom)
+                except KeyError:
+
+                    arity_atom_set_dict[arity] = set()
+                    arity_atom_set_dict[arity].add(atom)
+
+        return arity_atom_set_dict
+
     def __init__(self, atom_set):
 
         self._atom_set = frozenset(atom_set)
@@ -40,7 +59,7 @@ class State:
             return False
         else:
 
-            return self._cached_hash == other._cached_hash \
+            return hash(self) == hash(other) \
                 and self._atom_set == other._atom_set
 
     def __hash__(self):
@@ -57,21 +76,7 @@ class State:
 
     def get_arity_atom_set_dict(self, arities=None):
 
-        arity_atom_set_dict = {}
-
-        for atom in self._atom_set:
-
-            arity = len(atom.args)
-            if arities is None or arity in arities:
-
-                try:
-                    arity_atom_set_dict[arity].add(atom)
-                except KeyError:
-
-                    arity_atom_set_dict[arity] = set()
-                    arity_atom_set_dict[arity].add(atom)
-
-        return arity_atom_set_dict
+        return State._get_arity_atom_set_dict(self._atom_set, arities)
 
     def __contains__(self, atom):
 

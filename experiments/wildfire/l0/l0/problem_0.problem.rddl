@@ -1,0 +1,33 @@
+non-fluents nf_problem_0 {
+	domain = wildfire_mdp;
+	objects {
+		x_pos : {x1,x2};
+		y_pos : {y1,y2};
+	};
+	non-fluents {
+		NEIGHBOR(x1,y1,x1,y2);
+		NEIGHBOR(x1,y1,x2,y1);
+		NEIGHBOR(x1,y1,x2,y2);
+		NEIGHBOR(x1,y2,x1,y1);
+		NEIGHBOR(x1,y2,x2,y1);
+		NEIGHBOR(x1,y2,x2,y2);
+		// Omitted: NEIGHBOR(x2,y1,x1,y1);
+		// Omitted: NEIGHBOR(x2,y1,x1,y2);
+		NEIGHBOR(x2,y1,x2,y2);
+		NEIGHBOR(x2,y2,x1,y1);
+		NEIGHBOR(x2,y2,x1,y2);
+		NEIGHBOR(x2,y2,x2,y1);
+	};
+}
+
+instance problem_0 {
+	domain = wildfire_mdp;
+	non-fluents = nf_problem_0;
+	init-state {
+		burning(x1,y1);
+	};
+
+	max-nondef-actions = 1;
+	horizon  = 40;
+	discount = 1.0;
+}

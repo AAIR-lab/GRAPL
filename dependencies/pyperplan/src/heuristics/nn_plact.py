@@ -77,7 +77,7 @@ class NNPlactHeuristic(Heuristic):
         for i in range(len(candidates)):
 
             candidate_list[i].artificial_g = candidates[i].artificial_g
-            candidate_list[i].h = candidates[i].h + candidates[i].artificial_g
+            candidate_list[i].h = candidates[i].h
 
     def __call__(self, node):
 
@@ -102,6 +102,5 @@ class NNPlactHeuristic(Heuristic):
         # The real_g is still used to determine if a node must be added to
         # the open list in A*.
         node.artificial_g = node.action_score
-        node.h = h
 
-        return h + node.artificial_g
+        return h

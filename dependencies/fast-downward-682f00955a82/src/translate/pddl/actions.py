@@ -18,7 +18,7 @@ class Action:
         self.precondition = precondition
         self.effects = effects
         self.cost = cost
-        self.uniquify_variables() # TODO: uniquify variables in cost?
+        self.uniquify_variables()  # TODO: uniquify variables in cost?
 
     def __repr__(self):
         return "<Action %r at %#x>" % (self.name, id(self))
@@ -59,7 +59,8 @@ class Action:
         result = copy.copy(self)
         parameter_atoms = [par.to_untyped_strips() for par in self.parameters]
         new_precondition = self.precondition.untyped()
-        result.precondition = conditions.Conjunction(parameter_atoms + [new_precondition])
+        result.precondition = conditions.Conjunction(
+            parameter_atoms + [new_precondition])
         result.effects = [eff.untyped() for eff in self.effects]
         return result
 
@@ -114,8 +115,12 @@ class PropositionalAction:
         # usually few effects.
         # TODO: Measure this in critical domains, then use sets if acceptable.
         for condition, effect in effects:
-            if effect.negated and (condition, effect.negate()) not in self.add_effects:
-                self.del_effects.append((condition, effect.negate()))
+            if effect.negated:
+                if (condition, effect.negate()) not in self.add_effects:
+                    self.del_effects.append((condition, effect.negate()))
+                else:
+                    cost = float("inf")
+
         self.cost = cost
 
     def __repr__(self):

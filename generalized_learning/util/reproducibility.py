@@ -1,7 +1,7 @@
 '''
 Created on Dec 18, 2019
 
-@author: rkaria
+@author: anonymous
 '''
 
 import random

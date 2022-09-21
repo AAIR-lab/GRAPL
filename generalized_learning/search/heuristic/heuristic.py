@@ -1,7 +1,7 @@
 '''
 Created on Feb 12, 2020
 
-@author: rkaria
+@author: anonymous
 '''
 
 from abc import ABC

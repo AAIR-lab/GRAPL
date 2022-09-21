@@ -1,0 +1,96 @@
+///////////////////////////////////////////////////////////////////////////////
+//
+// A boolean version of the wildfire_2 fighting domain.
+//
+// Author: Zhenyu Yu (fry3721@gmail.com)
+//
+// General reference:
+// 
+//   Karafyllidis, I., & Thanailakis, A. (1997). 
+//   A model for predicting forest fire spreading using gridular automata. 
+//   Ecological Modelling, 99(1), 87-97.
+//   http://www.dpi.inpe.br/gilberto/cursos/st-society-2013/Kara1997.pdf
+//
+// In a general wildfire_2 scenario, its spread is mostly determined by 
+// the weather (i.e. wind), terrain slope, and fuel type (i.e. grass, wood).
+// In this scenario, a map is represented with grids, size of n*n.
+// Each grid has some attributes, including fuel type, terrain elevation.
+// Furthermore, the fuel type and terrain elevation will affect the fire 
+// spreading speed.  Some fuel type is more easily on fire than other, 
+// and higher grids are always easier to catch fire.  Cell features and
+// effects of wind are not modeled in this simplified version.
+//
+// In this version, whether a cell would be on fire is determined by its 
+// neighbor grids, and the fire spreading law is simplified with this function
+//
+//   p(burning(xi, yj)=true) = 1 / (1 + exp(4.5 - k))
+//
+// where k is the number of neighbors on fire.
+//
+// The decision task to a emergency manager is to control the fire 
+// and keep it away from important targets.
+//
+// Modified for competition and translation purposes by Scott Sanner.
+//  
+///////////////////////////////////////////////////////////////////////////////
+
+domain wildfire_2_mdp {
+
+	types {
+        location : object;
+	};
+	
+	pvariables {
+	
+		// Action costs and penalties
+		COST_CUTOUT            : {non-fluent, real, default =   -5 }; // Cost to cut-out fuel from a cell
+		COST_PUTOUT            : {non-fluent, real, default =  -10 }; // Cost to put-out a fire from a cell
+		PENALTY_TARGET_BURN    : {non-fluent, real, default = -100 }; // Penalty for each target cell that is burning  
+		PENALTY_NONTARGET_BURN : {non-fluent, real, default =   -5 }; // Penalty for each non-target cell that is burning
+	
+		// Topology of the cells (can be any neighborhood topology, not necessarily rectangular)
+		NEIGHBOR(location, location) : { non-fluent, bool, default = false };
+		
+		// High value cells that should be protected from fire 
+		TARGET(location) : {non-fluent, bool, default = false }; 
+		
+		// State fluents
+		burning(location)     : { state-fluent, bool, default = false }; // cell currently on fire
+		out-of-fuel(location) : { state-fluent, bool, default = false }; // cell does not have fuel to burn (i.e., cut-out or already burned)
+		
+		// Action fluents
+		put-out(location) : { action-fluent, bool, default = false }; // actions to put-out out the fire
+		cut-out(location) : { action-fluent, bool, default = false }; // cut-out out the fuel
+			
+	};
+
+	cpfs {
+		
+		burning'(?l) = 
+			if ( put-out(?l) ) // Intervention to put out fire?
+				then false
+            // Modification: targets can only start to burn if at least one neighbor is on fire
+            else if (~out-of-fuel(?l) ^ ~burning(?l)) // Ignition of a new fire? Depends on neighbors.
+              then [if (TARGET(?l) ^ ~exists_{?l2 : location} (NEIGHBOR(?l, ?l2) ^ burning(?l2)))
+                    then false
+                    else Bernoulli( 1.0 / (1.0 + exp[4.5 - (sum_{?l2 : location} (NEIGHBOR(?l, ?l2) ^ burning(?l2)))]) ) ]
+			else 
+				burning(?l); // State persists
+		
+		// Modification: only allow non-target cells to be cut-out (cannot remove fuel from targets, e.g., housing)
+		out-of-fuel'(?l) = out-of-fuel(?l) | burning(?l) | (~TARGET(?l) ^ cut-out(?l));
+						
+	};
+    	
+	reward = 
+ 	    [sum_{?l : location} [ COST_CUTOUT*cut-out(?l) ]]
+ 	  + [sum_{?l : location} [ COST_PUTOUT*put-out(?l) ]]
+ 	    // Modification: if a target is out-of-fuel, it was burnt so still penalize (since it could not have been cut-out)
+ 	  + [sum_{?l : location} [ PENALTY_TARGET_BURN*[ (burning(?l) | out-of-fuel(?l)) ^ TARGET(?l) ]]]
+ 	  + [sum_{?l : location} [ PENALTY_NONTARGET_BURN*[ burning(?l) ^ ~TARGET(?l) ]]];
+
+}
+
+
+
+

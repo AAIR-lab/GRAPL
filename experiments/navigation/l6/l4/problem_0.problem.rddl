@@ -1,0 +1,62 @@
+non-fluents nf_problem_0 {
+	domain = navigation_mdp;
+	objects {
+		xpos : {x1,x2,x3,x4};
+		ypos : {y1,y2,y3,y4,y5,y6};
+	};
+	non-fluents {
+		NORTH(y1,y2);
+		SOUTH(y2,y1);
+		NORTH(y2,y3);
+		SOUTH(y3,y2);
+		NORTH(y3,y4);
+		SOUTH(y4,y3);
+		NORTH(y4,y5);
+		SOUTH(y5,y4);
+		NORTH(y5,y6);
+		SOUTH(y6,y5);
+
+		EAST(x1,x2);
+		WEST(x2,x1);
+		EAST(x2,x3);
+		WEST(x3,x2);
+		EAST(x3,x4);
+		WEST(x4,x3);
+
+		MIN-XPOS(x1);
+		MAX-XPOS(x4);
+		MIN-YPOS(y1);
+		MAX-YPOS(y6);
+
+		GOAL(x4,y6);
+
+		P(x1,y2) = 0.010549722413489395;
+		P(x1,y3) = 0.013901351290578526;
+		P(x1,y4) = 0.036999794082375935;
+		P(x1,y5) = 0.02131842570831921;
+		P(x2,y2) = 0.3574528737927079;
+		P(x2,y3) = 0.3244779756114403;
+		P(x2,y4) = 0.3215909240646508;
+		P(x2,y5) = 0.35096618561669346;
+		P(x3,y2) = 0.6174502411534816;
+		P(x3,y3) = 0.6285988152283345;
+		P(x3,y4) = 0.6131637712822253;
+		P(x3,y5) = 0.6279806880306188;
+		P(x4,y2) = 0.9499679238506594;
+		P(x4,y3) = 0.9475130285298734;
+		P(x4,y4) = 0.9334148435332738;
+		P(x4,y5) = 0.9513105274808121;
+	};
+}
+
+instance problem_0 {
+	domain = navigation_mdp;
+	non-fluents = nf_problem_0;
+	init-state {
+		robot-at(x4,y1);
+	};
+	max-nondef-actions = 1;
+	horizon = 40;
+	discount = 0.9;
+}
+

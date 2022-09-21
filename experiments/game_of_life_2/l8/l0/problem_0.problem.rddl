@@ -1,0 +1,37 @@
+non-fluents nf_problem_0 {
+	domain = game_of_life_2_mdp;
+	objects {
+		location : {l11,l12,l21,l22};
+	};
+	non-fluents {
+		NOISE-PROB(l11) = 0.07094219;
+		NEIGHBOR(l11,l12);
+		NEIGHBOR(l11,l21);
+		NEIGHBOR(l11,l22);
+		NOISE-PROB(l12) = 0.06152389;
+		NEIGHBOR(l12,l11);
+		NEIGHBOR(l12,l21);
+		NEIGHBOR(l12,l22);
+		NOISE-PROB(l21) = 0.112644136;
+		NEIGHBOR(l21,l11);
+		NEIGHBOR(l21,l12);
+		NEIGHBOR(l21,l22);
+		NOISE-PROB(l22) = 0.054977044;
+		NEIGHBOR(l22,l11);
+		NEIGHBOR(l22,l12);
+		NEIGHBOR(l22,l21);
+	};
+}
+
+instance problem_0 {
+	domain = game_of_life_2_mdp;
+	non-fluents = nf_problem_0;
+	init-state {
+		alive(l11);
+		alive(l21);
+	};
+
+	max-nondef-actions = 1;
+	horizon  = 40;
+	discount = 0.9;
+}

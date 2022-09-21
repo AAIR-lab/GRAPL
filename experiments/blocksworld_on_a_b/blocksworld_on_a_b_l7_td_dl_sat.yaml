@@ -1,0 +1,68 @@
+
+globals:
+    name: None
+
+    config:
+        use_mpi: False
+        chunk_size: 1
+
+    generator:
+        solver: "ff"
+        
+    solver:
+        dir: "test_data"
+
+phases:
+    - config:
+        name: blocksworld_on_a_b
+        ignore: False
+
+        phases:
+
+            - leapfrog:
+                name: "outer-loop"
+                num_loops: 10
+                ignore: False
+
+                phases:
+                    - leapfrog:
+                        name: "inner-loop"
+                        num_loops: 7
+                        ignore: False
+                        phases:
+                            - qlearning:
+                                simulator_type: blocksworld
+                                nn_type: torch_generic
+                                nn_name: l7_td_dl_sat
+                                algorithm: abstract_td
+                                experiment_name: l7_td_dl_sat
+                                
+                                episodes_per_epoch: 25
+                                num_episodes: 1250
+                                timesteps_per_episode: 250
+                                epsilon: 0.1
+                                min_epsilon: 0.1
+                                epsilon_decay_rate: 0.99
+                                learning_rate: 0.8
+                                gamma: 1.0
+                                
+                                abstraction: description_logic_mlp
+                                feature_file: on_a_b_sat_features.io
+                                
+                                abstraction_weight: 0.9
+                                min_abstraction_weight: 0.0
+                                abstraction_weight_decay_rate: 0.99
+                                
+                                replay_memory_size: 20000
+                                epochs: 25
+                                batch_size: 32
+                                training_interval: 32
+                                total_train_iterations: 1
+
+                                output_prefix: l7_td_dl_sat
+                                ignore_stats_till: 0
+                                start_episode: 0
+                                lambda: 0.8
+
+                                write_mode: "w"
+                                ignore: False 

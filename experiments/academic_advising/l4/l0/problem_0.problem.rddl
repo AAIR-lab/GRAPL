@@ -1,0 +1,24 @@
+non-fluents nf_problem_0 {
+	domain = academic_advising_mdp;
+	objects {
+		course : {CS11,CS12,CS21,CS22};
+	};
+
+	non-fluents {
+		PROGRAM_REQUIREMENT(CS11);
+		PROGRAM_REQUIREMENT(CS12);
+		PREREQ(CS12,CS21);
+		PREREQ(CS11,CS21);
+		PROGRAM_REQUIREMENT(CS21);
+		PREREQ(CS21,CS22);
+		PREREQ(CS11,CS22);
+	};
+}
+
+instance problem_0 {
+	domain = academic_advising_mdp;
+	non-fluents = nf_problem_0;
+	max-nondef-actions = 1;
+	horizon  = 40;
+	discount = 1.0;
+}

@@ -47,6 +47,10 @@ class AbstractRole:
 
         return hash(self._unary_predicates)
 
+    def __repr__(self):
+
+        return str(self)
+
     def __str__(self):
 
         if self._cached_string is not None:

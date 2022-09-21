@@ -1,0 +1,70 @@
+# Tested with clang-format 5.0
+# see http://releases.llvm.org/5.0.0/tools/clang/docs/ClangFormatStyleOptions.html
+
+BasedOnStyle: LLVM
+
+Language: Cpp
+Standard:        Cpp11
+
+ColumnLimit:    120
+
+IndentWidth:     4
+TabWidth:        4
+UseTab:          Never
+
+NamespaceIndentation: None
+SpacesInParentheses: false
+SpacesInAngles:  false
+SpaceInEmptyParentheses: false
+SpacesBeforeTrailingComments: 2
+
+AccessModifierOffset: -4
+ConstructorInitializerIndentWidth: 4
+ContinuationIndentWidth: 4
+
+MaxEmptyLinesToKeep: 2
+
+SortIncludes: false
+
+AlignTrailingComments: true
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortBlocksOnASingleLine: true
+AllowShortIfStatementsOnASingleLine: true
+AllowShortLoopsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: All
+AlwaysBreakTemplateDeclarations: true
+AlwaysBreakBeforeMultilineStrings: false
+BreakBeforeBinaryOperators: true
+BreakBeforeTernaryOperators: true
+BinPackParameters: true
+
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
+DerivePointerBinding: false
+PointerBindsToType: true
+ExperimentalAutoDetectBinPacking: false
+IndentCaseLabels: true
+
+IndentFunctionDeclarationAfterType: false
+CompactNamespaces: true
+FixNamespaceComments: false
+
+SpacesInCStyleCastParentheses: false
+SpaceAfterCStyleCast: true
+SpaceBeforeParens: ControlStatements
+SpaceBeforeAssignmentOperators: true
+
+# Configure each individual brace in BraceWrapping
+# Control of individual brace wrapping cases
+BreakBeforeBraces: Custom
+BraceWrapping: {
+    AfterClass: 'false'
+    AfterControlStatement: 'false'
+    AfterEnum : 'false'
+    AfterFunction : 'false'
+    AfterNamespace : 'false'
+    AfterStruct : 'false'
+    AfterUnion : 'false'
+    BeforeCatch : 'false'
+    BeforeElse : 'false'
+    IndentBraces : 'false'
+}

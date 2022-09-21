@@ -1,7 +1,7 @@
 '''
 Created on Feb 14, 2020
 
-@author: rkaria
+@author: anonymous
 '''
 
 import itertools

@@ -1,4 +1,4 @@
-// Major edits (largely undocumented) made by Rushang Karia.
+// Major edits (largely undocumented) made by anonymous.
 // This is for the 4ops version of blocksworld.
 // gcc blocksworld.c bwstates.c -lm -w -o blocksworld
 

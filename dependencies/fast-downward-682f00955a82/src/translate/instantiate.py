@@ -4,9 +4,10 @@
 from collections import defaultdict
 
 import build_model
-import pddl_to_prolog
 import pddl
+import pddl_to_prolog
 import timers
+
 
 def get_fluent_facts(task, model):
     fluent_predicates = set()
@@ -18,6 +19,7 @@ def get_fluent_facts(task, model):
     return {fact for fact in model
             if fact.predicate in fluent_predicates}
 
+
 def get_objects_by_type(typed_objects, types):
     result = defaultdict(list)
     supertypes = {}
@@ -28,6 +30,7 @@ def get_objects_by_type(typed_objects, types):
         for type in supertypes[obj.type_name]:
             result[type].append(obj.name)
     return result
+
 
 def instantiate(task, model):
     relaxed_reachable = False
@@ -62,13 +65,14 @@ def instantiate(task, model):
                 variable_mapping, init_facts, init_assignments,
                 fluent_facts, type_to_objects,
                 task.use_min_cost_metric)
-            if inst_action:
+            if inst_action and inst_action.cost != float("inf"):
                 instantiated_actions.append(inst_action)
         elif isinstance(atom.predicate, pddl.Axiom):
             axiom = atom.predicate
             variable_mapping = {par.name: arg
                                 for par, arg in zip(axiom.parameters, atom.args)}
-            inst_axiom = axiom.instantiate(variable_mapping, init_facts, fluent_facts)
+            inst_axiom = axiom.instantiate(
+                variable_mapping, init_facts, fluent_facts)
             if inst_axiom:
                 instantiated_axioms.append(inst_axiom)
         elif atom.predicate == "@goal-reachable":
@@ -77,11 +81,13 @@ def instantiate(task, model):
     return (relaxed_reachable, fluent_facts, instantiated_actions,
             sorted(instantiated_axioms), reachable_action_parameters)
 
+
 def explore(task):
     prog = pddl_to_prolog.translate(task)
     model = build_model.compute_model(prog)
     with timers.timing("Completing instantiation"):
         return instantiate(task, model)
+
 
 if __name__ == "__main__":
     import pddl_parser

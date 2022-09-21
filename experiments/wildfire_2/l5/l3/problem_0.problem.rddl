@@ -1,0 +1,105 @@
+non-fluents nf_problem_0 {
+	domain = wildfire_2_mdp;
+	objects {
+		location : {l11,l12,l13,l14,l21,l22,l23,l24,l31,l32,l33,l34,l41,l42,l43,l44};
+	};
+	non-fluents {
+		// Omitted: NEIGHBOR(l11,l12);
+		NEIGHBOR(l11,l21);
+		NEIGHBOR(l11,l22);
+		NEIGHBOR(l12,l11);
+		NEIGHBOR(l12,l13);
+		NEIGHBOR(l12,l21);
+		NEIGHBOR(l12,l22);
+		NEIGHBOR(l12,l23);
+		NEIGHBOR(l13,l12);
+		NEIGHBOR(l13,l14);
+		NEIGHBOR(l13,l22);
+		// Omitted: NEIGHBOR(l13,l23);
+		NEIGHBOR(l13,l24);
+		NEIGHBOR(l14,l13);
+		NEIGHBOR(l14,l23);
+		NEIGHBOR(l14,l24);
+		// Omitted: NEIGHBOR(l21,l11);
+		NEIGHBOR(l21,l12);
+		NEIGHBOR(l21,l22);
+		NEIGHBOR(l21,l31);
+		NEIGHBOR(l21,l32);
+		NEIGHBOR(l22,l11);
+		NEIGHBOR(l22,l12);
+		// Omitted: NEIGHBOR(l22,l13);
+		NEIGHBOR(l22,l21);
+		NEIGHBOR(l22,l23);
+		NEIGHBOR(l22,l31);
+		NEIGHBOR(l22,l32);
+		// Omitted: NEIGHBOR(l22,l33);
+		NEIGHBOR(l23,l12);
+		NEIGHBOR(l23,l13);
+		NEIGHBOR(l23,l14);
+		NEIGHBOR(l23,l22);
+		NEIGHBOR(l23,l24);
+		NEIGHBOR(l23,l32);
+		NEIGHBOR(l23,l33);
+		NEIGHBOR(l23,l34);
+		NEIGHBOR(l24,l13);
+		NEIGHBOR(l24,l14);
+		NEIGHBOR(l24,l23);
+		NEIGHBOR(l24,l33);
+		NEIGHBOR(l24,l34);
+		NEIGHBOR(l31,l21);
+		NEIGHBOR(l31,l22);
+		NEIGHBOR(l31,l32);
+		NEIGHBOR(l31,l41);
+		NEIGHBOR(l31,l42);
+		// Omitted: NEIGHBOR(l32,l21);
+		NEIGHBOR(l32,l22);
+		NEIGHBOR(l32,l23);
+		NEIGHBOR(l32,l31);
+		NEIGHBOR(l32,l33);
+		// Omitted: NEIGHBOR(l32,l41);
+		NEIGHBOR(l32,l42);
+		NEIGHBOR(l32,l43);
+		NEIGHBOR(l33,l22);
+		NEIGHBOR(l33,l23);
+		NEIGHBOR(l33,l24);
+		NEIGHBOR(l33,l32);
+		NEIGHBOR(l33,l34);
+		NEIGHBOR(l33,l42);
+		NEIGHBOR(l33,l43);
+		NEIGHBOR(l33,l44);
+		NEIGHBOR(l34,l23);
+		NEIGHBOR(l34,l24);
+		NEIGHBOR(l34,l33);
+		NEIGHBOR(l34,l43);
+		NEIGHBOR(l34,l44);
+		NEIGHBOR(l41,l31);
+		NEIGHBOR(l41,l32);
+		NEIGHBOR(l41,l42);
+		// Omitted: NEIGHBOR(l42,l31);
+		NEIGHBOR(l42,l32);
+		NEIGHBOR(l42,l33);
+		NEIGHBOR(l42,l41);
+		// Omitted: NEIGHBOR(l42,l43);
+		NEIGHBOR(l43,l32);
+		NEIGHBOR(l43,l33);
+		// Omitted: NEIGHBOR(l43,l34);
+		NEIGHBOR(l43,l42);
+		NEIGHBOR(l43,l44);
+		NEIGHBOR(l44,l33);
+		NEIGHBOR(l44,l34);
+		NEIGHBOR(l44,l43);
+	};
+}
+
+instance problem_0 {
+	domain = wildfire_2_mdp;
+	non-fluents = nf_problem_0;
+	init-state {
+		burning(l31);
+		burning(l44);
+	};
+
+	max-nondef-actions = 1;
+	horizon  = 40;
+	discount = 0.9;
+}

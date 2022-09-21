@@ -1,0 +1,11 @@
+
+
+run:
+  mem: "32G"
+  time: "48:0:0"
+
+experiments:
+  - "blocks2:one_tower_inc"
+  - "blocks2:one_tower_inc_all"
+#  - "logistics:p1"
+#  - "logistics:p2"

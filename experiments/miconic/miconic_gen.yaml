@@ -1,0 +1,38 @@
+# Sample config file
+# Default keys are
+#   use_mpi
+#   max_threads
+
+
+globals:
+    name: None
+
+    config:
+        use_mpi: False
+        chunk_size: 1
+
+    generator:
+        solver: "ff"
+        
+    solver:
+        dir: "test_data"
+
+phases:
+    - config:
+        name: "miconic"
+        ignore: False
+
+        phases:
+            - leapfrog:
+                name: "miconic-problem-gen"
+                num_loops: 9
+                ignore: False
+                phases:
+                    - generator:
+                        type: "miconic"
+                        total_problems: [1, 1, 1, 1,  1,  1, 1, 1, 1]
+                        min_floors:     [3, 3, 4, 4,  6,  8, 12, 16, 20]
+                        max_floors:     [3, 3, 4, 4,  6,  8, 12, 16, 20]
+                        min_passengers: [1, 2, 3, 6,  8, 12, 16, 20, 24]
+                        max_passengers: [1, 2, 3, 6,  8, 12, 16, 20, 24]
+                        ignore: False

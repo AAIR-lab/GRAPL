@@ -1,0 +1,10 @@
+Num[alive]	1
+Num[Not(alive)]	2
+Num[Exists(neighbor,alive)]	3
+Num[Forall(neighbor,alive)]	3
+Num[Exists(neighbor,Not(alive))]	4
+Num[Forall(neighbor,Not(alive))]	4
+Num[Forall(neighbor,Exists(neighbor,alive))]	5
+Num[Exists(neighbor,Forall(neighbor,alive))]	5
+Num[And(Exists(neighbor,alive),alive)]	5
+Num[And(Forall(neighbor,alive),alive)]	5

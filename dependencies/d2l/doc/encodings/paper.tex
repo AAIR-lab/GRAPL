@@ -1,0 +1,312 @@
+\documentclass[a4paper]{article}
+%\def\year{2020}\relax
+%\usepackage{aaai20}  % DO NOT CHANGE THIS
+\usepackage{times}  % DO NOT CHANGE THIS
+\usepackage{helvet} % DO NOT CHANGE THIS
+\usepackage{courier}  % DO NOT CHANGE THIS
+\usepackage[hyphens]{url}  % DO NOT CHANGE THIS
+\urlstyle{rm} % DO NOT CHANGE THIS
+\def\UrlFont{\rm}  % DO NOT CHANGE THIS
+\frenchspacing  % DO NOT CHANGE THIS
+%\setlength{\pdfpagewidth}{8.5in}  % DO NOT CHANGE THIS
+%\setlength{\pdfpageheight}{11in}  % DO NOT CHANGE THIS
+
+\usepackage[margin=1in]{geometry}
+
+% our packages
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+%\usepackage{bm}
+\usepackage{booktabs}
+%\usepackage[inline]{enumitem}
+%\usepackage{mathtools}
+%\usepackage{multirow}
+%\usepackage[mode=buildnew,subpreambles=true]{standalone}
+\usepackage{subcaption}
+%\usepackage{todonotes}
+\usepackage[table]{xcolor}  % TODO Comment out for final submission
+%\usepackage{pgfplots}
+%\usepackage{tikz}
+\usepackage{natbib}
+\usepackage{fancyvrb}
+
+
+
+% Some useful macros
+%\newcommand{\inlinecite}[1]{\citeauthor{#1}~(\citeyear{#1})}
+%\newcommand{\citealp}[1]{\citeauthor{#1}~\citeyear{#1}}
+
+\newcommand{\smallpar}[1]{{\vspace{10pt}\noindent \bf #1.}}
+
+\newcommand{\free}[1]{\ensuremath{\mathrm{free}(#1)}}
+\newcommand{\vars}{\ensuremath{\mathrm{vars}}}
+\newcommand{\pre}{\ensuremath{\mathrm{pre}}}
+\newcommand{\add}{\ensuremath{\mathrm{add}}}
+\newcommand{\del}{\ensuremath{\mathrm{del}}}
+\newcommand{\effs}{\ensuremath{\mathrm{effs}}}
+
+\newcommand{\tup}[1]{\ensuremath{\langle #1 \rangle}}
+\newcommand{\tuple}[1]{\tup{#1}}  % Just an alias
+\newcommand{\set}[1]{\ensuremath{\left\{#1 \right\}}}
+\newcommand{\setst}[2]{\ensuremath{\left\{#1 \mid #2 \right\}}}
+
+\newtheorem{definition}{Definition}
+\newtheorem{definitionandtheorem}[definition]{Definition and Theorem}
+\newtheorem{theorem}[definition]{Theorem}
+\newtheorem{lemma}[definition]{Lemma}
+\newtheorem{proposition}[definition]{Proposition}
+\newtheorem{corollary}[definition]{Corollary}
+\newtheorem{example}[definition]{Example}
+
+\newcommand{\wip}[1]{{\color{red} #1}}  % From "work in progress" :-)
+\newcommand{\gfm}[1]{\footnote{\color{red}{[Guillem] #1}}}
+
+\newcommand{\numtasks}[1]{\small{(#1)}}
+
+\newcommand{\badtx}{\ensuremath{\mathrm{BAD}}}
+
+\setcounter{secnumdepth}{0} %May be changed to 1 or 2 if section numbers are desired.
+
+%PDF Info Is REQUIRED.
+% For /Author, add all authors within the parentheses, separated by commas. No accents or commands.
+% For /Title, add Title in Mixed Case. No accents or commands. Retain the parentheses.
+ \pdfinfo{
+/Title ()
+/Author ()
+} %Leave this
+
+\title{Representation Learning for Generalized Planning - SAT Encodings}
+%Your title must be in mixed case, not sentence case.
+% That means all verbs (including short verbs like be, is, using,and go),
+% nouns, adverbs, adjectives should be capitalized, including both words in hyphenated terms, while
+% articles, conjunctions, and prepositions are lower case unless they
+% directly follow a colon or long dash
+%\author{GFM}
+
+
+\begin{document}
+
+\maketitle
+
+\section{Learning of Generalized Features \& Policy}
+
+Encoding is parametrized by
+\begin{itemize}
+ \item Pool $F$ of description logic features $f$, each with given feature complexity $\mathcal{K}(f)$.
+ \item Training set consisting of a sample of transitions from a number of instances of the same domain.
+       At the moment we're assuming the sample is complete, and we have full information on whether each state
+       in the sample is a goal state, an unsolvable state, or otherwise (see below for definitions). We also have access
+       to the minimum distance to a goal $V^*(s)$ for each state $s$.
+ \item A parameter $\delta$ which is a ``slack'' value to determine the maximum deviation from the optimal $V^*(s)$
+ what we will allow in our policy. This will be made clearer in the encoding below.
+\end{itemize}
+
+
+\subsection{Terminology}
+A state is called \emph{reachable} if there is a path to it from $s_0$, and
+it is called \emph{solvable} if there is a path from it to a goal
+state.
+A state is \emph{alive} if it is solvable, reachable and not a
+goal state~\cite{frances-et-al-ijcai2019}.
+
+We use $T$ to denote the set of all transitions $(s, s')$ in the training sample such that $s$ is alive.
+
+\subsection{Improvements}
+
+\paragraph{Non-distinguishability of transitions as an equivalence relation.}
+Any fixed, given pool of features $F$ implicitly defines an equivalence relation where to transitions are
+equivalent iff they cannot be distinguished \emph{by any feature in $F$}.
+If two transitions cannot be distinguished by any feature, then clearly either the policy computed by the SAT solver
+considers all of them as ``good'', or as ``bad''.
+We'll exploit this by using one single SAT variable to denote whether \emph{all transitions in a given equivalence
+class} are good or bad. When exploiting this notion of equivalence (which is implemented as an optional feature of
+the CNF generator), then every mention below to SAT variable $Good(s, s')$ needs to be read as $Good(s_{\star}, s_{\star}')$,
+where $(s_{\star}, s_{\star}')$ is the \emph{representative} transition of the equivalence class to which $(s, s')$ belongs.
+
+\paragraph{``Bad'' transitions.}
+We use \badtx{} to denote the set of transitions that have been determined at preprocessing as necessarily
+\emph{not} good.
+At the moment, this set contains all transitions that go from an alive to an unsolvable state and, if using
+equivalence relations, all those other transitions in whose equivalence class there is some other ``bad'' transition.
+
+
+\paragraph{Feature dominance.}
+Work In Progress.\footnote{This is implemented, but needs to be adapted to the equivalence classes improvement.}
+
+\newpage
+
+\subsection{Variables}
+
+\subsubsection{Main Variables}
+\begin{itemize}
+ \item $Good(s, s')$ for $s$ alive, $s'$ solvable and $(s, s') \not\in \badtx$.
+
+ \item $V(s, d)$ for $s$ alive, and $d \in [0, D]$, where $D = \max_{s} \delta \cdot V^*(s)$,
+ with intended denotation $V(s)=d$.
+ Note that for states $s$ that are a goal, we know $V(s)=0$,
+ and for states $s$ that are unsolvable, we know that $V(s) \neq d$ for all $d$.
+ Thus, we can restrict SAT variables $V(s, d)$ to those states $s$ that are alive.
+
+ \item $Select(f)$, for each feature $f$ in the feature pool.
+\end{itemize}
+
+%\subsubsection{Auxiliary Variables}
+%\begin{itemize}
+% \item We'll use $GV(s, s', d)$ to denote that $Good(s, s')$ and $V(s') \leq d$. This is enforced with the constraint
+% $GV(s, s', d) \rightarrow Good(s, s') \land V(s') \leq d$ for $s, s'$ alive, $(s, s') \not\in \badtx$, $d \in [0, D)$.
+% The other direction of the implication is not necessary.
+%\end{itemize}
+
+
+\subsection{Hard Constraints}
+
+\smallpar{C1}
+The policy has to be complete with respect to all alive states:
+\begin{align}
+\bigvee_{s' \text{ s.t. } (s, s') \in T \setminus \badtx} Good(s, s'),&\;\; \text{for $s$ alive.}
+\end{align}
+
+
+\smallpar{C2} $V$ is always descending along Good transitions:
+\begin{align}
+ Good(s, s') \land V(s', d) \rightarrow \bigvee_{d < k \leq D} V(s, k),&\;\; \text{for $s, s'$ alive, $(s, s') \not\in \badtx$, $d \in [1, D)$.} \\
+ V(s', D) \rightarrow \neg Good(s, s'),&\;\; \text{for $s, s'$ alive, $(s, s') \not\in \badtx$.} \tag{\theequation${}^\prime$}
+\end{align}
+
+
+\smallpar{C3 (Optional)} All descending transitions must be considered Good:
+\begin{align}
+ V(s, d) \land V(s', d') \rightarrow Good(s, s'),&\;\; \text{for $s, s'$ alive, $(s, s') \not\in \badtx$, $1 \leq d' < d \leq D$,} \\
+ Good(s, s'),&\;\; \text{for $s$ alive, $s'$ goal.} \tag{\theequation${}^\prime$}
+\end{align}
+
+%\smallpar{C4-5} Any upper bound on $V(s)$ (for $s$ not a goal) needs to be justified:
+%\begin{align}
+% V(s) \leq d+1 \rightarrow \bigvee_{\substack{
+% s' \text{ goal child of } s\\
+% (s, s') \not\in \badtx}} Good(s, s') \lor
+% \bigvee_{\substack{
+% s' \text{ alive child of } s\\
+% (s, s') \not\in \badtx}} GV(s, s', d),&
+% \;\; \text{for $s$ alive, $d \in [0, D)$.} \\
+% \neg V(s) \leq 0,&\;\; \text{for $s$ not a goal.}
+%\end{align}
+
+\smallpar{C3-4}
+Variables $V(s, d)$ define a function that is total over the set of alive states,
+and such that $V(s)$ is within lower bound $V^*(s)$ and upper bound $\delta \cdot V^*(s)$:
+\begin{align}
+ \bigvee_{V^*(s) \leq d \leq \delta \cdot V^*(s)} V(s,d),&\;\; \text{for $s$ alive.} \\
+ \neg V(s, d) \lor \neg V(s, d')&\;\; \text{for $s$ alive, $1 \leq d < d' \leq D$.}
+\end{align}
+
+
+\smallpar{C5-6}
+Good transitions can be distinguished from bad transitions.
+Let $(s, s')$ and $(t, t')$ be \emph{representative} transitions
+of two different equivalence classes such that $(s, s') \not\in \badtx$
+(which implies that $s'$ is solvable). Then,
+
+\begin{align}
+ Good(s, s') \rightarrow Good(t, t') \lor
+ Dist(s, s', t, t'),&\;\; \text{for $s, t$ alive, $(t, t') \not\in \badtx$.} \\
+ Good(s, s') \rightarrow
+ Dist(s, s', t, t'),&\;\; \text{for $s, t$ alive, $(t, t') \in \badtx$.}
+\end{align}
+
+\noindent where $Dist(s, s', t, t')$ is shorthand for $\bigvee_{f \in D1\&2(s, s', t, t')} Select(f)$.
+
+
+\smallpar{C7 (Optional)}
+Goals are distinguishable from non-goals.
+\begin{align}
+\bigvee_{f \in D1(s, s')} Select(f),&\;\; \text{for $s$ goal, $s$ not a goal}
+\end{align}
+
+\smallpar{C8 (Optional)}
+All selected features need to have some Good transition that takes them to $0$:
+\begin{align}
+ Selected(f) \rightarrow \bigvee_{(s, s') \in Z(f)} Good(s, s'),&\;\; \text{for $f$ in pool}
+\end{align}
+
+\noindent where $Z(f)$ is the set transitions starting in an alive state that change the denotation of $f$ from something
+larger than 0 to 0.
+
+
+\subsection{Soft Constraints}
+We simply post a constraint $\neg Select(f)$ for each feature $f$ in the pool, with weight equal to its complexity $\mathcal{K}(f)$.
+
+\section{Empirical Results}
+
+
+
+\subsection{Blocks:on}
+\begin{Verbatim}[fontsize=\footnotesize]
+ 1. clear(a) NILs AND clear(b) ADDs AND holding(·) ADDs AND n-clear NILs AND n-clear>0
+ 2. clear(a) ADDs AND clear(b) NILs AND clear(b)=0 AND holding(·) DELs AND n-clear INCs AND n-clear>0
+ 3. clear(a) ADDs AND clear(b) DELs AND holding(·) DELs AND n-clear NILs AND n-clear>0
+ 4. clear(a) DELs AND clear(b) NILs AND clear(b)>0 AND holding(·) ADDs AND n-clear DECs
+ 5. clear(a) NILs AND clear(a)=0 AND clear(b) DELs AND holding(·) ADDs AND n-clear NILs AND n-clear>0
+ 6. clear(a) ADDs AND clear(b) NILs AND holding(·) ADDs AND n-clear NILs AND n-clear>0
+ 7. clear(a) NILs AND clear(b) NILs AND holding(·) DELs AND n-clear INCs AND n-clear>0
+ 8. clear(a) ADDs AND clear(b) DELs AND holding(·) ADDs AND n-clear NILs AND n-clear>0
+ 9. clear(a) DELs AND clear(b) NILs AND holding(·) ADDs AND n-clear NILs AND n-clear>0
+ 10. clear(a) NILs AND clear(b) ADDs AND holding(·) DELs AND n-clear INCs AND n-clear>0
+ 11. clear(a) NILs AND clear(a)=0 AND clear(b) NILs AND holding(·) ADDs AND n-clear NILs AND n-clear>0
+ 12. clear(a) NILs AND clear(a)>0 AND clear(b) NILs AND clear(b)=0 AND holding(·) ADDs AND n-clear NILs AND n-clear>0
+\end{Verbatim}
+
+\subsection{Blocks:arbitrary}
+(Atomic move encoding, experiment name: all$\_$at$\_$5)
+
+\begin{itemize}
+ \item 1 instance 5 blocks
+ \item 11 iterations
+ \item CNF Theory: 21795 vars + 189561 clauses
+ \item 12659 features
+ \item concept size bound=10,
+ \item Number of transitions/equivalence classes: 11053/133
+ \item Optimal MAXSAT solution with cost 9 found
+\end{itemize}
+
+
+\begin{Verbatim}[fontsize=\footnotesize]
+1. n-clear INCs AND n-clear>0 AND n-ontarget DECs AND n-superficially-well-placed NILs AND n-superficially-well-placed>0
+2. n-clear NILs AND n-clear>0 AND n-ontarget INCs AND n-ontarget>0 AND n-superficially-well-placed INCs AND n-superficially-well-placed>0
+3. n-clear INCs AND n-clear>0 AND n-ontarget NILs AND n-ontarget>0 AND n-superficially-well-placed NILs AND n-superficially-well-placed>0
+4. n-clear NILs AND n-clear>0 AND n-ontarget NILs AND n-ontarget>0 AND n-superficially-well-placed INCs AND n-superficially-well-placed>0
+5. n-clear INCs AND n-clear>0 AND n-ontarget INCs AND n-ontarget>0 AND n-superficially-well-placed INCs AND n-superficially-well-placed>0
+6. n-clear DECs AND n-ontarget INCs AND n-ontarget>0 AND n-superficially-well-placed INCs AND n-superficially-well-placed>0
+7. n-clear INCs AND n-clear>0 AND n-ontarget NILs AND n-ontarget>0 AND n-superficially-well-placed DECs
+\end{Verbatim}
+
+
+
+\subsection{Spanner}
+
+\begin{itemize}
+ \item 8 instances with different spanner configurations, goal is always the same.
+ \item 1 iteration
+ \item CNF Theory: 466575 vars + 1732026 clauses
+ \item 724 features
+ \item concept size bound=8,
+ \item Number of transitions/equivalence classes: 11053/133
+ \item Optimal MAXSAT solution with cost 9 found
+\end{itemize}
+
+NOTE: Features of the form $f1>f2$ are not necessary for this solution.
+
+\begin{Verbatim}[fontsize=\footnotesize]
+0. bobs-loc-empty NILs AND bobs-loc-empty=0 AND n-items-somewhere DECs AND n-tightened NILs AND n-tightened=0
+1. bobs-loc-empty NILs AND bobs-loc-empty>0 AND n-items-somewhere NILs AND n-items-somewhere>0 AND n-tightened NILs AND n-tightened=0
+2. bobs-loc-empty DELs AND n-items-somewhere NILs AND n-items-somewhere>0 AND n-tightened NILs AND n-tightened=0
+3. bobs-loc-empty NILs AND bobs-loc-empty=0 AND n-items-somewhere NILs AND n-items-somewhere>0 AND n-tightened INCs
+4. bobs-loc-empty ADDs AND n-items-somewhere DECs AND n-tightened NILs AND n-tightened=0
+\end{Verbatim}
+
+
+\bibliographystyle{plain}
+% Cross-referenced entries need to go after the entries that cross-reference them
+\bibliography{abbrv-short,literatur,references,crossref-short}
+\end{document}

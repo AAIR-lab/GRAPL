@@ -1,0 +1,76 @@
+non-fluents nf_problem_0 {
+	domain = game_of_life_2_mdp;
+	objects {
+		location : {l11,l12,l13,l21,l22,l23,l31,l32,l33};
+	};
+	non-fluents {
+		NOISE-PROB(l11) = 0.06149628;
+		NEIGHBOR(l11,l12);
+		NEIGHBOR(l11,l21);
+		NEIGHBOR(l11,l22);
+		NOISE-PROB(l12) = 0.1462475;
+		NEIGHBOR(l12,l11);
+		NEIGHBOR(l12,l13);
+		NEIGHBOR(l12,l21);
+		NEIGHBOR(l12,l22);
+		NEIGHBOR(l12,l23);
+		NOISE-PROB(l13) = 0.1196233;
+		NEIGHBOR(l13,l12);
+		NEIGHBOR(l13,l22);
+		NEIGHBOR(l13,l23);
+		NOISE-PROB(l21) = 0.1066694;
+		NEIGHBOR(l21,l11);
+		NEIGHBOR(l21,l12);
+		NEIGHBOR(l21,l22);
+		NEIGHBOR(l21,l31);
+		NEIGHBOR(l21,l32);
+		NOISE-PROB(l22) = 0.09432329;
+		NEIGHBOR(l22,l11);
+		NEIGHBOR(l22,l12);
+		NEIGHBOR(l22,l13);
+		NEIGHBOR(l22,l21);
+		NEIGHBOR(l22,l23);
+		NEIGHBOR(l22,l31);
+		NEIGHBOR(l22,l32);
+		NEIGHBOR(l22,l33);
+		NOISE-PROB(l23) = 0.17378213;
+		NEIGHBOR(l23,l12);
+		NEIGHBOR(l23,l13);
+		NEIGHBOR(l23,l22);
+		NEIGHBOR(l23,l32);
+		NEIGHBOR(l23,l33);
+		NOISE-PROB(l31) = 0.095113255;
+		NEIGHBOR(l31,l21);
+		NEIGHBOR(l31,l22);
+		NEIGHBOR(l31,l32);
+		NOISE-PROB(l32) = 0.050582998;
+		NEIGHBOR(l32,l21);
+		NEIGHBOR(l32,l22);
+		NEIGHBOR(l32,l23);
+		NEIGHBOR(l32,l31);
+		NEIGHBOR(l32,l33);
+		NOISE-PROB(l33) = 0.10867641;
+		NEIGHBOR(l33,l22);
+		NEIGHBOR(l33,l23);
+		NEIGHBOR(l33,l32);
+	};
+}
+
+instance problem_0 {
+	domain = game_of_life_2_mdp;
+	non-fluents = nf_problem_0;
+	init-state {
+		alive(l11);
+		alive(l12);
+		alive(l13);
+		alive(l21);
+		alive(l22);
+		alive(l23);
+		alive(l31);
+		alive(l32);
+	};
+
+	max-nondef-actions = 1;
+	horizon  = 40;
+	discount = 0.9;
+}

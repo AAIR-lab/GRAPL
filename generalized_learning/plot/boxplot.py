@@ -1,7 +1,7 @@
 '''
 Created on Apr 4, 2020
 
-@author: rkaria
+@author: anonymous
 '''
 
 from matplotlib import pyplot

@@ -1,7 +1,7 @@
 '''
 Created on Jan 22, 2020
 
-@author: rkaria
+@author: anonymous
 '''
 
 import multiprocessing.managers

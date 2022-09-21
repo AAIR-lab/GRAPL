@@ -1,0 +1,81 @@
+# Sample config file
+# Default keys are
+#   use_mpi
+#   max_threads
+
+
+globals:
+    name: None
+
+    config:
+        use_mpi: False
+        chunk_size: 1
+
+    generator:
+        solver: "ff"
+        
+    solver:
+        dir: "test_data"
+
+phases:
+    - config:
+        name: "example"
+        ignore: False
+
+        phases:    
+            - leapfrog:
+                name: "visitall-leapfrog"
+                num_loops: 9
+                ignore: False
+                phases:
+                    - generator:
+                        type: "visitall"
+                        total_problems: [1, 1, 1, 1, 1, 1, 1, 1, 1]
+                        min_size: [2, 3, 4, 5, 6, 7, 8, 9, 10]
+                        max_size: [2, 3, 4, 5, 6, 7, 8, 9, 10]
+                        min_g_percent: 100
+                        max_g_percent: 100
+                        min_hole_percent: 0
+                        max_hole_percent: 0
+                        ignore: False
+                    - qlearning:
+                        max_timesteps: [2000, 3000, 4000, 6000, 8000, 10000, 15000, 20000, 20000]
+                        simulator_type: "visitall"
+                        nn_type: "invalid"
+                        nn_name: "invalid"
+                        algorithm: "concrete_td"
+                        experiment_name: "concrete_td"
+                        write_mode: "w"
+                        ignore: False
+                    - qlearning:
+                        max_timesteps: [2000, 3000, 4000, 6000, 8000, 10000, 15000, 20000, 20000]
+                        simulator_type: "visitall"
+                        nn_type: "torch_generic"
+                        nn_name: "dl_sat_td"
+                        algorithm: "abstract_td"
+                        abstraction: "description_logic_mlp"
+                        experiment_name: "dl_sat_td"
+                        feature_file: "visitall_sat_features.io"
+                        write_mode: "a"
+                        ignore: False
+                    - qlearning:
+                        max_timesteps: [2000, 3000, 4000, 6000, 8000, 10000, 15000, 20000, 20000]
+                        simulator_type: "visitall"
+                        nn_type: "torch_generic"
+                        nn_name: "dl_full_td"
+                        algorithm: "abstract_td"
+                        abstraction: "description_logic_mlp"
+                        experiment_name: "dl_full_td"
+                        feature_file: "visitall_full_features.io"
+                        write_mode: "a"
+                        ignore: False
+                    - qlearning:
+                        max_timesteps: [2000, 3000, 4000, 6000, 8000, 10000, 15000, 20000, 20000]
+                        simulator_type: "visitall"
+                        nn_type: "torch_generic"
+                        nn_name: "canonical_abstraction_td"
+                        algorithm: "abstract_td"
+                        abstraction: "canonical_abstraction_mlp"
+                        experiment_name: "canonical_abstraction_td"
+                        write_mode: "a"
+                        ignore: False

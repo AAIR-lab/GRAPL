@@ -1,0 +1,45 @@
+# Sample config file
+# Default keys are
+#   use_mpi
+#   max_threads
+
+
+globals:
+    name: None
+
+    config:
+        use_mpi: False
+        chunk_size: 1
+
+    generator:
+        solver: "ff"
+        
+    solver:
+        dir: "test_data"
+
+phases:
+    - config:
+        name: "example"
+        ignore: False
+
+        phases:    
+            - leapfrog:
+                name: "ferry-leapfrog"
+                num_loops: 7
+                ignore: False
+                phases:
+                    - generator:
+                        type: "ferry"
+                        total_problems: [3, 3, 3, 3, 3, 3, 3]
+                        min_locations: 4
+                        max_locations: 4
+                        min_cars: [1, 2, 3, 4, 6, 8, 10]
+                        max_cars: [1, 2, 3, 4, 6, 8, 10]
+                        ignore: False
+                    - qlearning:
+                        nn_type: "generic"
+                        nn_name: "gms"
+                        algorithm: "dqn"
+                        model_name: "gms"
+                        ignore: False
+

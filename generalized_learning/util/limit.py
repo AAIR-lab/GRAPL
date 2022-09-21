@@ -1,7 +1,7 @@
 '''
 Created on Apr 7, 2020
 
-@author: rkaria
+@author: anonymous
 '''
 
 import resource

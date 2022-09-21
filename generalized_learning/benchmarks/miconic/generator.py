@@ -5,6 +5,8 @@ import shutil
 import subprocess
 
 from benchmarks.generator import Generator
+from generalized_learning.concretized.problem import Problem
+
 from util import constants
 from util import file
 
@@ -46,6 +48,40 @@ class MiconicDomainGenerator(Generator):
         shutil.copy(MiconicDomainGenerator.DOMAIN_FILE,
                     file_path)
 
+    def _generate_problem(self, domain_file, problem_file,
+                          min_floors, max_floors,
+                          min_passengers, max_passengers,
+                          floors, passengers):
+
+        file_handle = open("%s/%s" % (self._base_dir, problem_file), "w")
+
+        properties = {
+
+            "min_floors": min_floors,
+            "max_floors": max_floors,
+            "min_passengers": min_passengers,
+            "max_passengers": max_passengers,
+            "floors": floors,
+            "passengers": passengers,
+
+            "bin_params": ["floors", "passengers"]
+        }
+
+        file.write_properties(file_handle, properties,
+                              constants.PDDL_COMMENT_PREFIX)
+
+        gen_cmd = "%s -f %u -p %u" % (MiconicDomainGenerator.GENERATOR_BIN,
+                                      floors,
+                                      passengers)
+
+        unused_completed_process = subprocess.run(
+            gen_cmd, shell=True, stdout=file_handle)
+
+        file_handle.close()
+
+        problem = Problem(domain_file, problem_file, directory=self._base_dir)
+        return problem.requires_planning()
+
     def generate_problem(self, problem_range):
 
         min_floors = self.get_value("min_floors")
@@ -56,35 +92,30 @@ class MiconicDomainGenerator(Generator):
         assert min_floors >= MiconicDomainGenerator.MIN_FLOORS
         assert min_passengers >= MiconicDomainGenerator.MIN_PASSENGERS
 
+        domain_file = "%s.domain.pddl" % (
+            MiconicDomainGenerator._DOMAIN_NAME)
+
         for problem_no in problem_range:
 
             problem_file = "problem_%u.problem.pddl" % (problem_no)
-            file_handle = open("%s/%s" % (self._base_dir, problem_file), "w")
 
             floors = random.randint(min_floors, max_floors)
             passengers = random.randint(min_passengers, max_passengers)
 
-            properties = {
+            i = 0
+            success = False
+            while i < Generator.MAX_TRIES and not success:
 
-                "min_floors": min_floors,
-                "max_floors": max_floors,
-                "min_passengers": min_passengers,
-                "max_passengers": max_passengers,
-                "floors": floors,
-                "passengers": passengers,
+                i += 1
 
-                "bin_params": ["floors", "passengers"]
-            }
+                success |= self._generate_problem(domain_file, problem_file,
+                                                  min_floors, max_floors,
+                                                  min_passengers, max_passengers,
+                                                  floors, passengers)
 
-            file.write_properties(file_handle, properties,
-                                  constants.PDDL_COMMENT_PREFIX)
+            if not success:
 
-            gen_cmd = "%s -f %u -p %u" % (MiconicDomainGenerator.GENERATOR_BIN,
-                                          floors,
-                                          passengers)
-
-            unused_completed_process = subprocess.run(
-                gen_cmd, shell=True, stdout=file_handle)
+                raise Exception("Could not generate problem")
 
         # Just return an empty list.
         return []

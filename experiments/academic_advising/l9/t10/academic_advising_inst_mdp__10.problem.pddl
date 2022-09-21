@@ -1,0 +1,119 @@
+(define (problem academic_advising_inst_mdp__10)
+(:domain academic_advising_mdp)
+(:objects
+    CS11 - course
+    CS12 - course
+    CS13 - course
+    CS14 - course
+    CS15 - course
+    CS16 - course
+    CS21 - course
+    CS22 - course
+    CS23 - course
+    CS24 - course
+    CS25 - course
+    CS26 - course
+    CS31 - course
+    CS32 - course
+    CS33 - course
+    CS34 - course
+    CS35 - course
+    CS36 - course
+    CS41 - course
+    CS42 - course
+    CS43 - course
+    CS44 - course
+    CS45 - course
+    CS46 - course
+    CS51 - course
+    CS52 - course
+    CS53 - course
+    CS54 - course
+    CS55 - course
+    CS56 - course)
+(:init
+    (PROGRAM_REQUIREMENT CS11)
+    (PROGRAM_REQUIREMENT CS13)
+    (PREREQ CS14 CS21)
+    (PREREQ CS13 CS21)
+    (PREREQ CS12 CS21)
+    (PREREQ CS11 CS22)
+    (PREREQ CS13 CS22)
+    (PREREQ CS14 CS22)
+    (PREREQ CS21 CS23)
+    (PREREQ CS15 CS23)
+    (PREREQ CS23 CS24)
+    (PREREQ CS13 CS24)
+    (PREREQ CS13 CS25)
+    (PREREQ CS23 CS25)
+    (PREREQ CS21 CS25)
+    (PROGRAM_REQUIREMENT CS25)
+    (PREREQ CS22 CS26)
+    (PREREQ CS21 CS26)
+    (PREREQ CS24 CS26)
+    (PREREQ CS23 CS31)
+    (PREREQ CS22 CS31)
+    (PREREQ CS21 CS31)
+    (PROGRAM_REQUIREMENT CS31)
+    (PREREQ CS13 CS32)
+    (PREREQ CS26 CS32)
+    (PREREQ CS11 CS32)
+    (PROGRAM_REQUIREMENT CS32)
+    (PREREQ CS23 CS33)
+    (PREREQ CS22 CS33)
+    (PREREQ CS21 CS33)
+    (PREREQ CS21 CS34)
+    (PREREQ CS12 CS34)
+    (PREREQ CS11 CS34)
+    (PREREQ CS21 CS35)
+    (PREREQ CS31 CS35)
+    (PREREQ CS26 CS35)
+    (PROGRAM_REQUIREMENT CS35)
+    (PREREQ CS22 CS36)
+    (PREREQ CS23 CS36)
+    (PREREQ CS32 CS36)
+    (PREREQ CS11 CS36)
+    (PREREQ CS35 CS41)
+    (PREREQ CS25 CS41)
+    (PREREQ CS15 CS41)
+    (PROGRAM_REQUIREMENT CS41)
+    (PREREQ CS21 CS42)
+    (PREREQ CS22 CS42)
+    (PROGRAM_REQUIREMENT CS42)
+    (PREREQ CS21 CS43)
+    (PREREQ CS42 CS43)
+    (PREREQ CS33 CS43)
+    (PREREQ CS34 CS43)
+    (PREREQ CS34 CS44)
+    (PREREQ CS13 CS44)
+    (PREREQ CS24 CS44)
+    (PROGRAM_REQUIREMENT CS44)
+    (PREREQ CS32 CS45)
+    (PREREQ CS35 CS45)
+    (PREREQ CS33 CS46)
+    (PREREQ CS23 CS46)
+    (PREREQ CS41 CS46)
+    (PREREQ CS42 CS51)
+    (PREREQ CS45 CS51)
+    (PREREQ CS13 CS51)
+    (PREREQ CS23 CS52)
+    (PREREQ CS43 CS52)
+    (PREREQ CS36 CS52)
+    (PREREQ CS42 CS53)
+    (PREREQ CS36 CS53)
+    (PREREQ CS13 CS53)
+    (PREREQ CS21 CS53)
+    (PREREQ CS33 CS54)
+    (PREREQ CS45 CS54)
+    (PREREQ CS54 CS55)
+    (PREREQ CS24 CS55)
+    (PREREQ CS32 CS55)
+    (PREREQ CS52 CS55)
+    (PROGRAM_REQUIREMENT CS55)
+    (PREREQ CS31 CS56)
+    (PREREQ CS42 CS56)
+    (PREREQ CS53 CS56)
+    (PROGRAM_REQUIREMENT CS56))
+(:goal (and)))
+; <magic_json> {"rddl": true}
+

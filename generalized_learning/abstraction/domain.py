@@ -139,8 +139,8 @@ class AbstractDomain:
                 self._action_param_index_map)
 
             self._nn_input_shape_dict = {}
-            self._nn_input_shape_dict["state_unary_preds"] = (
-                1, self._nn_role_index_map_len)
+#             self._nn_input_shape_dict["state_unary_preds"] = (
+#                 1, self._nn_role_index_map_len)
             self._nn_input_shape_dict["role_counts"] = (
                 1, self._nn_role_index_map_len)
 
@@ -149,7 +149,7 @@ class AbstractDomain:
                 for predicate in self._arity_predicate_dict[arity]:
 
                     pred_shape = (self._nn_role_index_map_len, ) * arity
-                    self._nn_input_shape_dict[predicate] = pred_shape
+                    #                     self._nn_input_shape_dict[predicate] = pred_shape
 
                     rc_name = "role_count_%s" % (predicate)
                     self._nn_input_shape_dict[rc_name] = pred_shape
@@ -159,15 +159,17 @@ class AbstractDomain:
             # Use np.prod() to convert (1, x) shapes to just (x, ).
             # This makes it compatible to use as outpupts in the neural
             # network.
-            self._nn_output_shape_dict["action"] = np.prod(
-                (1, self._nn_action_index_map_len))
+            self._nn_input_shape_dict["action"] = (
+                1, self._nn_action_index_map_len)
 
             self._nn_output_shape_dict["plan_length"] = 1
 
             for i in range(self._max_action_params):
 
-                self._nn_output_shape_dict["action_param_%u_preds" % (i)] = \
-                    np.prod((1, self._nn_action_param_index_map_len))
+                self._nn_input_shape_dict["action_param_%u_preds" % (i)] = \
+                    (1, self._nn_action_param_index_map_len)
+
+            self.pytorch_input_order = sorted(self._nn_input_shape_dict.keys())
 
             self._is_nn_initialized = True
 
@@ -230,6 +232,11 @@ class AbstractDomain:
                 index = len(self._role_index_map)
                 self._role_index_map[role] = index
                 self._index_role_map[index] = role
+
+                # Also add the unary predicates as detected in the role.
+                for unary_predicate in role.get_unary_predicates():
+
+                    self.get_action_param_index(unary_predicate)
 
         return index
 
@@ -411,14 +418,28 @@ class AbstractDomain:
                 self._arity_predicate_dict[arity] = set(
                     arity_predicate_dict[arity])
 
-    def encode_nn_input(self, abstract_state, *args):
+        self._binary_predicate_order = self._arity_predicate_dict.get(2, set())
+
+    def override_nn_input_action(self, nn_input_pkg, abstract_state,
+                                 action_taken):
+
+        nn_input_pkg.encode("action", self._encode_action(action_taken))
+        action_param_vector = self._encode_action_param(
+            abstract_state, action_taken)
+        for i in range(self._max_action_params):
+
+            nn_input_pkg.encode("action_param_%u_preds" %
+                                (i), action_param_vector[i])
+        pass
+
+    def encode_nn_input(self, abstract_state, action_taken, *args):
 
         (args)
         nn_input_pkg = NNPkg()
 
         abstract_state_vector, role_count_vector = self._encode_state(
             abstract_state)
-        nn_input_pkg.encode("state_unary_preds", abstract_state_vector)
+#         nn_input_pkg.encode("state_unary_preds", abstract_state_vector)
         nn_input_pkg.encode("role_counts", role_count_vector)
 
         if not self._is_nn_initialized:
@@ -429,17 +450,26 @@ class AbstractDomain:
 
             for predicate in self._arity_predicate_dict[arity]:
 
-                vector = self._encode_nary_predicate(abstract_state,
-                                                     predicate,
-                                                     arity,
-                                                     "tvla")
-                nn_input_pkg.encode("%s" % (predicate), vector)
+                #                 vector = self._encode_nary_predicate(abstract_state,
+                #                                                      predicate,
+                #                                                      arity,
+                #                                                      "tvla")
+                #                 nn_input_pkg.encode("%s" % (predicate), vector)
 
                 vector = self._encode_nary_predicate(abstract_state,
                                                      predicate,
                                                      arity,
                                                      "raw")
                 nn_input_pkg.encode("role_count_%s" % (predicate), vector)
+
+        nn_input_pkg.encode("action", self._encode_action(action_taken))
+
+        action_param_vector = self._encode_action_param(
+            abstract_state, action_taken)
+        for i in range(self._max_action_params):
+
+            nn_input_pkg.encode("action_param_%u_preds" %
+                                (i), action_param_vector[i])
 
         return nn_input_pkg
 

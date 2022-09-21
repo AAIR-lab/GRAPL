@@ -1,0 +1,7 @@
+
+# License file and documentation
+include LICENSE
+include README.md
+
+# C++ feature generator code
+# include features

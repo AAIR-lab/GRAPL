@@ -15,10 +15,18 @@ def update_pythonpath():
 
     sys.path.append((root / "generalized_learning").as_posix())
 
-    fd_root_path = root / "dependencies" / "fast-downward-682f00955a82"
+    fd_root_path = root / "dependencies" / "fast-downward_stochastic"
     sys.path.append(fd_root_path.as_posix())
-    sys.path.append((fd_root_path / "src" / "translate").as_posix())
-    sys.path.append((fd_root_path / "driver").as_posix())
+
+    d2l_root_path = root / "dependencies" / "d2l"
+    sltp_root_path = d2l_root_path / "src"
+
+    sys.path.append(sltp_root_path.as_posix())
+
+    tarski_root_path = root / "dependencies" / "tarski"
+    tarski_src_path = tarski_root_path / "src"
+
+    sys.path.append(tarski_src_path.as_posix())
 
 
 def ignore_warnings():
@@ -51,12 +59,15 @@ import subprocess
 
 from abstraction.model import Model
 from benchmarks.generator import Generator
+from generalized_learning.qlearning.evaluator.evaluator import Evaluator
 from plot.plot import Plot
+from qlearning.qlearning import QLearning
 from search.solver import Solver
 from util import constants
 from util import phase
 from util.phase import Phase
 from util.phase import PhaseManager
+
 
 logger = logging.getLogger(__name__)
 
@@ -139,7 +150,7 @@ class Leapfrog(Phase):
         new_dict["name"] = current_name
 
         # Start filling in the blanks.
-        assert "model_name" in keys
+        assert "nn_name" in keys
 
         assert "input_dir" not in keys
         new_dict["input_dir"] = current_name
@@ -218,12 +229,25 @@ class Leapfrog(Phase):
             model_dict = self._get_model_phase_dict(loop_no, phase_dict)
             return Model.get_instance(self, self._base_dir, self._global_dict,
                                       model_dict, self._failfast)
+        elif "qlearning" == phase_key:
+
+            model_dict = self._get_trainer_phase_dict(loop_no, phase_dict)
+            return QLearning.get_instance(self, self._base_dir, self._global_dict,
+                                          model_dict, self._failfast)
         elif "evaluator" == phase_key:
 
             evaluator_dict = self._get_evaluator_phase_dict(loop_no,
                                                             phase_dict)
-            return Solver.get_instance(self, self._base_dir, self._global_dict,
-                                       evaluator_dict, self._failfast)
+            return Evaluator.get_instance(self, self._base_dir, self._global_dict,
+                                          evaluator_dict, self._failfast)
+        elif "leapfrog" == phase_key:
+
+            # Switch directories for different runs.
+            current_name = self.get_name(loop_no)
+            new_base_dir = "%s/%s" % (self._base_dir, current_name)
+            return Leapfrog.get_instance(self, new_base_dir,
+                                         self._global_dict, phase_dict,
+                                         self._failfast)
         else:
 
             assert False
@@ -242,7 +266,14 @@ class Leapfrog(Phase):
 
         num_loops = self._phase_dict["num_loops"]
 
-        for loop_no in range(num_loops):
+        if "start_loop" in self._phase_dict:
+
+            start_loop = self._phase_dict["start_loop"]
+        else:
+
+            start_loop = 0
+
+        for loop_no in range(start_loop, num_loops):
 
             for phase_dict in self._phase_dict["phases"]:
 
@@ -303,15 +334,24 @@ class Config(Phase):
 
             return Model.get_instance(self, self._base_dir, self._global_dict,
                                       phase_dict, self._failfast)
+        elif "qlearning" == phase_key:
+
+            return QLearning.get_instance(self, self._base_dir, self._global_dict,
+                                          phase_dict, self._failfast)
         elif "leapfrog" == phase_key:
 
             return Leapfrog.get_instance(self, self._base_dir,
                                          self._global_dict, phase_dict,
                                          self._failfast)
+        elif "evaluator" == phase_key:
+
+            return Evaluator.get_instance(self, self._base_dir, self._global_dict,
+                                          phase_dict, self._failfast)
         elif "plotter" == phase_key:
 
             return Plot.get_instance(self, self._base_dir, self._global_dict,
                                      phase_dict, self._failfast)
+
         else:
 
             assert False
@@ -407,8 +447,8 @@ class ConfigManager(PhaseManager):
 
         phase.initialize_directories(args.base_dir, args.clean)
         self._copy_config_file(args)
-        self._create_experiment_config_file(args)
-        self._create_git_info(args)
+        # self._create_experiment_config_file(args)
+        # self._create_git_info(args)
 
         results = []
         for config in self._phase_dict:
@@ -442,7 +482,7 @@ def main(args):
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(
-        description="Learn generalized heuristics")
+        description="Learn generalized RL")
 
     # General arguments.
     parser.add_argument("--base-dir", default="./config",

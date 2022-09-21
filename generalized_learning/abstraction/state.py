@@ -1,7 +1,7 @@
 
 
 from abstraction.role import AbstractRole
-from concretized.state import State
+from generalized_learning.concretized.state import State
 
 
 class AbstractState:
@@ -12,14 +12,58 @@ class AbstractState:
 
         self._object_role_dict = {}
         self._role_object_dict = {}
+        self._role_object_tvla_dict = {}
 
         self._arity_predicate_dict = {}
         self._predicate_arity_dict = {}
 
         self._predicate_roles_dict = {}
+        self._predicate_roles_tvla_dict = {}
+
+        self.internal_sum = 0
 
         # Now update the roles of the objects in the provided concrete state.
         self.compute(concrete_state, problem)
+
+        self.update_tvla_dicts()
+
+    def update_tvla_dicts(self):
+
+        for role in self._role_object_dict:
+
+            self._role_object_tvla_dict[role] = min(
+                float("inf"), self.get_role_count(role))
+
+#             self._role_object_tvla_dict[role] = min(
+#                 2, self.get_role_count(role))
+
+            self.internal_sum += self._role_object_tvla_dict[role] * hash(role)
+
+        for predicate in self._predicate_roles_dict:
+
+            predicate_roles_dict = self._predicate_roles_dict[predicate]
+
+            for role_tuple in predicate_roles_dict:
+
+                #                 self._predicate_roles_tvla_dict[predicate][role_tuple] = \
+                #                     self.get_n_ary_role_count(predicate, role_tuple,
+                #                                               strategy="tvla")
+
+                self._predicate_roles_tvla_dict[predicate][role_tuple] = \
+                    self.get_n_ary_role_count(predicate, role_tuple,
+                                              strategy="raw")
+
+                self.internal_sum += int(hash(role_tuple)
+                                         * self._predicate_roles_tvla_dict[predicate][role_tuple])
+
+    def __hash__(self):
+
+        return self.internal_sum
+
+    def __eq__(self, other):
+
+        return self._role_object_tvla_dict == other._role_object_tvla_dict \
+            and self._predicate_roles_tvla_dict == other._predicate_roles_tvla_dict
 
     def get_roles(self):
 
@@ -69,12 +113,15 @@ class AbstractState:
             self._arity_predicate_dict[arity] = set([name])
 
         predicate_roles_dict = {}
+        predicate_roles_tvla_dict = {}
         try:
 
             predicate_roles_dict = self._predicate_roles_dict[name]
+            predicate_roles_tvla_dict = self._predicate_roles_tvla_dict[name]
         except KeyError:
 
             self._predicate_roles_dict[name] = predicate_roles_dict
+            self._predicate_roles_tvla_dict[name] = predicate_roles_tvla_dict
 
         role_tuple = ()
         for i in range(arity):
@@ -89,6 +136,11 @@ class AbstractState:
         except KeyError:
 
             predicate_roles_dict[role_tuple] = 1
+
+        # Will be updated after compute.
+        # We just create the dummy entry here so that we do not need to deal
+        # with dict key handling later.
+        predicate_roles_tvla_dict[role_tuple] = 0
 
     def get_nary_role_dict(self, predicate):
 

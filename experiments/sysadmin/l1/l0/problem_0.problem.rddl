@@ -1,0 +1,26 @@
+non-fluents nf_problem_0 {
+	domain = sysadmin_mdp;
+	objects {
+		computer : {c1,c2,c3};
+	};
+	non-fluents {
+		REBOOT-PROB = 0.05;
+		CONNECTED(c1,c2);
+		CONNECTED(c2,c3);
+		CONNECTED(c3,c1);
+	};
+}
+
+instance problem_0 {
+	domain = sysadmin_mdp;
+	non-fluents = nf_problem_0;
+	init-state {
+		running(c1);
+		running(c2);
+		running(c3);
+	};
+
+	max-nondef-actions = 1;
+	horizon  = 40;
+	discount = 0.9;
+}

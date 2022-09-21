@@ -1,0 +1,37 @@
+# Sample config file
+# Default keys are
+#   use_mpi
+#   max_threads
+
+
+globals:
+    name: None
+
+    config:
+        use_mpi: False
+        chunk_size: 1
+
+    generator:
+        solver: "ff"
+        
+    solver:
+        dir: "test_data"
+
+phases:
+    - config:
+        name: "blocksworld_on_all"
+        ignore: False
+
+        phases:
+            - leapfrog:
+                name: "blocksworld_on_all-problem-gen"
+                num_loops: 9
+                ignore: False
+                phases:
+                    - generator:
+                        type: "blocksworld"
+                        goal_type: "stack_all"
+                        total_problems: [1, 1, 1, 1, 1, 1, 1, 1, 1]
+                        min_blocks: [3, 4, 5, 6, 7, 8, 10, 12, 16]
+                        max_blocks: [3, 4, 5, 6, 7, 8, 10, 12, 16]
+                        ignore: False
