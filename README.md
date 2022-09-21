@@ -1,7 +1,9 @@
 System Requirements
 ====================
+```
 Ubuntu 18.04.5
 Python 3.6.9
+```
 
 Installation
 =============
@@ -9,6 +11,7 @@ Installation
 Use the following commands to install our software on your box.
 Its best to create a virtual environment to not pollute your environemnt.
 
+```
 sudo apt install cmake git python3-venv python3-pip openjdk-11-jdk
 
 python3 -m venv grl_env
@@ -37,6 +40,7 @@ pip3 install natsort==7.1.1
 pip3 install antlr4-python3-runtime==4.7.2
 pip3 install multipledispatch==0.6.0
 pip3 install JPype1
+```
 
 Running our experiments
 ========================
@@ -44,45 +48,47 @@ Running our experiments
 All the problem files and configuration are included in the experiments/ directory.
 
 Run this command first to setup the dataset.
+```
 cp -fr experiments/ /tmp/results
-
+```
 The directory structure is as follows:
-
+```
 domain
     - l<run_no>
         - l<leapfrog_iteration_no>
         - t<competition_instance_no>
-
+```
 Most experiments should take less than 1 hour to complete.
 
 Running IJCAI-22 GRL training experiments
 ------------------------------------------
-
+```
 PYTHONHASHSEED=0 python3 generalized_learning.py --base-dir /tmp/results \
     --config-file experiments/<domain>/<domain>_l3_run<run_no>_td_dl_full.yaml
-
+```
 where
-
+```
 domain = ["academic_advising", "game_of_life_2", "sysadmin", "wildfire_2"]
 run_no = [0..9]
-
+```
 For example, to run sysadmin training for run 0, run
-
+```
 PYTHONHASHSEED=0 python3 generalized_learning.py --base-dir /tmp/results \
     --config-file experiments/sysadmin/sysadmin_l3_run0_td_dl_full.yaml
-    
+```
+
 Running IJCAI-22 GRL zero-shot transfer experiments
 ----------------------------------------------------
-
+```
 PYTHONHASHSEED=0 python3 generalized_learning.py --base-dir /tmp/results \
     --config-file experiments/<domain>/<domain>_t<instance_no>_l3_run<run_no>_td_dl_full.yaml
-
+```
 where
-
+```
 domain = ["academic_advising", "game_of_life_2", "sysadmin", "wildfire_2"]
 instance_no = [5..10]
 run_no = [0..9]
-
+```
 See training section for an example command.
 
 # Contributors
