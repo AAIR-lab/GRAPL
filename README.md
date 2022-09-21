@@ -84,3 +84,7 @@ instance_no = [5..10]
 run_no = [0..9]
 
 See training section for an example command.
+
+# Contributors
+[Rushang Karia](https://rushangkaria.github.io) <br>
+[Siddharth Srivastava](https://siddharthsrivastava.net)
