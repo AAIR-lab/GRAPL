@@ -175,6 +175,22 @@ def run_backwards_brfs(g, parents, mincosts, minactions):
 def mark_all_optimal(goals, parents):
     """ Collect all transitions that lie on at least one optimal plan starting from some alive state (i.e. solvable,
      reachable, and not a goal). """
+     
+    optimal_txs = set()
+    alive = set()
+    vstar = {}
+    for t in parents:
+
+        alive.add(t)
+        vstar[t] = 0
+        for s in parents[t]:
+            if s != t:
+
+                optimal_txs.add((s, t))
+                alive.add(s)
+                vstar[s] = 0
+    return optimal_txs, alive, vstar
+     
     vstar, minactions = {}, {}
     for g in goals:
         run_backwards_brfs(g, parents, vstar, minactions)
