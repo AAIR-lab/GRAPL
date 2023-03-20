@@ -1,0 +1,79 @@
+# Ignore eclipse related files.
+.project
+.pydevproject
+
+# Ignore all the problem files.
+**/problems/
+
+# Ignore all log files generated.
+**/logs/
+
+# Ignore all .pyc files.
+**/*.pyc
+
+# Ignore all .gv files generated.
+**/*.gv
+
+# Ignore all tensorflow generated files.
+checkpoint
+**/*ckpt*
+
+# Ignore the fast-downward builds/.
+**/fast-downward*/builds/
+
+# Ignore the fast-downward executable
+**/binaries/*/downward
+
+# Ignore Tensorboard logs
+*.tfevents.*
+
+# Ignore the pickle files created for custom dataset class
+**/data/
+
+# Ignore the bin/ directory.
+**/bin/*
+
+# Ignore the pipenv files
+Pipfile
+Pipfile.lock
+
+# Ignore vscode
+.vscode
+
+# Ignore idea
+.idea
+
+# Ignore config
+**/config/*
+
+# Ignore jupyter notebook checkpoints.
+**/.ipynb_checkpoints/*
+
+# Ignore eclipse settings.
+**/.settings/*
+
+# Ignore .classpath files from Eclipse.
+**/.classpath
+
+# Ignore all .so files in trapsnet
+# and symnet.
+**/trapsnet/**/*.so
+**/symnet/**/*.so
+
+# Ignore venv directories (but only those
+# in the root direcetory).
+venv/**
+venvs/**
+
+# Ignore sysadmin copied files.
+dependencies/symnet/gym/envs/rddl/rddl/lib/
+
+# Ignore mbrrl files.
+dependencies/mbrrl/RL/mbrrl/domains/experiments-*/**
+dependencies/mbrrl/RL/mbrrl/results-*/**
+dependencies/mbrrl/RL/mbrrl/policy/**
+dependencies/mbrrl/RL/mbrrl/summary.log
+dependencies/mbrrl/summary.log
+mbrrl_logs/*
+
+CMakeFiles/*
