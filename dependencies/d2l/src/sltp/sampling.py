@@ -172,24 +172,31 @@ def run_backwards_brfs(g, parents, mincosts, minactions):
                 minactions[par].append(cur)
 
 
-def mark_all_optimal(goals, parents):
+def mark_all_optimal(goals, parents, has_goals=True):
     """ Collect all transitions that lie on at least one optimal plan starting from some alive state (i.e. solvable,
      reachable, and not a goal). """
      
-    optimal_txs = set()
-    alive = set()
-    vstar = {}
-    for t in parents:
+    # If goals are not present, then mark every transition as am
+    # optimal goal transition.
+    # This allows feature generation of general MDPs since goal relevant
+    # transitions are the only ones that actually contribute to feature
+    # generation.
+    if not has_goals:
 
-        alive.add(t)
-        vstar[t] = 0
-        for s in parents[t]:
-            if s != t:
-
-                optimal_txs.add((s, t))
-                alive.add(s)
-                vstar[s] = 0
-    return optimal_txs, alive, vstar
+        optimal_txs = set()
+        alive = set()
+        vstar = {}
+        for t in parents:
+    
+            alive.add(t)
+            vstar[t] = 0
+            for s in parents[t]:
+                if s != t:
+    
+                    optimal_txs.add((s, t))
+                    alive.add(s)
+                    vstar[s] = 0
+        return optimal_txs, alive, vstar
      
     vstar, minactions = {}, {}
     for g in goals:
@@ -252,14 +259,16 @@ def sample_first_x_states(root_states, sample_sizes):
     return sampled
 
 
-def sample_generated_states(config, rng):
+def sample_generated_states(config, rng, has_goals=True):
     logging.info('Loading state space samples...')
     sample, goals_by_instance = read_transitions_from_files(config.sample_files)
 
-    if not config.create_goal_features_automatically and not sample.goals:
+    if  has_goals \
+        and not config.create_goal_features_automatically \
+        and not sample.goals:
         raise RuntimeError("No goal found in the sample - increase number of expanded states!")
 
-    mark_optimal_transitions(sample)
+    mark_optimal_transitions(sample, has_goals)
     logging.info(f"Entire sample: {sample.info()}")
 
     if config.num_sampled_states is not None:
@@ -273,13 +282,15 @@ def sample_generated_states(config, rng):
     return sample
 
 
-def mark_optimal_transitions(sample: TransitionSample):
+def mark_optimal_transitions(sample: TransitionSample, has_goals=True):
     """ Marks which transitions are optimal in a transition system according to some selection criterion
     such as marking *all* optimal transitions.
      """
     # Mark all transitions that are optimal from some alive state
     # We also mark which states are alive.
-    optimal, alive, sample.vstar = mark_all_optimal(sample.goals, sample.parents)
+    optimal, alive, sample.vstar = mark_all_optimal(sample.goals, 
+                                                    sample.parents,
+                                                    has_goals)
     sample.mark_as_alive(alive)
     sample.mark_as_optimal(optimal)
 
