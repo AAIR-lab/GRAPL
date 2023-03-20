@@ -178,9 +178,10 @@ def write_rddl_problem_to_file(problem_filepath,
     domain_name = rddl_problem._sDomain
     problem_name = rddl_problem._sName
 
-    file_handle = open("%s/%s.%s" % (directory,
+    pddl_filepath = "%s/%s.%s" % (directory,
                                      problem_name,
-                                     constants.PROBLEM_FILE_EXT), "w")
+                                     constants.PROBLEM_FILE_EXT)
+    file_handle = open(pddl_filepath, "w")
 
     file_handle.write("(define (problem %s)\n" % (problem_name))
     file_handle.write("(:domain %s)\n" % (domain_name))
@@ -213,15 +214,17 @@ def write_rddl_problem_to_file(problem_filepath,
                           constants.PDDL_COMMENT_PREFIX)
 
     file_handle.close()
+    return pddl_filepath
 
 
 def write_rddl_domain_to_file(domain_filepath, directory="/tmp"):
 
     domain_name, types, predicates, actions = get_domain(domain_filepath)
 
-    file_handle = open("%s/%s.%s" % (directory,
+    pddl_filepath = "%s/%s.%s" % (directory,
                                      domain_name,
-                                     constants.DOMAIN_FILE_EXT), "w")
+                                     constants.DOMAIN_FILE_EXT)
+    file_handle = open(pddl_filepath, "w")
 
     file_handle.write("(define (domain %s)\n" % (domain_name))
 
@@ -263,7 +266,8 @@ def write_rddl_domain_to_file(domain_filepath, directory="/tmp"):
     file.write_properties(file_handle, {"rddl": True},
                           constants.PDDL_COMMENT_PREFIX)
     file_handle.close()
-
+    
+    return pddl_filepath
 
 def get_domain(domain_filepath):
 
