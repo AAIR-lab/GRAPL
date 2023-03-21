@@ -93,7 +93,31 @@ See training section for an example command.
 
 Generate Description Logic Features
 ------------------------------------
-To generate Description Logic features for a given RDDL/PPDDL/PDDL problem follow the followin steps
+A few extra packages are need for the system to generate the features. Run the following commands from the project root.
+
+```
+sudo apt-get install --no-install-recommends -y \
+	build-essential \
+	cmake \
+	ca-certificates \
+	curl \
+	python3 python3-pip python3-dev python3-setuptools \
+	scons \
+	git \
+	pkg-config \
+	libboost-program-options-dev libboost-filesystem-dev libboost-system-dev \
+	libboost-chrono-dev libboost-timer-dev libboost-serialization-dev \
+    libz-dev libgmp-dev \
+
+sudo rm -rf /var/lib/apt/lists/*
+
+pushd dependencies/d2l/src/generators
+cmake . -DCMAKE_BUILD_TYPE=Release
+cmake --build . --config Release -- -j4
+popd
+```
+
+Once the dependencies are installed, to generate Description Logic features for a given RDDL/PPDDL/PDDL problem follow the following steps
 * Create a directory somewhere (`mkdir /tmp/dl_features/`)
 * Copy the domain file and a single problem file to this directory.
 
