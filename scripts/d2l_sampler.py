@@ -46,7 +46,7 @@ def _get_predicate_str(predicate):
     return string
 
 
-def write_d2l_sampled_states(output_filepath, state_id_map,
+def write_d2l_sampled_states(output_filepath, problem, state_id_map,
                              transition_set,
                              unsupported_predicates=set(["="])):
 
@@ -64,8 +64,14 @@ def write_d2l_sampled_states(output_filepath, state_id_map,
                 atom_str += " %s" % (_get_predicate_str(predicate))
 
         atom_str = atom_str.strip()
-        file_handle.write("(N) %u 1 0 %s\n" % (idx, atom_str))
-
+        
+        if not problem.has_goals():
+            file_handle.write("(N) %u 1 0 %s\n" % (idx, atom_str))
+        elif problem.is_goal_satisfied(state):
+            file_handle.write("(N) %u 1 0 %s\n" % (idx, atom_str))
+        else:
+            file_handle.write("(N) %u 0 0 %s\n" % (idx, atom_str))
+            
     for id_1, id_2 in transition_set:
 
         file_handle.write("(E) %u %u\n" % (id_1, id_2))
@@ -113,7 +119,8 @@ def sample_d2l_states(domain_filepath, problem_filepath, num_episodes,
     print("Total transitions......: %u" % (len(transition_set)))
 
     print("Writing samples to", output_filepath)
-    write_d2l_sampled_states(output_filepath, state_id_map, transition_set)
+    write_d2l_sampled_states(output_filepath, problem, state_id_map, 
+                             transition_set)
     
     return output_filepath
 
@@ -139,3 +146,4 @@ if __name__ == "__main__":
 
     sample_d2l_states(domain_filepath, problem_filepath, args.num_episodes, 
                       args.num_transitions, args.simulator_type)
+
