@@ -97,7 +97,7 @@ To generate Description Logic features for a given RDDL/PPDDL/PDDL problem follo
 * Create a directory somewhere (`mkdir /tmp/dl_features/`)
 * Copy the domain file and a single problem file to this directory.
 ** Note: For RDDL, the domain name must match the rddl file name. i.e. if the domain name is `abc_mdp`, the rddl file should be `abc_mdp.rddl`). PDDL files have no such restriction.
-* Run the following command `python3 scripts/d2l_features.py --domain-file <path_to_domain_file> --problem-file <path_to_problem_file>
+* Run the following command `python3 scripts/d2l_features.py --domain-file <path_to_domain_file> --problem-file <path_to_problem_file>`
 * The features should be generated in `<directory>/features.io`
 
 You can also run `python3 scripts/d2l_features.py -h` for some more options such as changing the feature complexity etc.
