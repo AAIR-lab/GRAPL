@@ -62,7 +62,7 @@ if __name__ == "__main__":
     
     args = parser.parse_args()
 
-    simulator_type = "pddl"
+    simulator_type = "generic"
     
     domain_filepath = pathlib.Path(args.domain_file)
     problem_filepath = pathlib.Path(args.problem_file)
