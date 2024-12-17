@@ -6,6 +6,10 @@ Python implementation of the ideas presented in
 
 [IJCAI-22]: Relational Abstractions for Generalized Reinforcement Learning on Symbolic Problems
 
+[NeurIPS-22]: Learning Generalized Policy Automata for Relational Stochastic Shortest Path Problems
+
+[ICAPS-24]: Epistemic Exploration for Generalizable Planning and Learning in Non-Stationary Settings
+
 To find the exact source code submitted for each paper, please visit the corresponding branch.
 
 # Installation
