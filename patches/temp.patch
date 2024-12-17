@@ -1,0 +1,139 @@
+diff --git a/dependencies/pddlgym-0.0.5/pddlgym/core.py b/dependencies/pddlgym-0.0.5/pddlgym/core.py
+index 77dfd41..5fcfd49 100644
+--- a/dependencies/pddlgym-0.0.5/pddlgym/core.py
++++ b/dependencies/pddlgym-0.0.5/pddlgym/core.py
+@@ -377,7 +377,9 @@ class PDDLEnv(gym.Env):
+         self.action_predicates = [self.domain.predicates[a] for a in actions]
+         self._dynamic_action_space = dynamic_action_space
+         if dynamic_action_space:
+-            if self.domain.operators_as_actions and self._domain_is_strips:
++            if self.domain.operators_as_actions \
++                    and self._domain_is_strips \
++                    and not self.domain.is_probabilistic:
+                 self._action_space = LiteralActionSpace(
+                     self.domain, self.action_predicates,
+                     type_hierarchy=self.domain.type_hierarchy,
+@@ -519,15 +521,9 @@ class PDDLEnv(gym.Env):
+         self._problem = self.problems[self._problem_idx]
+ 
+         dummy_state = State({}, self._problem.objects, {})
+-        self.all_grounded_actions = self._action_space.all_ground_literals(
+-            dummy_state, valid_only=False)
+-        
++
+         initial_state_literals = set(self._problem.initial_state)
+-        
+-        if self.grounded_actions_in_state:
+-            
+-            initial_state_literals.update(self.all_grounded_actions)
+-        
++
+         initial_state = State(frozenset(initial_state_literals),
+                               frozenset(self._problem.objects),
+                               self._problem.goal)
+diff --git a/dependencies/pddlgym-0.0.5/pddlgym/structs.py b/dependencies/pddlgym-0.0.5/pddlgym/structs.py
+index d2dd98b..484e012 100644
+--- a/dependencies/pddlgym-0.0.5/pddlgym/structs.py
++++ b/dependencies/pddlgym-0.0.5/pddlgym/structs.py
+@@ -741,7 +741,7 @@ class ProbabilisticEffect:
+         if not self.is_optimized:
+             
+             action = self.flatten(with_copy=True)
+-            action = self.optimize(with_copy=False)
++            action = action.optimize(with_copy=False)
+         else:
+             
+             action = self
+@@ -750,8 +750,8 @@ class ProbabilisticEffect:
+         
+         for i in range(len(self.literals)):
+             
+-            probability = self.probabilities[i]
+-            literal = self.literals[i]
++            probability = action.probabilities[i]
++            literal = action.literals[i]
+             
+             literal = LiteralConjunction(action.common_effects.literals +
+                                          literal.literals)
+@@ -982,7 +982,7 @@ class ProbabilisticEffect:
+         return str(self) == str(other)
+ 
+     def pddl_str(self):
+-        raise NotImplementedError("Can't PDDL-ify a probabilistic effect")
++        return self.get_probabilistic_pddl_str()
+ 
+     def sample(self):
+         return np.random.choice(self.literals, p=self.probabilities)
+diff --git a/src/agent.py b/src/agent.py
+index a5428af..dfde55c 100644
+--- a/src/agent.py
++++ b/src/agent.py
+@@ -53,6 +53,7 @@ class BFSAgent(Agent):
+         
+         self.monte_carlo_steps = monte_carlo_steps
+         self.env = PDDLEnv(domain_file, problem_file,
++            operators_as_actions=True,
+             raise_error_on_invalid_action=dynamic_action_space,
+             dynamic_action_space=dynamic_action_space,
+             grounded_actions_in_state=config.SHOULD_FIND_GYM_ACTION_PREDS)
+@@ -159,6 +160,7 @@ class PRPAgent(Agent):
+                  base_dir=None):
+         
+         self.env = PDDLEnv(domain_file, problem_file,
++                           operators_as_actions=True,
+             grounded_actions_in_state=config.SHOULD_FIND_GYM_ACTION_PREDS)
+         _ = self.env.reset()
+ 
+diff --git a/src/evaluators/saia_evaluator.py b/src/evaluators/saia_evaluator.py
+index 82c4241..6f16124 100644
+--- a/src/evaluators/saia_evaluator.py
++++ b/src/evaluators/saia_evaluator.py
+@@ -58,6 +58,7 @@ class SAIAEvaluator:
+         self.vd_transitions = vd_transitions
+         self.disable_evaluator = disable_evaluator
+         self.env = PDDLEnv(self.domain_file, self.problem_file,
++                           operators_as_actions=True,
+             grounded_actions_in_state=config.SHOULD_FIND_GYM_ACTION_PREDS)
+         self.domain = self.env.domain
+         
+diff --git a/src/model.py b/src/model.py
+index 500d6d6..81c4141 100644
+--- a/src/model.py
++++ b/src/model.py
+@@ -46,7 +46,7 @@ dummy_effect = ProbabilisticEffect([], [0])
+ #     pass
+ 
+ # Override the probabilistic effect's pddl_str() of pddlgym with our own. 
+-ProbabilisticEffect.pddl_str = get_probabilistic_effect_npddl_str 
++# ProbabilisticEffect.pddl_str = get_probabilistic_effect_npddl_str
+ 
+ class Model:
+     
+diff --git a/src/vd.py b/src/vd.py
+index 69973da..b90e0fa 100644
+--- a/src/vd.py
++++ b/src/vd.py
+@@ -42,6 +42,7 @@ class VariationalDistance:
+                          pbar_lvl=0):
+ 
+         env = PDDLEnv(domain_file, problem_file,
++                      operators_as_actions=True,
+                       raise_error_on_invalid_action=False,
+                       dynamic_action_space=False,
+                       grounded_actions_in_state=config.SHOULD_FIND_GYM_ACTION_PREDS)
+@@ -132,6 +133,7 @@ class VariationalDistance:
+         unsuccessful_actions = dict()
+ 
+         env = PDDLEnv(domain_file, problem_file,
++                      operators_as_actions=True,
+                       raise_error_on_invalid_action=False,
+                       dynamic_action_space=False,
+                       grounded_actions_in_state=config.SHOULD_FIND_GYM_ACTION_PREDS)
+@@ -197,6 +199,7 @@ class VariationalDistance:
+         for problem_file in problem_files:
+ 
+             env = PDDLEnv(domain_file, problem_file,
++                operators_as_actions=True,
+                 raise_error_on_invalid_action=True,
+                 dynamic_action_space=True,
+                 grounded_actions_in_state=config.SHOULD_FIND_GYM_ACTION_PREDS)

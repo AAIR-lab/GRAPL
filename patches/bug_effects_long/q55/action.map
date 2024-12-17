@@ -1,0 +1,592 @@
+
+action2-a_obj2-o_obj1-o:
+1: ['not(pred1-p_1(obj1-o))', 'pred0-p_1(obj1-o obj2-o)', 'not(pred1-p_2(obj1-o))', 'pred0-p_2(obj1-o obj2-o)'] -> ['pred1-p_2(obj2-o)', 'pred1-p_1(obj2-o)']
+2: ['not(pred1-p_1(obj1-o))', 'pred0-p_1(obj1-o obj2-o)', 'not(pred1-p_2(obj1-o))', 'pred0-p_2(obj1-o obj2-o)'] -> ['not(pred0-p_2(obj1-o obj2-o))', 'pred1-p_1(obj2-o)', 'not(pred2-p_2(obj2-o obj1-o))']
+3: ['not(pred1-p_1(obj1-o))', 'pred0-p_1(obj1-o obj2-o)', 'not(pred1-p_2(obj1-o))', 'pred0-p_2(obj1-o obj2-o)'] -> ['pred1-p_2(obj2-o)', 'not(pred2-p_1(obj2-o obj1-o))', 'not(pred0-p_1(obj1-o obj2-o))']
+4: ['not(pred1-p_1(obj1-o))', 'pred0-p_1(obj1-o obj2-o)', 'not(pred1-p_2(obj1-o))', 'pred0-p_2(obj1-o obj2-o)'] -> ['not(pred0-p_2(obj1-o obj2-o))', 'not(pred2-p_1(obj2-o obj1-o))', 'not(pred0-p_1(obj1-o obj2-o))', 'not(pred2-p_2(obj2-o obj1-o))']
+
+action0-a2_obj1-o_obj1-o:
+1: ['not(pred1-p_1(obj1-o))', 'not(pred1-p_2(obj1-o))'] -> ['pred0-p_1(obj1-o obj1-o)', 'not(pred0-p_2(obj1-o obj1-o))', 'pred0-p_2(obj1-o obj1-o)'] / ['pred1-p_2(obj1-o)'] -> ['p_psi()'] / ['pred1-p_1(obj1-o)'] -> ['p_psi()']
+
+action1-a2_obj2-o_obj0-o:
+
+action1-a_obj0-o_obj1-o:
+
+action0-a2_obj1-o_obj2-o:
+1: ['not(pred1-p_1(obj2-o))', 'not(pred1-p_2(obj2-o))'] -> ['pred0-p_1(obj1-o obj2-o)', 'not(pred0-p_2(obj1-o obj2-o))', 'pred0-p_2(obj1-o obj2-o)'] / ['pred1-p_2(obj2-o)'] -> ['p_psi()'] / ['pred1-p_1(obj2-o)'] -> ['p_psi()']
+
+action0-a2_obj3-o_obj3-o:
+1: ['not(pred1-p_1(obj3-o))', 'not(pred1-p_2(obj3-o))'] -> ['not(pred0-p_2(obj3-o obj3-o))', 'pred0-p_1(obj3-o obj3-o)', 'pred0-p_2(obj3-o obj3-o)'] / ['pred1-p_2(obj3-o)'] -> ['p_psi()'] / ['pred1-p_1(obj3-o)'] -> ['p_psi()']
+
+action2-a2_obj3-o_obj2-o:
+1: ['not(pred1-p_1(obj2-o))', 'not(pred1-p_2(obj2-o))', 'pred0-p_2(obj2-o obj3-o)', 'pred0-p_1(obj2-o obj3-o)'] -> ['pred1-p_2(obj3-o)', 'pred1-p_1(obj3-o)']
+2: ['not(pred1-p_1(obj2-o))', 'not(pred1-p_2(obj2-o))', 'pred0-p_2(obj2-o obj3-o)', 'pred0-p_1(obj2-o obj3-o)'] -> ['not(pred0-p_2(obj2-o obj3-o))', 'not(pred2-p_2(obj3-o obj2-o))', 'pred1-p_1(obj3-o)']
+3: ['not(pred1-p_1(obj2-o))', 'not(pred1-p_2(obj2-o))', 'pred0-p_2(obj2-o obj3-o)', 'pred0-p_1(obj2-o obj3-o)'] -> ['not(pred0-p_1(obj2-o obj3-o))', 'not(pred2-p_1(obj3-o obj2-o))', 'pred1-p_2(obj3-o)']
+4: ['not(pred1-p_1(obj2-o))', 'not(pred1-p_2(obj2-o))', 'pred0-p_2(obj2-o obj3-o)', 'pred0-p_1(obj2-o obj3-o)'] -> ['not(pred0-p_1(obj2-o obj3-o))', 'not(pred0-p_2(obj2-o obj3-o))', 'not(pred2-p_2(obj3-o obj2-o))', 'not(pred2-p_1(obj3-o obj2-o))']
+
+action3-a2_obj3-o_obj0-o:
+1: ['pred1-p_1(obj0-o)', 'pred2-p_2(obj0-o obj3-o)', 'pred2-p_1(obj0-o obj3-o)', 'pred1-p_2(obj0-o)'] -> ['not(pred1-p_1(obj0-o))', 'not(pred1-p_2(obj0-o))', 'pred2-p_2(obj3-o obj0-o)', 'pred2-p_1(obj3-o obj0-o)']
+2: ['pred1-p_1(obj0-o)', 'pred2-p_2(obj0-o obj3-o)', 'pred2-p_1(obj0-o obj3-o)', 'pred1-p_2(obj0-o)'] -> ['not(pred1-p_1(obj0-o))', 'pred2-p_2(obj3-o obj0-o)', 'pred2-p_1(obj3-o obj0-o)']
+3: ['pred1-p_1(obj0-o)', 'pred2-p_2(obj0-o obj3-o)', 'pred2-p_1(obj0-o obj3-o)', 'pred1-p_2(obj0-o)'] -> ['pred2-p_1(obj3-o obj0-o)', 'not(pred1-p_2(obj0-o))', 'pred2-p_2(obj3-o obj0-o)']
+4: ['pred1-p_1(obj0-o)', 'pred2-p_2(obj0-o obj3-o)', 'pred2-p_1(obj0-o obj3-o)', 'pred1-p_2(obj0-o)'] -> ['pred2-p_1(obj3-o obj0-o)', 'pred2-p_2(obj3-o obj0-o)']
+
+action2-a_obj0-o_obj0-o:
+1: ['not(pred1-p_1(obj0-o))', 'not(pred1-p_2(obj0-o))', 'pred0-p_1(obj0-o obj0-o)', 'pred0-p_2(obj0-o obj0-o)'] -> ['pred1-p_1(obj0-o)', 'pred1-p_2(obj0-o)']
+2: ['not(pred1-p_1(obj0-o))', 'not(pred1-p_2(obj0-o))', 'pred0-p_1(obj0-o obj0-o)', 'pred0-p_2(obj0-o obj0-o)'] -> ['pred1-p_1(obj0-o)', 'not(pred0-p_2(obj0-o obj0-o))', 'not(pred2-p_2(obj0-o obj0-o))']
+3: ['not(pred1-p_1(obj0-o))', 'not(pred1-p_2(obj0-o))', 'pred0-p_1(obj0-o obj0-o)', 'pred0-p_2(obj0-o obj0-o)'] -> ['not(pred2-p_1(obj0-o obj0-o))', 'not(pred0-p_1(obj0-o obj0-o))', 'pred1-p_2(obj0-o)']
+4: ['not(pred1-p_1(obj0-o))', 'not(pred1-p_2(obj0-o))', 'pred0-p_1(obj0-o obj0-o)', 'pred0-p_2(obj0-o obj0-o)'] -> ['not(pred2-p_1(obj0-o obj0-o))', 'not(pred0-p_2(obj0-o obj0-o))', 'not(pred0-p_1(obj0-o obj0-o))', 'not(pred2-p_2(obj0-o obj0-o))']
+
+action0-a2_obj3-o_obj0-o:
+1: ['not(pred1-p_1(obj0-o))', 'not(pred1-p_2(obj0-o))'] -> ['not(pred0-p_2(obj3-o obj0-o))', 'pred0-p_1(obj3-o obj0-o)', 'pred0-p_2(obj3-o obj0-o)'] / ['pred1-p_2(obj0-o)'] -> ['p_psi()'] / ['pred1-p_1(obj0-o)'] -> ['p_psi()']
+
+action0-a_obj1-o_obj1-o:
+1: ['not(pred1-p_1(obj1-o))', 'not(pred1-p_2(obj1-o))'] -> ['pred0-p_1(obj1-o obj1-o)', 'not(pred0-p_2(obj1-o obj1-o))', 'pred0-p_2(obj1-o obj1-o)'] / ['pred1-p_2(obj1-o)'] -> ['p_psi()'] / ['pred1-p_1(obj1-o)'] -> ['p_psi()']
+
+action0-a_obj2-o_obj3-o:
+1: ['not(pred1-p_1(obj3-o))', 'not(pred1-p_2(obj3-o))'] -> ['not(pred0-p_2(obj2-o obj3-o))', 'pred0-p_2(obj2-o obj3-o)', 'pred0-p_1(obj2-o obj3-o)'] / ['pred1-p_2(obj3-o)'] -> ['p_psi()'] / ['pred1-p_1(obj3-o)'] -> ['p_psi()']
+
+action1-a_obj1-o_obj0-o:
+
+action3-a_obj2-o_obj0-o:
+1: ['pred1-p_1(obj0-o)', 'pred2-p_1(obj0-o obj2-o)', 'pred2-p_2(obj0-o obj2-o)', 'pred1-p_2(obj0-o)'] -> ['not(pred1-p_1(obj0-o))', 'not(pred1-p_2(obj0-o))', 'pred2-p_1(obj2-o obj0-o)', 'pred2-p_2(obj2-o obj0-o)']
+2: ['pred1-p_1(obj0-o)', 'pred2-p_1(obj0-o obj2-o)', 'pred2-p_2(obj0-o obj2-o)', 'pred1-p_2(obj0-o)'] -> ['not(pred1-p_1(obj0-o))', 'pred2-p_1(obj2-o obj0-o)', 'pred2-p_2(obj2-o obj0-o)']
+3: ['pred1-p_1(obj0-o)', 'pred2-p_1(obj0-o obj2-o)', 'pred2-p_2(obj0-o obj2-o)', 'pred1-p_2(obj0-o)'] -> ['not(pred1-p_2(obj0-o))', 'pred2-p_1(obj2-o obj0-o)', 'pred2-p_2(obj2-o obj0-o)']
+4: ['pred1-p_1(obj0-o)', 'pred2-p_1(obj0-o obj2-o)', 'pred2-p_2(obj0-o obj2-o)', 'pred1-p_2(obj0-o)'] -> ['pred2-p_1(obj2-o obj0-o)', 'pred2-p_2(obj2-o obj0-o)']
+
+action1-a2_obj0-o_obj0-o:
+
+action2-a2_obj2-o_obj0-o:
+1: ['pred0-p_1(obj0-o obj2-o)', 'not(pred1-p_2(obj0-o))', 'pred0-p_2(obj0-o obj2-o)', 'not(pred1-p_1(obj0-o))'] -> ['pred1-p_2(obj2-o)', 'pred1-p_1(obj2-o)']
+2: ['pred0-p_1(obj0-o obj2-o)', 'not(pred1-p_2(obj0-o))', 'pred0-p_2(obj0-o obj2-o)', 'not(pred1-p_1(obj0-o))'] -> ['not(pred2-p_2(obj2-o obj0-o))', 'not(pred0-p_2(obj0-o obj2-o))', 'pred1-p_1(obj2-o)']
+3: ['pred0-p_1(obj0-o obj2-o)', 'not(pred1-p_2(obj0-o))', 'pred0-p_2(obj0-o obj2-o)', 'not(pred1-p_1(obj0-o))'] -> ['not(pred0-p_1(obj0-o obj2-o))', 'pred1-p_2(obj2-o)', 'not(pred2-p_1(obj2-o obj0-o))']
+4: ['pred0-p_1(obj0-o obj2-o)', 'not(pred1-p_2(obj0-o))', 'pred0-p_2(obj0-o obj2-o)', 'not(pred1-p_1(obj0-o))'] -> ['not(pred0-p_1(obj0-o obj2-o))', 'not(pred2-p_2(obj2-o obj0-o))', 'not(pred2-p_1(obj2-o obj0-o))', 'not(pred0-p_2(obj0-o obj2-o))']
+
+action2-a2_obj3-o_obj3-o:
+1: ['pred0-p_1(obj3-o obj3-o)', 'pred0-p_2(obj3-o obj3-o)', 'not(pred1-p_1(obj3-o))', 'not(pred1-p_2(obj3-o))'] -> ['pred1-p_2(obj3-o)', 'pred1-p_1(obj3-o)']
+2: ['pred0-p_1(obj3-o obj3-o)', 'pred0-p_2(obj3-o obj3-o)', 'not(pred1-p_1(obj3-o))', 'not(pred1-p_2(obj3-o))'] -> ['not(pred0-p_2(obj3-o obj3-o))', 'pred1-p_1(obj3-o)', 'not(pred2-p_2(obj3-o obj3-o))']
+3: ['pred0-p_1(obj3-o obj3-o)', 'pred0-p_2(obj3-o obj3-o)', 'not(pred1-p_1(obj3-o))', 'not(pred1-p_2(obj3-o))'] -> ['pred1-p_2(obj3-o)', 'not(pred2-p_1(obj3-o obj3-o))', 'not(pred0-p_1(obj3-o obj3-o))']
+4: ['pred0-p_1(obj3-o obj3-o)', 'pred0-p_2(obj3-o obj3-o)', 'not(pred1-p_1(obj3-o))', 'not(pred1-p_2(obj3-o))'] -> ['not(pred0-p_2(obj3-o obj3-o))', 'not(pred2-p_1(obj3-o obj3-o))', 'not(pred0-p_1(obj3-o obj3-o))', 'not(pred2-p_2(obj3-o obj3-o))']
+
+action0-a300_obj3-o_obj3-o:
+1: [] -> ['p_psi()']
+
+action0-a300_obj1-o_obj0-o:
+1: [] -> ['p_psi()']
+
+action0-a2_obj3-o_obj1-o:
+1: ['not(pred1-p_1(obj1-o))', 'not(pred1-p_2(obj1-o))'] -> ['not(pred0-p_2(obj3-o obj1-o))', 'pred0-p_2(obj3-o obj1-o)', 'pred0-p_1(obj3-o obj1-o)'] / ['pred1-p_2(obj1-o)'] -> ['p_psi()'] / ['pred1-p_1(obj1-o)'] -> ['p_psi()']
+
+action0-a_obj1-o_obj3-o:
+1: ['not(pred1-p_1(obj3-o))', 'not(pred1-p_2(obj3-o))'] -> ['pred0-p_1(obj1-o obj3-o)', 'pred0-p_2(obj1-o obj3-o)', 'not(pred0-p_2(obj1-o obj3-o))'] / ['pred1-p_2(obj3-o)'] -> ['p_psi()'] / ['pred1-p_1(obj3-o)'] -> ['p_psi()']
+
+action3-a2_obj2-o_obj0-o:
+1: ['pred1-p_1(obj0-o)', 'pred2-p_1(obj0-o obj2-o)', 'pred2-p_2(obj0-o obj2-o)', 'pred1-p_2(obj0-o)'] -> ['not(pred1-p_1(obj0-o))', 'not(pred1-p_2(obj0-o))', 'pred2-p_1(obj2-o obj0-o)', 'pred2-p_2(obj2-o obj0-o)']
+2: ['pred1-p_1(obj0-o)', 'pred2-p_1(obj0-o obj2-o)', 'pred2-p_2(obj0-o obj2-o)', 'pred1-p_2(obj0-o)'] -> ['not(pred1-p_1(obj0-o))', 'pred2-p_1(obj2-o obj0-o)', 'pred2-p_2(obj2-o obj0-o)']
+3: ['pred1-p_1(obj0-o)', 'pred2-p_1(obj0-o obj2-o)', 'pred2-p_2(obj0-o obj2-o)', 'pred1-p_2(obj0-o)'] -> ['not(pred1-p_2(obj0-o))', 'pred2-p_1(obj2-o obj0-o)', 'pred2-p_2(obj2-o obj0-o)']
+4: ['pred1-p_1(obj0-o)', 'pred2-p_1(obj0-o obj2-o)', 'pred2-p_2(obj0-o obj2-o)', 'pred1-p_2(obj0-o)'] -> ['pred2-p_1(obj2-o obj0-o)', 'pred2-p_2(obj2-o obj0-o)']
+
+action1-a_obj1-o_obj2-o:
+
+action1-a_obj0-o_obj0-o:
+
+action0-a300_obj2-o_obj3-o:
+1: [] -> ['p_psi()']
+
+action3-a_obj2-o_obj1-o:
+1: ['pred1-p_1(obj1-o)', 'pred2-p_2(obj1-o obj2-o)', 'pred2-p_1(obj1-o obj2-o)', 'pred1-p_2(obj1-o)'] -> ['pred2-p_2(obj2-o obj1-o)', 'not(pred1-p_1(obj1-o))', 'not(pred1-p_2(obj1-o))', 'pred2-p_1(obj2-o obj1-o)']
+2: ['pred1-p_1(obj1-o)', 'pred2-p_2(obj1-o obj2-o)', 'pred2-p_1(obj1-o obj2-o)', 'pred1-p_2(obj1-o)'] -> ['pred2-p_2(obj2-o obj1-o)', 'not(pred1-p_1(obj1-o))', 'pred2-p_1(obj2-o obj1-o)']
+3: ['pred1-p_1(obj1-o)', 'pred2-p_2(obj1-o obj2-o)', 'pred2-p_1(obj1-o obj2-o)', 'pred1-p_2(obj1-o)'] -> ['pred2-p_2(obj2-o obj1-o)', 'not(pred1-p_2(obj1-o))', 'pred2-p_1(obj2-o obj1-o)']
+4: ['pred1-p_1(obj1-o)', 'pred2-p_2(obj1-o obj2-o)', 'pred2-p_1(obj1-o obj2-o)', 'pred1-p_2(obj1-o)'] -> ['pred2-p_2(obj2-o obj1-o)', 'pred2-p_1(obj2-o obj1-o)']
+
+action3-a_obj3-o_obj1-o:
+1: ['pred2-p_2(obj1-o obj3-o)', 'pred2-p_1(obj1-o obj3-o)', 'pred1-p_1(obj1-o)', 'pred1-p_2(obj1-o)'] -> ['not(pred1-p_1(obj1-o))', 'not(pred1-p_2(obj1-o))', 'pred2-p_2(obj3-o obj1-o)', 'pred2-p_1(obj3-o obj1-o)']
+2: ['pred2-p_2(obj1-o obj3-o)', 'pred2-p_1(obj1-o obj3-o)', 'pred1-p_1(obj1-o)', 'pred1-p_2(obj1-o)'] -> ['not(pred1-p_1(obj1-o))', 'pred2-p_2(obj3-o obj1-o)', 'pred2-p_1(obj3-o obj1-o)']
+3: ['pred2-p_2(obj1-o obj3-o)', 'pred2-p_1(obj1-o obj3-o)', 'pred1-p_1(obj1-o)', 'pred1-p_2(obj1-o)'] -> ['not(pred1-p_2(obj1-o))', 'pred2-p_2(obj3-o obj1-o)', 'pred2-p_1(obj3-o obj1-o)']
+4: ['pred2-p_2(obj1-o obj3-o)', 'pred2-p_1(obj1-o obj3-o)', 'pred1-p_1(obj1-o)', 'pred1-p_2(obj1-o)'] -> ['pred2-p_2(obj3-o obj1-o)', 'pred2-p_1(obj3-o obj1-o)']
+
+action3-a_obj3-o_obj2-o:
+1: ['pred1-p_2(obj2-o)', 'pred2-p_2(obj2-o obj3-o)', 'pred1-p_1(obj2-o)', 'pred2-p_1(obj2-o obj3-o)'] -> ['not(pred1-p_1(obj2-o))', 'pred2-p_2(obj3-o obj2-o)', 'pred2-p_1(obj3-o obj2-o)', 'not(pred1-p_2(obj2-o))']
+2: ['pred1-p_2(obj2-o)', 'pred2-p_2(obj2-o obj3-o)', 'pred1-p_1(obj2-o)', 'pred2-p_1(obj2-o obj3-o)'] -> ['not(pred1-p_1(obj2-o))', 'pred2-p_2(obj3-o obj2-o)', 'pred2-p_1(obj3-o obj2-o)']
+3: ['pred1-p_2(obj2-o)', 'pred2-p_2(obj2-o obj3-o)', 'pred1-p_1(obj2-o)', 'pred2-p_1(obj2-o obj3-o)'] -> ['pred2-p_1(obj3-o obj2-o)', 'pred2-p_2(obj3-o obj2-o)', 'not(pred1-p_2(obj2-o))']
+4: ['pred1-p_2(obj2-o)', 'pred2-p_2(obj2-o obj3-o)', 'pred1-p_1(obj2-o)', 'pred2-p_1(obj2-o obj3-o)'] -> ['pred2-p_1(obj3-o obj2-o)', 'pred2-p_2(obj3-o obj2-o)']
+
+action1-a2_obj2-o_obj3-o:
+
+action2-a2_obj0-o_obj3-o:
+1: ['pred0-p_2(obj3-o obj0-o)', 'not(pred1-p_1(obj3-o))', 'pred0-p_1(obj3-o obj0-o)', 'not(pred1-p_2(obj3-o))'] -> ['pred1-p_1(obj0-o)', 'pred1-p_2(obj0-o)']
+2: ['pred0-p_2(obj3-o obj0-o)', 'not(pred1-p_1(obj3-o))', 'pred0-p_1(obj3-o obj0-o)', 'not(pred1-p_2(obj3-o))'] -> ['pred1-p_1(obj0-o)', 'not(pred0-p_2(obj3-o obj0-o))', 'not(pred2-p_2(obj0-o obj3-o))']
+3: ['pred0-p_2(obj3-o obj0-o)', 'not(pred1-p_1(obj3-o))', 'pred0-p_1(obj3-o obj0-o)', 'not(pred1-p_2(obj3-o))'] -> ['not(pred0-p_1(obj3-o obj0-o))', 'not(pred2-p_1(obj0-o obj3-o))', 'pred1-p_2(obj0-o)']
+4: ['pred0-p_2(obj3-o obj0-o)', 'not(pred1-p_1(obj3-o))', 'pred0-p_1(obj3-o obj0-o)', 'not(pred1-p_2(obj3-o))'] -> ['not(pred0-p_2(obj3-o obj0-o))', 'not(pred0-p_1(obj3-o obj0-o))', 'not(pred2-p_1(obj0-o obj3-o))', 'not(pred2-p_2(obj0-o obj3-o))']
+
+action2-a_obj1-o_obj2-o:
+1: ['pred0-p_2(obj2-o obj1-o)', 'not(pred1-p_1(obj2-o))', 'pred0-p_1(obj2-o obj1-o)', 'not(pred1-p_2(obj2-o))'] -> ['pred1-p_2(obj1-o)', 'pred1-p_1(obj1-o)']
+2: ['pred0-p_2(obj2-o obj1-o)', 'not(pred1-p_1(obj2-o))', 'pred0-p_1(obj2-o obj1-o)', 'not(pred1-p_2(obj2-o))'] -> ['not(pred2-p_2(obj1-o obj2-o))', 'not(pred0-p_2(obj2-o obj1-o))', 'pred1-p_1(obj1-o)']
+3: ['pred0-p_2(obj2-o obj1-o)', 'not(pred1-p_1(obj2-o))', 'pred0-p_1(obj2-o obj1-o)', 'not(pred1-p_2(obj2-o))'] -> ['not(pred2-p_1(obj1-o obj2-o))', 'pred1-p_2(obj1-o)', 'not(pred0-p_1(obj2-o obj1-o))']
+4: ['pred0-p_2(obj2-o obj1-o)', 'not(pred1-p_1(obj2-o))', 'pred0-p_1(obj2-o obj1-o)', 'not(pred1-p_2(obj2-o))'] -> ['not(pred0-p_2(obj2-o obj1-o))', 'not(pred2-p_1(obj1-o obj2-o))', 'not(pred2-p_2(obj1-o obj2-o))', 'not(pred0-p_1(obj2-o obj1-o))']
+
+action2-a_obj3-o_obj3-o:
+1: ['pred0-p_1(obj3-o obj3-o)', 'pred0-p_2(obj3-o obj3-o)', 'not(pred1-p_1(obj3-o))', 'not(pred1-p_2(obj3-o))'] -> ['pred1-p_2(obj3-o)', 'pred1-p_1(obj3-o)']
+2: ['pred0-p_1(obj3-o obj3-o)', 'pred0-p_2(obj3-o obj3-o)', 'not(pred1-p_1(obj3-o))', 'not(pred1-p_2(obj3-o))'] -> ['not(pred0-p_2(obj3-o obj3-o))', 'pred1-p_1(obj3-o)', 'not(pred2-p_2(obj3-o obj3-o))']
+3: ['pred0-p_1(obj3-o obj3-o)', 'pred0-p_2(obj3-o obj3-o)', 'not(pred1-p_1(obj3-o))', 'not(pred1-p_2(obj3-o))'] -> ['pred1-p_2(obj3-o)', 'not(pred2-p_1(obj3-o obj3-o))', 'not(pred0-p_1(obj3-o obj3-o))']
+4: ['pred0-p_1(obj3-o obj3-o)', 'pred0-p_2(obj3-o obj3-o)', 'not(pred1-p_1(obj3-o))', 'not(pred1-p_2(obj3-o))'] -> ['not(pred0-p_2(obj3-o obj3-o))', 'not(pred2-p_1(obj3-o obj3-o))', 'not(pred0-p_1(obj3-o obj3-o))', 'not(pred2-p_2(obj3-o obj3-o))']
+
+action1-a_obj2-o_obj1-o:
+
+action2-a2_obj0-o_obj1-o:
+1: ['not(pred1-p_1(obj1-o))', 'pred0-p_2(obj1-o obj0-o)', 'pred0-p_1(obj1-o obj0-o)', 'not(pred1-p_2(obj1-o))'] -> ['pred1-p_1(obj0-o)', 'pred1-p_2(obj0-o)']
+2: ['not(pred1-p_1(obj1-o))', 'pred0-p_2(obj1-o obj0-o)', 'pred0-p_1(obj1-o obj0-o)', 'not(pred1-p_2(obj1-o))'] -> ['pred1-p_1(obj0-o)', 'not(pred2-p_2(obj0-o obj1-o))', 'not(pred0-p_2(obj1-o obj0-o))']
+3: ['not(pred1-p_1(obj1-o))', 'pred0-p_2(obj1-o obj0-o)', 'pred0-p_1(obj1-o obj0-o)', 'not(pred1-p_2(obj1-o))'] -> ['pred1-p_2(obj0-o)', 'not(pred2-p_1(obj0-o obj1-o))', 'not(pred0-p_1(obj1-o obj0-o))']
+4: ['not(pred1-p_1(obj1-o))', 'pred0-p_2(obj1-o obj0-o)', 'pred0-p_1(obj1-o obj0-o)', 'not(pred1-p_2(obj1-o))'] -> ['not(pred2-p_2(obj0-o obj1-o))', 'not(pred0-p_2(obj1-o obj0-o))', 'not(pred2-p_1(obj0-o obj1-o))', 'not(pred0-p_1(obj1-o obj0-o))']
+
+action0-a_obj0-o_obj3-o:
+1: ['not(pred1-p_1(obj3-o))', 'not(pred1-p_2(obj3-o))'] -> ['pred0-p_1(obj0-o obj3-o)', 'not(pred0-p_2(obj0-o obj3-o))', 'pred0-p_2(obj0-o obj3-o)'] / ['pred1-p_2(obj3-o)'] -> ['p_psi()'] / ['pred1-p_1(obj3-o)'] -> ['p_psi()']
+
+action2-a2_obj2-o_obj2-o:
+1: ['not(pred1-p_1(obj2-o))', 'pred0-p_1(obj2-o obj2-o)', 'not(pred1-p_2(obj2-o))', 'pred0-p_2(obj2-o obj2-o)'] -> ['pred1-p_2(obj2-o)', 'pred1-p_1(obj2-o)']
+2: ['not(pred1-p_1(obj2-o))', 'pred0-p_1(obj2-o obj2-o)', 'not(pred1-p_2(obj2-o))', 'pred0-p_2(obj2-o obj2-o)'] -> ['not(pred0-p_2(obj2-o obj2-o))', 'not(pred2-p_2(obj2-o obj2-o))', 'pred1-p_1(obj2-o)']
+3: ['not(pred1-p_1(obj2-o))', 'pred0-p_1(obj2-o obj2-o)', 'not(pred1-p_2(obj2-o))', 'pred0-p_2(obj2-o obj2-o)'] -> ['pred1-p_2(obj2-o)', 'not(pred2-p_1(obj2-o obj2-o))', 'not(pred0-p_1(obj2-o obj2-o))']
+4: ['not(pred1-p_1(obj2-o))', 'pred0-p_1(obj2-o obj2-o)', 'not(pred1-p_2(obj2-o))', 'pred0-p_2(obj2-o obj2-o)'] -> ['not(pred0-p_2(obj2-o obj2-o))', 'not(pred2-p_1(obj2-o obj2-o))', 'not(pred2-p_2(obj2-o obj2-o))', 'not(pred0-p_1(obj2-o obj2-o))']
+
+action1-a2_obj2-o_obj2-o:
+
+action0-a2_obj3-o_obj2-o:
+1: ['not(pred1-p_1(obj2-o))', 'not(pred1-p_2(obj2-o))'] -> ['pred0-p_2(obj3-o obj2-o)', 'pred0-p_1(obj3-o obj2-o)', 'not(pred0-p_2(obj3-o obj2-o))'] / ['pred1-p_2(obj2-o)'] -> ['p_psi()'] / ['pred1-p_1(obj2-o)'] -> ['p_psi()']
+
+action0-a_obj0-o_obj0-o:
+1: ['not(pred1-p_1(obj0-o))', 'not(pred1-p_2(obj0-o))'] -> ['not(pred0-p_2(obj0-o obj0-o))', 'pred0-p_1(obj0-o obj0-o)', 'pred0-p_2(obj0-o obj0-o)'] / ['pred1-p_2(obj0-o)'] -> ['p_psi()'] / ['pred1-p_1(obj0-o)'] -> ['p_psi()']
+
+action3-a2_obj0-o_obj1-o:
+1: ['pred2-p_1(obj1-o obj0-o)', 'pred1-p_2(obj1-o)', 'pred1-p_1(obj1-o)', 'pred2-p_2(obj1-o obj0-o)'] -> ['not(pred1-p_1(obj1-o))', 'not(pred1-p_2(obj1-o))', 'pred2-p_1(obj0-o obj1-o)', 'pred2-p_2(obj0-o obj1-o)']
+2: ['pred2-p_1(obj1-o obj0-o)', 'pred1-p_2(obj1-o)', 'pred1-p_1(obj1-o)', 'pred2-p_2(obj1-o obj0-o)'] -> ['not(pred1-p_1(obj1-o))', 'pred2-p_1(obj0-o obj1-o)', 'pred2-p_2(obj0-o obj1-o)']
+3: ['pred2-p_1(obj1-o obj0-o)', 'pred1-p_2(obj1-o)', 'pred1-p_1(obj1-o)', 'pred2-p_2(obj1-o obj0-o)'] -> ['pred2-p_1(obj0-o obj1-o)', 'not(pred1-p_2(obj1-o))', 'pred2-p_2(obj0-o obj1-o)']
+4: ['pred2-p_1(obj1-o obj0-o)', 'pred1-p_2(obj1-o)', 'pred1-p_1(obj1-o)', 'pred2-p_2(obj1-o obj0-o)'] -> ['pred2-p_1(obj0-o obj1-o)', 'pred2-p_2(obj0-o obj1-o)']
+
+action0-a300_obj0-o_obj0-o:
+1: [] -> ['p_psi()']
+
+action0-a2_obj2-o_obj0-o:
+1: ['not(pred1-p_1(obj0-o))', 'not(pred1-p_2(obj0-o))'] -> ['pred0-p_1(obj2-o obj0-o)', 'not(pred0-p_2(obj2-o obj0-o))', 'pred0-p_2(obj2-o obj0-o)'] / ['pred1-p_2(obj0-o)'] -> ['p_psi()'] / ['pred1-p_1(obj0-o)'] -> ['p_psi()']
+
+action1-a2_obj1-o_obj0-o:
+
+action2-a2_obj1-o_obj1-o:
+1: ['pred0-p_1(obj1-o obj1-o)', 'not(pred1-p_1(obj1-o))', 'not(pred1-p_2(obj1-o))', 'pred0-p_2(obj1-o obj1-o)'] -> ['pred1-p_2(obj1-o)', 'pred1-p_1(obj1-o)']
+2: ['pred0-p_1(obj1-o obj1-o)', 'not(pred1-p_1(obj1-o))', 'not(pred1-p_2(obj1-o))', 'pred0-p_2(obj1-o obj1-o)'] -> ['not(pred0-p_2(obj1-o obj1-o))', 'not(pred2-p_2(obj1-o obj1-o))', 'pred1-p_1(obj1-o)']
+3: ['pred0-p_1(obj1-o obj1-o)', 'not(pred1-p_1(obj1-o))', 'not(pred1-p_2(obj1-o))', 'pred0-p_2(obj1-o obj1-o)'] -> ['not(pred0-p_1(obj1-o obj1-o))', 'not(pred2-p_1(obj1-o obj1-o))', 'pred1-p_2(obj1-o)']
+4: ['pred0-p_1(obj1-o obj1-o)', 'not(pred1-p_1(obj1-o))', 'not(pred1-p_2(obj1-o))', 'pred0-p_2(obj1-o obj1-o)'] -> ['not(pred0-p_1(obj1-o obj1-o))', 'not(pred0-p_2(obj1-o obj1-o))', 'not(pred2-p_1(obj1-o obj1-o))', 'not(pred2-p_2(obj1-o obj1-o))']
+
+action0-a_obj1-o_obj0-o:
+1: ['not(pred1-p_1(obj0-o))', 'not(pred1-p_2(obj0-o))'] -> ['pred0-p_2(obj1-o obj0-o)', 'pred0-p_1(obj1-o obj0-o)', 'not(pred0-p_2(obj1-o obj0-o))'] / ['pred1-p_2(obj0-o)'] -> ['p_psi()'] / ['pred1-p_1(obj0-o)'] -> ['p_psi()']
+
+action3-a2_obj1-o_obj1-o:
+1: ['pred2-p_2(obj1-o obj1-o)', 'pred2-p_1(obj1-o obj1-o)', 'pred1-p_1(obj1-o)', 'pred1-p_2(obj1-o)'] -> ['pred2-p_2(obj1-o obj1-o)', 'not(pred1-p_1(obj1-o))', 'not(pred1-p_2(obj1-o))', 'pred2-p_1(obj1-o obj1-o)']
+2: ['pred2-p_2(obj1-o obj1-o)', 'pred2-p_1(obj1-o obj1-o)', 'pred1-p_1(obj1-o)', 'pred1-p_2(obj1-o)'] -> ['not(pred1-p_1(obj1-o))', 'pred2-p_2(obj1-o obj1-o)', 'pred2-p_1(obj1-o obj1-o)']
+3: ['pred2-p_2(obj1-o obj1-o)', 'pred2-p_1(obj1-o obj1-o)', 'pred1-p_1(obj1-o)', 'pred1-p_2(obj1-o)'] -> ['not(pred1-p_2(obj1-o))', 'pred2-p_2(obj1-o obj1-o)', 'pred2-p_1(obj1-o obj1-o)']
+4: ['pred2-p_2(obj1-o obj1-o)', 'pred2-p_1(obj1-o obj1-o)', 'pred1-p_1(obj1-o)', 'pred1-p_2(obj1-o)'] -> ['pred2-p_2(obj1-o obj1-o)', 'pred2-p_1(obj1-o obj1-o)']
+
+action2-a2_obj2-o_obj1-o:
+1: ['not(pred1-p_1(obj1-o))', 'pred0-p_1(obj1-o obj2-o)', 'not(pred1-p_2(obj1-o))', 'pred0-p_2(obj1-o obj2-o)'] -> ['pred1-p_2(obj2-o)', 'pred1-p_1(obj2-o)']
+2: ['not(pred1-p_1(obj1-o))', 'pred0-p_1(obj1-o obj2-o)', 'not(pred1-p_2(obj1-o))', 'pred0-p_2(obj1-o obj2-o)'] -> ['not(pred0-p_2(obj1-o obj2-o))', 'pred1-p_1(obj2-o)', 'not(pred2-p_2(obj2-o obj1-o))']
+3: ['not(pred1-p_1(obj1-o))', 'pred0-p_1(obj1-o obj2-o)', 'not(pred1-p_2(obj1-o))', 'pred0-p_2(obj1-o obj2-o)'] -> ['pred1-p_2(obj2-o)', 'not(pred2-p_1(obj2-o obj1-o))', 'not(pred0-p_1(obj1-o obj2-o))']
+4: ['not(pred1-p_1(obj1-o))', 'pred0-p_1(obj1-o obj2-o)', 'not(pred1-p_2(obj1-o))', 'pred0-p_2(obj1-o obj2-o)'] -> ['not(pred0-p_2(obj1-o obj2-o))', 'not(pred2-p_1(obj2-o obj1-o))', 'not(pred0-p_1(obj1-o obj2-o))', 'not(pred2-p_2(obj2-o obj1-o))']
+
+action3-a_obj3-o_obj3-o:
+1: ['pred2-p_2(obj3-o obj3-o)', 'pred2-p_1(obj3-o obj3-o)', 'pred1-p_1(obj3-o)', 'pred1-p_2(obj3-o)'] -> ['pred2-p_2(obj3-o obj3-o)', 'not(pred1-p_1(obj3-o))', 'pred2-p_1(obj3-o obj3-o)', 'not(pred1-p_2(obj3-o))']
+2: ['pred2-p_2(obj3-o obj3-o)', 'pred2-p_1(obj3-o obj3-o)', 'pred1-p_1(obj3-o)', 'pred1-p_2(obj3-o)'] -> ['pred2-p_2(obj3-o obj3-o)', 'not(pred1-p_1(obj3-o))', 'pred2-p_1(obj3-o obj3-o)']
+3: ['pred2-p_2(obj3-o obj3-o)', 'pred2-p_1(obj3-o obj3-o)', 'pred1-p_1(obj3-o)', 'pred1-p_2(obj3-o)'] -> ['pred2-p_2(obj3-o obj3-o)', 'pred2-p_1(obj3-o obj3-o)', 'not(pred1-p_2(obj3-o))']
+4: ['pred2-p_2(obj3-o obj3-o)', 'pred2-p_1(obj3-o obj3-o)', 'pred1-p_1(obj3-o)', 'pred1-p_2(obj3-o)'] -> ['pred2-p_2(obj3-o obj3-o)', 'pred2-p_1(obj3-o obj3-o)']
+
+action3-a2_obj2-o_obj1-o:
+1: ['pred1-p_1(obj1-o)', 'pred2-p_2(obj1-o obj2-o)', 'pred2-p_1(obj1-o obj2-o)', 'pred1-p_2(obj1-o)'] -> ['pred2-p_2(obj2-o obj1-o)', 'not(pred1-p_1(obj1-o))', 'not(pred1-p_2(obj1-o))', 'pred2-p_1(obj2-o obj1-o)']
+2: ['pred1-p_1(obj1-o)', 'pred2-p_2(obj1-o obj2-o)', 'pred2-p_1(obj1-o obj2-o)', 'pred1-p_2(obj1-o)'] -> ['pred2-p_2(obj2-o obj1-o)', 'not(pred1-p_1(obj1-o))', 'pred2-p_1(obj2-o obj1-o)']
+3: ['pred1-p_1(obj1-o)', 'pred2-p_2(obj1-o obj2-o)', 'pred2-p_1(obj1-o obj2-o)', 'pred1-p_2(obj1-o)'] -> ['pred2-p_2(obj2-o obj1-o)', 'not(pred1-p_2(obj1-o))', 'pred2-p_1(obj2-o obj1-o)']
+4: ['pred1-p_1(obj1-o)', 'pred2-p_2(obj1-o obj2-o)', 'pred2-p_1(obj1-o obj2-o)', 'pred1-p_2(obj1-o)'] -> ['pred2-p_2(obj2-o obj1-o)', 'pred2-p_1(obj2-o obj1-o)']
+
+action2-a2_obj1-o_obj3-o:
+1: ['not(pred1-p_2(obj3-o))', 'not(pred1-p_1(obj3-o))', 'pred0-p_2(obj3-o obj1-o)', 'pred0-p_1(obj3-o obj1-o)'] -> ['pred1-p_2(obj1-o)', 'pred1-p_1(obj1-o)']
+2: ['not(pred1-p_2(obj3-o))', 'not(pred1-p_1(obj3-o))', 'pred0-p_2(obj3-o obj1-o)', 'pred0-p_1(obj3-o obj1-o)'] -> ['not(pred0-p_2(obj3-o obj1-o))', 'not(pred2-p_2(obj1-o obj3-o))', 'pred1-p_1(obj1-o)']
+3: ['not(pred1-p_2(obj3-o))', 'not(pred1-p_1(obj3-o))', 'pred0-p_2(obj3-o obj1-o)', 'pred0-p_1(obj3-o obj1-o)'] -> ['not(pred0-p_1(obj3-o obj1-o))', 'not(pred2-p_1(obj1-o obj3-o))', 'pred1-p_2(obj1-o)']
+4: ['not(pred1-p_2(obj3-o))', 'not(pred1-p_1(obj3-o))', 'pred0-p_2(obj3-o obj1-o)', 'pred0-p_1(obj3-o obj1-o)'] -> ['not(pred0-p_1(obj3-o obj1-o))', 'not(pred0-p_2(obj3-o obj1-o))', 'not(pred2-p_1(obj1-o obj3-o))', 'not(pred2-p_2(obj1-o obj3-o))']
+
+action1-a2_obj1-o_obj3-o:
+
+action1-a_obj0-o_obj3-o:
+
+action0-a_obj2-o_obj2-o:
+1: ['not(pred1-p_1(obj2-o))', 'not(pred1-p_2(obj2-o))'] -> ['not(pred0-p_2(obj2-o obj2-o))', 'pred0-p_1(obj2-o obj2-o)', 'pred0-p_2(obj2-o obj2-o)'] / ['pred1-p_2(obj2-o)'] -> ['p_psi()'] / ['pred1-p_1(obj2-o)'] -> ['p_psi()']
+
+action3-a_obj3-o_obj0-o:
+1: ['pred1-p_1(obj0-o)', 'pred2-p_2(obj0-o obj3-o)', 'pred2-p_1(obj0-o obj3-o)', 'pred1-p_2(obj0-o)'] -> ['not(pred1-p_1(obj0-o))', 'not(pred1-p_2(obj0-o))', 'pred2-p_2(obj3-o obj0-o)', 'pred2-p_1(obj3-o obj0-o)']
+2: ['pred1-p_1(obj0-o)', 'pred2-p_2(obj0-o obj3-o)', 'pred2-p_1(obj0-o obj3-o)', 'pred1-p_2(obj0-o)'] -> ['not(pred1-p_1(obj0-o))', 'pred2-p_2(obj3-o obj0-o)', 'pred2-p_1(obj3-o obj0-o)']
+3: ['pred1-p_1(obj0-o)', 'pred2-p_2(obj0-o obj3-o)', 'pred2-p_1(obj0-o obj3-o)', 'pred1-p_2(obj0-o)'] -> ['pred2-p_1(obj3-o obj0-o)', 'not(pred1-p_2(obj0-o))', 'pred2-p_2(obj3-o obj0-o)']
+4: ['pred1-p_1(obj0-o)', 'pred2-p_2(obj0-o obj3-o)', 'pred2-p_1(obj0-o obj3-o)', 'pred1-p_2(obj0-o)'] -> ['pred2-p_1(obj3-o obj0-o)', 'pred2-p_2(obj3-o obj0-o)']
+
+action2-a2_obj2-o_obj3-o:
+1: ['pred0-p_2(obj3-o obj2-o)', 'not(pred1-p_1(obj3-o))', 'pred0-p_1(obj3-o obj2-o)', 'not(pred1-p_2(obj3-o))'] -> ['pred1-p_2(obj2-o)', 'pred1-p_1(obj2-o)']
+2: ['pred0-p_2(obj3-o obj2-o)', 'not(pred1-p_1(obj3-o))', 'pred0-p_1(obj3-o obj2-o)', 'not(pred1-p_2(obj3-o))'] -> ['not(pred2-p_2(obj2-o obj3-o))', 'pred1-p_1(obj2-o)', 'not(pred0-p_2(obj3-o obj2-o))']
+3: ['pred0-p_2(obj3-o obj2-o)', 'not(pred1-p_1(obj3-o))', 'pred0-p_1(obj3-o obj2-o)', 'not(pred1-p_2(obj3-o))'] -> ['not(pred2-p_1(obj2-o obj3-o))', 'not(pred0-p_1(obj3-o obj2-o))', 'pred1-p_2(obj2-o)']
+4: ['pred0-p_2(obj3-o obj2-o)', 'not(pred1-p_1(obj3-o))', 'pred0-p_1(obj3-o obj2-o)', 'not(pred1-p_2(obj3-o))'] -> ['not(pred2-p_1(obj2-o obj3-o))', 'not(pred2-p_2(obj2-o obj3-o))', 'not(pred0-p_1(obj3-o obj2-o))', 'not(pred0-p_2(obj3-o obj2-o))']
+
+action3-a2_obj3-o_obj3-o:
+1: ['pred2-p_2(obj3-o obj3-o)', 'pred2-p_1(obj3-o obj3-o)', 'pred1-p_1(obj3-o)', 'pred1-p_2(obj3-o)'] -> ['pred2-p_2(obj3-o obj3-o)', 'not(pred1-p_1(obj3-o))', 'pred2-p_1(obj3-o obj3-o)', 'not(pred1-p_2(obj3-o))']
+2: ['pred2-p_2(obj3-o obj3-o)', 'pred2-p_1(obj3-o obj3-o)', 'pred1-p_1(obj3-o)', 'pred1-p_2(obj3-o)'] -> ['pred2-p_2(obj3-o obj3-o)', 'not(pred1-p_1(obj3-o))', 'pred2-p_1(obj3-o obj3-o)']
+3: ['pred2-p_2(obj3-o obj3-o)', 'pred2-p_1(obj3-o obj3-o)', 'pred1-p_1(obj3-o)', 'pred1-p_2(obj3-o)'] -> ['pred2-p_2(obj3-o obj3-o)', 'pred2-p_1(obj3-o obj3-o)', 'not(pred1-p_2(obj3-o))']
+4: ['pred2-p_2(obj3-o obj3-o)', 'pred2-p_1(obj3-o obj3-o)', 'pred1-p_1(obj3-o)', 'pred1-p_2(obj3-o)'] -> ['pred2-p_2(obj3-o obj3-o)', 'pred2-p_1(obj3-o obj3-o)']
+
+action2-a_obj0-o_obj2-o:
+1: ['pred0-p_1(obj2-o obj0-o)', 'not(pred1-p_1(obj2-o))', 'pred0-p_2(obj2-o obj0-o)', 'not(pred1-p_2(obj2-o))'] -> ['pred1-p_1(obj0-o)', 'pred1-p_2(obj0-o)']
+2: ['pred0-p_1(obj2-o obj0-o)', 'not(pred1-p_1(obj2-o))', 'pred0-p_2(obj2-o obj0-o)', 'not(pred1-p_2(obj2-o))'] -> ['pred1-p_1(obj0-o)', 'not(pred2-p_2(obj0-o obj2-o))', 'not(pred0-p_2(obj2-o obj0-o))']
+3: ['pred0-p_1(obj2-o obj0-o)', 'not(pred1-p_1(obj2-o))', 'pred0-p_2(obj2-o obj0-o)', 'not(pred1-p_2(obj2-o))'] -> ['not(pred0-p_1(obj2-o obj0-o))', 'pred1-p_2(obj0-o)', 'not(pred2-p_1(obj0-o obj2-o))']
+4: ['pred0-p_1(obj2-o obj0-o)', 'not(pred1-p_1(obj2-o))', 'pred0-p_2(obj2-o obj0-o)', 'not(pred1-p_2(obj2-o))'] -> ['not(pred0-p_1(obj2-o obj0-o))', 'not(pred2-p_2(obj0-o obj2-o))', 'not(pred0-p_2(obj2-o obj0-o))', 'not(pred2-p_1(obj0-o obj2-o))']
+
+action0-a2_obj2-o_obj1-o:
+1: ['not(pred1-p_1(obj1-o))', 'not(pred1-p_2(obj1-o))'] -> ['pred0-p_2(obj2-o obj1-o)', 'pred0-p_1(obj2-o obj1-o)', 'not(pred0-p_2(obj2-o obj1-o))'] / ['pred1-p_2(obj1-o)'] -> ['p_psi()'] / ['pred1-p_1(obj1-o)'] -> ['p_psi()']
+
+action1-a_obj2-o_obj2-o:
+
+action2-a_obj1-o_obj1-o:
+1: ['pred0-p_1(obj1-o obj1-o)', 'not(pred1-p_1(obj1-o))', 'not(pred1-p_2(obj1-o))', 'pred0-p_2(obj1-o obj1-o)'] -> ['pred1-p_2(obj1-o)', 'pred1-p_1(obj1-o)']
+2: ['pred0-p_1(obj1-o obj1-o)', 'not(pred1-p_1(obj1-o))', 'not(pred1-p_2(obj1-o))', 'pred0-p_2(obj1-o obj1-o)'] -> ['not(pred0-p_2(obj1-o obj1-o))', 'not(pred2-p_2(obj1-o obj1-o))', 'pred1-p_1(obj1-o)']
+3: ['pred0-p_1(obj1-o obj1-o)', 'not(pred1-p_1(obj1-o))', 'not(pred1-p_2(obj1-o))', 'pred0-p_2(obj1-o obj1-o)'] -> ['not(pred0-p_1(obj1-o obj1-o))', 'not(pred2-p_1(obj1-o obj1-o))', 'pred1-p_2(obj1-o)']
+4: ['pred0-p_1(obj1-o obj1-o)', 'not(pred1-p_1(obj1-o))', 'not(pred1-p_2(obj1-o))', 'pred0-p_2(obj1-o obj1-o)'] -> ['not(pred0-p_1(obj1-o obj1-o))', 'not(pred0-p_2(obj1-o obj1-o))', 'not(pred2-p_1(obj1-o obj1-o))', 'not(pred2-p_2(obj1-o obj1-o))']
+
+action3-a2_obj0-o_obj3-o:
+1: ['pred2-p_1(obj3-o obj0-o)', 'pred1-p_2(obj3-o)', 'pred2-p_2(obj3-o obj0-o)', 'pred1-p_1(obj3-o)'] -> ['pred2-p_2(obj0-o obj3-o)', 'not(pred1-p_1(obj3-o))', 'pred2-p_1(obj0-o obj3-o)', 'not(pred1-p_2(obj3-o))']
+2: ['pred2-p_1(obj3-o obj0-o)', 'pred1-p_2(obj3-o)', 'pred2-p_2(obj3-o obj0-o)', 'pred1-p_1(obj3-o)'] -> ['pred2-p_2(obj0-o obj3-o)', 'not(pred1-p_1(obj3-o))', 'pred2-p_1(obj0-o obj3-o)']
+3: ['pred2-p_1(obj3-o obj0-o)', 'pred1-p_2(obj3-o)', 'pred2-p_2(obj3-o obj0-o)', 'pred1-p_1(obj3-o)'] -> ['pred2-p_2(obj0-o obj3-o)', 'pred2-p_1(obj0-o obj3-o)', 'not(pred1-p_2(obj3-o))']
+4: ['pred2-p_1(obj3-o obj0-o)', 'pred1-p_2(obj3-o)', 'pred2-p_2(obj3-o obj0-o)', 'pred1-p_1(obj3-o)'] -> ['pred2-p_2(obj0-o obj3-o)', 'pred2-p_1(obj0-o obj3-o)']
+
+action3-a2_obj2-o_obj2-o:
+1: ['pred1-p_2(obj2-o)', 'pred2-p_2(obj2-o obj2-o)', 'pred2-p_1(obj2-o obj2-o)', 'pred1-p_1(obj2-o)'] -> ['not(pred1-p_1(obj2-o))', 'pred2-p_2(obj2-o obj2-o)', 'pred2-p_1(obj2-o obj2-o)', 'not(pred1-p_2(obj2-o))']
+2: ['pred1-p_2(obj2-o)', 'pred2-p_2(obj2-o obj2-o)', 'pred2-p_1(obj2-o obj2-o)', 'pred1-p_1(obj2-o)'] -> ['not(pred1-p_1(obj2-o))', 'pred2-p_2(obj2-o obj2-o)', 'pred2-p_1(obj2-o obj2-o)']
+3: ['pred1-p_2(obj2-o)', 'pred2-p_2(obj2-o obj2-o)', 'pred2-p_1(obj2-o obj2-o)', 'pred1-p_1(obj2-o)'] -> ['pred2-p_2(obj2-o obj2-o)', 'pred2-p_1(obj2-o obj2-o)', 'not(pred1-p_2(obj2-o))']
+4: ['pred1-p_2(obj2-o)', 'pred2-p_2(obj2-o obj2-o)', 'pred2-p_1(obj2-o obj2-o)', 'pred1-p_1(obj2-o)'] -> ['pred2-p_2(obj2-o obj2-o)', 'pred2-p_1(obj2-o obj2-o)']
+
+action3-a2_obj1-o_obj3-o:
+1: ['pred1-p_2(obj3-o)', 'pred1-p_1(obj3-o)', 'pred2-p_2(obj3-o obj1-o)', 'pred2-p_1(obj3-o obj1-o)'] -> ['not(pred1-p_1(obj3-o))', 'pred2-p_2(obj1-o obj3-o)', 'pred2-p_1(obj1-o obj3-o)', 'not(pred1-p_2(obj3-o))']
+2: ['pred1-p_2(obj3-o)', 'pred1-p_1(obj3-o)', 'pred2-p_2(obj3-o obj1-o)', 'pred2-p_1(obj3-o obj1-o)'] -> ['not(pred1-p_1(obj3-o))', 'pred2-p_2(obj1-o obj3-o)', 'pred2-p_1(obj1-o obj3-o)']
+3: ['pred1-p_2(obj3-o)', 'pred1-p_1(obj3-o)', 'pred2-p_2(obj3-o obj1-o)', 'pred2-p_1(obj3-o obj1-o)'] -> ['pred2-p_2(obj1-o obj3-o)', 'pred2-p_1(obj1-o obj3-o)', 'not(pred1-p_2(obj3-o))']
+4: ['pred1-p_2(obj3-o)', 'pred1-p_1(obj3-o)', 'pred2-p_2(obj3-o obj1-o)', 'pred2-p_1(obj3-o obj1-o)'] -> ['pred2-p_2(obj1-o obj3-o)', 'pred2-p_1(obj1-o obj3-o)']
+
+action3-a2_obj3-o_obj2-o:
+1: ['pred1-p_2(obj2-o)', 'pred2-p_2(obj2-o obj3-o)', 'pred1-p_1(obj2-o)', 'pred2-p_1(obj2-o obj3-o)'] -> ['not(pred1-p_1(obj2-o))', 'pred2-p_2(obj3-o obj2-o)', 'pred2-p_1(obj3-o obj2-o)', 'not(pred1-p_2(obj2-o))']
+2: ['pred1-p_2(obj2-o)', 'pred2-p_2(obj2-o obj3-o)', 'pred1-p_1(obj2-o)', 'pred2-p_1(obj2-o obj3-o)'] -> ['not(pred1-p_1(obj2-o))', 'pred2-p_2(obj3-o obj2-o)', 'pred2-p_1(obj3-o obj2-o)']
+3: ['pred1-p_2(obj2-o)', 'pred2-p_2(obj2-o obj3-o)', 'pred1-p_1(obj2-o)', 'pred2-p_1(obj2-o obj3-o)'] -> ['pred2-p_1(obj3-o obj2-o)', 'pred2-p_2(obj3-o obj2-o)', 'not(pred1-p_2(obj2-o))']
+4: ['pred1-p_2(obj2-o)', 'pred2-p_2(obj2-o obj3-o)', 'pred1-p_1(obj2-o)', 'pred2-p_1(obj2-o obj3-o)'] -> ['pred2-p_1(obj3-o obj2-o)', 'pred2-p_2(obj3-o obj2-o)']
+
+action2-a_obj3-o_obj0-o:
+1: ['not(pred1-p_1(obj0-o))', 'not(pred1-p_2(obj0-o))', 'pred0-p_1(obj0-o obj3-o)', 'pred0-p_2(obj0-o obj3-o)'] -> ['pred1-p_2(obj3-o)', 'pred1-p_1(obj3-o)']
+2: ['not(pred1-p_1(obj0-o))', 'not(pred1-p_2(obj0-o))', 'pred0-p_1(obj0-o obj3-o)', 'pred0-p_2(obj0-o obj3-o)'] -> ['not(pred0-p_2(obj0-o obj3-o))', 'pred1-p_1(obj3-o)', 'not(pred2-p_2(obj3-o obj0-o))']
+3: ['not(pred1-p_1(obj0-o))', 'not(pred1-p_2(obj0-o))', 'pred0-p_1(obj0-o obj3-o)', 'pred0-p_2(obj0-o obj3-o)'] -> ['not(pred2-p_1(obj3-o obj0-o))', 'pred1-p_2(obj3-o)', 'not(pred0-p_1(obj0-o obj3-o))']
+4: ['not(pred1-p_1(obj0-o))', 'not(pred1-p_2(obj0-o))', 'pred0-p_1(obj0-o obj3-o)', 'pred0-p_2(obj0-o obj3-o)'] -> ['not(pred2-p_1(obj3-o obj0-o))', 'not(pred2-p_2(obj3-o obj0-o))', 'not(pred0-p_2(obj0-o obj3-o))', 'not(pred0-p_1(obj0-o obj3-o))']
+
+action3-a_obj0-o_obj1-o:
+1: ['pred2-p_1(obj1-o obj0-o)', 'pred1-p_2(obj1-o)', 'pred1-p_1(obj1-o)', 'pred2-p_2(obj1-o obj0-o)'] -> ['not(pred1-p_1(obj1-o))', 'not(pred1-p_2(obj1-o))', 'pred2-p_1(obj0-o obj1-o)', 'pred2-p_2(obj0-o obj1-o)']
+2: ['pred2-p_1(obj1-o obj0-o)', 'pred1-p_2(obj1-o)', 'pred1-p_1(obj1-o)', 'pred2-p_2(obj1-o obj0-o)'] -> ['not(pred1-p_1(obj1-o))', 'pred2-p_1(obj0-o obj1-o)', 'pred2-p_2(obj0-o obj1-o)']
+3: ['pred2-p_1(obj1-o obj0-o)', 'pred1-p_2(obj1-o)', 'pred1-p_1(obj1-o)', 'pred2-p_2(obj1-o obj0-o)'] -> ['pred2-p_1(obj0-o obj1-o)', 'not(pred1-p_2(obj1-o))', 'pred2-p_2(obj0-o obj1-o)']
+4: ['pred2-p_1(obj1-o obj0-o)', 'pred1-p_2(obj1-o)', 'pred1-p_1(obj1-o)', 'pred2-p_2(obj1-o obj0-o)'] -> ['pred2-p_1(obj0-o obj1-o)', 'pred2-p_2(obj0-o obj1-o)']
+
+action3-a2_obj0-o_obj0-o:
+1: ['pred2-p_1(obj0-o obj0-o)', 'pred2-p_2(obj0-o obj0-o)', 'pred1-p_1(obj0-o)', 'pred1-p_2(obj0-o)'] -> ['not(pred1-p_1(obj0-o))', 'not(pred1-p_2(obj0-o))', 'pred2-p_1(obj0-o obj0-o)', 'pred2-p_2(obj0-o obj0-o)']
+2: ['pred2-p_1(obj0-o obj0-o)', 'pred2-p_2(obj0-o obj0-o)', 'pred1-p_1(obj0-o)', 'pred1-p_2(obj0-o)'] -> ['not(pred1-p_1(obj0-o))', 'pred2-p_2(obj0-o obj0-o)', 'pred2-p_1(obj0-o obj0-o)']
+3: ['pred2-p_1(obj0-o obj0-o)', 'pred2-p_2(obj0-o obj0-o)', 'pred1-p_1(obj0-o)', 'pred1-p_2(obj0-o)'] -> ['pred2-p_1(obj0-o obj0-o)', 'not(pred1-p_2(obj0-o))', 'pred2-p_2(obj0-o obj0-o)']
+4: ['pred2-p_1(obj0-o obj0-o)', 'pred2-p_2(obj0-o obj0-o)', 'pred1-p_1(obj0-o)', 'pred1-p_2(obj0-o)'] -> ['pred2-p_1(obj0-o obj0-o)', 'pred2-p_2(obj0-o obj0-o)']
+
+action1-a_obj3-o_obj2-o:
+
+action3-a_obj1-o_obj2-o:
+1: ['pred2-p_2(obj2-o obj1-o)', 'pred2-p_1(obj2-o obj1-o)', 'pred1-p_2(obj2-o)', 'pred1-p_1(obj2-o)'] -> ['not(pred1-p_1(obj2-o))', 'pred2-p_2(obj1-o obj2-o)', 'pred2-p_1(obj1-o obj2-o)', 'not(pred1-p_2(obj2-o))']
+2: ['pred2-p_2(obj2-o obj1-o)', 'pred2-p_1(obj2-o obj1-o)', 'pred1-p_2(obj2-o)', 'pred1-p_1(obj2-o)'] -> ['not(pred1-p_1(obj2-o))', 'pred2-p_2(obj1-o obj2-o)', 'pred2-p_1(obj1-o obj2-o)']
+3: ['pred2-p_2(obj2-o obj1-o)', 'pred2-p_1(obj2-o obj1-o)', 'pred1-p_2(obj2-o)', 'pred1-p_1(obj2-o)'] -> ['pred2-p_2(obj1-o obj2-o)', 'pred2-p_1(obj1-o obj2-o)', 'not(pred1-p_2(obj2-o))']
+4: ['pred2-p_2(obj2-o obj1-o)', 'pred2-p_1(obj2-o obj1-o)', 'pred1-p_2(obj2-o)', 'pred1-p_1(obj2-o)'] -> ['pred2-p_2(obj1-o obj2-o)', 'pred2-p_1(obj1-o obj2-o)']
+
+action1-a2_obj0-o_obj3-o:
+
+action1-a_obj3-o_obj1-o:
+
+action0-a300_obj2-o_obj1-o:
+1: [] -> ['p_psi()']
+
+action1-a_obj1-o_obj1-o:
+
+action2-a_obj1-o_obj0-o:
+1: ['not(pred1-p_1(obj0-o))', 'pred0-p_1(obj0-o obj1-o)', 'not(pred1-p_2(obj0-o))', 'pred0-p_2(obj0-o obj1-o)'] -> ['pred1-p_2(obj1-o)', 'pred1-p_1(obj1-o)']
+2: ['not(pred1-p_1(obj0-o))', 'pred0-p_1(obj0-o obj1-o)', 'not(pred1-p_2(obj0-o))', 'pred0-p_2(obj0-o obj1-o)'] -> ['not(pred2-p_2(obj1-o obj0-o))', 'not(pred0-p_2(obj0-o obj1-o))', 'pred1-p_1(obj1-o)']
+3: ['not(pred1-p_1(obj0-o))', 'pred0-p_1(obj0-o obj1-o)', 'not(pred1-p_2(obj0-o))', 'pred0-p_2(obj0-o obj1-o)'] -> ['pred1-p_2(obj1-o)', 'not(pred2-p_1(obj1-o obj0-o))', 'not(pred0-p_1(obj0-o obj1-o))']
+4: ['not(pred1-p_1(obj0-o))', 'pred0-p_1(obj0-o obj1-o)', 'not(pred1-p_2(obj0-o))', 'pred0-p_2(obj0-o obj1-o)'] -> ['not(pred2-p_2(obj1-o obj0-o))', 'not(pred0-p_2(obj0-o obj1-o))', 'not(pred2-p_1(obj1-o obj0-o))', 'not(pred0-p_1(obj0-o obj1-o))']
+
+action0-a2_obj0-o_obj2-o:
+1: ['not(pred1-p_1(obj2-o))', 'not(pred1-p_2(obj2-o))'] -> ['pred0-p_1(obj0-o obj2-o)', 'pred0-p_2(obj0-o obj2-o)', 'not(pred0-p_2(obj0-o obj2-o))'] / ['pred1-p_2(obj2-o)'] -> ['p_psi()'] / ['pred1-p_1(obj2-o)'] -> ['p_psi()']
+
+action3-a_obj0-o_obj3-o:
+1: ['pred2-p_1(obj3-o obj0-o)', 'pred1-p_2(obj3-o)', 'pred2-p_2(obj3-o obj0-o)', 'pred1-p_1(obj3-o)'] -> ['pred2-p_2(obj0-o obj3-o)', 'not(pred1-p_1(obj3-o))', 'pred2-p_1(obj0-o obj3-o)', 'not(pred1-p_2(obj3-o))']
+2: ['pred2-p_1(obj3-o obj0-o)', 'pred1-p_2(obj3-o)', 'pred2-p_2(obj3-o obj0-o)', 'pred1-p_1(obj3-o)'] -> ['pred2-p_2(obj0-o obj3-o)', 'not(pred1-p_1(obj3-o))', 'pred2-p_1(obj0-o obj3-o)']
+3: ['pred2-p_1(obj3-o obj0-o)', 'pred1-p_2(obj3-o)', 'pred2-p_2(obj3-o obj0-o)', 'pred1-p_1(obj3-o)'] -> ['pred2-p_2(obj0-o obj3-o)', 'pred2-p_1(obj0-o obj3-o)', 'not(pred1-p_2(obj3-o))']
+4: ['pred2-p_1(obj3-o obj0-o)', 'pred1-p_2(obj3-o)', 'pred2-p_2(obj3-o obj0-o)', 'pred1-p_1(obj3-o)'] -> ['pred2-p_2(obj0-o obj3-o)', 'pred2-p_1(obj0-o obj3-o)']
+
+action2-a2_obj0-o_obj0-o:
+1: ['not(pred1-p_1(obj0-o))', 'not(pred1-p_2(obj0-o))', 'pred0-p_1(obj0-o obj0-o)', 'pred0-p_2(obj0-o obj0-o)'] -> ['pred1-p_1(obj0-o)', 'pred1-p_2(obj0-o)']
+2: ['not(pred1-p_1(obj0-o))', 'not(pred1-p_2(obj0-o))', 'pred0-p_1(obj0-o obj0-o)', 'pred0-p_2(obj0-o obj0-o)'] -> ['pred1-p_1(obj0-o)', 'not(pred0-p_2(obj0-o obj0-o))', 'not(pred2-p_2(obj0-o obj0-o))']
+3: ['not(pred1-p_1(obj0-o))', 'not(pred1-p_2(obj0-o))', 'pred0-p_1(obj0-o obj0-o)', 'pred0-p_2(obj0-o obj0-o)'] -> ['not(pred2-p_1(obj0-o obj0-o))', 'not(pred0-p_1(obj0-o obj0-o))', 'pred1-p_2(obj0-o)']
+4: ['not(pred1-p_1(obj0-o))', 'not(pred1-p_2(obj0-o))', 'pred0-p_1(obj0-o obj0-o)', 'pred0-p_2(obj0-o obj0-o)'] -> ['not(pred2-p_1(obj0-o obj0-o))', 'not(pred0-p_2(obj0-o obj0-o))', 'not(pred0-p_1(obj0-o obj0-o))', 'not(pred2-p_2(obj0-o obj0-o))']
+
+action2-a_obj1-o_obj3-o:
+1: ['not(pred1-p_2(obj3-o))', 'not(pred1-p_1(obj3-o))', 'pred0-p_2(obj3-o obj1-o)', 'pred0-p_1(obj3-o obj1-o)'] -> ['pred1-p_2(obj1-o)', 'pred1-p_1(obj1-o)']
+2: ['not(pred1-p_2(obj3-o))', 'not(pred1-p_1(obj3-o))', 'pred0-p_2(obj3-o obj1-o)', 'pred0-p_1(obj3-o obj1-o)'] -> ['not(pred0-p_2(obj3-o obj1-o))', 'not(pred2-p_2(obj1-o obj3-o))', 'pred1-p_1(obj1-o)']
+3: ['not(pred1-p_2(obj3-o))', 'not(pred1-p_1(obj3-o))', 'pred0-p_2(obj3-o obj1-o)', 'pred0-p_1(obj3-o obj1-o)'] -> ['not(pred0-p_1(obj3-o obj1-o))', 'not(pred2-p_1(obj1-o obj3-o))', 'pred1-p_2(obj1-o)']
+4: ['not(pred1-p_2(obj3-o))', 'not(pred1-p_1(obj3-o))', 'pred0-p_2(obj3-o obj1-o)', 'pred0-p_1(obj3-o obj1-o)'] -> ['not(pred0-p_1(obj3-o obj1-o))', 'not(pred0-p_2(obj3-o obj1-o))', 'not(pred2-p_1(obj1-o obj3-o))', 'not(pred2-p_2(obj1-o obj3-o))']
+
+action0-a2_obj0-o_obj3-o:
+1: ['not(pred1-p_1(obj3-o))', 'not(pred1-p_2(obj3-o))'] -> ['pred0-p_1(obj0-o obj3-o)', 'not(pred0-p_2(obj0-o obj3-o))', 'pred0-p_2(obj0-o obj3-o)'] / ['pred1-p_2(obj3-o)'] -> ['p_psi()'] / ['pred1-p_1(obj3-o)'] -> ['p_psi()']
+
+action0-a_obj3-o_obj0-o:
+1: ['not(pred1-p_1(obj0-o))', 'not(pred1-p_2(obj0-o))'] -> ['not(pred0-p_2(obj3-o obj0-o))', 'pred0-p_1(obj3-o obj0-o)', 'pred0-p_2(obj3-o obj0-o)'] / ['pred1-p_2(obj0-o)'] -> ['p_psi()'] / ['pred1-p_1(obj0-o)'] -> ['p_psi()']
+
+action2-a2_obj1-o_obj2-o:
+1: ['pred0-p_2(obj2-o obj1-o)', 'not(pred1-p_1(obj2-o))', 'pred0-p_1(obj2-o obj1-o)', 'not(pred1-p_2(obj2-o))'] -> ['pred1-p_2(obj1-o)', 'pred1-p_1(obj1-o)']
+2: ['pred0-p_2(obj2-o obj1-o)', 'not(pred1-p_1(obj2-o))', 'pred0-p_1(obj2-o obj1-o)', 'not(pred1-p_2(obj2-o))'] -> ['not(pred2-p_2(obj1-o obj2-o))', 'not(pred0-p_2(obj2-o obj1-o))', 'pred1-p_1(obj1-o)']
+3: ['pred0-p_2(obj2-o obj1-o)', 'not(pred1-p_1(obj2-o))', 'pred0-p_1(obj2-o obj1-o)', 'not(pred1-p_2(obj2-o))'] -> ['not(pred2-p_1(obj1-o obj2-o))', 'pred1-p_2(obj1-o)', 'not(pred0-p_1(obj2-o obj1-o))']
+4: ['pred0-p_2(obj2-o obj1-o)', 'not(pred1-p_1(obj2-o))', 'pred0-p_1(obj2-o obj1-o)', 'not(pred1-p_2(obj2-o))'] -> ['not(pred0-p_2(obj2-o obj1-o))', 'not(pred2-p_1(obj1-o obj2-o))', 'not(pred2-p_2(obj1-o obj2-o))', 'not(pred0-p_1(obj2-o obj1-o))']
+
+action0-a300_obj0-o_obj3-o:
+1: [] -> ['p_psi()']
+
+action2-a_obj2-o_obj3-o:
+1: ['pred0-p_2(obj3-o obj2-o)', 'not(pred1-p_1(obj3-o))', 'pred0-p_1(obj3-o obj2-o)', 'not(pred1-p_2(obj3-o))'] -> ['pred1-p_2(obj2-o)', 'pred1-p_1(obj2-o)']
+2: ['pred0-p_2(obj3-o obj2-o)', 'not(pred1-p_1(obj3-o))', 'pred0-p_1(obj3-o obj2-o)', 'not(pred1-p_2(obj3-o))'] -> ['not(pred2-p_2(obj2-o obj3-o))', 'pred1-p_1(obj2-o)', 'not(pred0-p_2(obj3-o obj2-o))']
+3: ['pred0-p_2(obj3-o obj2-o)', 'not(pred1-p_1(obj3-o))', 'pred0-p_1(obj3-o obj2-o)', 'not(pred1-p_2(obj3-o))'] -> ['not(pred2-p_1(obj2-o obj3-o))', 'not(pred0-p_1(obj3-o obj2-o))', 'pred1-p_2(obj2-o)']
+4: ['pred0-p_2(obj3-o obj2-o)', 'not(pred1-p_1(obj3-o))', 'pred0-p_1(obj3-o obj2-o)', 'not(pred1-p_2(obj3-o))'] -> ['not(pred2-p_1(obj2-o obj3-o))', 'not(pred2-p_2(obj2-o obj3-o))', 'not(pred0-p_1(obj3-o obj2-o))', 'not(pred0-p_2(obj3-o obj2-o))']
+
+action2-a_obj3-o_obj1-o:
+1: ['pred0-p_1(obj1-o obj3-o)', 'pred0-p_2(obj1-o obj3-o)', 'not(pred1-p_1(obj1-o))', 'not(pred1-p_2(obj1-o))'] -> ['pred1-p_2(obj3-o)', 'pred1-p_1(obj3-o)']
+2: ['pred0-p_1(obj1-o obj3-o)', 'pred0-p_2(obj1-o obj3-o)', 'not(pred1-p_1(obj1-o))', 'not(pred1-p_2(obj1-o))'] -> ['not(pred2-p_2(obj3-o obj1-o))', 'pred1-p_1(obj3-o)', 'not(pred0-p_2(obj1-o obj3-o))']
+3: ['pred0-p_1(obj1-o obj3-o)', 'pred0-p_2(obj1-o obj3-o)', 'not(pred1-p_1(obj1-o))', 'not(pred1-p_2(obj1-o))'] -> ['not(pred0-p_1(obj1-o obj3-o))', 'not(pred2-p_1(obj3-o obj1-o))', 'pred1-p_2(obj3-o)']
+4: ['pred0-p_1(obj1-o obj3-o)', 'pred0-p_2(obj1-o obj3-o)', 'not(pred1-p_1(obj1-o))', 'not(pred1-p_2(obj1-o))'] -> ['not(pred0-p_1(obj1-o obj3-o))', 'not(pred2-p_1(obj3-o obj1-o))', 'not(pred2-p_2(obj3-o obj1-o))', 'not(pred0-p_2(obj1-o obj3-o))']
+
+action1-a2_obj1-o_obj1-o:
+
+action2-a_obj3-o_obj2-o:
+1: ['not(pred1-p_1(obj2-o))', 'not(pred1-p_2(obj2-o))', 'pred0-p_2(obj2-o obj3-o)', 'pred0-p_1(obj2-o obj3-o)'] -> ['pred1-p_2(obj3-o)', 'pred1-p_1(obj3-o)']
+2: ['not(pred1-p_1(obj2-o))', 'not(pred1-p_2(obj2-o))', 'pred0-p_2(obj2-o obj3-o)', 'pred0-p_1(obj2-o obj3-o)'] -> ['not(pred0-p_2(obj2-o obj3-o))', 'not(pred2-p_2(obj3-o obj2-o))', 'pred1-p_1(obj3-o)']
+3: ['not(pred1-p_1(obj2-o))', 'not(pred1-p_2(obj2-o))', 'pred0-p_2(obj2-o obj3-o)', 'pred0-p_1(obj2-o obj3-o)'] -> ['not(pred0-p_1(obj2-o obj3-o))', 'not(pred2-p_1(obj3-o obj2-o))', 'pred1-p_2(obj3-o)']
+4: ['not(pred1-p_1(obj2-o))', 'not(pred1-p_2(obj2-o))', 'pred0-p_2(obj2-o obj3-o)', 'pred0-p_1(obj2-o obj3-o)'] -> ['not(pred0-p_1(obj2-o obj3-o))', 'not(pred0-p_2(obj2-o obj3-o))', 'not(pred2-p_2(obj3-o obj2-o))', 'not(pred2-p_1(obj3-o obj2-o))']
+
+action0-a_obj3-o_obj2-o:
+1: ['not(pred1-p_1(obj2-o))', 'not(pred1-p_2(obj2-o))'] -> ['pred0-p_2(obj3-o obj2-o)', 'pred0-p_1(obj3-o obj2-o)', 'not(pred0-p_2(obj3-o obj2-o))'] / ['pred1-p_2(obj2-o)'] -> ['p_psi()'] / ['pred1-p_1(obj2-o)'] -> ['p_psi()']
+
+action1-a2_obj1-o_obj2-o:
+
+action2-a2_obj3-o_obj1-o:
+1: ['pred0-p_1(obj1-o obj3-o)', 'pred0-p_2(obj1-o obj3-o)', 'not(pred1-p_1(obj1-o))', 'not(pred1-p_2(obj1-o))'] -> ['pred1-p_2(obj3-o)', 'pred1-p_1(obj3-o)']
+2: ['pred0-p_1(obj1-o obj3-o)', 'pred0-p_2(obj1-o obj3-o)', 'not(pred1-p_1(obj1-o))', 'not(pred1-p_2(obj1-o))'] -> ['not(pred2-p_2(obj3-o obj1-o))', 'pred1-p_1(obj3-o)', 'not(pred0-p_2(obj1-o obj3-o))']
+3: ['pred0-p_1(obj1-o obj3-o)', 'pred0-p_2(obj1-o obj3-o)', 'not(pred1-p_1(obj1-o))', 'not(pred1-p_2(obj1-o))'] -> ['not(pred0-p_1(obj1-o obj3-o))', 'not(pred2-p_1(obj3-o obj1-o))', 'pred1-p_2(obj3-o)']
+4: ['pred0-p_1(obj1-o obj3-o)', 'pred0-p_2(obj1-o obj3-o)', 'not(pred1-p_1(obj1-o))', 'not(pred1-p_2(obj1-o))'] -> ['not(pred0-p_1(obj1-o obj3-o))', 'not(pred2-p_1(obj3-o obj1-o))', 'not(pred2-p_2(obj3-o obj1-o))', 'not(pred0-p_2(obj1-o obj3-o))']
+
+action0-a2_obj2-o_obj2-o:
+1: ['not(pred1-p_1(obj2-o))', 'not(pred1-p_2(obj2-o))'] -> ['not(pred0-p_2(obj2-o obj2-o))', 'pred0-p_1(obj2-o obj2-o)', 'pred0-p_2(obj2-o obj2-o)'] / ['pred1-p_2(obj2-o)'] -> ['p_psi()'] / ['pred1-p_1(obj2-o)'] -> ['p_psi()']
+
+action1-a_obj0-o_obj2-o:
+
+action0-a_obj0-o_obj1-o:
+1: ['not(pred1-p_1(obj1-o))', 'not(pred1-p_2(obj1-o))'] -> ['pred0-p_1(obj0-o obj1-o)', 'not(pred0-p_2(obj0-o obj1-o))', 'pred0-p_2(obj0-o obj1-o)'] / ['pred1-p_2(obj1-o)'] -> ['p_psi()'] / ['pred1-p_1(obj1-o)'] -> ['p_psi()']
+
+action0-a_obj1-o_obj2-o:
+1: ['not(pred1-p_1(obj2-o))', 'not(pred1-p_2(obj2-o))'] -> ['pred0-p_1(obj1-o obj2-o)', 'not(pred0-p_2(obj1-o obj2-o))', 'pred0-p_2(obj1-o obj2-o)'] / ['pred1-p_2(obj2-o)'] -> ['p_psi()'] / ['pred1-p_1(obj2-o)'] -> ['p_psi()']
+
+action3-a2_obj3-o_obj1-o:
+1: ['pred2-p_2(obj1-o obj3-o)', 'pred2-p_1(obj1-o obj3-o)', 'pred1-p_1(obj1-o)', 'pred1-p_2(obj1-o)'] -> ['not(pred1-p_1(obj1-o))', 'not(pred1-p_2(obj1-o))', 'pred2-p_2(obj3-o obj1-o)', 'pred2-p_1(obj3-o obj1-o)']
+2: ['pred2-p_2(obj1-o obj3-o)', 'pred2-p_1(obj1-o obj3-o)', 'pred1-p_1(obj1-o)', 'pred1-p_2(obj1-o)'] -> ['not(pred1-p_1(obj1-o))', 'pred2-p_2(obj3-o obj1-o)', 'pred2-p_1(obj3-o obj1-o)']
+3: ['pred2-p_2(obj1-o obj3-o)', 'pred2-p_1(obj1-o obj3-o)', 'pred1-p_1(obj1-o)', 'pred1-p_2(obj1-o)'] -> ['not(pred1-p_2(obj1-o))', 'pred2-p_2(obj3-o obj1-o)', 'pred2-p_1(obj3-o obj1-o)']
+4: ['pred2-p_2(obj1-o obj3-o)', 'pred2-p_1(obj1-o obj3-o)', 'pred1-p_1(obj1-o)', 'pred1-p_2(obj1-o)'] -> ['pred2-p_2(obj3-o obj1-o)', 'pred2-p_1(obj3-o obj1-o)']
+
+action0-a300_obj2-o_obj2-o:
+1: [] -> ['p_psi()']
+
+action3-a_obj0-o_obj0-o:
+1: ['pred2-p_1(obj0-o obj0-o)', 'pred2-p_2(obj0-o obj0-o)', 'pred1-p_1(obj0-o)', 'pred1-p_2(obj0-o)'] -> ['not(pred1-p_1(obj0-o))', 'not(pred1-p_2(obj0-o))', 'pred2-p_1(obj0-o obj0-o)', 'pred2-p_2(obj0-o obj0-o)']
+2: ['pred2-p_1(obj0-o obj0-o)', 'pred2-p_2(obj0-o obj0-o)', 'pred1-p_1(obj0-o)', 'pred1-p_2(obj0-o)'] -> ['not(pred1-p_1(obj0-o))', 'pred2-p_2(obj0-o obj0-o)', 'pred2-p_1(obj0-o obj0-o)']
+3: ['pred2-p_1(obj0-o obj0-o)', 'pred2-p_2(obj0-o obj0-o)', 'pred1-p_1(obj0-o)', 'pred1-p_2(obj0-o)'] -> ['pred2-p_1(obj0-o obj0-o)', 'not(pred1-p_2(obj0-o))', 'pred2-p_2(obj0-o obj0-o)']
+4: ['pred2-p_1(obj0-o obj0-o)', 'pred2-p_2(obj0-o obj0-o)', 'pred1-p_1(obj0-o)', 'pred1-p_2(obj0-o)'] -> ['pred2-p_1(obj0-o obj0-o)', 'pred2-p_2(obj0-o obj0-o)']
+
+action0-a300_obj1-o_obj3-o:
+1: [] -> ['p_psi()']
+
+action0-a300_obj3-o_obj0-o:
+1: [] -> ['p_psi()']
+
+action3-a2_obj0-o_obj2-o:
+1: ['pred1-p_2(obj2-o)', 'pred2-p_1(obj2-o obj0-o)', 'pred1-p_1(obj2-o)', 'pred2-p_2(obj2-o obj0-o)'] -> ['pred2-p_1(obj0-o obj2-o)', 'not(pred1-p_1(obj2-o))', 'pred2-p_2(obj0-o obj2-o)', 'not(pred1-p_2(obj2-o))']
+2: ['pred1-p_2(obj2-o)', 'pred2-p_1(obj2-o obj0-o)', 'pred1-p_1(obj2-o)', 'pred2-p_2(obj2-o obj0-o)'] -> ['pred2-p_1(obj0-o obj2-o)', 'not(pred1-p_1(obj2-o))', 'pred2-p_2(obj0-o obj2-o)']
+3: ['pred1-p_2(obj2-o)', 'pred2-p_1(obj2-o obj0-o)', 'pred1-p_1(obj2-o)', 'pred2-p_2(obj2-o obj0-o)'] -> ['pred2-p_1(obj0-o obj2-o)', 'pred2-p_2(obj0-o obj2-o)', 'not(pred1-p_2(obj2-o))']
+4: ['pred1-p_2(obj2-o)', 'pred2-p_1(obj2-o obj0-o)', 'pred1-p_1(obj2-o)', 'pred2-p_2(obj2-o obj0-o)'] -> ['pred2-p_1(obj0-o obj2-o)', 'pred2-p_2(obj0-o obj2-o)']
+
+action1-a2_obj3-o_obj0-o:
+
+action1-a2_obj2-o_obj1-o:
+
+action0-a2_obj1-o_obj3-o:
+1: ['not(pred1-p_1(obj3-o))', 'not(pred1-p_2(obj3-o))'] -> ['pred0-p_1(obj1-o obj3-o)', 'pred0-p_2(obj1-o obj3-o)', 'not(pred0-p_2(obj1-o obj3-o))'] / ['pred1-p_2(obj3-o)'] -> ['p_psi()'] / ['pred1-p_1(obj3-o)'] -> ['p_psi()']
+
+action2-a2_obj3-o_obj0-o:
+1: ['not(pred1-p_1(obj0-o))', 'not(pred1-p_2(obj0-o))', 'pred0-p_1(obj0-o obj3-o)', 'pred0-p_2(obj0-o obj3-o)'] -> ['pred1-p_2(obj3-o)', 'pred1-p_1(obj3-o)']
+2: ['not(pred1-p_1(obj0-o))', 'not(pred1-p_2(obj0-o))', 'pred0-p_1(obj0-o obj3-o)', 'pred0-p_2(obj0-o obj3-o)'] -> ['not(pred0-p_2(obj0-o obj3-o))', 'pred1-p_1(obj3-o)', 'not(pred2-p_2(obj3-o obj0-o))']
+3: ['not(pred1-p_1(obj0-o))', 'not(pred1-p_2(obj0-o))', 'pred0-p_1(obj0-o obj3-o)', 'pred0-p_2(obj0-o obj3-o)'] -> ['not(pred2-p_1(obj3-o obj0-o))', 'pred1-p_2(obj3-o)', 'not(pred0-p_1(obj0-o obj3-o))']
+4: ['not(pred1-p_1(obj0-o))', 'not(pred1-p_2(obj0-o))', 'pred0-p_1(obj0-o obj3-o)', 'pred0-p_2(obj0-o obj3-o)'] -> ['not(pred2-p_1(obj3-o obj0-o))', 'not(pred2-p_2(obj3-o obj0-o))', 'not(pred0-p_2(obj0-o obj3-o))', 'not(pred0-p_1(obj0-o obj3-o))']
+
+action2-a_obj0-o_obj3-o:
+1: ['pred0-p_2(obj3-o obj0-o)', 'not(pred1-p_1(obj3-o))', 'pred0-p_1(obj3-o obj0-o)', 'not(pred1-p_2(obj3-o))'] -> ['pred1-p_1(obj0-o)', 'pred1-p_2(obj0-o)']
+2: ['pred0-p_2(obj3-o obj0-o)', 'not(pred1-p_1(obj3-o))', 'pred0-p_1(obj3-o obj0-o)', 'not(pred1-p_2(obj3-o))'] -> ['pred1-p_1(obj0-o)', 'not(pred0-p_2(obj3-o obj0-o))', 'not(pred2-p_2(obj0-o obj3-o))']
+3: ['pred0-p_2(obj3-o obj0-o)', 'not(pred1-p_1(obj3-o))', 'pred0-p_1(obj3-o obj0-o)', 'not(pred1-p_2(obj3-o))'] -> ['not(pred0-p_1(obj3-o obj0-o))', 'not(pred2-p_1(obj0-o obj3-o))', 'pred1-p_2(obj0-o)']
+4: ['pred0-p_2(obj3-o obj0-o)', 'not(pred1-p_1(obj3-o))', 'pred0-p_1(obj3-o obj0-o)', 'not(pred1-p_2(obj3-o))'] -> ['not(pred0-p_2(obj3-o obj0-o))', 'not(pred0-p_1(obj3-o obj0-o))', 'not(pred2-p_1(obj0-o obj3-o))', 'not(pred2-p_2(obj0-o obj3-o))']
+
+action0-a300_obj2-o_obj0-o:
+1: [] -> ['p_psi()']
+
+action1-a_obj3-o_obj0-o:
+
+action3-a_obj2-o_obj2-o:
+1: ['pred1-p_2(obj2-o)', 'pred2-p_2(obj2-o obj2-o)', 'pred2-p_1(obj2-o obj2-o)', 'pred1-p_1(obj2-o)'] -> ['not(pred1-p_1(obj2-o))', 'pred2-p_2(obj2-o obj2-o)', 'pred2-p_1(obj2-o obj2-o)', 'not(pred1-p_2(obj2-o))']
+2: ['pred1-p_2(obj2-o)', 'pred2-p_2(obj2-o obj2-o)', 'pred2-p_1(obj2-o obj2-o)', 'pred1-p_1(obj2-o)'] -> ['not(pred1-p_1(obj2-o))', 'pred2-p_2(obj2-o obj2-o)', 'pred2-p_1(obj2-o obj2-o)']
+3: ['pred1-p_2(obj2-o)', 'pred2-p_2(obj2-o obj2-o)', 'pred2-p_1(obj2-o obj2-o)', 'pred1-p_1(obj2-o)'] -> ['pred2-p_2(obj2-o obj2-o)', 'pred2-p_1(obj2-o obj2-o)', 'not(pred1-p_2(obj2-o))']
+4: ['pred1-p_2(obj2-o)', 'pred2-p_2(obj2-o obj2-o)', 'pred2-p_1(obj2-o obj2-o)', 'pred1-p_1(obj2-o)'] -> ['pred2-p_2(obj2-o obj2-o)', 'pred2-p_1(obj2-o obj2-o)']
+
+action0-a300_obj0-o_obj2-o:
+1: [] -> ['p_psi()']
+
+action0-a_obj2-o_obj1-o:
+1: ['not(pred1-p_1(obj1-o))', 'not(pred1-p_2(obj1-o))'] -> ['pred0-p_2(obj2-o obj1-o)', 'pred0-p_1(obj2-o obj1-o)', 'not(pred0-p_2(obj2-o obj1-o))'] / ['pred1-p_2(obj1-o)'] -> ['p_psi()'] / ['pred1-p_1(obj1-o)'] -> ['p_psi()']
+
+action3-a_obj1-o_obj0-o:
+1: ['pred1-p_1(obj0-o)', 'pred1-p_2(obj0-o)', 'pred2-p_1(obj0-o obj1-o)', 'pred2-p_2(obj0-o obj1-o)'] -> ['not(pred1-p_1(obj0-o))', 'not(pred1-p_2(obj0-o))', 'pred2-p_1(obj1-o obj0-o)', 'pred2-p_2(obj1-o obj0-o)']
+2: ['pred1-p_1(obj0-o)', 'pred1-p_2(obj0-o)', 'pred2-p_1(obj0-o obj1-o)', 'pred2-p_2(obj0-o obj1-o)'] -> ['not(pred1-p_1(obj0-o))', 'pred2-p_1(obj1-o obj0-o)', 'pred2-p_2(obj1-o obj0-o)']
+3: ['pred1-p_1(obj0-o)', 'pred1-p_2(obj0-o)', 'pred2-p_1(obj0-o obj1-o)', 'pred2-p_2(obj0-o obj1-o)'] -> ['not(pred1-p_2(obj0-o))', 'pred2-p_1(obj1-o obj0-o)', 'pred2-p_2(obj1-o obj0-o)']
+4: ['pred1-p_1(obj0-o)', 'pred1-p_2(obj0-o)', 'pred2-p_1(obj0-o obj1-o)', 'pred2-p_2(obj0-o obj1-o)'] -> ['pred2-p_1(obj1-o obj0-o)', 'pred2-p_2(obj1-o obj0-o)']
+
+action3-a_obj1-o_obj3-o:
+1: ['pred1-p_2(obj3-o)', 'pred1-p_1(obj3-o)', 'pred2-p_2(obj3-o obj1-o)', 'pred2-p_1(obj3-o obj1-o)'] -> ['not(pred1-p_1(obj3-o))', 'pred2-p_2(obj1-o obj3-o)', 'pred2-p_1(obj1-o obj3-o)', 'not(pred1-p_2(obj3-o))']
+2: ['pred1-p_2(obj3-o)', 'pred1-p_1(obj3-o)', 'pred2-p_2(obj3-o obj1-o)', 'pred2-p_1(obj3-o obj1-o)'] -> ['not(pred1-p_1(obj3-o))', 'pred2-p_2(obj1-o obj3-o)', 'pred2-p_1(obj1-o obj3-o)']
+3: ['pred1-p_2(obj3-o)', 'pred1-p_1(obj3-o)', 'pred2-p_2(obj3-o obj1-o)', 'pred2-p_1(obj3-o obj1-o)'] -> ['pred2-p_2(obj1-o obj3-o)', 'pred2-p_1(obj1-o obj3-o)', 'not(pred1-p_2(obj3-o))']
+4: ['pred1-p_2(obj3-o)', 'pred1-p_1(obj3-o)', 'pred2-p_2(obj3-o obj1-o)', 'pred2-p_1(obj3-o obj1-o)'] -> ['pred2-p_2(obj1-o obj3-o)', 'pred2-p_1(obj1-o obj3-o)']
+
+action2-a_obj2-o_obj0-o:
+1: ['pred0-p_1(obj0-o obj2-o)', 'not(pred1-p_2(obj0-o))', 'pred0-p_2(obj0-o obj2-o)', 'not(pred1-p_1(obj0-o))'] -> ['pred1-p_2(obj2-o)', 'pred1-p_1(obj2-o)']
+2: ['pred0-p_1(obj0-o obj2-o)', 'not(pred1-p_2(obj0-o))', 'pred0-p_2(obj0-o obj2-o)', 'not(pred1-p_1(obj0-o))'] -> ['not(pred2-p_2(obj2-o obj0-o))', 'not(pred0-p_2(obj0-o obj2-o))', 'pred1-p_1(obj2-o)']
+3: ['pred0-p_1(obj0-o obj2-o)', 'not(pred1-p_2(obj0-o))', 'pred0-p_2(obj0-o obj2-o)', 'not(pred1-p_1(obj0-o))'] -> ['not(pred0-p_1(obj0-o obj2-o))', 'pred1-p_2(obj2-o)', 'not(pred2-p_1(obj2-o obj0-o))']
+4: ['pred0-p_1(obj0-o obj2-o)', 'not(pred1-p_2(obj0-o))', 'pred0-p_2(obj0-o obj2-o)', 'not(pred1-p_1(obj0-o))'] -> ['not(pred0-p_1(obj0-o obj2-o))', 'not(pred2-p_2(obj2-o obj0-o))', 'not(pred2-p_1(obj2-o obj0-o))', 'not(pred0-p_2(obj0-o obj2-o))']
+
+action0-a300_obj1-o_obj1-o:
+1: [] -> ['p_psi()']
+
+action2-a_obj0-o_obj1-o:
+1: ['not(pred1-p_1(obj1-o))', 'pred0-p_2(obj1-o obj0-o)', 'pred0-p_1(obj1-o obj0-o)', 'not(pred1-p_2(obj1-o))'] -> ['pred1-p_1(obj0-o)', 'pred1-p_2(obj0-o)']
+2: ['not(pred1-p_1(obj1-o))', 'pred0-p_2(obj1-o obj0-o)', 'pred0-p_1(obj1-o obj0-o)', 'not(pred1-p_2(obj1-o))'] -> ['pred1-p_1(obj0-o)', 'not(pred2-p_2(obj0-o obj1-o))', 'not(pred0-p_2(obj1-o obj0-o))']
+3: ['not(pred1-p_1(obj1-o))', 'pred0-p_2(obj1-o obj0-o)', 'pred0-p_1(obj1-o obj0-o)', 'not(pred1-p_2(obj1-o))'] -> ['pred1-p_2(obj0-o)', 'not(pred2-p_1(obj0-o obj1-o))', 'not(pred0-p_1(obj1-o obj0-o))']
+4: ['not(pred1-p_1(obj1-o))', 'pred0-p_2(obj1-o obj0-o)', 'pred0-p_1(obj1-o obj0-o)', 'not(pred1-p_2(obj1-o))'] -> ['not(pred2-p_2(obj0-o obj1-o))', 'not(pred0-p_2(obj1-o obj0-o))', 'not(pred2-p_1(obj0-o obj1-o))', 'not(pred0-p_1(obj1-o obj0-o))']
+
+action0-a2_obj1-o_obj0-o:
+1: ['not(pred1-p_1(obj0-o))', 'not(pred1-p_2(obj0-o))'] -> ['pred0-p_2(obj1-o obj0-o)', 'pred0-p_1(obj1-o obj0-o)', 'not(pred0-p_2(obj1-o obj0-o))'] / ['pred1-p_2(obj0-o)'] -> ['p_psi()'] / ['pred1-p_1(obj0-o)'] -> ['p_psi()']
+
+action1-a_obj3-o_obj3-o:
+
+action1-a_obj1-o_obj3-o:
+
+action3-a2_obj1-o_obj2-o:
+1: ['pred2-p_2(obj2-o obj1-o)', 'pred2-p_1(obj2-o obj1-o)', 'pred1-p_2(obj2-o)', 'pred1-p_1(obj2-o)'] -> ['not(pred1-p_1(obj2-o))', 'pred2-p_2(obj1-o obj2-o)', 'pred2-p_1(obj1-o obj2-o)', 'not(pred1-p_2(obj2-o))']
+2: ['pred2-p_2(obj2-o obj1-o)', 'pred2-p_1(obj2-o obj1-o)', 'pred1-p_2(obj2-o)', 'pred1-p_1(obj2-o)'] -> ['not(pred1-p_1(obj2-o))', 'pred2-p_2(obj1-o obj2-o)', 'pred2-p_1(obj1-o obj2-o)']
+3: ['pred2-p_2(obj2-o obj1-o)', 'pred2-p_1(obj2-o obj1-o)', 'pred1-p_2(obj2-o)', 'pred1-p_1(obj2-o)'] -> ['pred2-p_2(obj1-o obj2-o)', 'pred2-p_1(obj1-o obj2-o)', 'not(pred1-p_2(obj2-o))']
+4: ['pred2-p_2(obj2-o obj1-o)', 'pred2-p_1(obj2-o obj1-o)', 'pred1-p_2(obj2-o)', 'pred1-p_1(obj2-o)'] -> ['pred2-p_2(obj1-o obj2-o)', 'pred2-p_1(obj1-o obj2-o)']
+
+action2-a2_obj0-o_obj2-o:
+1: ['pred0-p_1(obj2-o obj0-o)', 'not(pred1-p_1(obj2-o))', 'pred0-p_2(obj2-o obj0-o)', 'not(pred1-p_2(obj2-o))'] -> ['pred1-p_1(obj0-o)', 'pred1-p_2(obj0-o)']
+2: ['pred0-p_1(obj2-o obj0-o)', 'not(pred1-p_1(obj2-o))', 'pred0-p_2(obj2-o obj0-o)', 'not(pred1-p_2(obj2-o))'] -> ['pred1-p_1(obj0-o)', 'not(pred2-p_2(obj0-o obj2-o))', 'not(pred0-p_2(obj2-o obj0-o))']
+3: ['pred0-p_1(obj2-o obj0-o)', 'not(pred1-p_1(obj2-o))', 'pred0-p_2(obj2-o obj0-o)', 'not(pred1-p_2(obj2-o))'] -> ['not(pred0-p_1(obj2-o obj0-o))', 'pred1-p_2(obj0-o)', 'not(pred2-p_1(obj0-o obj2-o))']
+4: ['pred0-p_1(obj2-o obj0-o)', 'not(pred1-p_1(obj2-o))', 'pred0-p_2(obj2-o obj0-o)', 'not(pred1-p_2(obj2-o))'] -> ['not(pred0-p_1(obj2-o obj0-o))', 'not(pred2-p_2(obj0-o obj2-o))', 'not(pred0-p_2(obj2-o obj0-o))', 'not(pred2-p_1(obj0-o obj2-o))']
+
+action3-a_obj1-o_obj1-o:
+1: ['pred2-p_2(obj1-o obj1-o)', 'pred2-p_1(obj1-o obj1-o)', 'pred1-p_1(obj1-o)', 'pred1-p_2(obj1-o)'] -> ['pred2-p_2(obj1-o obj1-o)', 'not(pred1-p_1(obj1-o))', 'not(pred1-p_2(obj1-o))', 'pred2-p_1(obj1-o obj1-o)']
+2: ['pred2-p_2(obj1-o obj1-o)', 'pred2-p_1(obj1-o obj1-o)', 'pred1-p_1(obj1-o)', 'pred1-p_2(obj1-o)'] -> ['not(pred1-p_1(obj1-o))', 'pred2-p_2(obj1-o obj1-o)', 'pred2-p_1(obj1-o obj1-o)']
+3: ['pred2-p_2(obj1-o obj1-o)', 'pred2-p_1(obj1-o obj1-o)', 'pred1-p_1(obj1-o)', 'pred1-p_2(obj1-o)'] -> ['not(pred1-p_2(obj1-o))', 'pred2-p_2(obj1-o obj1-o)', 'pred2-p_1(obj1-o obj1-o)']
+4: ['pred2-p_2(obj1-o obj1-o)', 'pred2-p_1(obj1-o obj1-o)', 'pred1-p_1(obj1-o)', 'pred1-p_2(obj1-o)'] -> ['pred2-p_2(obj1-o obj1-o)', 'pred2-p_1(obj1-o obj1-o)']
+
+action3-a_obj0-o_obj2-o:
+1: ['pred1-p_2(obj2-o)', 'pred2-p_1(obj2-o obj0-o)', 'pred1-p_1(obj2-o)', 'pred2-p_2(obj2-o obj0-o)'] -> ['pred2-p_1(obj0-o obj2-o)', 'not(pred1-p_1(obj2-o))', 'pred2-p_2(obj0-o obj2-o)', 'not(pred1-p_2(obj2-o))']
+2: ['pred1-p_2(obj2-o)', 'pred2-p_1(obj2-o obj0-o)', 'pred1-p_1(obj2-o)', 'pred2-p_2(obj2-o obj0-o)'] -> ['pred2-p_1(obj0-o obj2-o)', 'not(pred1-p_1(obj2-o))', 'pred2-p_2(obj0-o obj2-o)']
+3: ['pred1-p_2(obj2-o)', 'pred2-p_1(obj2-o obj0-o)', 'pred1-p_1(obj2-o)', 'pred2-p_2(obj2-o obj0-o)'] -> ['pred2-p_1(obj0-o obj2-o)', 'pred2-p_2(obj0-o obj2-o)', 'not(pred1-p_2(obj2-o))']
+4: ['pred1-p_2(obj2-o)', 'pred2-p_1(obj2-o obj0-o)', 'pred1-p_1(obj2-o)', 'pred2-p_2(obj2-o obj0-o)'] -> ['pred2-p_1(obj0-o obj2-o)', 'pred2-p_2(obj0-o obj2-o)']
+
+action2-a2_obj1-o_obj0-o:
+1: ['not(pred1-p_1(obj0-o))', 'pred0-p_1(obj0-o obj1-o)', 'not(pred1-p_2(obj0-o))', 'pred0-p_2(obj0-o obj1-o)'] -> ['pred1-p_2(obj1-o)', 'pred1-p_1(obj1-o)']
+2: ['not(pred1-p_1(obj0-o))', 'pred0-p_1(obj0-o obj1-o)', 'not(pred1-p_2(obj0-o))', 'pred0-p_2(obj0-o obj1-o)'] -> ['not(pred2-p_2(obj1-o obj0-o))', 'not(pred0-p_2(obj0-o obj1-o))', 'pred1-p_1(obj1-o)']
+3: ['not(pred1-p_1(obj0-o))', 'pred0-p_1(obj0-o obj1-o)', 'not(pred1-p_2(obj0-o))', 'pred0-p_2(obj0-o obj1-o)'] -> ['pred1-p_2(obj1-o)', 'not(pred2-p_1(obj1-o obj0-o))', 'not(pred0-p_1(obj0-o obj1-o))']
+4: ['not(pred1-p_1(obj0-o))', 'pred0-p_1(obj0-o obj1-o)', 'not(pred1-p_2(obj0-o))', 'pred0-p_2(obj0-o obj1-o)'] -> ['not(pred2-p_2(obj1-o obj0-o))', 'not(pred0-p_2(obj0-o obj1-o))', 'not(pred2-p_1(obj1-o obj0-o))', 'not(pred0-p_1(obj0-o obj1-o))']
+
+action1-a_obj2-o_obj0-o:
+
+action3-a_obj2-o_obj3-o:
+1: ['pred1-p_2(obj3-o)', 'pred2-p_1(obj3-o obj2-o)', 'pred2-p_2(obj3-o obj2-o)', 'pred1-p_1(obj3-o)'] -> ['not(pred1-p_2(obj3-o))', 'not(pred1-p_1(obj3-o))', 'pred2-p_2(obj2-o obj3-o)', 'pred2-p_1(obj2-o obj3-o)']
+2: ['pred1-p_2(obj3-o)', 'pred2-p_1(obj3-o obj2-o)', 'pred2-p_2(obj3-o obj2-o)', 'pred1-p_1(obj3-o)'] -> ['not(pred1-p_1(obj3-o))', 'pred2-p_2(obj2-o obj3-o)', 'pred2-p_1(obj2-o obj3-o)']
+3: ['pred1-p_2(obj3-o)', 'pred2-p_1(obj3-o obj2-o)', 'pred2-p_2(obj3-o obj2-o)', 'pred1-p_1(obj3-o)'] -> ['not(pred1-p_2(obj3-o))', 'pred2-p_2(obj2-o obj3-o)', 'pred2-p_1(obj2-o obj3-o)']
+4: ['pred1-p_2(obj3-o)', 'pred2-p_1(obj3-o obj2-o)', 'pred2-p_2(obj3-o obj2-o)', 'pred1-p_1(obj3-o)'] -> ['pred2-p_2(obj2-o obj3-o)', 'pred2-p_1(obj2-o obj3-o)']
+
+action3-a2_obj1-o_obj0-o:
+1: ['pred1-p_1(obj0-o)', 'pred1-p_2(obj0-o)', 'pred2-p_1(obj0-o obj1-o)', 'pred2-p_2(obj0-o obj1-o)'] -> ['not(pred1-p_1(obj0-o))', 'not(pred1-p_2(obj0-o))', 'pred2-p_1(obj1-o obj0-o)', 'pred2-p_2(obj1-o obj0-o)']
+2: ['pred1-p_1(obj0-o)', 'pred1-p_2(obj0-o)', 'pred2-p_1(obj0-o obj1-o)', 'pred2-p_2(obj0-o obj1-o)'] -> ['not(pred1-p_1(obj0-o))', 'pred2-p_1(obj1-o obj0-o)', 'pred2-p_2(obj1-o obj0-o)']
+3: ['pred1-p_1(obj0-o)', 'pred1-p_2(obj0-o)', 'pred2-p_1(obj0-o obj1-o)', 'pred2-p_2(obj0-o obj1-o)'] -> ['not(pred1-p_2(obj0-o))', 'pred2-p_1(obj1-o obj0-o)', 'pred2-p_2(obj1-o obj0-o)']
+4: ['pred1-p_1(obj0-o)', 'pred1-p_2(obj0-o)', 'pred2-p_1(obj0-o obj1-o)', 'pred2-p_2(obj0-o obj1-o)'] -> ['pred2-p_1(obj1-o obj0-o)', 'pred2-p_2(obj1-o obj0-o)']
+
+action0-a2_obj0-o_obj0-o:
+1: ['not(pred1-p_1(obj0-o))', 'not(pred1-p_2(obj0-o))'] -> ['not(pred0-p_2(obj0-o obj0-o))', 'pred0-p_1(obj0-o obj0-o)', 'pred0-p_2(obj0-o obj0-o)'] / ['pred1-p_2(obj0-o)'] -> ['p_psi()'] / ['pred1-p_1(obj0-o)'] -> ['p_psi()']
+
+action1-a2_obj3-o_obj3-o:
+
+action0-a_obj3-o_obj3-o:
+1: ['not(pred1-p_1(obj3-o))', 'not(pred1-p_2(obj3-o))'] -> ['not(pred0-p_2(obj3-o obj3-o))', 'pred0-p_1(obj3-o obj3-o)', 'pred0-p_2(obj3-o obj3-o)'] / ['pred1-p_2(obj3-o)'] -> ['p_psi()'] / ['pred1-p_1(obj3-o)'] -> ['p_psi()']
+
+action0-a_obj0-o_obj2-o:
+1: ['not(pred1-p_1(obj2-o))', 'not(pred1-p_2(obj2-o))'] -> ['pred0-p_1(obj0-o obj2-o)', 'pred0-p_2(obj0-o obj2-o)', 'not(pred0-p_2(obj0-o obj2-o))'] / ['pred1-p_2(obj2-o)'] -> ['p_psi()'] / ['pred1-p_1(obj2-o)'] -> ['p_psi()']
+
+action1-a2_obj3-o_obj1-o:
+
+action0-a_obj2-o_obj0-o:
+1: ['not(pred1-p_1(obj0-o))', 'not(pred1-p_2(obj0-o))'] -> ['pred0-p_1(obj2-o obj0-o)', 'not(pred0-p_2(obj2-o obj0-o))', 'pred0-p_2(obj2-o obj0-o)'] / ['pred1-p_2(obj0-o)'] -> ['p_psi()'] / ['pred1-p_1(obj0-o)'] -> ['p_psi()']
+
+action0-a300_obj1-o_obj2-o:
+1: [] -> ['p_psi()']
+
+action1-a2_obj0-o_obj1-o:
+
+action0-a_obj3-o_obj1-o:
+1: ['not(pred1-p_1(obj1-o))', 'not(pred1-p_2(obj1-o))'] -> ['not(pred0-p_2(obj3-o obj1-o))', 'pred0-p_2(obj3-o obj1-o)', 'pred0-p_1(obj3-o obj1-o)'] / ['pred1-p_2(obj1-o)'] -> ['p_psi()'] / ['pred1-p_1(obj1-o)'] -> ['p_psi()']
+
+action1-a_obj2-o_obj3-o:
+
+action0-a2_obj2-o_obj3-o:
+1: ['not(pred1-p_1(obj3-o))', 'not(pred1-p_2(obj3-o))'] -> ['not(pred0-p_2(obj2-o obj3-o))', 'pred0-p_2(obj2-o obj3-o)', 'pred0-p_1(obj2-o obj3-o)'] / ['pred1-p_2(obj3-o)'] -> ['p_psi()'] / ['pred1-p_1(obj3-o)'] -> ['p_psi()']
+
+action1-a2_obj3-o_obj2-o:
+
+action3-a2_obj2-o_obj3-o:
+1: ['pred1-p_2(obj3-o)', 'pred2-p_1(obj3-o obj2-o)', 'pred2-p_2(obj3-o obj2-o)', 'pred1-p_1(obj3-o)'] -> ['not(pred1-p_2(obj3-o))', 'not(pred1-p_1(obj3-o))', 'pred2-p_2(obj2-o obj3-o)', 'pred2-p_1(obj2-o obj3-o)']
+2: ['pred1-p_2(obj3-o)', 'pred2-p_1(obj3-o obj2-o)', 'pred2-p_2(obj3-o obj2-o)', 'pred1-p_1(obj3-o)'] -> ['not(pred1-p_1(obj3-o))', 'pred2-p_2(obj2-o obj3-o)', 'pred2-p_1(obj2-o obj3-o)']
+3: ['pred1-p_2(obj3-o)', 'pred2-p_1(obj3-o obj2-o)', 'pred2-p_2(obj3-o obj2-o)', 'pred1-p_1(obj3-o)'] -> ['not(pred1-p_2(obj3-o))', 'pred2-p_2(obj2-o obj3-o)', 'pred2-p_1(obj2-o obj3-o)']
+4: ['pred1-p_2(obj3-o)', 'pred2-p_1(obj3-o obj2-o)', 'pred2-p_2(obj3-o obj2-o)', 'pred1-p_1(obj3-o)'] -> ['pred2-p_2(obj2-o obj3-o)', 'pred2-p_1(obj2-o obj3-o)']
+
+action0-a2_obj0-o_obj1-o:
+1: ['not(pred1-p_1(obj1-o))', 'not(pred1-p_2(obj1-o))'] -> ['pred0-p_1(obj0-o obj1-o)', 'not(pred0-p_2(obj0-o obj1-o))', 'pred0-p_2(obj0-o obj1-o)'] / ['pred1-p_2(obj1-o)'] -> ['p_psi()'] / ['pred1-p_1(obj1-o)'] -> ['p_psi()']
+
+action2-a_obj2-o_obj2-o:
+1: ['not(pred1-p_1(obj2-o))', 'pred0-p_1(obj2-o obj2-o)', 'not(pred1-p_2(obj2-o))', 'pred0-p_2(obj2-o obj2-o)'] -> ['pred1-p_2(obj2-o)', 'pred1-p_1(obj2-o)']
+2: ['not(pred1-p_1(obj2-o))', 'pred0-p_1(obj2-o obj2-o)', 'not(pred1-p_2(obj2-o))', 'pred0-p_2(obj2-o obj2-o)'] -> ['not(pred0-p_2(obj2-o obj2-o))', 'not(pred2-p_2(obj2-o obj2-o))', 'pred1-p_1(obj2-o)']
+3: ['not(pred1-p_1(obj2-o))', 'pred0-p_1(obj2-o obj2-o)', 'not(pred1-p_2(obj2-o))', 'pred0-p_2(obj2-o obj2-o)'] -> ['pred1-p_2(obj2-o)', 'not(pred2-p_1(obj2-o obj2-o))', 'not(pred0-p_1(obj2-o obj2-o))']
+4: ['not(pred1-p_1(obj2-o))', 'pred0-p_1(obj2-o obj2-o)', 'not(pred1-p_2(obj2-o))', 'pred0-p_2(obj2-o obj2-o)'] -> ['not(pred0-p_2(obj2-o obj2-o))', 'not(pred2-p_1(obj2-o obj2-o))', 'not(pred2-p_2(obj2-o obj2-o))', 'not(pred0-p_1(obj2-o obj2-o))']
+
+action0-a300_obj0-o_obj1-o:
+1: [] -> ['p_psi()']
+
+action0-a300_obj3-o_obj1-o:
+1: [] -> ['p_psi()']
+
+action1-a2_obj0-o_obj2-o:
+
+action0-a300_obj3-o_obj2-o:
+1: [] -> ['p_psi()']

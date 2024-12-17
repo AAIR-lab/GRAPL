@@ -1,83 +1,99 @@
-# Generalized Relational Abstractions for Planning and Learning
+# Differential Assessment
 
-Python implementation of the ideas presented in
+# Basic installation
 
-[AAAI-21]: Learning Generalized Relational Heuristics for Model-Agnostic Planning
+## Requirements
+* Ubuntu 18.04 or greater
+* Python3 (>= 3.2)
 
-[IJCAI-22]: Relational Abstractions for Generalized Reinforcement Learning on Symbolic Problems
+> **Note**
+> For ubuntu 20.04 and greater users, python is not mapped to python3.
+> Run `sudo apt install python-is-python3` to link python to python3.
 
-To find the exact source code submitted for each paper, please visit the corresponding branch.
+## Installation
 
-# Installation
 
-Use the following commands to install the GHN system on an Ubuntu 18.04 machine.
+Run the followin command in a terminal
+```
+sudo apt install make g++ python3-venv graphviz gcc-multilib g++-multilib graphviz-dev python3-dev
+```
 
-    sudo apt install graphviz graphviz-dev python3-pip cmake
 
-    pip3 install --upgrade pip
-    pip3 install networkx
-    pip3 install tensorflow==2.3.1
-    pip3 install pygraphviz
-    pip3 install dulwich
-    pip3 install tqdm
-    pip3 install matplotlib
-    pip3 install pydot
-    pip3 install pyyaml==5.3.1
-    pip3 install tinydb
-    pip3 install pandas
-    pip3 install bokeh
-    pip3 install psutil
 
-Next from the project root directory,
+Setup a virtual environment
+```
+python3 -m venv venv
+source venv/bin/activate
+```
 
-    cd bin/fast-downward
-    ./build.py release
+Use the following commands to install the required python libraries.
 
-# Reproducing the AAAI-21 experiments
+```
+pip3 install --upgrade pip
+pip3 install networkx
+pip3 install pydot
+pip3 install gym
+pip3 install pddlgym
+pip3 install pygraphviz
+pip3 install tqdm
+pip3 install graphviz
+pip3 install scipy
+```
+## PRP
+```
+pushd dependencies/prp/src
+./build_all
+popd
+```
 
-The GHN system uses YAML config files for supported domains to run the experiments.
-The AAAI-21 YAML files can be found in the experiments/ directory.
 
-Each YAML file consists of several phases which
+## GLib baseline
 
- 1. Generates problem files for training and testing
- 2. Runs baseline solvers FF and FD (and Pyperplan) to solve the test problems.
- 3. Runs the leapfrogging steps for 3 iterations to train GHN leapfrog networks.
- 4. Runs all GHN trained networks on the test data.
+```
+pip3 install termcolor
+pip3 install pygraphviz
+pip3 install seaborn
+```
 
-These experiments take an average of 12 hours to complete for all phases in a multicore setting.
+## Cafeworld TMP sim
+```
+sudo apt install docker.io
+pip3 install docker
+pip3 install urllib3==1.26.0
+```
 
-Use the following command line to run the experiments from the root directory.
+## Remove pddlgym. We use our own internal one.
+```
+pip3 uninstall pddlgym
+```
 
-python3 generalized_learning.py --base-dir `<directory_where_to_store_results>` --config-file `<path_to_yaml_file>`
+## Plotting
 
-#### Example:
+> For LaTeX plotting in matplotlib
+sudo apt install cm-super 
+sudo apt install dvipng
 
-To run blocksworld experiments, run the following
+# Running the Code
 
-`python3 generalized_learning.py --base-dir ./results --config-file experiments/aaai21/leapfrogs/blocksworld.yaml`
+`src/main.py` contains the main() routine to execute the code.
 
-# Fast training
+### Example
+All tasks run in the ICAPS-24 submission are present in the `benchmarks` directory. To run the experiments, you simply
+have to specify the `--task-dir` parameter along with the `--algorithm` and results directory `--base-dir`.
 
-If you do not wish to run the complete AAAI-21 suite, then the bare minimum required is the `oracle` phases that are present in the YAML files.
+```
+PYTHONHASHSEED=0 python3 src/main.py --base-dir /tmp/results --algorithm drift --task-dir benchmarks/tireworld/1-action-drift
+```
+The above command will run the tireworld results from the paper using our method (CLaP) and store the results in /tmp/results.
+This is the fastest experiment to run and evaluate and depending on your configuration this should not take more than 1 hour
+in total.
 
-The `oracle` solver uses an external solver (FF) to solve the training problems, the `oracle` model then trains a GHN using the solved problems and finally, the `pyperplan oracle solver` uses pyperplan and the learned GHN to solve the test problems. This pipeline takes under 20 mins to complete training in most cases.
+`qace` represents the U+C Learner while `qace-stateless` represents the A+C Learner from the paper. These methods can be found
+in the `src/evaluators/` directory with their corresponding name.
 
-The setup involves a training_directory where the training problem files are kept and a test_directory to store the test files. Note that the domain file and problem file must end with extensions `*.domain.pddl` and `*.problem.pddl`.
+## Task format
+To automatically run your own pddl files in this setting, you need to create a directory and place all domain files and task files
+for each task in it. The file format is `domain-t<no>.pddl` and `problem-t<no>.pddl` where `<no>` represents the task number.
 
-You can use the `oracle` model and solver from the yaml config files to solve the training problems using FF (without leapfrogging) and train the GHN and then use it to solve the problems in the test directory.
-
-For examples of such configuration files, please take a look at the `example.yaml` files found in `generalized_learning/benchmarks/<domain>`.
-The only change needed in those files is the solver for the test problems with pyperplan instead of our own internal A* implementation. The pyperplan config can be found in the YAML files for the AAAI-21 experiments.
-
-# Using your own data/new domains
-Follow the setup in the Fast training section above to train and use GHNs with your own data.
-
-As an additional note, once you have trained a model, you can run pyperplan individually using the sourced version of pyperplan provided in the dependencies/ directory.
-
-The command line arguments to enable the GHN heuristic are `python3 dependencies/pyperplan/src/pyperplan.py -s <search_algorithm> -H nnplact --model-dir <path_to_model_dir> --model-name <model_name_as_in_yaml> <domain_file> <problem_file>`
-
-# Contributors
-[Rushang Karia](https://rushangkaria.github.io) <br>
-Julia Nakhleh <br>
-[Siddharth Srivastava](https://siddharthsrivastava.net)
+For example, to create 5 blocksworld tasks (lets assume the domain does not change), create a directory called `blocksworld`
+and place all problem files in this directory. You also need 5 copies of the domain file (named using the convention described above).

@@ -1,0 +1,420 @@
+diff --git a/dependencies/pddlgym-0.0.5/pddlgym/core.py b/dependencies/pddlgym-0.0.5/pddlgym/core.py
+index 8a72f85..80b7040 100644
+--- a/dependencies/pddlgym-0.0.5/pddlgym/core.py
++++ b/dependencies/pddlgym-0.0.5/pddlgym/core.py
+@@ -401,6 +401,26 @@ class PDDLEnv(gym.Env):
+             type_hierarchy=self.domain.type_hierarchy,
+             type_to_parent_types=self.domain.type_to_parent_types)
+ 
++    def save_state(self):
++
++        return self.get_state(), self.get_step_execution_status()
++
++    def restore_state(self, state, execution_status):
++
++        self.set_state(state)
++        self.execution_status = execution_status
++
++    def get_domain(self):
++
++        return self.domain
++
++    def get_problem(self, idx=None):
++
++        if idx is None:
++            return self.problems[0]
++        else:
++            return self.problems[idx]
++
+     @staticmethod
+     def load_pddl(domain_file, problem_dir, operators_as_actions=False):
+         """
+@@ -566,7 +586,7 @@ class PDDLEnv(gym.Env):
+                 'domain_file' : self.domain.domain_fname }
+         return info
+ 
+-    def step(self, action):
++    def step(self, action, checked=False):
+         """
+         Execute an action and update the state.
+ 
+@@ -593,6 +613,7 @@ class PDDLEnv(gym.Env):
+         debug_info : dict
+             See self._get_debug_info.
+         """
++        assert checked
+         self.execution_status = self.is_action_applicable(action)
+         state, reward, done, debug_info = self.sample_transition(action)
+ 
+diff --git a/src/agent.py b/src/agent.py
+index 28349bb..acfab42 100644
+--- a/src/agent.py
++++ b/src/agent.py
+@@ -26,44 +26,33 @@ from pddlgym.structs import State
+ 
+ from model import Model
+ class Agent:
+-    def __init__(self, domain, problem):
+-        
+-        self.domain = domain
+-        self.problem = problem
+-        self.model = Model(domain)
++    def __init__(self, simulator):
++
++        self.simulator = simulator
++        self.model = Model(self.get_domain())
+ 
+     def get_domain(self):
+ 
+-        return self.domain
++        return self.simulator.get_domain()
+ 
+     def get_problem(self):
+ 
+-        return self.problem
++        return self.simulator.get_problem(0)
+         
+ class BFSAgent(Agent):
+     
+     DEFAULT_FILTER_FUNC = lambda _s, _a, _s_dash, _depth: True
+     DEFAULT_STORAGE_FUNC = lambda _s, _a, _s_dash, _depth: (_s, _a, _s_dash, _depth)
+     
+-    def __init__(self, domain_file,
+-                 problem_file,
++    def __init__(self, simulator,
+                  params={},
+                  base_dir=None,
+                  dynamic_action_space=True,
+                  monte_carlo_steps=float("-inf")):
+-        
++
++        super(BFSAgent, self).__init__(simulator)
+         self.monte_carlo_steps = monte_carlo_steps
+-        self.env = PDDLEnv(domain_file, problem_file,
+-            operators_as_actions=True,
+-            raise_error_on_invalid_action=dynamic_action_space,
+-            dynamic_action_space=dynamic_action_space,
+-            grounded_actions_in_state=config.SHOULD_FIND_GYM_ACTION_PREDS)
+-        _ = self.env.reset()
+-        
+-        domain, problem = learning_utils.extract_elements(self.env)
+-        
+-        super(BFSAgent, self).__init__(domain, problem)
+-        
++
+         # TODO: Can store simulation logs there.
+         assert base_dir is None
+     
+@@ -74,14 +63,16 @@ class BFSAgent(Agent):
+         filter_func = DEFAULT_FILTER_FUNC,
+         storage_func = DEFAULT_STORAGE_FUNC,
+         show_progress=False):
+-                    
+-        _ = self.env.reset()
++
++        sim_state = self.simulator.save_state()
++
++        _ = self.simulator.reset()
+         
+         if pddlgym_state is not None:
+             
+-            self.set_state(pddlgym_state)
++            self.simulator.set_state(pddlgym_state)
+         
+-        initial_state = self.env.get_state()
++        initial_state = self.simulator.get_state()
+         fringe = collections.deque()
+         visited = set()
+         
+@@ -121,16 +112,16 @@ class BFSAgent(Agent):
+             else:
+                 
+                 visited.add(state.literals)
+-                self.env.set_state(state)
+-                actions = self.env.get_applicable_actions()
++                self.simulator.set_state(state)
++                actions = self.simulator.get_applicable_actions()
+                 for action in actions:
+ 
+-                    self.env.set_state(state)
++                    self.simulator.set_state(state)
+ 
+-                    if self.env.domain.is_probabilistic \
++                    if self.simulator.domain.is_probabilistic \
+                         and self.monte_carlo_steps == float("-inf"):
+                         
+-                        transitions = self.env.get_all_possible_transitions(
++                        transitions = self.simulator.get_all_possible_transitions(
+                             action,
+                             return_probs=False)
+                         successors = [t[0] for t in transitions]
+@@ -139,13 +130,13 @@ class BFSAgent(Agent):
+                         successors = []
+                         for _ in range(self.monte_carlo_steps):
+ 
+-                            self.env.set_state(state)
+-                            next_state, _, _, _ = self.env.step(action)
++                            self.simulator.set_state(state)
++                            next_state, _, _, _ = self.simulator.step(action, True)
+                             successors.append(next_state)
+ 
+                             # Do not do MC if a failure status is returned.
+                             # End the markove chain here.
+-                            if not self.env.get_step_execution_status():
++                            if not self.simulator.get_step_execution_status():
+ 
+                                 break
+ 
+@@ -156,6 +147,7 @@ class BFSAgent(Agent):
+         if show_progress:
+             progress_bar.close()
+ 
++        self.simulator.restore_state(*sim_state)
+         return samples, total_steps
+     
+     @staticmethod
+@@ -170,25 +162,20 @@ class BFSAgent(Agent):
+         
+ class PRPAgent(Agent):
+     
+-    def __init__(self, domain_file, problem_file,
++    def __init__(self, simulator,
+                  params={},
+                  base_dir=None):
+ 
+-        self.domain_file = domain_file
+-        self.problem_file = problem_file
+-        self.env = PDDLEnv(domain_file, problem_file,
+-                           operators_as_actions=True,
+-            grounded_actions_in_state=config.SHOULD_FIND_GYM_ACTION_PREDS)
+-        _ = self.env.reset()
++        super(PRPAgent, self).__init__(simulator)
+ 
+-        domain, problem = learning_utils.extract_elements(
+-            self.env)
+-        
+-        super(PRPAgent, self).__init__(domain, problem)
++        import types
++        import copy
++        sim_problem = self.simulator.get_problem()
++        self.problem = copy.deepcopy(sim_problem)
+ 
+-        self.problem.initial_state = State(self.problem.initial_state,
+-                                           self.problem.objects,
+-                                           self.problem.goal)
++        self.problem.initial_state = State(sim_problem.initial_state,
++                                           sim_problem.objects,
++                                           sim_problem.goal)
+ 
+         # TODO: Can store simulation logs there.
+         assert base_dir is None
+@@ -197,9 +184,13 @@ class PRPAgent(Agent):
+         self.naming_map = params.get("naming_map", {})
+         self.args_func_map = params.get("args_func_map")
+ 
++    def get_problem(self):
++
++        return self.problem
++
+     def get_simulator(self):
+ 
+-        return self.env
++        return self.simulator
+ 
+     def get_state_where_action_is_applicable(self, action_name):
+         
+@@ -236,7 +227,7 @@ class PRPAgent(Agent):
+ 
+                 return s
+ 
+-        action_names = self.domain.actions
++        action_names = self.get_domain().actions
+         action_filter = ActionFilter(self, action_names)
+ 
+         _, total_steps = self.get_transitions(
+@@ -261,8 +252,7 @@ class PRPAgent(Agent):
+                         monte_carlo_steps=5):
+         
+ 
+-        bfs_agent = BFSAgent(self.domain_file,
+-                             self.problem_file,
++        bfs_agent = BFSAgent(self.simulator,
+                              dynamic_action_space=False,
+                              monte_carlo_steps=monte_carlo_steps)
+         
+@@ -305,23 +295,24 @@ class PRPAgent(Agent):
+             
+     def generate_samples(self, policy, initial_state=None,
+                          sampling_count=config.SAMPLING_COUNT):
+-        
++
++
+         policy.transform_to_pddlgym(self.problem)
+         all_samples = []
+         # problem_count = len(self.problems)
+         for _i in range(sampling_count):
+             
+             samples = PRP.generate_pddlgym_samples_using_policy(
+-                self.env,
+-                self.domain,
+-                self.problem,
++                self.simulator,
++                self.get_domain(),
++                self.get_problem(),
+                 policy,
+                 initial_state=initial_state,
+                 H=40,
+                 naming_map=self.naming_map,
+                 args_func_map=self.args_func_map)
+             all_samples.append(samples)
+-        
++
+         return all_samples
+ 
+     def get_execution_status(self, state, action, s_dash=None):
+@@ -330,9 +321,9 @@ class PRPAgent(Agent):
+             action_name = action[0]
+             action_params = action[1]
+             action_name = re.sub(r'\d', '', action_name)
+-            action = self.domain.predicates[action_name](*action_params)
++            action = self.get_domain().predicates[action_name](*action_params)
+ 
+-        return self.env.is_action_applicable(action, state=state)
++        return self.simulator.is_action_applicable(action, state=state)
+ 
+     @staticmethod
+     def example_get_execution_status(domain_file, problem_file):
+diff --git a/src/evaluators/saia_evaluator.py b/src/evaluators/saia_evaluator.py
+index 6f16124..a398ac3 100644
+--- a/src/evaluators/saia_evaluator.py
++++ b/src/evaluators/saia_evaluator.py
+@@ -380,7 +380,10 @@ class SAIAEvaluator:
+                                    params=self.experiment_params,
+                                    base_dir=data_dir)
+         else:
+-            agent = PRPAgent(args.domain_file, args.problem_file,
++            env = PDDLEnv(args.domain_file, args.problem_file,
++                          operators_as_actions=True)
++            env.reset()
++            agent = PRPAgent(env,
+                              self.experiment_params)
+ 
+         domain = agent.get_domain()
+diff --git a/src/exploration/random_walk.py b/src/exploration/random_walk.py
+index 2cbba5b..6b15fda 100644
+--- a/src/exploration/random_walk.py
++++ b/src/exploration/random_walk.py
+@@ -15,6 +15,8 @@ def random_walk(simulator,
+     actions = simulator.get_actions()
+     initial_state = simulator.get_initial_state()
+ 
++    sim_state = simulator.save_state()
++
+     while try_no < num_tries:
+ 
+         simulator.set_state(initial_state)
+@@ -41,13 +43,14 @@ def random_walk(simulator,
+             while len(unlearned_actions) > 0:
+ 
+                 action = unlearned_actions.pop()
+-                next_state, _, _, _ = simulator.step(action)
++                next_state, _, _, _ = simulator.step(action, True)
+                 total_steps += 1
+                 execution_status = simulator.get_step_execution_status()
+ 
+                 if execution_status:
+ 
+                     action_cache[action.predicate.name] = state
++                    simulator.restore_state(*sim_state)
+                     return total_steps, action.predicate.name
+                 else:
+                     assert state.literals == next_state.literals
+@@ -57,9 +60,9 @@ def random_walk(simulator,
+                 h = horizon
+             else:
+                 action = learned_actions.pop()
+-                state, _, _, _ = simulator.step(action)
++                state, _, _, _ = simulator.step(action, True)
+                 total_steps += 1
+                 execution_status = simulator.get_step_execution_status()
+                 assert execution_status
+-
++    simulator.restore_state(*sim_state)
+     return total_steps, None
+\ No newline at end of file
+diff --git a/src/interrogation/saia.py b/src/interrogation/saia.py
+index 5056227..64798f2 100644
+--- a/src/interrogation/saia.py
++++ b/src/interrogation/saia.py
+@@ -230,7 +230,7 @@ class AgentInterrogation:
+         return self.current_pal_tuple
+ 
+     def make_precond_inference(self, model1, model2, policy, ps_query, type_comp):
+-        agent_response = ps_query.can_execute_action(self.agent.domain, policy, 0, type_comp, self.useful_states, problem=self.sample_problem)
++        agent_response = ps_query.can_execute_action(self.agent.get_domain(), policy, 0, type_comp, self.useful_states, problem=self.sample_problem)
+ 
+         m1_response = ps_query.can_execute_action(model1, policy, 1, type_comp, self.useful_states)
+         m2_response = ps_query.can_execute_action(model2, policy, 2, type_comp, self.useful_states)
+diff --git a/src/planner/prp.py b/src/planner/prp.py
+index 2ea4148..c132bc1 100644
+--- a/src/planner/prp.py
++++ b/src/planner/prp.py
+@@ -148,12 +148,14 @@ class PRP:
+         return pddlgym_action
+ 
+     @staticmethod
+-    def generate_pddlgym_samples_using_policy(env, domain, problem, policy,
++    def generate_pddlgym_samples_using_policy(simulator, domain, problem, policy,
+                                               initial_state=None,
+                                               H=40,
+                                               naming_map = {},
+                                               args_func_map={}):
+ 
++        sim_state = simulator.save_state()
++
+         if initial_state is not None:
+             
+             assert isinstance(initial_state, State)
+@@ -161,9 +163,9 @@ class PRP:
+             pddlgym_state = State(initial_state.literals,
+                                   initial_state.objects,
+                                   initial_state.goal)
+-            env.set_state(pddlgym_state)
++            simulator.set_state(pddlgym_state)
+         
+-        obs = env.get_state()
++        obs = simulator.get_state()
+         obj_map = PRP.get_pddlgym_object_map(problem)
+         action_map = PRP.get_pddlgym_action_map(domain)
+ 
+@@ -215,13 +217,14 @@ class PRP:
+                 action, obj_map, action_map, naming_map, args_func_map)
+ 
+             old_state = obs
+-            obs, _, _, _ = env.step(action)
+-            execution_status = env.get_step_execution_status()
++            obs, _, _, _ = simulator.step(action, True)
++            execution_status = simulator.get_step_execution_status()
+             samples.append((old_state, prp_action, obs, execution_status))
+ 
+             # Action executed, increment the horizon
+             h += 1
+ 
++        simulator.restore_state(*sim_state)
+         return samples
+ 
+     @staticmethod
+diff --git a/src/vd.py b/src/vd.py
+index 1a48597..333537e 100644
+--- a/src/vd.py
++++ b/src/vd.py
+@@ -207,8 +207,7 @@ class VariationalDistance:
+             except Exception:
+                 continue
+ 
+-            bfsagent = BFSAgent(domain_file,
+-                                problem_file,
++            bfsagent = BFSAgent(env,
+                                 monte_carlo_steps=5)
+             samples, _ = \
+                 bfsagent.generate_state_samples(

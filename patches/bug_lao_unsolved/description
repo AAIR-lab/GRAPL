@@ -1,0 +1,34 @@
+laostar should find a policy for this problem but it does not!
+
+this is a path to the goal. Reproducible at SHA
+c040dafdb194814154c6d82d6832e5ad5bd223d9 
+with seed 1700175331 to the random task generator. 
+Printing path to goal
+ID: 0
+(and
+	(pred1-p obj0-o obj2-o)
+	(pred0-p obj0-o obj2-o)
+	(pred2-p obj2-o))
+(action3-a obj0-o obj2-o)
+ID: 8
+(and
+	(pred2-p obj0-o)
+	(pred1-p obj0-o obj2-o)
+	(pred0-p obj0-o obj2-o)
+	(pred2-p obj2-o))
+(action0-a obj1-o obj0-o)
+ID: 57
+(and
+	(pred2-p obj2-o)
+	(pred0-p obj0-o obj1-o)
+	(pred2-p obj0-o)
+	(pred1-p obj0-o obj2-o)
+	(pred0-p obj0-o obj2-o))
+(action0-a obj0-o obj2-o)
+ID: 195
+(and
+	(pred0-p obj0-o obj1-o)
+	(pred0-p obj2-o obj0-o)
+	(pred0-p obj0-o obj2-o)
+	(pred2-p obj2-o))
+Policy file: /tmp/tmpu7eios0n.policy.txt

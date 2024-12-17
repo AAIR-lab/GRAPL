@@ -1,0 +1,5 @@
+matplotlib
+pddlgym==0.0.1
+termcolor
+graphviz
+seaborn

@@ -1,0 +1,91 @@
+diff --git a/src/interrogation/saia.py b/src/interrogation/saia.py
+index ea7f7a5..b5a02f6 100644
+--- a/src/interrogation/saia.py
++++ b/src/interrogation/saia.py
+@@ -438,12 +438,14 @@ class AgentInterrogation:
+     def populate_probabilities(self, model):
+         for action_name, t_effects in self.effect_dict.items():
+             effects = copy.deepcopy(t_effects)
++
++            if sum(effects.values()) < 10:
++                continue
++
+             factor = 1.0 / sum(effects.values())
+ 
+             idx = 0
+ 
+-            if sum(effects.values()) < 10:
+-                continue
+ 
+             if len(model.actions[action_name].effects.literals) == 0:
+                 continue
+@@ -525,15 +527,13 @@ class AgentInterrogation:
+     def can_find_distinguishing_sample(self, action_name, params_list,
+                                        l1, l2):
+ 
+-        assert (action_name, l1) in self.effect_samples_dict
+-        assert (action_name, l2) in self.effect_samples_dict
++        if (action_name, l1) not in self.effect_samples_dict \
++            or (action_name, l2) not in self.effect_samples_dict:
+ 
+-        if l1.issubset(l2):
+-            extra_effects= l2.difference(l1)
+-            samples = self.effect_samples_dict[(action_name, l1)]
+-        else:
+-            extra_effects = l1.difference(l2)
+-            samples = self.effect_samples_dict[(action_name, l2)]
++            return False
++
++        extra_effects= l2.difference(l1)
++        samples = self.effect_samples_dict[(action_name, l1)]
+ 
+         for state, action in samples:
+ 
+@@ -565,7 +565,7 @@ class AgentInterrogation:
+                 literal_set.discard(literal)
+                 break
+ 
+-        return frozenset(literal_set)
++        return copy.deepcopy(frozenset(literal_set))
+ 
+     def check_and_combine_into(self, action_name, params_list,
+                                effect, i, j):
+@@ -586,16 +586,32 @@ class AgentInterrogation:
+         l1 = self.clean_literals(l1)
+         l2 = self.clean_literals(l2)
+ 
+-        if ((len(l1) == 0 and len(l2) == 0)
+-            or (len(l1) > 0 or len(l2) > 0)) \
+-            and (l1.issubset(l2) or l2.issubset(l1)) \
++        if not self.can_find_distinguishing_sample(action_name,
++                                                        params_list,
++                                                        l1, l2) \
+             and not self.can_find_distinguishing_sample(action_name,
+                                                         params_list,
+-                                                        l1, l2):
++                                                        l2, l1):
+ 
+                 effect.probabilities[i] += effect.probabilities[j]
+-                if l1.issubset(l2):
+-                    effect.literals[i] = effect.literals[j]
++                effect.literals[i] = LiteralConjunction(list(l1.union(l2)))
++
++                new_samples = self.effect_samples_dict[(action_name, l1)] \
++                    + self.effect_samples_dict[(action_name, l2)]
++                new_effect = frozenset(l1.union(l2))
++                self.effect_samples_dict[(action_name, new_effect)] = \
++                    new_samples
++
++                # Reset counts for the other effects.
++                self.effect_dict[action_name][l1] = 0
++                self.effect_dict[action_name][l2] = 0
++
++                self.effect_samples_dict[(action_name, l1)] = []
++                self.effect_samples_dict[(action_name, l2)] = []
++
++                # Divide by two since they are part of the same distribution.
++                self.effect_dict[action_name][new_effect] = \
++                    len(new_samples)
+ 
+                 effect.literals.pop(j)
+                 effect.probabilities.pop(j)

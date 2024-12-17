@@ -1,0 +1,1069 @@
+Mapping:
+
+  var0:0	<-> 	 p_psi()
+  var0:1	<-> 	 not(p_psi())
+  var10:0	<-> 	 pred0-p_1(obj2-o, obj1-o)
+  var10:1	<-> 	 not(pred0-p_1(obj2-o, obj1-o))
+  var11:0	<-> 	 pred0-p_1(obj2-o, obj2-o)
+  var11:1	<-> 	 not(pred0-p_1(obj2-o, obj2-o))
+  var12:0	<-> 	 pred0-p_1(obj2-o, obj3-o)
+  var12:1	<-> 	 not(pred0-p_1(obj2-o, obj3-o))
+  var13:0	<-> 	 pred0-p_1(obj3-o, obj0-o)
+  var13:1	<-> 	 not(pred0-p_1(obj3-o, obj0-o))
+  var14:0	<-> 	 pred0-p_1(obj3-o, obj1-o)
+  var14:1	<-> 	 not(pred0-p_1(obj3-o, obj1-o))
+  var15:0	<-> 	 pred0-p_1(obj3-o, obj2-o)
+  var15:1	<-> 	 not(pred0-p_1(obj3-o, obj2-o))
+  var16:0	<-> 	 pred0-p_1(obj3-o, obj3-o)
+  var16:1	<-> 	 not(pred0-p_1(obj3-o, obj3-o))
+  var17:0	<-> 	 pred0-p_2(obj0-o, obj0-o)
+  var17:1	<-> 	 not(pred0-p_2(obj0-o, obj0-o))
+  var18:0	<-> 	 pred0-p_2(obj0-o, obj1-o)
+  var18:1	<-> 	 not(pred0-p_2(obj0-o, obj1-o))
+  var19:0	<-> 	 pred0-p_2(obj0-o, obj2-o)
+  var19:1	<-> 	 not(pred0-p_2(obj0-o, obj2-o))
+  var1:0	<-> 	 pred0-p_1(obj0-o, obj0-o)
+  var1:1	<-> 	 not(pred0-p_1(obj0-o, obj0-o))
+  var20:0	<-> 	 pred0-p_2(obj0-o, obj3-o)
+  var20:1	<-> 	 not(pred0-p_2(obj0-o, obj3-o))
+  var21:0	<-> 	 pred0-p_2(obj1-o, obj0-o)
+  var21:1	<-> 	 not(pred0-p_2(obj1-o, obj0-o))
+  var22:0	<-> 	 pred0-p_2(obj1-o, obj1-o)
+  var22:1	<-> 	 not(pred0-p_2(obj1-o, obj1-o))
+  var23:0	<-> 	 pred0-p_2(obj1-o, obj2-o)
+  var23:1	<-> 	 not(pred0-p_2(obj1-o, obj2-o))
+  var24:0	<-> 	 pred0-p_2(obj1-o, obj3-o)
+  var24:1	<-> 	 not(pred0-p_2(obj1-o, obj3-o))
+  var25:0	<-> 	 pred0-p_2(obj2-o, obj0-o)
+  var25:1	<-> 	 not(pred0-p_2(obj2-o, obj0-o))
+  var26:0	<-> 	 pred0-p_2(obj2-o, obj1-o)
+  var26:1	<-> 	 not(pred0-p_2(obj2-o, obj1-o))
+  var27:0	<-> 	 pred0-p_2(obj2-o, obj2-o)
+  var27:1	<-> 	 not(pred0-p_2(obj2-o, obj2-o))
+  var28:0	<-> 	 pred0-p_2(obj2-o, obj3-o)
+  var28:1	<-> 	 not(pred0-p_2(obj2-o, obj3-o))
+  var29:0	<-> 	 pred0-p_2(obj3-o, obj0-o)
+  var29:1	<-> 	 not(pred0-p_2(obj3-o, obj0-o))
+  var2:0	<-> 	 pred0-p_1(obj0-o, obj1-o)
+  var2:1	<-> 	 not(pred0-p_1(obj0-o, obj1-o))
+  var30:0	<-> 	 pred0-p_2(obj3-o, obj1-o)
+  var30:1	<-> 	 not(pred0-p_2(obj3-o, obj1-o))
+  var31:0	<-> 	 pred0-p_2(obj3-o, obj2-o)
+  var31:1	<-> 	 not(pred0-p_2(obj3-o, obj2-o))
+  var32:0	<-> 	 pred0-p_2(obj3-o, obj3-o)
+  var32:1	<-> 	 not(pred0-p_2(obj3-o, obj3-o))
+  var33:0	<-> 	 pred1-p_1(obj0-o)
+  var33:1	<-> 	 not(pred1-p_1(obj0-o))
+  var34:0	<-> 	 pred1-p_1(obj1-o)
+  var34:1	<-> 	 not(pred1-p_1(obj1-o))
+  var35:0	<-> 	 pred1-p_1(obj2-o)
+  var35:1	<-> 	 not(pred1-p_1(obj2-o))
+  var36:0	<-> 	 pred1-p_1(obj3-o)
+  var36:1	<-> 	 not(pred1-p_1(obj3-o))
+  var37:0	<-> 	 pred1-p_2(obj0-o)
+  var37:1	<-> 	 not(pred1-p_2(obj0-o))
+  var38:0	<-> 	 pred1-p_2(obj1-o)
+  var38:1	<-> 	 not(pred1-p_2(obj1-o))
+  var39:0	<-> 	 pred1-p_2(obj2-o)
+  var39:1	<-> 	 not(pred1-p_2(obj2-o))
+  var3:0	<-> 	 pred0-p_1(obj0-o, obj2-o)
+  var3:1	<-> 	 not(pred0-p_1(obj0-o, obj2-o))
+  var40:0	<-> 	 pred1-p_2(obj3-o)
+  var40:1	<-> 	 not(pred1-p_2(obj3-o))
+  var41:0	<-> 	 pred2-p_1(obj0-o, obj2-o)
+  var41:1	<-> 	 not(pred2-p_1(obj0-o, obj2-o))
+  var42:0	<-> 	 pred2-p_1(obj2-o, obj0-o)
+  var42:1	<-> 	 not(pred2-p_1(obj2-o, obj0-o))
+  var43:0	<-> 	 pred2-p_2(obj0-o, obj2-o)
+  var43:1	<-> 	 not(pred2-p_2(obj0-o, obj2-o))
+  var44:0	<-> 	 pred2-p_2(obj2-o, obj0-o)
+  var44:1	<-> 	 not(pred2-p_2(obj2-o, obj0-o))
+  var4:0	<-> 	 pred0-p_1(obj0-o, obj3-o)
+  var4:1	<-> 	 not(pred0-p_1(obj0-o, obj3-o))
+  var5:0	<-> 	 pred0-p_1(obj1-o, obj0-o)
+  var5:1	<-> 	 not(pred0-p_1(obj1-o, obj0-o))
+  var6:0	<-> 	 pred0-p_1(obj1-o, obj1-o)
+  var6:1	<-> 	 not(pred0-p_1(obj1-o, obj1-o))
+  var7:0	<-> 	 pred0-p_1(obj1-o, obj2-o)
+  var7:1	<-> 	 not(pred0-p_1(obj1-o, obj2-o))
+  var8:0	<-> 	 pred0-p_1(obj1-o, obj3-o)
+  var8:1	<-> 	 not(pred0-p_1(obj1-o, obj3-o))
+  var9:0	<-> 	 pred0-p_1(obj2-o, obj0-o)
+  var9:1	<-> 	 not(pred0-p_1(obj2-o, obj0-o))
+
+Policy:
+
+If holds: p_psi()
+Execute: goal / SC / d=0
+
+If holds: pred1-p_1(obj1-o)/not(pred1-p_2(obj1-o))
+Execute: action0-a2 obj0-o obj1-o / SC / d=1
+
+If holds: not(pred1-p_1(obj1-o))/pred1-p_2(obj1-o)
+Execute: action0-a obj0-o obj1-o / SC / d=1
+
+If holds: not(pred0-p_2(obj2-o, obj1-o))/pred0-p_1(obj2-o, obj1-o)
+Execute: action0-a300 obj2-o obj1-o / SC / d=1
+
+If holds: pred1-p_1(obj0-o)/not(pred1-p_2(obj0-o))
+Execute: action0-a2 obj1-o obj0-o / SC / d=1
+
+If holds: pred1-p_1(obj2-o)/not(pred1-p_2(obj2-o))
+Execute: action0-a2 obj0-o obj2-o / SC / d=1
+
+If holds: not(pred1-p_1(obj0-o))/pred1-p_2(obj0-o)
+Execute: action0-a obj1-o obj0-o / SC / d=1
+
+If holds: not(pred1-p_1(obj2-o))/pred1-p_2(obj2-o)
+Execute: action0-a obj0-o obj2-o / SC / d=1
+
+If holds: not(pred0-p_2(obj3-o, obj1-o))/pred0-p_1(obj3-o, obj1-o)
+Execute: action0-a300 obj3-o obj1-o / SC / d=1
+
+If holds: not(pred0-p_2(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj0-o)
+Execute: action0-a300 obj3-o obj0-o / SC / d=1
+
+If holds: not(pred0-p_2(obj2-o, obj3-o))/pred0-p_1(obj2-o, obj3-o)
+Execute: action0-a300 obj2-o obj3-o / SC / d=1
+
+If holds: not(pred1-p_1(obj3-o))/pred1-p_2(obj3-o)
+Execute: action0-a obj0-o obj3-o / SC / d=1
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj1-o)
+Execute: action0-a300 obj0-o obj1-o / SC / d=1
+
+If holds: not(pred0-p_2(obj0-o, obj3-o))/pred0-p_1(obj0-o, obj3-o)
+Execute: action0-a300 obj0-o obj3-o / SC / d=1
+
+If holds: not(pred0-p_2(obj2-o, obj0-o))/pred0-p_1(obj2-o, obj0-o)
+Execute: action0-a300 obj2-o obj0-o / SC / d=1
+
+If holds: not(pred0-p_2(obj0-o, obj2-o))/pred0-p_1(obj0-o, obj2-o)
+Execute: action0-a300 obj0-o obj2-o / SC / d=1
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/not(pred0-p_2(obj3-o, obj0-o))/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj1-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))
+Execute: action2-a obj1-o obj3-o / SC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj1-o)/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action0-a obj2-o obj0-o / SC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/not(pred0-p_2(obj1-o, obj2-o))/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj1-o)/not(pred1-p_2(obj1-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a obj1-o obj2-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/not(pred0-p_2(obj1-o, obj2-o))/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj1-o)/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a obj1-o obj2-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj2-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj1-o)/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/not(pred0-p_2(obj1-o, obj2-o))/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj1-o)/pred0-p_1(obj2-o, obj1-o)/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a obj1-o obj2-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj2-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj1-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj1-o)/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/not(pred0-p_2(obj1-o, obj2-o))/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj1-o)/pred0-p_1(obj2-o, obj1-o)/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a obj1-o obj2-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj1-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_2(obj0-o))
+Execute: action2-a obj0-o obj3-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj1-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action2-a obj0-o obj3-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj1-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))
+Execute: action2-a obj1-o obj3-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/not(pred0-p_2(obj3-o, obj0-o))/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj3-o, obj1-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))
+Execute: action2-a obj1-o obj3-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj0-o, obj3-o)/pred0-p_1(obj2-o, obj3-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj0-o, obj2-o)
+Execute: action2-a2 obj3-o obj2-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj0-o, obj3-o)/pred0-p_1(obj2-o, obj3-o)/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj1-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/pred1-p_1(obj0-o)/pred1-p_1(obj2-o)/pred1-p_2(obj0-o)/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj1-o obj3-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj0-o, obj3-o)/pred0-p_1(obj2-o, obj3-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj0-o, obj2-o)
+Execute: action2-a2 obj3-o obj2-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj0-o, obj3-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj0-o, obj3-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj0-o, obj2-o)
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj0-o, obj3-o)/pred0-p_1(obj2-o, obj3-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj0-o, obj2-o)
+Execute: action2-a2 obj3-o obj2-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred0-p_1(obj3-o, obj0-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action2-a obj1-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred0-p_1(obj2-o, obj3-o))/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred0-p_1(obj2-o, obj3-o))/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj1-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred0-p_1(obj2-o, obj3-o))/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj2-o, obj3-o))/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj2-o, obj3-o))/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred0-p_1(obj2-o, obj3-o))/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj0-o)/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred0-p_1(obj2-o, obj3-o))/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred0-p_1(obj2-o, obj3-o))/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj1-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred0-p_1(obj2-o, obj3-o))/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj2-o, obj3-o))/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj2-o, obj3-o))/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred0-p_1(obj2-o, obj3-o))/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj0-o)/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj0-o, obj3-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj0-o, obj3-o)/pred0-p_1(obj2-o, obj3-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj0-o, obj2-o)
+Execute: action2-a2 obj3-o obj2-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj0-o, obj3-o)/pred0-p_1(obj2-o, obj3-o)/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj1-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/pred1-p_1(obj0-o)/pred1-p_1(obj2-o)/pred1-p_2(obj0-o)/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj1-o obj3-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj0-o, obj3-o)/pred0-p_1(obj2-o, obj3-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj0-o, obj2-o)
+Execute: action2-a2 obj3-o obj2-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action2-a obj1-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj1-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj3-o, obj0-o)/not(pred0-p_1(obj3-o, obj1-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))/pred2-p_1(obj0-o, obj2-o)
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj1-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj3-o, obj0-o)/not(pred0-p_1(obj3-o, obj1-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))/pred2-p_1(obj0-o, obj2-o)
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj0-o, obj3-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj0-o, obj3-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj0-o, obj2-o)
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj0-o, obj3-o)/pred0-p_1(obj2-o, obj3-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj0-o, obj2-o)
+Execute: action2-a2 obj3-o obj2-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action2-a obj1-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred0-p_1(obj2-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred0-p_1(obj2-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj1-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred0-p_1(obj2-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj2-o, obj3-o))/pred0-p_1(obj3-o, obj0-o)/not(pred0-p_1(obj3-o, obj1-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj2-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred0-p_1(obj2-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj3-o, obj0-o)/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred0-p_1(obj2-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred0-p_1(obj2-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj1-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred0-p_1(obj2-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj2-o, obj3-o))/pred0-p_1(obj3-o, obj0-o)/not(pred0-p_1(obj3-o, obj1-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj2-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred0-p_1(obj2-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj3-o, obj0-o)/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj0-o, obj3-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/not(pred0-p_2(obj3-o, obj0-o))/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj0-o, obj3-o)/pred0-p_1(obj3-o, obj1-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/pred1-p_1(obj0-o)/pred1-p_1(obj2-o)/pred1-p_2(obj0-o)/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj1-o obj3-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj1-o, obj0-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a obj1-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj1-o, obj0-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a obj2-o obj3-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/not(pred0-p_2(obj3-o, obj1-o))/not(pred0-p_2(obj3-o, obj2-o))/pred0-p_1(obj0-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/not(pred0-p_2(obj3-o, obj2-o))/pred0-p_1(obj0-o, obj3-o)/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/not(pred0-p_2(obj0-o, obj3-o))/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/not(pred0-p_2(obj3-o, obj2-o))/pred0-p_1(obj0-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/not(pred0-p_2(obj3-o, obj2-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/not(pred0-p_2(obj3-o, obj1-o))/not(pred0-p_2(obj3-o, obj2-o))/pred0-p_1(obj0-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/not(pred0-p_2(obj3-o, obj2-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/not(pred0-p_2(obj0-o, obj3-o))/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/not(pred0-p_2(obj3-o, obj2-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj3-o, obj0-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/not(pred0-p_2(obj0-o, obj3-o))/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/not(pred0-p_2(obj3-o, obj2-o))/pred0-p_1(obj3-o, obj0-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))
+Execute: action2-a obj0-o obj3-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj1-o, obj0-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj3-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/not(pred0-p_2(obj0-o, obj3-o))/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/not(pred0-p_2(obj3-o, obj2-o))/pred0-p_1(obj3-o, obj0-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/pred1-p_1(obj0-o)/pred1-p_2(obj0-o)/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action2-a obj0-o obj3-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj1-o, obj0-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a obj2-o obj3-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/not(pred0-p_2(obj3-o, obj1-o))/not(pred0-p_2(obj3-o, obj2-o))/pred0-p_1(obj0-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/not(pred0-p_2(obj3-o, obj2-o))/pred0-p_1(obj0-o, obj3-o)/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/not(pred0-p_2(obj0-o, obj3-o))/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/not(pred0-p_2(obj3-o, obj2-o))/pred0-p_1(obj0-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/not(pred0-p_2(obj3-o, obj2-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/not(pred0-p_2(obj3-o, obj1-o))/not(pred0-p_2(obj3-o, obj2-o))/pred0-p_1(obj0-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/not(pred0-p_2(obj3-o, obj2-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/not(pred0-p_2(obj0-o, obj3-o))/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/not(pred0-p_2(obj3-o, obj2-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj3-o, obj0-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/not(pred0-p_2(obj0-o, obj3-o))/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/not(pred0-p_2(obj3-o, obj2-o))/pred0-p_1(obj3-o, obj0-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))
+Execute: action2-a obj0-o obj3-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj1-o, obj0-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj3-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/not(pred0-p_2(obj0-o, obj3-o))/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/not(pred0-p_2(obj3-o, obj2-o))/pred0-p_1(obj3-o, obj0-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/pred1-p_1(obj0-o)/pred1-p_2(obj0-o)/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action2-a obj0-o obj3-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/not(pred0-p_2(obj3-o, obj0-o))/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj0-o, obj3-o)/pred0-p_1(obj3-o, obj1-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/pred1-p_1(obj0-o)/pred1-p_1(obj2-o)/pred1-p_2(obj0-o)/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj1-o obj3-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj1-o, obj0-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a obj1-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj3-o, obj2-o))/pred0-p_1(obj0-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/not(pred0-p_2(obj3-o, obj2-o))/pred0-p_1(obj0-o, obj3-o)/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/not(pred0-p_2(obj0-o, obj3-o))/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/not(pred0-p_2(obj3-o, obj2-o))/pred0-p_1(obj0-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/not(pred0-p_2(obj3-o, obj2-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj3-o, obj2-o))/pred0-p_1(obj0-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/not(pred0-p_2(obj3-o, obj2-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/not(pred0-p_2(obj0-o, obj3-o))/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj3-o, obj2-o))/pred0-p_1(obj3-o, obj0-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))
+Execute: action2-a obj0-o obj3-o / NSC / d=2
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj1-o, obj0-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj3-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj1-o, obj0-o)/pred0-p_1(obj0-o, obj2-o)/not(pred0-p_1(obj3-o, obj1-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a obj1-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj3-o, obj2-o))/pred0-p_1(obj0-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/not(pred0-p_2(obj3-o, obj2-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/not(pred0-p_2(obj3-o, obj2-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/not(pred0-p_2(obj0-o, obj3-o))/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/not(pred0-p_2(obj3-o, obj2-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj3-o)/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/not(pred0-p_2(obj3-o, obj2-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/pred0-p_1(obj1-o, obj3-o)/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj3-o, obj2-o))/pred0-p_1(obj0-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/not(pred0-p_2(obj0-o, obj3-o))/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj3-o, obj2-o))/pred0-p_1(obj3-o, obj0-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))
+Execute: action2-a obj0-o obj3-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/not(pred0-p_2(obj0-o, obj3-o))/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/not(pred0-p_2(obj3-o, obj2-o))/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj3-o)/pred0-p_1(obj3-o, obj0-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/not(pred0-p_2(obj0-o, obj3-o))/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj3-o, obj2-o))/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj3-o, obj0-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action2-a obj0-o obj3-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/not(pred0-p_2(obj0-o, obj3-o))/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj3-o, obj2-o))/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj3-o, obj0-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))
+Execute: action2-a obj0-o obj3-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj1-o, obj0-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj3-o, obj0-o)/not(pred0-p_1(obj3-o, obj1-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj2-o obj3-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/not(pred0-p_2(obj0-o, obj3-o))/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj3-o, obj2-o))/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj3-o, obj0-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/pred1-p_1(obj0-o)/pred1-p_2(obj0-o)/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action2-a obj0-o obj3-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a obj2-o obj3-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj1-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a obj1-o obj3-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/not(pred0-p_1(obj3-o, obj0-o))/not(pred0-p_1(obj3-o, obj1-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a obj2-o obj3-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj1-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a obj1-o obj3-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/not(pred0-p_2(obj3-o, obj0-o))/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a obj2-o obj3-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/not(pred0-p_2(obj3-o, obj0-o))/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj3-o, obj1-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a obj1-o obj3-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/not(pred0-p_2(obj3-o, obj0-o))/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/not(pred0-p_1(obj3-o, obj1-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a obj2-o obj3-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/not(pred0-p_2(obj3-o, obj0-o))/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj3-o, obj1-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a obj1-o obj3-o / NSC / d=2
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/not(pred0-p_2(obj1-o, obj2-o))/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj2-o, obj1-o)/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a2 obj3-o obj2-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj2-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj1-o)/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj1-o obj2-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj2-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj1-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj2-o obj0-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj1-o)/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj1-o obj2-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj0-o obj2-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj1-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action0-a obj2-o obj0-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj3-o, obj1-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action0-a obj3-o obj0-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj1-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))
+Execute: action0-a obj0-o obj3-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/not(pred0-p_2(obj3-o, obj0-o))/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj3-o, obj1-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))
+Execute: action0-a obj0-o obj3-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj0-o, obj3-o)/pred0-p_1(obj2-o, obj3-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj0-o, obj2-o)
+Execute: action2-a2 obj3-o obj2-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj0-o, obj3-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj0-o, obj2-o)
+Execute: action0-a obj2-o obj3-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred0-p_1(obj3-o, obj0-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action2-a obj1-o obj0-o / NSC / d=3
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action0-a obj2-o obj0-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj1-o obj0-o / NSC / d=3
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/pred1-p_1(obj2-o)/not(pred1-p_2(obj0-o))/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/pred1-p_1(obj0-o)/not(pred1-p_1(obj2-o))/pred1-p_2(obj0-o)/not(pred1-p_2(obj2-o))/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action3-a2 obj2-o obj0-o / NSC / d=3
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/pred1-p_1(obj2-o)/not(pred1-p_2(obj0-o))/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj2-o, obj1-o)/not(pred0-p_1(obj0-o, obj3-o))/not(pred0-p_1(obj3-o, obj0-o))/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj0-o obj2-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action0-a obj2-o obj0-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a obj1-o obj0-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/pred1-p_1(obj2-o)/not(pred1-p_2(obj0-o))/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/pred1-p_1(obj0-o)/not(pred1-p_1(obj2-o))/pred1-p_2(obj0-o)/not(pred1-p_2(obj2-o))/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action3-a2 obj2-o obj0-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/pred1-p_1(obj2-o)/not(pred1-p_2(obj0-o))/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj0-o, obj3-o)/pred1-p_1(obj0-o)/not(pred1-p_1(obj2-o))/pred1-p_2(obj0-o)/not(pred1-p_2(obj2-o))/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action3-a2 obj2-o obj0-o / NSC / d=3
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred0-p_1(obj2-o, obj3-o))/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action0-a obj2-o obj0-o / NSC / d=3
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj2-o, obj3-o))/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/pred1-p_1(obj2-o)/not(pred1-p_2(obj0-o))/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj2-o, obj3-o))/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/pred1-p_1(obj0-o)/not(pred1-p_1(obj2-o))/pred1-p_2(obj0-o)/not(pred1-p_2(obj2-o))/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action3-a2 obj2-o obj0-o / NSC / d=3
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/not(pred0-p_2(obj3-o, obj1-o))/not(pred0-p_1(obj0-o, obj3-o))/not(pred0-p_1(obj2-o, obj3-o))/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj0-o obj2-o / NSC / d=3
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/pred1-p_1(obj2-o)/not(pred1-p_2(obj0-o))/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred0-p_1(obj2-o, obj3-o))/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action0-a obj2-o obj0-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj2-o, obj3-o))/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/pred1-p_1(obj2-o)/not(pred1-p_2(obj0-o))/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj2-o, obj3-o))/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/pred1-p_1(obj0-o)/not(pred1-p_1(obj2-o))/pred1-p_2(obj0-o)/not(pred1-p_2(obj2-o))/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action3-a2 obj2-o obj0-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/not(pred0-p_2(obj3-o, obj1-o))/not(pred0-p_1(obj0-o, obj3-o))/not(pred0-p_1(obj2-o, obj3-o))/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj0-o obj2-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/pred1-p_1(obj2-o)/not(pred1-p_2(obj0-o))/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj0-o, obj3-o)/pred1-p_1(obj0-o)/not(pred1-p_1(obj2-o))/pred1-p_2(obj0-o)/not(pred1-p_2(obj2-o))/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action3-a2 obj2-o obj0-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj0-o, obj3-o)/pred0-p_1(obj2-o, obj3-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj0-o, obj2-o)
+Execute: action2-a2 obj3-o obj2-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj0-o, obj3-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))/pred2-p_2(obj0-o, obj2-o)
+Execute: action0-a obj2-o obj3-o / NSC / d=3
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action0-a obj2-o obj0-o / NSC / d=3
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj3-o obj0-o / NSC / d=3
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/pred0-p_1(obj3-o, obj0-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj2-o obj0-o / NSC / d=3
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/pred1-p_1(obj2-o)/not(pred1-p_2(obj0-o))/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj0-o obj2-o / NSC / d=3
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/pred1-p_1(obj2-o)/not(pred1-p_2(obj0-o))/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/pred1-p_1(obj2-o)/not(pred1-p_2(obj0-o))/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action0-a obj2-o obj0-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj3-o, obj0-o)/not(pred0-p_1(obj3-o, obj1-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj0-o obj2-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/pred1-p_1(obj2-o)/not(pred1-p_2(obj0-o))/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj0-o obj2-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/pred1-p_1(obj2-o)/not(pred1-p_2(obj0-o))/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/pred1-p_1(obj2-o)/not(pred1-p_2(obj0-o))/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj0-o, obj3-o)/pred1-p_1(obj0-o)/not(pred1-p_1(obj2-o))/pred1-p_2(obj0-o)/not(pred1-p_2(obj2-o))/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action3-a2 obj2-o obj0-o / NSC / d=3
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred0-p_1(obj2-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action0-a obj2-o obj0-o / NSC / d=3
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj3-o, obj1-o))/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj3-o obj0-o / NSC / d=3
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj3-o, obj0-o)/not(pred0-p_1(obj3-o, obj1-o))/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj2-o obj0-o / NSC / d=3
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj2-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/pred1-p_1(obj2-o)/not(pred1-p_2(obj0-o))/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj0-o obj2-o / NSC / d=3
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/pred1-p_1(obj2-o)/not(pred1-p_2(obj0-o))/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj0-o, obj3-o)/not(pred0-p_1(obj2-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/pred2-p_2(obj2-o, obj0-o)
+Execute: action0-a obj2-o obj0-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj2-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/pred1-p_1(obj2-o)/not(pred1-p_2(obj0-o))/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj0-o obj2-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/pred1-p_1(obj2-o)/not(pred1-p_2(obj0-o))/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj0-o, obj3-o)/pred1-p_1(obj0-o)/not(pred1-p_1(obj2-o))/pred1-p_2(obj0-o)/not(pred1-p_2(obj2-o))/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action3-a2 obj2-o obj0-o / NSC / d=3
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj1-o, obj0-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj1-o obj3-o / NSC / d=3
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/not(pred0-p_2(obj3-o, obj1-o))/not(pred0-p_2(obj3-o, obj2-o))/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj0-o obj2-o / NSC / d=3
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/not(pred0-p_2(obj3-o, obj2-o))/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action0-a obj0-o obj3-o / NSC / d=3
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj3-o, obj2-o))/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action0-a obj3-o obj0-o / NSC / d=3
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj1-o, obj0-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/pred1-p_1(obj2-o)/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj1-o, obj0-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj1-o obj3-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/not(pred0-p_2(obj3-o, obj1-o))/not(pred0-p_2(obj3-o, obj2-o))/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj0-o obj2-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/not(pred0-p_2(obj3-o, obj2-o))/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action0-a obj0-o obj3-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj3-o, obj2-o))/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action0-a obj3-o obj0-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj1-o, obj0-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/pred1-p_1(obj2-o)/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj1-o, obj0-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj1-o obj3-o / NSC / d=3
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj3-o, obj2-o))/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj0-o obj2-o / NSC / d=3
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/not(pred0-p_2(obj3-o, obj2-o))/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action0-a obj0-o obj3-o / NSC / d=3
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj1-o, obj0-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/pred1-p_1(obj2-o)/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj1-o, obj0-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj3-o, obj0-o)/not(pred0-p_1(obj3-o, obj1-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj1-o obj3-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj3-o, obj2-o))/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj0-o obj2-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/not(pred0-p_2(obj3-o, obj2-o))/pred0-p_1(obj0-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action0-a obj0-o obj3-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/not(pred0-p_2(obj0-o, obj3-o))/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj3-o, obj2-o))/not(pred0-p_1(obj0-o, obj1-o))/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))
+Execute: action0-a obj3-o obj0-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj1-o, obj0-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj3-o, obj0-o)/not(pred0-p_1(obj3-o, obj1-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/pred1-p_1(obj2-o)/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/not(pred0-p_1(obj3-o, obj0-o))/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj3-o obj2-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/not(pred0-p_1(obj3-o, obj0-o))/not(pred0-p_1(obj3-o, obj1-o))/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj3-o obj2-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/not(pred0-p_2(obj3-o, obj0-o))/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj3-o obj2-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/not(pred0-p_2(obj3-o, obj0-o))/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/not(pred0-p_1(obj3-o, obj1-o))/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj3-o obj2-o / NSC / d=3
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/not(pred0-p_2(obj1-o, obj2-o))/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj2-o, obj1-o)/not(pred1-p_1(obj1-o))/not(pred1-p_2(obj1-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj3-o obj1-o / NSC / d=4
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj2-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj1-o)/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a2 obj3-o obj2-o / NSC / d=4
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj2-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj1-o)/pred1-p_1(obj0-o)/not(pred1-p_1(obj2-o))/pred1-p_2(obj0-o)/not(pred1-p_2(obj2-o))/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action3-a2 obj2-o obj0-o / NSC / d=4
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj2-o, obj1-o))/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj1-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj3-o obj2-o / NSC / d=4
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj2-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj1-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj3-o obj0-o / NSC / d=4
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj1-o)/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action2-a2 obj3-o obj2-o / NSC / d=4
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj1-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))
+Execute: action2-a obj0-o obj3-o / NSC / d=4
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/pred1-p_1(obj0-o)/not(pred1-p_1(obj2-o))/pred1-p_2(obj0-o)/not(pred1-p_2(obj2-o))/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action0-a obj0-o obj2-o / NSC / d=4
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/pred1-p_1(obj0-o)/not(pred1-p_1(obj2-o))/pred1-p_2(obj0-o)/not(pred1-p_2(obj2-o))/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action0-a obj0-o obj2-o / NSC / d=4
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/pred1-p_1(obj0-o)/not(pred1-p_1(obj2-o))/pred1-p_2(obj0-o)/not(pred1-p_2(obj2-o))/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action0-a obj0-o obj2-o / NSC / d=4
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/pred1-p_1(obj0-o)/not(pred1-p_1(obj2-o))/pred1-p_2(obj0-o)/not(pred1-p_2(obj2-o))/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action0-a obj0-o obj2-o / NSC / d=4
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj2-o, obj3-o))/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/pred1-p_1(obj0-o)/not(pred1-p_1(obj2-o))/pred1-p_2(obj0-o)/not(pred1-p_2(obj2-o))/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action0-a obj0-o obj2-o / NSC / d=4
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/not(pred0-p_1(obj0-o, obj1-o))/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj2-o, obj3-o))/not(pred0-p_1(obj3-o, obj0-o))/pred0-p_1(obj3-o, obj2-o)/pred1-p_1(obj0-o)/not(pred1-p_1(obj2-o))/pred1-p_2(obj0-o)/not(pred1-p_2(obj2-o))/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action0-a obj0-o obj2-o / NSC / d=4
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action2-a obj0-o obj2-o / NSC / d=4
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action2-a obj0-o obj2-o / NSC / d=4
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj0-o, obj3-o)/pred1-p_1(obj0-o)/pred1-p_1(obj2-o)/pred1-p_2(obj0-o)/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action3-a2 obj0-o obj2-o / NSC / d=4
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj1-o, obj0-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj3-o obj0-o / NSC / d=4
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj3-o, obj2-o))/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/pred1-p_1(obj0-o)/pred1-p_2(obj0-o)/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action3-a2 obj2-o obj0-o / NSC / d=4
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj1-o, obj0-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj3-o obj0-o / NSC / d=4
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj3-o, obj2-o))/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/pred1-p_1(obj0-o)/pred1-p_2(obj0-o)/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action3-a2 obj2-o obj0-o / NSC / d=4
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj0-o, obj3-o)/pred1-p_1(obj0-o)/pred1-p_1(obj2-o)/pred1-p_2(obj0-o)/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action3-a2 obj0-o obj2-o / NSC / d=4
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj1-o, obj0-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj3-o obj0-o / NSC / d=4
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/pred0-p_2(obj0-o, obj3-o)/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj1-o, obj0-o)/pred0-p_1(obj0-o, obj2-o)/not(pred0-p_1(obj3-o, obj1-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj3-o obj0-o / NSC / d=4
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj2-o, obj0-o))/not(pred0-p_2(obj0-o, obj3-o))/pred0-p_2(obj1-o, obj3-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj3-o, obj2-o))/not(pred0-p_1(obj0-o, obj1-o))/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/pred1-p_1(obj0-o)/pred1-p_2(obj0-o)/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action3-a2 obj2-o obj0-o / NSC / d=4
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/not(pred0-p_2(obj1-o, obj2-o))/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj3-o)/not(pred1-p_1(obj1-o))/not(pred1-p_2(obj1-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj2-o obj1-o / NSC / d=5
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj2-o, obj1-o))/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj1-o)/not(pred1-p_1(obj0-o))/pred1-p_1(obj2-o)/not(pred1-p_2(obj0-o))/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action3-a2 obj0-o obj2-o / NSC / d=5
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj2-o, obj1-o))/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj1-o)/not(pred1-p_1(obj3-o))/not(pred1-p_1(obj0-o))/pred1-p_1(obj2-o)/not(pred1-p_2(obj0-o))/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action3-a2 obj0-o obj2-o / NSC / d=5
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj2-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj1-o)/pred1-p_1(obj0-o)/not(pred1-p_1(obj2-o))/pred1-p_2(obj0-o)/not(pred1-p_2(obj2-o))/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action3-a2 obj2-o obj0-o / NSC / d=5
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj2-o, obj1-o))/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj1-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj0-o obj2-o / NSC / d=5
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj0-o, obj3-o)/pred0-p_1(obj2-o, obj3-o)/pred1-p_1(obj0-o)/pred1-p_1(obj2-o)/pred1-p_2(obj0-o)/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action3-a2 obj0-o obj2-o / NSC / d=5
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj0-o, obj3-o))/not(pred0-p_1(obj2-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj3-o obj0-o / NSC / d=5
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/not(pred0-p_2(obj3-o, obj1-o))/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj0-o, obj3-o))/not(pred0-p_1(obj2-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj3-o obj0-o / NSC / d=5
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/pred0-p_1(obj0-o, obj3-o)/pred0-p_1(obj2-o, obj3-o)/pred1-p_1(obj0-o)/pred1-p_1(obj2-o)/pred1-p_2(obj0-o)/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action3-a2 obj0-o obj2-o / NSC / d=5
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj3-o obj0-o / NSC / d=5
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj2-o)/pred1-p_1(obj0-o)/not(pred1-p_1(obj2-o))/pred1-p_2(obj0-o)/not(pred1-p_2(obj2-o))/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action3-a2 obj2-o obj0-o / NSC / d=5
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj3-o, obj1-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj3-o obj0-o / NSC / d=5
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj3-o obj0-o / NSC / d=5
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/not(pred0-p_2(obj2-o, obj3-o))/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj2-o)/pred1-p_1(obj0-o)/not(pred1-p_1(obj2-o))/pred1-p_2(obj0-o)/not(pred1-p_2(obj2-o))/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action3-a2 obj2-o obj0-o / NSC / d=5
+
+If holds: not(pred0-p_2(obj0-o, obj1-o))/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj3-o obj0-o / NSC / d=5
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj3-o, obj1-o))/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj3-o obj0-o / NSC / d=5
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/not(pred0-p_2(obj0-o, obj2-o))/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/pred0-p_2(obj0-o, obj3-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj0-o, obj3-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj3-o obj0-o / NSC / d=5
+
+If holds: pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/not(pred0-p_2(obj1-o, obj2-o))/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj2-o, obj3-o)/not(pred1-p_1(obj1-o))/not(pred1-p_2(obj1-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj0-o obj1-o / NSC / d=6
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj2-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj1-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/pred1-p_1(obj0-o)/pred1-p_2(obj0-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a2 obj2-o obj3-o / NSC / d=6
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj2-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj1-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/pred1-p_1(obj0-o)/pred1-p_2(obj0-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a2 obj2-o obj3-o / NSC / d=6
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj2-o, obj1-o))/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj1-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/pred1-p_1(obj2-o)/not(pred1-p_2(obj0-o))/pred2-p_1(obj2-o, obj0-o)/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a2 obj2-o obj0-o / NSC / d=6
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj2-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj1-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/pred1-p_1(obj0-o)/not(pred1-p_1(obj2-o))/pred1-p_2(obj0-o)/not(pred1-p_2(obj2-o))/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a2 obj2-o obj3-o / NSC / d=6
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj2-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj1-o)/pred1-p_1(obj0-o)/pred1-p_1(obj2-o)/pred1-p_2(obj0-o)/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action3-a2 obj0-o obj2-o / NSC / d=6
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj2-o, obj1-o))/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj1-o)/not(pred1-p_1(obj0-o))/pred1-p_1(obj2-o)/not(pred1-p_2(obj0-o))/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action3-a2 obj0-o obj2-o / NSC / d=6
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj2-o, obj1-o))/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj1-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_2(obj0-o))/pred1-p_2(obj2-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a2 obj2-o obj0-o / NSC / d=6
+
+If holds: pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/not(pred0-p_2(obj1-o, obj2-o))/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_1(obj2-o, obj3-o)/not(pred1-p_1(obj1-o))/not(pred1-p_2(obj1-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj3-o obj2-o / NSC / d=7
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj2-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj1-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a2 obj0-o obj3-o / NSC / d=7
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj2-o, obj1-o))/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj1-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/pred1-p_1(obj2-o)/pred1-p_2(obj2-o)/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action2-a2 obj0-o obj3-o / NSC / d=7
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj2-o, obj1-o))/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj1-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/pred1-p_1(obj0-o)/not(pred1-p_1(obj2-o))/pred1-p_2(obj0-o)/not(pred1-p_2(obj2-o))/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action0-a obj3-o obj2-o / NSC / d=7
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj2-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj1-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/pred1-p_1(obj0-o)/pred1-p_2(obj0-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a2 obj2-o obj3-o / NSC / d=7
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj2-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj1-o)/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/pred1-p_2(obj0-o)/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action2-a2 obj0-o obj3-o / NSC / d=7
+
+If holds: pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/not(pred0-p_2(obj1-o, obj2-o))/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/not(pred1-p_1(obj3-o))/not(pred1-p_1(obj1-o))/not(pred1-p_2(obj1-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj2-o obj3-o / NSC / d=8
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj2-o, obj1-o))/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj1-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/pred1-p_1(obj0-o)/not(pred1-p_1(obj2-o))/pred1-p_2(obj0-o)/not(pred1-p_2(obj2-o))/pred2-p_1(obj2-o, obj0-o)/pred2-p_2(obj2-o, obj0-o)
+Execute: action0-a obj3-o obj2-o / NSC / d=8
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj2-o, obj1-o))/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj1-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/pred1-p_1(obj2-o)/not(pred1-p_2(obj0-o))/pred1-p_2(obj2-o)/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action0-a obj3-o obj0-o / NSC / d=8
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj2-o, obj1-o))/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj1-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/pred1-p_1(obj2-o)/pred1-p_2(obj2-o)/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action2-a2 obj0-o obj3-o / NSC / d=8
+
+If holds: pred0-p_2(obj0-o, obj2-o)/not(pred0-p_2(obj1-o, obj2-o))/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/not(pred1-p_1(obj3-o))/not(pred1-p_1(obj1-o))/not(pred1-p_2(obj1-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj1-o obj0-o / NSC / d=9
+
+If holds: pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj1-o, obj2-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj2-o, obj1-o))/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj1-o)/not(pred1-p_1(obj3-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/pred1-p_1(obj2-o)/not(pred1-p_2(obj0-o))/pred1-p_2(obj2-o)/pred2-p_1(obj0-o, obj2-o)/pred2-p_2(obj0-o, obj2-o)
+Execute: action0-a obj3-o obj0-o / NSC / d=9
+
+If holds: pred0-p_2(obj0-o, obj2-o)/not(pred0-p_2(obj1-o, obj2-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj3-o, obj0-o)/not(pred1-p_1(obj3-o))/not(pred1-p_1(obj1-o))/not(pred1-p_2(obj1-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj2-o obj0-o / NSC / d=10
+
+If holds: pred0-p_2(obj0-o, obj2-o)/not(pred0-p_2(obj1-o, obj2-o))/not(pred0-p_2(obj1-o, obj3-o))/not(pred1-p_1(obj3-o))/not(pred1-p_1(obj1-o))/not(pred1-p_2(obj1-o))/not(pred1-p_2(obj3-o))/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))
+Execute: action0-a obj3-o obj0-o / NSC / d=11
+
+FSAP:
+
+If holds: not(pred0-p_2(obj3-o, obj3-o))/not(pred0-p_2(obj2-o, obj2-o))/not(pred0-p_2(obj1-o, obj1-o))/not(pred0-p_2(obj0-o, obj0-o))/not(pred0-p_1(obj3-o, obj3-o))/not(pred0-p_1(obj2-o, obj2-o))/not(pred0-p_1(obj1-o, obj1-o))/pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj1-o, obj0-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj0-o, obj3-o))/not(pred0-p_1(obj1-o, obj3-o))/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj1-o)/not(pred0-p_1(obj2-o, obj1-o))/pred0-p_1(obj3-o, obj2-o)/not(pred1-p_1(obj3-o))/pred1-p_1(obj1-o)/pred1-p_2(obj1-o)/not(pred1-p_2(obj3-o))/pred1-p_1(obj2-o)/pred1-p_2(obj2-o)/not(pred2-p_1(obj2-o, obj0-o))/not(pred2-p_1(obj0-o, obj2-o))/not(pred2-p_2(obj0-o, obj2-o))/not(pred2-p_2(obj2-o, obj0-o))/not(pred0-p_1(obj0-o, obj0-o))/not(p_psi())
+Forbid: action2-a obj0-o obj3-o
+
+If holds: not(pred0-p_2(obj3-o, obj3-o))/not(pred0-p_2(obj2-o, obj2-o))/not(pred0-p_2(obj1-o, obj1-o))/not(pred0-p_2(obj0-o, obj0-o))/not(pred0-p_1(obj3-o, obj3-o))/not(pred0-p_1(obj2-o, obj2-o))/not(pred0-p_1(obj1-o, obj1-o))/pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj2-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj1-o, obj0-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj0-o, obj3-o))/not(pred0-p_1(obj1-o, obj3-o))/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj1-o)/not(pred0-p_1(obj2-o, obj1-o))/pred0-p_1(obj3-o, obj2-o)/pred1-p_1(obj1-o)/pred1-p_2(obj1-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/not(pred2-p_1(obj0-o, obj2-o))/not(pred2-p_2(obj0-o, obj2-o))/not(pred0-p_1(obj0-o, obj0-o))/not(p_psi())
+Forbid: action2-a2 obj3-o obj2-o
+
+If holds: not(pred0-p_2(obj3-o, obj3-o))/not(pred0-p_2(obj2-o, obj2-o))/not(pred0-p_2(obj1-o, obj1-o))/not(pred0-p_2(obj0-o, obj0-o))/not(pred0-p_1(obj3-o, obj3-o))/not(pred0-p_1(obj2-o, obj2-o))/not(pred0-p_1(obj1-o, obj1-o))/pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/pred0-p_2(obj2-o, obj1-o)/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj1-o, obj0-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj0-o, obj3-o))/not(pred0-p_1(obj1-o, obj3-o))/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj1-o)/not(pred0-p_1(obj2-o, obj1-o))/pred0-p_1(obj3-o, obj2-o)/pred1-p_1(obj1-o)/pred1-p_2(obj1-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/not(pred2-p_1(obj0-o, obj2-o))/not(pred2-p_2(obj0-o, obj2-o))/not(pred0-p_1(obj0-o, obj0-o))/not(p_psi())
+Forbid: action2-a2 obj3-o obj2-o
+
+If holds: not(pred0-p_2(obj3-o, obj3-o))/not(pred0-p_2(obj2-o, obj2-o))/not(pred0-p_2(obj1-o, obj1-o))/not(pred0-p_2(obj0-o, obj0-o))/not(pred0-p_1(obj3-o, obj3-o))/not(pred0-p_1(obj2-o, obj2-o))/not(pred0-p_1(obj1-o, obj1-o))/pred0-p_2(obj0-o, obj1-o)/pred0-p_2(obj1-o, obj0-o)/pred0-p_2(obj0-o, obj2-o)/pred0-p_2(obj1-o, obj2-o)/pred0-p_2(obj2-o, obj0-o)/not(pred0-p_2(obj0-o, obj3-o))/not(pred0-p_2(obj1-o, obj3-o))/pred0-p_2(obj2-o, obj3-o)/pred0-p_2(obj3-o, obj0-o)/pred0-p_2(obj3-o, obj1-o)/not(pred0-p_2(obj2-o, obj1-o))/pred0-p_2(obj3-o, obj2-o)/pred0-p_1(obj0-o, obj1-o)/pred0-p_1(obj1-o, obj0-o)/pred0-p_1(obj0-o, obj2-o)/pred0-p_1(obj1-o, obj2-o)/pred0-p_1(obj2-o, obj0-o)/not(pred0-p_1(obj0-o, obj3-o))/not(pred0-p_1(obj1-o, obj3-o))/pred0-p_1(obj2-o, obj3-o)/pred0-p_1(obj3-o, obj0-o)/pred0-p_1(obj3-o, obj1-o)/not(pred0-p_1(obj2-o, obj1-o))/pred0-p_1(obj3-o, obj2-o)/pred1-p_1(obj1-o)/pred1-p_2(obj1-o)/not(pred1-p_1(obj0-o))/not(pred1-p_1(obj2-o))/not(pred1-p_2(obj0-o))/not(pred1-p_2(obj2-o))/not(pred2-p_1(obj0-o, obj2-o))/not(pred2-p_2(obj0-o, obj2-o))/not(pred0-p_1(obj0-o, obj0-o))/not(p_psi())
+Forbid: action2-a obj3-o obj2-o
+

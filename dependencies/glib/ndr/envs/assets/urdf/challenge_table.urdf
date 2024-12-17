@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<robot name="table">
+  <link name="base_link">
+    <contact>
+      <rolling_friction value="0.001"/>
+    </contact>
+    <inertial>
+      <origin xyz="1.65 0.75 0.2" rpy="0 0 0" />
+      <mass value=".0"/>
+      <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
+    </inertial>
+    <visual>
+      <origin xyz="1.65 0.75 0.2" rpy="0 0 0" />
+      <geometry>
+        <box size="1.0 0.9 0.4" />
+      </geometry>
+      <material name="table_mat">
+        <color rgba="0.93 0.93 0.93 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="1.65 0.75 0.2" rpy="0 0 0" />
+      <geometry>
+        <box size="1.0 0.9 0.4" />
+      </geometry>
+    </collision>
+
+    <!-- <visual>
+      <origin xyz="1.65 0.75 0.41" rpy="0 0.4 0"/>
+      <geometry>
+        <mesh filename="table.obj" scale="0.05 0.9 0.005"/>
+      </geometry>
+       <material name="white">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="1.75 0.75 0.41" rpy="0 0.4 0"/>
+      <geometry>
+        <box size="0.05 0.9 0.005"/>
+      </geometry>
+    </collision> -->
+
+    <!-- <visual>
+      <origin xyz="1.9 0.75 0.402" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="table.obj" scale="0.3 0.9 0.008"/>
+      </geometry>
+       <material name="white">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="1.9 0.75 0.402" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.3 0.9 0.008"/>
+      </geometry>
+    </collision>
+
+    <visual>
+      <origin xyz="1.725 0.75 0.40" rpy="0 -0.1 0"/>
+      <geometry>
+        <mesh filename="table.obj" scale="0.05 0.9 0.005"/>
+      </geometry>
+       <material name="white">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="1.725 0.75 0.40" rpy="0 -0.1 0"/>
+      <geometry>
+        <box size="0.05 0.9 0.005"/>
+      </geometry>
+    </collision> -->
+
+   </link>
+</robot>
+

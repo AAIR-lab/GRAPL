@@ -1,0 +1,78 @@
+
+(define (domain domain-d1)
+(:requirements :typing :strips :probabilistic-effects :disjunctive-preconditions :conditional-effects :negative-preconditions :equality)
+(:types location)
+(:predicates (vehicle-at ?v0 - location) (spare-in ?v0 - location) (road ?v0 - location ?v1 - location) (not-flattire))
+
+
+	(:action move-car
+		:parameters (?from - location ?to - location)
+		:precondition 
+			(and (vehicle-at ?from)
+			(road ?from ?to)
+			(not-flattire))
+		:effect (and  (not (vehicle-at ?from)) (vehicle-at ?to) (probabilistic 0.800000 (and
+			(not (not-flattire))) 0.200000 (and
+			)))
+	)
+
+
+	(:action changetire
+		:parameters (?loc - location)
+		:precondition 
+			(and (spare-in ?loc)
+			(vehicle-at ?loc)
+			(not (not-flattire)))
+		:effect (and  (not (spare-in ?loc)) (not (vehicle-at ?loc)) (not-flattire) (probabilistic 1.000000 (and
+			)))
+	)
+)
+(define (problem task-d1-t0) (:domain domain-d1)
+  (:objects
+        l-1-1 - location
+	l-1-2 - location
+	l-1-3 - location
+	l-2-1 - location
+	l-2-2 - location
+	l-3-1 - location
+  )
+  (:init 
+	(not-flattire)
+	(road l-1-1 l-1-2)
+	(road l-1-1 l-2-1)
+	(road l-1-2 l-1-3)
+	(road l-1-2 l-2-2)
+	(road l-2-1 l-1-2)
+	(road l-2-1 l-3-1)
+	(road l-2-2 l-1-3)
+	(road l-3-1 l-2-2)
+	(spare-in l-1-1)
+	(spare-in l-1-2)
+	(spare-in l-1-3)
+	(spare-in l-2-1)
+	(spare-in l-2-2)
+	(spare-in l-3-1)
+	(vehicle-at l-1-1)
+	(vehicle-at l-1-2)
+	(vehicle-at l-1-3)
+	(vehicle-at l-2-1)
+  )
+  (:goal (and
+	(road l-2-1 l-3-1)
+	(road l-1-1 l-1-2)
+	(road l-2-1 l-1-2)
+	(road l-2-2 l-1-3)
+	(not (not-flattire))
+	(road l-1-1 l-2-1)
+	(not (vehicle-at l-2-1))
+	(road l-3-1 l-2-2)
+	(road l-1-2 l-1-3)
+	(spare-in l-2-1)
+	(not (vehicle-at l-1-2))
+	(spare-in l-3-1)
+	(not (vehicle-at l-1-1))
+	(road l-1-2 l-2-2)
+	(not (vehicle-at l-1-3))
+	(spare-in l-1-1)
+	(vehicle-at l-2-2)))
+)

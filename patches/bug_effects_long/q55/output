@@ -1,0 +1,3586 @@
+begin_version
+3
+end_version
+begin_metric
+0
+end_metric
+45
+begin_variable
+var32
+-1
+2
+Atom pred0-p_2(obj3-o, obj3-o)
+NegatedAtom pred0-p_2(obj3-o, obj3-o)
+end_variable
+begin_variable
+var27
+-1
+2
+Atom pred0-p_2(obj2-o, obj2-o)
+NegatedAtom pred0-p_2(obj2-o, obj2-o)
+end_variable
+begin_variable
+var22
+-1
+2
+Atom pred0-p_2(obj1-o, obj1-o)
+NegatedAtom pred0-p_2(obj1-o, obj1-o)
+end_variable
+begin_variable
+var17
+-1
+2
+Atom pred0-p_2(obj0-o, obj0-o)
+NegatedAtom pred0-p_2(obj0-o, obj0-o)
+end_variable
+begin_variable
+var16
+-1
+2
+Atom pred0-p_1(obj3-o, obj3-o)
+NegatedAtom pred0-p_1(obj3-o, obj3-o)
+end_variable
+begin_variable
+var11
+-1
+2
+Atom pred0-p_1(obj2-o, obj2-o)
+NegatedAtom pred0-p_1(obj2-o, obj2-o)
+end_variable
+begin_variable
+var6
+-1
+2
+Atom pred0-p_1(obj1-o, obj1-o)
+NegatedAtom pred0-p_1(obj1-o, obj1-o)
+end_variable
+begin_variable
+var18
+-1
+2
+Atom pred0-p_2(obj0-o, obj1-o)
+NegatedAtom pred0-p_2(obj0-o, obj1-o)
+end_variable
+begin_variable
+var21
+-1
+2
+Atom pred0-p_2(obj1-o, obj0-o)
+NegatedAtom pred0-p_2(obj1-o, obj0-o)
+end_variable
+begin_variable
+var19
+-1
+2
+Atom pred0-p_2(obj0-o, obj2-o)
+NegatedAtom pred0-p_2(obj0-o, obj2-o)
+end_variable
+begin_variable
+var23
+-1
+2
+Atom pred0-p_2(obj1-o, obj2-o)
+NegatedAtom pred0-p_2(obj1-o, obj2-o)
+end_variable
+begin_variable
+var25
+-1
+2
+Atom pred0-p_2(obj2-o, obj0-o)
+NegatedAtom pred0-p_2(obj2-o, obj0-o)
+end_variable
+begin_variable
+var20
+-1
+2
+Atom pred0-p_2(obj0-o, obj3-o)
+NegatedAtom pred0-p_2(obj0-o, obj3-o)
+end_variable
+begin_variable
+var24
+-1
+2
+Atom pred0-p_2(obj1-o, obj3-o)
+NegatedAtom pred0-p_2(obj1-o, obj3-o)
+end_variable
+begin_variable
+var28
+-1
+2
+Atom pred0-p_2(obj2-o, obj3-o)
+NegatedAtom pred0-p_2(obj2-o, obj3-o)
+end_variable
+begin_variable
+var29
+-1
+2
+Atom pred0-p_2(obj3-o, obj0-o)
+NegatedAtom pred0-p_2(obj3-o, obj0-o)
+end_variable
+begin_variable
+var30
+-1
+2
+Atom pred0-p_2(obj3-o, obj1-o)
+NegatedAtom pred0-p_2(obj3-o, obj1-o)
+end_variable
+begin_variable
+var26
+-1
+2
+Atom pred0-p_2(obj2-o, obj1-o)
+NegatedAtom pred0-p_2(obj2-o, obj1-o)
+end_variable
+begin_variable
+var31
+-1
+2
+Atom pred0-p_2(obj3-o, obj2-o)
+NegatedAtom pred0-p_2(obj3-o, obj2-o)
+end_variable
+begin_variable
+var2
+-1
+2
+Atom pred0-p_1(obj0-o, obj1-o)
+NegatedAtom pred0-p_1(obj0-o, obj1-o)
+end_variable
+begin_variable
+var5
+-1
+2
+Atom pred0-p_1(obj1-o, obj0-o)
+NegatedAtom pred0-p_1(obj1-o, obj0-o)
+end_variable
+begin_variable
+var3
+-1
+2
+Atom pred0-p_1(obj0-o, obj2-o)
+NegatedAtom pred0-p_1(obj0-o, obj2-o)
+end_variable
+begin_variable
+var7
+-1
+2
+Atom pred0-p_1(obj1-o, obj2-o)
+NegatedAtom pred0-p_1(obj1-o, obj2-o)
+end_variable
+begin_variable
+var9
+-1
+2
+Atom pred0-p_1(obj2-o, obj0-o)
+NegatedAtom pred0-p_1(obj2-o, obj0-o)
+end_variable
+begin_variable
+var4
+-1
+2
+Atom pred0-p_1(obj0-o, obj3-o)
+NegatedAtom pred0-p_1(obj0-o, obj3-o)
+end_variable
+begin_variable
+var8
+-1
+2
+Atom pred0-p_1(obj1-o, obj3-o)
+NegatedAtom pred0-p_1(obj1-o, obj3-o)
+end_variable
+begin_variable
+var12
+-1
+2
+Atom pred0-p_1(obj2-o, obj3-o)
+NegatedAtom pred0-p_1(obj2-o, obj3-o)
+end_variable
+begin_variable
+var13
+-1
+2
+Atom pred0-p_1(obj3-o, obj0-o)
+NegatedAtom pred0-p_1(obj3-o, obj0-o)
+end_variable
+begin_variable
+var14
+-1
+2
+Atom pred0-p_1(obj3-o, obj1-o)
+NegatedAtom pred0-p_1(obj3-o, obj1-o)
+end_variable
+begin_variable
+var10
+-1
+2
+Atom pred0-p_1(obj2-o, obj1-o)
+NegatedAtom pred0-p_1(obj2-o, obj1-o)
+end_variable
+begin_variable
+var15
+-1
+2
+Atom pred0-p_1(obj3-o, obj2-o)
+NegatedAtom pred0-p_1(obj3-o, obj2-o)
+end_variable
+begin_variable
+var36
+-1
+2
+Atom pred1-p_1(obj3-o)
+NegatedAtom pred1-p_1(obj3-o)
+end_variable
+begin_variable
+var34
+-1
+2
+Atom pred1-p_1(obj1-o)
+NegatedAtom pred1-p_1(obj1-o)
+end_variable
+begin_variable
+var38
+-1
+2
+Atom pred1-p_2(obj1-o)
+NegatedAtom pred1-p_2(obj1-o)
+end_variable
+begin_variable
+var40
+-1
+2
+Atom pred1-p_2(obj3-o)
+NegatedAtom pred1-p_2(obj3-o)
+end_variable
+begin_variable
+var33
+-1
+2
+Atom pred1-p_1(obj0-o)
+NegatedAtom pred1-p_1(obj0-o)
+end_variable
+begin_variable
+var35
+-1
+2
+Atom pred1-p_1(obj2-o)
+NegatedAtom pred1-p_1(obj2-o)
+end_variable
+begin_variable
+var37
+-1
+2
+Atom pred1-p_2(obj0-o)
+NegatedAtom pred1-p_2(obj0-o)
+end_variable
+begin_variable
+var39
+-1
+2
+Atom pred1-p_2(obj2-o)
+NegatedAtom pred1-p_2(obj2-o)
+end_variable
+begin_variable
+var42
+-1
+2
+Atom pred2-p_1(obj2-o, obj0-o)
+NegatedAtom pred2-p_1(obj2-o, obj0-o)
+end_variable
+begin_variable
+var41
+-1
+2
+Atom pred2-p_1(obj0-o, obj2-o)
+NegatedAtom pred2-p_1(obj0-o, obj2-o)
+end_variable
+begin_variable
+var43
+-1
+2
+Atom pred2-p_2(obj0-o, obj2-o)
+NegatedAtom pred2-p_2(obj0-o, obj2-o)
+end_variable
+begin_variable
+var44
+-1
+2
+Atom pred2-p_2(obj2-o, obj0-o)
+NegatedAtom pred2-p_2(obj2-o, obj0-o)
+end_variable
+begin_variable
+var1
+-1
+2
+Atom pred0-p_1(obj0-o, obj0-o)
+NegatedAtom pred0-p_1(obj0-o, obj0-o)
+end_variable
+begin_variable
+var0
+-1
+2
+Atom p_psi()
+NegatedAtom p_psi()
+end_variable
+0
+begin_state
+1
+1
+1
+1
+1
+1
+1
+1
+1
+0
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+0
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+0
+1
+1
+0
+1
+1
+end_state
+begin_goal
+1
+44 0
+end_goal
+148
+begin_operator
+action0-a obj0-o obj1-o
+1
+32 1
+5
+1 32 0 44 -1 0
+1 33 0 44 -1 0
+2 32 1 33 1 19 -1 0
+2 32 1 33 1 19 -1 0
+2 32 1 33 1 7 -1 0
+0
+end_operator
+begin_operator
+action0-a obj0-o obj2-o
+1
+36 1
+5
+1 36 0 44 -1 0
+1 38 0 44 -1 0
+2 36 1 38 1 21 -1 0
+2 36 1 38 1 21 -1 0
+2 36 1 38 1 9 -1 0
+0
+end_operator
+begin_operator
+action0-a obj0-o obj3-o
+1
+31 1
+5
+1 31 0 44 -1 0
+1 34 0 44 -1 0
+2 31 1 34 1 24 -1 0
+2 31 1 34 1 24 -1 0
+2 31 1 34 1 12 -1 0
+0
+end_operator
+begin_operator
+action0-a obj1-o obj0-o
+1
+35 1
+5
+1 35 0 44 -1 0
+1 37 0 44 -1 0
+2 35 1 37 1 20 -1 0
+2 35 1 37 1 20 -1 0
+2 35 1 37 1 8 -1 0
+0
+end_operator
+begin_operator
+action0-a obj1-o obj2-o
+1
+36 1
+5
+1 36 0 44 -1 0
+1 38 0 44 -1 0
+2 36 1 38 1 22 -1 0
+2 36 1 38 1 22 -1 0
+2 36 1 38 1 10 -1 0
+0
+end_operator
+begin_operator
+action0-a obj1-o obj3-o
+1
+31 1
+5
+1 31 0 44 -1 0
+1 34 0 44 -1 0
+2 31 1 34 1 25 -1 0
+2 31 1 34 1 25 -1 0
+2 31 1 34 1 13 -1 0
+0
+end_operator
+begin_operator
+action0-a obj2-o obj0-o
+1
+35 1
+5
+1 35 0 44 -1 0
+1 37 0 44 -1 0
+2 35 1 37 1 23 -1 0
+2 35 1 37 1 23 -1 0
+2 35 1 37 1 11 -1 0
+0
+end_operator
+begin_operator
+action0-a obj2-o obj1-o
+1
+32 1
+5
+1 32 0 44 -1 0
+1 33 0 44 -1 0
+2 32 1 33 1 29 -1 0
+2 32 1 33 1 29 -1 0
+2 32 1 33 1 17 -1 0
+0
+end_operator
+begin_operator
+action0-a obj2-o obj3-o
+1
+31 1
+5
+1 31 0 44 -1 0
+1 34 0 44 -1 0
+2 31 1 34 1 26 -1 0
+2 31 1 34 1 26 -1 0
+2 31 1 34 1 14 -1 0
+0
+end_operator
+begin_operator
+action0-a obj3-o obj0-o
+1
+35 1
+5
+1 35 0 44 -1 0
+1 37 0 44 -1 0
+2 35 1 37 1 27 -1 0
+2 35 1 37 1 27 -1 0
+2 35 1 37 1 15 -1 0
+0
+end_operator
+begin_operator
+action0-a obj3-o obj1-o
+1
+32 1
+5
+1 32 0 44 -1 0
+1 33 0 44 -1 0
+2 32 1 33 1 28 -1 0
+2 32 1 33 1 28 -1 0
+2 32 1 33 1 16 -1 0
+0
+end_operator
+begin_operator
+action0-a obj3-o obj2-o
+1
+36 1
+5
+1 36 0 44 -1 0
+1 38 0 44 -1 0
+2 36 1 38 1 30 -1 0
+2 36 1 38 1 30 -1 0
+2 36 1 38 1 18 -1 0
+0
+end_operator
+begin_operator
+action0-a2 obj0-o obj1-o
+1
+33 1
+5
+1 32 0 44 -1 0
+1 33 0 44 -1 0
+2 32 1 33 1 19 -1 0
+2 32 1 33 1 19 -1 0
+2 32 1 33 1 7 -1 0
+0
+end_operator
+begin_operator
+action0-a2 obj0-o obj2-o
+1
+38 1
+5
+1 36 0 44 -1 0
+1 38 0 44 -1 0
+2 36 1 38 1 21 -1 0
+2 36 1 38 1 21 -1 0
+2 36 1 38 1 9 -1 0
+0
+end_operator
+begin_operator
+action0-a2 obj0-o obj3-o
+1
+34 1
+5
+1 31 0 44 -1 0
+1 34 0 44 -1 0
+2 31 1 34 1 24 -1 0
+2 31 1 34 1 24 -1 0
+2 31 1 34 1 12 -1 0
+0
+end_operator
+begin_operator
+action0-a2 obj1-o obj0-o
+1
+37 1
+5
+1 35 0 44 -1 0
+1 37 0 44 -1 0
+2 35 1 37 1 20 -1 0
+2 35 1 37 1 20 -1 0
+2 35 1 37 1 8 -1 0
+0
+end_operator
+begin_operator
+action0-a2 obj1-o obj2-o
+1
+38 1
+5
+1 36 0 44 -1 0
+1 38 0 44 -1 0
+2 36 1 38 1 22 -1 0
+2 36 1 38 1 22 -1 0
+2 36 1 38 1 10 -1 0
+0
+end_operator
+begin_operator
+action0-a2 obj1-o obj3-o
+1
+34 1
+5
+1 31 0 44 -1 0
+1 34 0 44 -1 0
+2 31 1 34 1 25 -1 0
+2 31 1 34 1 25 -1 0
+2 31 1 34 1 13 -1 0
+0
+end_operator
+begin_operator
+action0-a2 obj2-o obj0-o
+1
+37 1
+5
+1 35 0 44 -1 0
+1 37 0 44 -1 0
+2 35 1 37 1 23 -1 0
+2 35 1 37 1 23 -1 0
+2 35 1 37 1 11 -1 0
+0
+end_operator
+begin_operator
+action0-a2 obj2-o obj1-o
+1
+33 1
+5
+1 32 0 44 -1 0
+1 33 0 44 -1 0
+2 32 1 33 1 29 -1 0
+2 32 1 33 1 29 -1 0
+2 32 1 33 1 17 -1 0
+0
+end_operator
+begin_operator
+action0-a2 obj2-o obj3-o
+1
+34 1
+5
+1 31 0 44 -1 0
+1 34 0 44 -1 0
+2 31 1 34 1 26 -1 0
+2 31 1 34 1 26 -1 0
+2 31 1 34 1 14 -1 0
+0
+end_operator
+begin_operator
+action0-a2 obj3-o obj0-o
+1
+37 1
+5
+1 35 0 44 -1 0
+1 37 0 44 -1 0
+2 35 1 37 1 27 -1 0
+2 35 1 37 1 27 -1 0
+2 35 1 37 1 15 -1 0
+0
+end_operator
+begin_operator
+action0-a2 obj3-o obj1-o
+1
+33 1
+5
+1 32 0 44 -1 0
+1 33 0 44 -1 0
+2 32 1 33 1 28 -1 0
+2 32 1 33 1 28 -1 0
+2 32 1 33 1 16 -1 0
+0
+end_operator
+begin_operator
+action0-a2 obj3-o obj2-o
+1
+38 1
+5
+1 36 0 44 -1 0
+1 38 0 44 -1 0
+2 36 1 38 1 30 -1 0
+2 36 1 38 1 30 -1 0
+2 36 1 38 1 18 -1 0
+0
+end_operator
+begin_operator
+action0-a300 obj0-o obj1-o
+2
+19 0
+7 1
+1
+0 44 -1 0
+0
+end_operator
+begin_operator
+action0-a300 obj0-o obj2-o
+2
+21 0
+9 1
+1
+0 44 -1 0
+0
+end_operator
+begin_operator
+action0-a300 obj0-o obj3-o
+2
+24 0
+12 1
+1
+0 44 -1 0
+0
+end_operator
+begin_operator
+action0-a300 obj1-o obj0-o
+2
+20 0
+8 1
+1
+0 44 -1 0
+0
+end_operator
+begin_operator
+action0-a300 obj1-o obj2-o
+2
+22 0
+10 1
+1
+0 44 -1 0
+0
+end_operator
+begin_operator
+action0-a300 obj1-o obj3-o
+2
+25 0
+13 1
+1
+0 44 -1 0
+0
+end_operator
+begin_operator
+action0-a300 obj2-o obj0-o
+2
+23 0
+11 1
+1
+0 44 -1 0
+0
+end_operator
+begin_operator
+action0-a300 obj2-o obj1-o
+2
+29 0
+17 1
+1
+0 44 -1 0
+0
+end_operator
+begin_operator
+action0-a300 obj2-o obj3-o
+2
+26 0
+14 1
+1
+0 44 -1 0
+0
+end_operator
+begin_operator
+action0-a300 obj3-o obj0-o
+2
+27 0
+15 1
+1
+0 44 -1 0
+0
+end_operator
+begin_operator
+action0-a300 obj3-o obj1-o
+2
+28 0
+16 1
+1
+0 44 -1 0
+0
+end_operator
+begin_operator
+action0-a300 obj3-o obj2-o
+2
+30 0
+18 1
+1
+0 44 -1 0
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_0 obj0-o obj1-o
+2
+8 0
+33 1
+2
+4 20 0 8 0 32 1 33 1 35 -1 0
+4 20 0 8 0 32 1 33 1 37 -1 0
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_0 obj0-o obj2-o
+2
+11 0
+38 1
+2
+4 23 0 11 0 36 1 38 1 35 -1 0
+4 23 0 11 0 36 1 38 1 37 -1 0
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_0 obj0-o obj3-o
+2
+15 0
+34 1
+2
+4 27 0 15 0 31 1 34 1 35 -1 0
+4 27 0 15 0 31 1 34 1 37 -1 0
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_0 obj1-o obj0-o
+2
+7 0
+37 1
+2
+4 19 0 7 0 35 1 37 1 32 -1 0
+4 19 0 7 0 35 1 37 1 33 -1 0
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_0 obj1-o obj2-o
+2
+17 0
+38 1
+2
+4 29 0 17 0 36 1 38 1 32 -1 0
+4 29 0 17 0 36 1 38 1 33 -1 0
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_0 obj1-o obj3-o
+2
+16 0
+34 1
+2
+4 28 0 16 0 31 1 34 1 32 -1 0
+4 28 0 16 0 31 1 34 1 33 -1 0
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_0 obj2-o obj0-o
+2
+9 0
+37 1
+2
+4 21 0 9 0 35 1 37 1 36 -1 0
+4 21 0 9 0 35 1 37 1 38 -1 0
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_0 obj2-o obj1-o
+2
+10 0
+33 1
+2
+4 22 0 10 0 32 1 33 1 36 -1 0
+4 22 0 10 0 32 1 33 1 38 -1 0
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_0 obj2-o obj3-o
+2
+18 0
+34 1
+2
+4 30 0 18 0 31 1 34 1 36 -1 0
+4 30 0 18 0 31 1 34 1 38 -1 0
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_0 obj3-o obj0-o
+2
+12 0
+37 1
+2
+4 24 0 12 0 35 1 37 1 31 -1 0
+4 24 0 12 0 35 1 37 1 34 -1 0
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_0 obj3-o obj1-o
+2
+13 0
+33 1
+2
+4 25 0 13 0 32 1 33 1 31 -1 0
+4 25 0 13 0 32 1 33 1 34 -1 0
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_0 obj3-o obj2-o
+2
+14 0
+38 1
+2
+4 26 0 14 0 36 1 38 1 31 -1 0
+4 26 0 14 0 36 1 38 1 34 -1 0
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_1 obj0-o obj1-o
+2
+8 0
+33 1
+2
+3 8 0 32 1 33 1 20 -1 1
+4 20 0 8 0 32 1 33 1 37 -1 0
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_1 obj0-o obj2-o
+2
+11 0
+38 1
+3
+3 11 0 36 1 38 1 23 -1 1
+4 23 0 11 0 36 1 38 1 37 -1 0
+4 23 0 11 0 36 1 38 1 40 -1 1
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_1 obj0-o obj3-o
+2
+15 0
+34 1
+2
+3 15 0 31 1 34 1 27 -1 1
+4 27 0 15 0 31 1 34 1 37 -1 0
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_1 obj1-o obj0-o
+2
+7 0
+37 1
+2
+3 7 0 35 1 37 1 19 -1 1
+4 19 0 7 0 35 1 37 1 33 -1 0
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_1 obj1-o obj2-o
+2
+17 0
+38 1
+2
+3 17 0 36 1 38 1 29 -1 1
+4 29 0 17 0 36 1 38 1 33 -1 0
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_1 obj1-o obj3-o
+2
+16 0
+34 1
+2
+3 16 0 31 1 34 1 28 -1 1
+4 28 0 16 0 31 1 34 1 33 -1 0
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_1 obj2-o obj0-o
+2
+9 0
+37 1
+3
+3 9 0 35 1 37 1 21 -1 1
+4 21 0 9 0 35 1 37 1 38 -1 0
+4 21 0 9 0 35 1 37 1 39 -1 1
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_1 obj2-o obj1-o
+2
+10 0
+33 1
+2
+3 10 0 32 1 33 1 22 -1 1
+4 22 0 10 0 32 1 33 1 38 -1 0
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_1 obj2-o obj3-o
+2
+18 0
+34 1
+2
+3 18 0 31 1 34 1 30 -1 1
+4 30 0 18 0 31 1 34 1 38 -1 0
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_1 obj3-o obj0-o
+2
+12 0
+37 1
+2
+3 12 0 35 1 37 1 24 -1 1
+4 24 0 12 0 35 1 37 1 34 -1 0
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_1 obj3-o obj1-o
+2
+13 0
+33 1
+2
+3 13 0 32 1 33 1 25 -1 1
+4 25 0 13 0 32 1 33 1 34 -1 0
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_1 obj3-o obj2-o
+2
+14 0
+38 1
+2
+3 14 0 36 1 38 1 26 -1 1
+4 26 0 14 0 36 1 38 1 34 -1 0
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_2 obj0-o obj1-o
+1
+33 1
+2
+3 20 0 32 1 33 1 8 0 1
+4 20 0 8 0 32 1 33 1 35 -1 0
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_2 obj0-o obj2-o
+1
+38 1
+3
+3 23 0 36 1 38 1 11 0 1
+4 23 0 11 0 36 1 38 1 35 -1 0
+4 23 0 11 0 36 1 38 1 41 -1 1
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_2 obj0-o obj3-o
+1
+34 1
+2
+3 27 0 31 1 34 1 15 0 1
+4 27 0 15 0 31 1 34 1 35 -1 0
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_2 obj1-o obj0-o
+1
+37 1
+2
+3 19 0 35 1 37 1 7 0 1
+4 19 0 7 0 35 1 37 1 32 -1 0
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_2 obj1-o obj2-o
+1
+38 1
+2
+3 29 0 36 1 38 1 17 0 1
+4 29 0 17 0 36 1 38 1 32 -1 0
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_2 obj1-o obj3-o
+1
+34 1
+2
+3 28 0 31 1 34 1 16 0 1
+4 28 0 16 0 31 1 34 1 32 -1 0
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_2 obj2-o obj0-o
+1
+37 1
+3
+3 21 0 35 1 37 1 9 0 1
+4 21 0 9 0 35 1 37 1 36 -1 0
+4 21 0 9 0 35 1 37 1 42 -1 1
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_2 obj2-o obj1-o
+1
+33 1
+2
+3 22 0 32 1 33 1 10 0 1
+4 22 0 10 0 32 1 33 1 36 -1 0
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_2 obj2-o obj3-o
+1
+34 1
+2
+3 30 0 31 1 34 1 18 0 1
+4 30 0 18 0 31 1 34 1 36 -1 0
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_2 obj3-o obj0-o
+1
+37 1
+2
+3 24 0 35 1 37 1 12 0 1
+4 24 0 12 0 35 1 37 1 31 -1 0
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_2 obj3-o obj1-o
+1
+33 1
+2
+3 25 0 32 1 33 1 13 0 1
+4 25 0 13 0 32 1 33 1 31 -1 0
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_2 obj3-o obj2-o
+1
+38 1
+2
+3 26 0 36 1 38 1 14 0 1
+4 26 0 14 0 36 1 38 1 31 -1 0
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_3 obj0-o obj1-o
+1
+33 1
+2
+3 8 0 32 1 33 1 20 -1 1
+3 20 0 32 1 33 1 8 0 1
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_3 obj0-o obj2-o
+1
+38 1
+4
+3 11 0 36 1 38 1 23 -1 1
+3 23 0 36 1 38 1 11 0 1
+4 23 0 11 0 36 1 38 1 40 -1 1
+4 23 0 11 0 36 1 38 1 41 -1 1
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_3 obj0-o obj3-o
+1
+34 1
+2
+3 15 0 31 1 34 1 27 -1 1
+3 27 0 31 1 34 1 15 0 1
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_3 obj1-o obj0-o
+1
+37 1
+2
+3 7 0 35 1 37 1 19 -1 1
+3 19 0 35 1 37 1 7 0 1
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_3 obj1-o obj2-o
+1
+38 1
+2
+3 17 0 36 1 38 1 29 -1 1
+3 29 0 36 1 38 1 17 0 1
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_3 obj1-o obj3-o
+1
+34 1
+2
+3 16 0 31 1 34 1 28 -1 1
+3 28 0 31 1 34 1 16 0 1
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_3 obj2-o obj0-o
+1
+37 1
+4
+3 9 0 35 1 37 1 21 -1 1
+3 21 0 35 1 37 1 9 0 1
+4 21 0 9 0 35 1 37 1 39 -1 1
+4 21 0 9 0 35 1 37 1 42 -1 1
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_3 obj2-o obj1-o
+1
+33 1
+2
+3 10 0 32 1 33 1 22 -1 1
+3 22 0 32 1 33 1 10 0 1
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_3 obj2-o obj3-o
+1
+34 1
+2
+3 18 0 31 1 34 1 30 -1 1
+3 30 0 31 1 34 1 18 0 1
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_3 obj3-o obj0-o
+1
+37 1
+2
+3 12 0 35 1 37 1 24 -1 1
+3 24 0 35 1 37 1 12 0 1
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_3 obj3-o obj1-o
+1
+33 1
+2
+3 13 0 32 1 33 1 25 -1 1
+3 25 0 32 1 33 1 13 0 1
+0
+end_operator
+begin_operator
+action2-a2_DETDUP_3 obj3-o obj2-o
+1
+38 1
+2
+3 14 0 36 1 38 1 26 -1 1
+3 26 0 36 1 38 1 14 0 1
+0
+end_operator
+begin_operator
+action2-a_DETDUP_0 obj0-o obj1-o
+2
+20 0
+32 1
+2
+4 20 0 8 0 32 1 33 1 35 -1 0
+4 20 0 8 0 32 1 33 1 37 -1 0
+0
+end_operator
+begin_operator
+action2-a_DETDUP_0 obj0-o obj2-o
+2
+23 0
+36 1
+2
+4 23 0 11 0 36 1 38 1 35 -1 0
+4 23 0 11 0 36 1 38 1 37 -1 0
+0
+end_operator
+begin_operator
+action2-a_DETDUP_0 obj0-o obj3-o
+2
+27 0
+31 1
+2
+4 27 0 15 0 31 1 34 1 35 -1 0
+4 27 0 15 0 31 1 34 1 37 -1 0
+0
+end_operator
+begin_operator
+action2-a_DETDUP_0 obj1-o obj0-o
+2
+19 0
+35 1
+2
+4 19 0 7 0 35 1 37 1 32 -1 0
+4 19 0 7 0 35 1 37 1 33 -1 0
+0
+end_operator
+begin_operator
+action2-a_DETDUP_0 obj1-o obj2-o
+2
+29 0
+36 1
+2
+4 29 0 17 0 36 1 38 1 32 -1 0
+4 29 0 17 0 36 1 38 1 33 -1 0
+0
+end_operator
+begin_operator
+action2-a_DETDUP_0 obj1-o obj3-o
+2
+28 0
+31 1
+2
+4 28 0 16 0 31 1 34 1 32 -1 0
+4 28 0 16 0 31 1 34 1 33 -1 0
+0
+end_operator
+begin_operator
+action2-a_DETDUP_0 obj2-o obj0-o
+2
+21 0
+35 1
+2
+4 21 0 9 0 35 1 37 1 36 -1 0
+4 21 0 9 0 35 1 37 1 38 -1 0
+0
+end_operator
+begin_operator
+action2-a_DETDUP_0 obj2-o obj1-o
+2
+22 0
+32 1
+2
+4 22 0 10 0 32 1 33 1 36 -1 0
+4 22 0 10 0 32 1 33 1 38 -1 0
+0
+end_operator
+begin_operator
+action2-a_DETDUP_0 obj2-o obj3-o
+2
+30 0
+31 1
+2
+4 30 0 18 0 31 1 34 1 36 -1 0
+4 30 0 18 0 31 1 34 1 38 -1 0
+0
+end_operator
+begin_operator
+action2-a_DETDUP_0 obj3-o obj0-o
+2
+24 0
+35 1
+2
+4 24 0 12 0 35 1 37 1 31 -1 0
+4 24 0 12 0 35 1 37 1 34 -1 0
+0
+end_operator
+begin_operator
+action2-a_DETDUP_0 obj3-o obj1-o
+2
+25 0
+32 1
+2
+4 25 0 13 0 32 1 33 1 31 -1 0
+4 25 0 13 0 32 1 33 1 34 -1 0
+0
+end_operator
+begin_operator
+action2-a_DETDUP_0 obj3-o obj2-o
+2
+26 0
+36 1
+2
+4 26 0 14 0 36 1 38 1 31 -1 0
+4 26 0 14 0 36 1 38 1 34 -1 0
+0
+end_operator
+begin_operator
+action2-a_DETDUP_1 obj0-o obj1-o
+1
+32 1
+2
+3 8 0 32 1 33 1 20 0 1
+4 20 0 8 0 32 1 33 1 37 -1 0
+0
+end_operator
+begin_operator
+action2-a_DETDUP_1 obj0-o obj2-o
+1
+36 1
+3
+3 11 0 36 1 38 1 23 0 1
+4 23 0 11 0 36 1 38 1 37 -1 0
+4 23 0 11 0 36 1 38 1 40 -1 1
+0
+end_operator
+begin_operator
+action2-a_DETDUP_1 obj0-o obj3-o
+1
+31 1
+2
+3 15 0 31 1 34 1 27 0 1
+4 27 0 15 0 31 1 34 1 37 -1 0
+0
+end_operator
+begin_operator
+action2-a_DETDUP_1 obj1-o obj0-o
+1
+35 1
+2
+3 7 0 35 1 37 1 19 0 1
+4 19 0 7 0 35 1 37 1 33 -1 0
+0
+end_operator
+begin_operator
+action2-a_DETDUP_1 obj1-o obj2-o
+1
+36 1
+2
+3 17 0 36 1 38 1 29 0 1
+4 29 0 17 0 36 1 38 1 33 -1 0
+0
+end_operator
+begin_operator
+action2-a_DETDUP_1 obj1-o obj3-o
+1
+31 1
+2
+3 16 0 31 1 34 1 28 0 1
+4 28 0 16 0 31 1 34 1 33 -1 0
+0
+end_operator
+begin_operator
+action2-a_DETDUP_1 obj2-o obj0-o
+1
+35 1
+3
+3 9 0 35 1 37 1 21 0 1
+4 21 0 9 0 35 1 37 1 38 -1 0
+4 21 0 9 0 35 1 37 1 39 -1 1
+0
+end_operator
+begin_operator
+action2-a_DETDUP_1 obj2-o obj1-o
+1
+32 1
+2
+3 10 0 32 1 33 1 22 0 1
+4 22 0 10 0 32 1 33 1 38 -1 0
+0
+end_operator
+begin_operator
+action2-a_DETDUP_1 obj2-o obj3-o
+1
+31 1
+2
+3 18 0 31 1 34 1 30 0 1
+4 30 0 18 0 31 1 34 1 38 -1 0
+0
+end_operator
+begin_operator
+action2-a_DETDUP_1 obj3-o obj0-o
+1
+35 1
+2
+3 12 0 35 1 37 1 24 0 1
+4 24 0 12 0 35 1 37 1 34 -1 0
+0
+end_operator
+begin_operator
+action2-a_DETDUP_1 obj3-o obj1-o
+1
+32 1
+2
+3 13 0 32 1 33 1 25 0 1
+4 25 0 13 0 32 1 33 1 34 -1 0
+0
+end_operator
+begin_operator
+action2-a_DETDUP_1 obj3-o obj2-o
+1
+36 1
+2
+3 14 0 36 1 38 1 26 0 1
+4 26 0 14 0 36 1 38 1 34 -1 0
+0
+end_operator
+begin_operator
+action2-a_DETDUP_2 obj0-o obj1-o
+2
+20 0
+32 1
+2
+3 20 0 32 1 33 1 8 -1 1
+4 20 0 8 0 32 1 33 1 35 -1 0
+0
+end_operator
+begin_operator
+action2-a_DETDUP_2 obj0-o obj2-o
+2
+23 0
+36 1
+3
+3 23 0 36 1 38 1 11 -1 1
+4 23 0 11 0 36 1 38 1 35 -1 0
+4 23 0 11 0 36 1 38 1 41 -1 1
+0
+end_operator
+begin_operator
+action2-a_DETDUP_2 obj0-o obj3-o
+2
+27 0
+31 1
+2
+3 27 0 31 1 34 1 15 -1 1
+4 27 0 15 0 31 1 34 1 35 -1 0
+0
+end_operator
+begin_operator
+action2-a_DETDUP_2 obj1-o obj0-o
+2
+19 0
+35 1
+2
+3 19 0 35 1 37 1 7 -1 1
+4 19 0 7 0 35 1 37 1 32 -1 0
+0
+end_operator
+begin_operator
+action2-a_DETDUP_2 obj1-o obj2-o
+2
+29 0
+36 1
+2
+3 29 0 36 1 38 1 17 -1 1
+4 29 0 17 0 36 1 38 1 32 -1 0
+0
+end_operator
+begin_operator
+action2-a_DETDUP_2 obj1-o obj3-o
+2
+28 0
+31 1
+2
+3 28 0 31 1 34 1 16 -1 1
+4 28 0 16 0 31 1 34 1 32 -1 0
+0
+end_operator
+begin_operator
+action2-a_DETDUP_2 obj2-o obj0-o
+2
+21 0
+35 1
+3
+3 21 0 35 1 37 1 9 -1 1
+4 21 0 9 0 35 1 37 1 36 -1 0
+4 21 0 9 0 35 1 37 1 42 -1 1
+0
+end_operator
+begin_operator
+action2-a_DETDUP_2 obj2-o obj1-o
+2
+22 0
+32 1
+2
+3 22 0 32 1 33 1 10 -1 1
+4 22 0 10 0 32 1 33 1 36 -1 0
+0
+end_operator
+begin_operator
+action2-a_DETDUP_2 obj2-o obj3-o
+2
+30 0
+31 1
+2
+3 30 0 31 1 34 1 18 -1 1
+4 30 0 18 0 31 1 34 1 36 -1 0
+0
+end_operator
+begin_operator
+action2-a_DETDUP_2 obj3-o obj0-o
+2
+24 0
+35 1
+2
+3 24 0 35 1 37 1 12 -1 1
+4 24 0 12 0 35 1 37 1 31 -1 0
+0
+end_operator
+begin_operator
+action2-a_DETDUP_2 obj3-o obj1-o
+2
+25 0
+32 1
+2
+3 25 0 32 1 33 1 13 -1 1
+4 25 0 13 0 32 1 33 1 31 -1 0
+0
+end_operator
+begin_operator
+action2-a_DETDUP_2 obj3-o obj2-o
+2
+26 0
+36 1
+2
+3 26 0 36 1 38 1 14 -1 1
+4 26 0 14 0 36 1 38 1 31 -1 0
+0
+end_operator
+begin_operator
+action2-a_DETDUP_3 obj0-o obj1-o
+1
+32 1
+2
+3 8 0 32 1 33 1 20 0 1
+3 20 0 32 1 33 1 8 -1 1
+0
+end_operator
+begin_operator
+action2-a_DETDUP_3 obj0-o obj2-o
+1
+36 1
+4
+3 11 0 36 1 38 1 23 0 1
+3 23 0 36 1 38 1 11 -1 1
+4 23 0 11 0 36 1 38 1 40 -1 1
+4 23 0 11 0 36 1 38 1 41 -1 1
+0
+end_operator
+begin_operator
+action2-a_DETDUP_3 obj0-o obj3-o
+1
+31 1
+2
+3 15 0 31 1 34 1 27 0 1
+3 27 0 31 1 34 1 15 -1 1
+0
+end_operator
+begin_operator
+action2-a_DETDUP_3 obj1-o obj0-o
+1
+35 1
+2
+3 7 0 35 1 37 1 19 0 1
+3 19 0 35 1 37 1 7 -1 1
+0
+end_operator
+begin_operator
+action2-a_DETDUP_3 obj1-o obj2-o
+1
+36 1
+2
+3 17 0 36 1 38 1 29 0 1
+3 29 0 36 1 38 1 17 -1 1
+0
+end_operator
+begin_operator
+action2-a_DETDUP_3 obj1-o obj3-o
+1
+31 1
+2
+3 16 0 31 1 34 1 28 0 1
+3 28 0 31 1 34 1 16 -1 1
+0
+end_operator
+begin_operator
+action2-a_DETDUP_3 obj2-o obj0-o
+1
+35 1
+4
+3 9 0 35 1 37 1 21 0 1
+3 21 0 35 1 37 1 9 -1 1
+4 21 0 9 0 35 1 37 1 39 -1 1
+4 21 0 9 0 35 1 37 1 42 -1 1
+0
+end_operator
+begin_operator
+action2-a_DETDUP_3 obj2-o obj1-o
+1
+32 1
+2
+3 10 0 32 1 33 1 22 0 1
+3 22 0 32 1 33 1 10 -1 1
+0
+end_operator
+begin_operator
+action2-a_DETDUP_3 obj2-o obj3-o
+1
+31 1
+2
+3 18 0 31 1 34 1 30 0 1
+3 30 0 31 1 34 1 18 -1 1
+0
+end_operator
+begin_operator
+action2-a_DETDUP_3 obj3-o obj0-o
+1
+35 1
+2
+3 12 0 35 1 37 1 24 0 1
+3 24 0 35 1 37 1 12 -1 1
+0
+end_operator
+begin_operator
+action2-a_DETDUP_3 obj3-o obj1-o
+1
+32 1
+2
+3 13 0 32 1 33 1 25 0 1
+3 25 0 32 1 33 1 13 -1 1
+0
+end_operator
+begin_operator
+action2-a_DETDUP_3 obj3-o obj2-o
+1
+36 1
+2
+3 14 0 36 1 38 1 26 0 1
+3 26 0 36 1 38 1 14 -1 1
+0
+end_operator
+begin_operator
+action3-a2_DETDUP_0 obj0-o obj2-o
+1
+42 0
+4
+3 38 0 39 0 42 0 36 -1 1
+3 36 0 39 0 42 0 38 0 1
+4 36 0 38 0 39 0 42 0 40 -1 0
+4 36 0 38 0 39 0 42 0 41 -1 0
+0
+end_operator
+begin_operator
+action3-a2_DETDUP_0 obj2-o obj0-o
+1
+41 0
+4
+3 37 0 40 0 41 0 35 -1 1
+3 35 0 40 0 41 0 37 0 1
+4 35 0 37 0 40 0 41 0 39 -1 0
+4 35 0 37 0 40 0 41 0 42 -1 0
+0
+end_operator
+begin_operator
+action3-a2_DETDUP_1 obj0-o obj2-o
+1
+42 0
+3
+3 36 0 39 0 42 0 38 0 1
+4 36 0 38 0 39 0 42 0 40 -1 0
+4 36 0 38 0 39 0 42 0 41 -1 0
+0
+end_operator
+begin_operator
+action3-a2_DETDUP_1 obj2-o obj0-o
+1
+41 0
+3
+3 35 0 40 0 41 0 37 0 1
+4 35 0 37 0 40 0 41 0 39 -1 0
+4 35 0 37 0 40 0 41 0 42 -1 0
+0
+end_operator
+begin_operator
+action3-a2_DETDUP_2 obj0-o obj2-o
+2
+38 0
+42 0
+3
+3 38 0 39 0 42 0 36 -1 1
+4 36 0 38 0 39 0 42 0 40 -1 0
+4 36 0 38 0 39 0 42 0 41 -1 0
+0
+end_operator
+begin_operator
+action3-a2_DETDUP_2 obj2-o obj0-o
+2
+37 0
+41 0
+3
+3 37 0 40 0 41 0 35 -1 1
+4 35 0 37 0 40 0 41 0 39 -1 0
+4 35 0 37 0 40 0 41 0 42 -1 0
+0
+end_operator
+begin_operator
+action3-a2_DETDUP_3 obj0-o obj2-o
+2
+38 0
+42 0
+2
+4 36 0 38 0 39 0 42 0 40 -1 0
+4 36 0 38 0 39 0 42 0 41 -1 0
+0
+end_operator
+begin_operator
+action3-a2_DETDUP_3 obj2-o obj0-o
+2
+37 0
+41 0
+2
+4 35 0 37 0 40 0 41 0 39 -1 0
+4 35 0 37 0 40 0 41 0 42 -1 0
+0
+end_operator
+begin_operator
+action3-a_DETDUP_0 obj0-o obj2-o
+1
+39 0
+4
+3 38 0 39 0 42 0 36 0 1
+3 36 0 39 0 42 0 38 -1 1
+4 36 0 38 0 39 0 42 0 40 -1 0
+4 36 0 38 0 39 0 42 0 41 -1 0
+0
+end_operator
+begin_operator
+action3-a_DETDUP_0 obj2-o obj0-o
+1
+40 0
+4
+3 37 0 40 0 41 0 35 0 1
+3 35 0 40 0 41 0 37 -1 1
+4 35 0 37 0 40 0 41 0 39 -1 0
+4 35 0 37 0 40 0 41 0 42 -1 0
+0
+end_operator
+begin_operator
+action3-a_DETDUP_1 obj0-o obj2-o
+2
+36 0
+39 0
+3
+3 36 0 39 0 42 0 38 -1 1
+4 36 0 38 0 39 0 42 0 40 -1 0
+4 36 0 38 0 39 0 42 0 41 -1 0
+0
+end_operator
+begin_operator
+action3-a_DETDUP_1 obj2-o obj0-o
+2
+35 0
+40 0
+3
+3 35 0 40 0 41 0 37 -1 1
+4 35 0 37 0 40 0 41 0 39 -1 0
+4 35 0 37 0 40 0 41 0 42 -1 0
+0
+end_operator
+begin_operator
+action3-a_DETDUP_2 obj0-o obj2-o
+1
+39 0
+3
+3 38 0 39 0 42 0 36 0 1
+4 36 0 38 0 39 0 42 0 40 -1 0
+4 36 0 38 0 39 0 42 0 41 -1 0
+0
+end_operator
+begin_operator
+action3-a_DETDUP_2 obj2-o obj0-o
+1
+40 0
+3
+3 37 0 40 0 41 0 35 0 1
+4 35 0 37 0 40 0 41 0 39 -1 0
+4 35 0 37 0 40 0 41 0 42 -1 0
+0
+end_operator
+begin_operator
+action3-a_DETDUP_3 obj0-o obj2-o
+2
+36 0
+39 0
+2
+4 36 0 38 0 39 0 42 0 40 -1 0
+4 36 0 38 0 39 0 42 0 41 -1 0
+0
+end_operator
+begin_operator
+action3-a_DETDUP_3 obj2-o obj0-o
+2
+35 0
+40 0
+2
+4 35 0 37 0 40 0 41 0 39 -1 0
+4 35 0 37 0 40 0 41 0 42 -1 0
+0
+end_operator
+0
+begin_SG
+switch 19
+check 0
+switch 7
+check 0
+check 0
+check 1
+24
+switch 35
+check 0
+check 0
+check 4
+87
+99
+111
+123
+check 0
+check 0
+switch 21
+check 0
+switch 9
+check 0
+check 0
+check 1
+25
+switch 35
+check 0
+check 0
+check 4
+90
+102
+114
+126
+check 0
+check 0
+switch 24
+check 0
+switch 12
+check 0
+check 0
+check 1
+26
+switch 35
+check 0
+check 0
+check 4
+93
+105
+117
+129
+check 0
+check 0
+switch 20
+check 0
+switch 8
+check 0
+check 0
+check 1
+27
+switch 32
+check 0
+check 0
+check 4
+84
+96
+108
+120
+check 0
+check 0
+switch 22
+check 0
+switch 10
+check 0
+check 0
+check 1
+28
+switch 32
+check 0
+check 0
+check 4
+91
+103
+115
+127
+check 0
+check 0
+switch 25
+check 0
+switch 13
+check 0
+check 0
+check 1
+29
+switch 32
+check 0
+check 0
+check 4
+94
+106
+118
+130
+check 0
+check 0
+switch 23
+check 0
+switch 11
+check 0
+check 0
+check 1
+30
+switch 36
+check 0
+check 0
+check 4
+85
+97
+109
+121
+check 0
+check 0
+switch 29
+check 0
+switch 17
+check 0
+check 0
+check 1
+31
+switch 36
+check 0
+check 0
+check 4
+88
+100
+112
+124
+check 0
+check 0
+switch 26
+check 0
+switch 14
+check 0
+check 0
+check 1
+32
+switch 36
+check 0
+check 0
+check 4
+95
+107
+119
+131
+check 0
+check 0
+switch 27
+check 0
+switch 15
+check 0
+check 0
+check 1
+33
+switch 31
+check 0
+check 0
+check 4
+86
+98
+110
+122
+check 0
+check 0
+switch 28
+check 0
+switch 16
+check 0
+check 0
+check 1
+34
+switch 31
+check 0
+check 0
+check 4
+89
+101
+113
+125
+check 0
+check 0
+switch 30
+check 0
+switch 18
+check 0
+check 0
+check 1
+35
+switch 31
+check 0
+check 0
+check 4
+92
+104
+116
+128
+check 0
+check 0
+switch 7
+check 0
+switch 37
+check 0
+check 0
+check 4
+39
+51
+63
+75
+check 0
+check 0
+switch 9
+check 0
+switch 37
+check 0
+check 0
+check 4
+42
+54
+66
+78
+check 0
+check 0
+switch 12
+check 0
+switch 37
+check 0
+check 0
+check 4
+45
+57
+69
+81
+check 0
+check 0
+switch 8
+check 0
+switch 33
+check 0
+check 0
+check 4
+36
+48
+60
+72
+check 0
+check 0
+switch 10
+check 0
+switch 33
+check 0
+check 0
+check 4
+43
+55
+67
+79
+check 0
+check 0
+switch 13
+check 0
+switch 33
+check 0
+check 0
+check 4
+46
+58
+70
+82
+check 0
+check 0
+switch 11
+check 0
+switch 38
+check 0
+check 0
+check 4
+37
+49
+61
+73
+check 0
+check 0
+switch 17
+check 0
+switch 38
+check 0
+check 0
+check 4
+40
+52
+64
+76
+check 0
+check 0
+switch 14
+check 0
+switch 38
+check 0
+check 0
+check 4
+47
+59
+71
+83
+check 0
+check 0
+switch 15
+check 0
+switch 34
+check 0
+check 0
+check 4
+38
+50
+62
+74
+check 0
+check 0
+switch 16
+check 0
+switch 34
+check 0
+check 0
+check 4
+41
+53
+65
+77
+check 0
+check 0
+switch 18
+check 0
+switch 34
+check 0
+check 0
+check 4
+44
+56
+68
+80
+check 0
+check 0
+switch 35
+check 0
+switch 40
+check 0
+check 4
+141
+143
+145
+147
+check 0
+check 0
+check 3
+3
+6
+9
+switch 32
+check 0
+check 0
+check 3
+0
+7
+10
+switch 36
+check 0
+switch 39
+check 0
+check 4
+140
+142
+144
+146
+check 0
+check 0
+check 3
+1
+4
+11
+switch 31
+check 0
+check 0
+check 3
+2
+5
+8
+switch 37
+check 0
+switch 41
+check 0
+check 4
+133
+135
+137
+139
+check 0
+check 0
+check 3
+15
+18
+21
+switch 33
+check 0
+check 0
+check 3
+12
+19
+22
+switch 38
+check 0
+switch 42
+check 0
+check 4
+132
+134
+136
+138
+check 0
+check 0
+check 3
+13
+16
+23
+switch 34
+check 0
+check 0
+check 3
+14
+17
+20
+check 0
+end_SG
+begin_DTG
+0
+0
+end_DTG
+begin_DTG
+0
+0
+end_DTG
+begin_DTG
+0
+0
+end_DTG
+begin_DTG
+0
+0
+end_DTG
+begin_DTG
+0
+0
+end_DTG
+begin_DTG
+0
+0
+end_DTG
+begin_DTG
+0
+0
+end_DTG
+begin_DTG
+1
+1
+63
+4
+19 0
+35 1
+37 1
+37 1
+1
+0
+0
+3
+32 1
+32 1
+33 1
+end_DTG
+begin_DTG
+1
+1
+60
+4
+20 0
+32 1
+33 1
+33 1
+1
+0
+3
+3
+35 1
+35 1
+37 1
+end_DTG
+begin_DTG
+1
+1
+66
+4
+21 0
+35 1
+37 1
+37 1
+1
+0
+1
+3
+36 1
+36 1
+38 1
+end_DTG
+begin_DTG
+1
+1
+67
+4
+22 0
+32 1
+33 1
+33 1
+1
+0
+4
+3
+36 1
+36 1
+38 1
+end_DTG
+begin_DTG
+1
+1
+61
+4
+23 0
+36 1
+38 1
+38 1
+1
+0
+6
+3
+35 1
+35 1
+37 1
+end_DTG
+begin_DTG
+1
+1
+69
+4
+24 0
+35 1
+37 1
+37 1
+1
+0
+2
+3
+31 1
+31 1
+34 1
+end_DTG
+begin_DTG
+1
+1
+70
+4
+25 0
+32 1
+33 1
+33 1
+1
+0
+5
+3
+31 1
+31 1
+34 1
+end_DTG
+begin_DTG
+1
+1
+71
+4
+26 0
+36 1
+38 1
+38 1
+1
+0
+8
+3
+31 1
+31 1
+34 1
+end_DTG
+begin_DTG
+1
+1
+62
+4
+27 0
+31 1
+34 1
+34 1
+1
+0
+9
+3
+35 1
+35 1
+37 1
+end_DTG
+begin_DTG
+1
+1
+65
+4
+28 0
+31 1
+34 1
+34 1
+1
+0
+10
+3
+32 1
+32 1
+33 1
+end_DTG
+begin_DTG
+1
+1
+64
+4
+29 0
+36 1
+38 1
+38 1
+1
+0
+7
+3
+32 1
+32 1
+33 1
+end_DTG
+begin_DTG
+1
+1
+68
+4
+30 0
+31 1
+34 1
+34 1
+1
+0
+11
+3
+36 1
+36 1
+38 1
+end_DTG
+begin_DTG
+1
+1
+99
+4
+7 0
+35 1
+35 1
+37 1
+1
+0
+0
+3
+32 1
+32 1
+33 1
+end_DTG
+begin_DTG
+1
+1
+96
+4
+8 0
+32 1
+32 1
+33 1
+1
+0
+3
+3
+35 1
+35 1
+37 1
+end_DTG
+begin_DTG
+1
+1
+102
+4
+9 0
+35 1
+35 1
+37 1
+1
+0
+1
+3
+36 1
+36 1
+38 1
+end_DTG
+begin_DTG
+1
+1
+103
+4
+10 0
+32 1
+32 1
+33 1
+1
+0
+4
+3
+36 1
+36 1
+38 1
+end_DTG
+begin_DTG
+1
+1
+97
+4
+11 0
+36 1
+36 1
+38 1
+1
+0
+6
+3
+35 1
+35 1
+37 1
+end_DTG
+begin_DTG
+1
+1
+105
+4
+12 0
+35 1
+35 1
+37 1
+1
+0
+2
+3
+31 1
+31 1
+34 1
+end_DTG
+begin_DTG
+1
+1
+106
+4
+13 0
+32 1
+32 1
+33 1
+1
+0
+5
+3
+31 1
+31 1
+34 1
+end_DTG
+begin_DTG
+1
+1
+107
+4
+14 0
+36 1
+36 1
+38 1
+1
+0
+8
+3
+31 1
+31 1
+34 1
+end_DTG
+begin_DTG
+1
+1
+98
+4
+15 0
+31 1
+31 1
+34 1
+1
+0
+9
+3
+35 1
+35 1
+37 1
+end_DTG
+begin_DTG
+1
+1
+101
+4
+16 0
+31 1
+31 1
+34 1
+1
+0
+10
+3
+32 1
+32 1
+33 1
+end_DTG
+begin_DTG
+1
+1
+100
+4
+17 0
+36 1
+36 1
+38 1
+1
+0
+7
+3
+32 1
+32 1
+33 1
+end_DTG
+begin_DTG
+1
+1
+104
+4
+18 0
+31 1
+31 1
+34 1
+1
+0
+11
+3
+36 1
+36 1
+38 1
+end_DTG
+begin_DTG
+0
+3
+0
+45
+6
+24 0
+12 0
+12 0
+35 1
+37 1
+37 1
+0
+46
+6
+25 0
+13 0
+13 0
+32 1
+33 1
+33 1
+0
+47
+6
+26 0
+14 0
+14 0
+36 1
+38 1
+38 1
+end_DTG
+begin_DTG
+0
+3
+0
+39
+6
+19 0
+7 0
+7 0
+35 1
+37 1
+37 1
+0
+40
+6
+29 0
+17 0
+17 0
+36 1
+38 1
+38 1
+0
+41
+6
+28 0
+16 0
+16 0
+31 1
+34 1
+34 1
+end_DTG
+begin_DTG
+0
+3
+0
+39
+6
+19 0
+7 0
+7 0
+35 1
+37 1
+37 1
+0
+40
+6
+29 0
+17 0
+17 0
+36 1
+38 1
+38 1
+0
+41
+6
+28 0
+16 0
+16 0
+31 1
+34 1
+34 1
+end_DTG
+begin_DTG
+0
+3
+0
+45
+6
+24 0
+12 0
+12 0
+35 1
+37 1
+37 1
+0
+46
+6
+25 0
+13 0
+13 0
+32 1
+33 1
+33 1
+0
+47
+6
+26 0
+14 0
+14 0
+36 1
+38 1
+38 1
+end_DTG
+begin_DTG
+1
+1
+141
+4
+37 0
+40 0
+40 0
+41 0
+3
+0
+36
+6
+20 0
+8 0
+8 0
+32 1
+33 1
+33 1
+0
+37
+6
+23 0
+11 0
+11 0
+36 1
+38 1
+38 1
+0
+38
+6
+27 0
+15 0
+15 0
+31 1
+34 1
+34 1
+end_DTG
+begin_DTG
+1
+1
+140
+4
+38 0
+39 0
+39 0
+42 0
+3
+0
+42
+6
+21 0
+9 0
+9 0
+35 1
+37 1
+37 1
+0
+43
+6
+22 0
+10 0
+10 0
+32 1
+33 1
+33 1
+0
+44
+6
+30 0
+18 0
+18 0
+31 1
+34 1
+34 1
+end_DTG
+begin_DTG
+1
+1
+133
+4
+35 0
+40 0
+41 0
+41 0
+3
+0
+36
+6
+20 0
+8 0
+8 0
+32 1
+33 1
+33 1
+0
+37
+6
+23 0
+11 0
+11 0
+36 1
+38 1
+38 1
+0
+38
+6
+27 0
+15 0
+15 0
+31 1
+34 1
+34 1
+end_DTG
+begin_DTG
+1
+1
+132
+4
+36 0
+39 0
+42 0
+42 0
+3
+0
+42
+6
+21 0
+9 0
+9 0
+35 1
+37 1
+37 1
+0
+43
+6
+22 0
+10 0
+10 0
+32 1
+33 1
+33 1
+0
+44
+6
+30 0
+18 0
+18 0
+31 1
+34 1
+34 1
+end_DTG
+begin_DTG
+1
+1
+54
+6
+21 0
+9 0
+9 0
+35 1
+37 1
+37 1
+1
+0
+133
+6
+35 0
+37 0
+37 0
+40 0
+41 0
+41 0
+end_DTG
+begin_DTG
+1
+1
+49
+6
+23 0
+11 0
+11 0
+36 1
+38 1
+38 1
+1
+0
+132
+6
+36 0
+38 0
+38 0
+39 0
+42 0
+42 0
+end_DTG
+begin_DTG
+1
+1
+61
+6
+23 0
+11 0
+11 0
+36 1
+38 1
+38 1
+1
+0
+132
+6
+36 0
+38 0
+38 0
+39 0
+42 0
+42 0
+end_DTG
+begin_DTG
+1
+1
+66
+6
+21 0
+9 0
+9 0
+35 1
+37 1
+37 1
+1
+0
+133
+6
+35 0
+37 0
+37 0
+40 0
+41 0
+41 0
+end_DTG
+begin_DTG
+0
+0
+end_DTG
+begin_DTG
+0
+28
+0
+22
+2
+33 0
+33 1
+0
+15
+2
+37 0
+37 1
+0
+16
+2
+36 0
+38 1
+0
+16
+2
+38 0
+38 1
+0
+17
+2
+31 0
+34 1
+0
+17
+2
+34 0
+34 1
+0
+18
+2
+35 0
+37 1
+0
+19
+2
+32 0
+33 1
+0
+24
+2
+19 0
+7 1
+0
+25
+2
+21 0
+9 1
+0
+26
+2
+24 0
+12 1
+0
+27
+2
+20 0
+8 1
+0
+28
+2
+22 0
+10 1
+0
+29
+2
+25 0
+13 1
+0
+30
+2
+23 0
+11 1
+0
+31
+2
+29 0
+17 1
+0
+32
+2
+26 0
+14 1
+0
+33
+2
+27 0
+15 1
+0
+34
+2
+28 0
+16 1
+0
+35
+2
+30 0
+18 1
+0
+7
+2
+32 1
+33 0
+0
+1
+2
+36 0
+36 1
+0
+1
+2
+36 1
+38 0
+0
+2
+2
+31 0
+31 1
+0
+2
+2
+31 1
+34 0
+0
+3
+2
+35 0
+35 1
+0
+3
+2
+35 1
+37 0
+0
+7
+2
+32 0
+32 1
+end_DTG
+begin_CG
+0
+0
+0
+0
+0
+0
+0
+4
+44 1
+19 6
+32 6
+33 6
+4
+44 1
+20 6
+35 6
+37 6
+6
+44 1
+21 6
+36 6
+38 6
+39 6
+42 6
+4
+44 1
+22 6
+36 6
+38 6
+6
+44 1
+23 6
+35 6
+37 6
+40 6
+41 6
+4
+44 1
+24 6
+31 6
+34 6
+4
+44 1
+25 6
+31 6
+34 6
+4
+44 1
+26 6
+31 6
+34 6
+4
+44 1
+27 6
+35 6
+37 6
+4
+44 1
+28 6
+32 6
+33 6
+4
+44 1
+29 6
+32 6
+33 6
+4
+44 1
+30 6
+36 6
+38 6
+4
+44 1
+7 6
+32 6
+33 6
+4
+44 1
+8 6
+35 6
+37 6
+6
+44 1
+9 6
+36 6
+38 6
+39 6
+42 6
+4
+44 1
+10 6
+36 6
+38 6
+6
+44 1
+11 6
+35 6
+37 6
+40 6
+41 6
+4
+44 1
+12 6
+31 6
+34 6
+4
+44 1
+13 6
+31 6
+34 6
+4
+44 1
+14 6
+31 6
+34 6
+4
+44 1
+15 6
+35 6
+37 6
+4
+44 1
+16 6
+32 6
+33 6
+4
+44 1
+17 6
+32 6
+33 6
+4
+44 1
+18 6
+36 6
+38 6
+19
+44 12
+24 6
+25 6
+26 6
+27 6
+28 6
+30 6
+12 3
+13 3
+14 3
+15 6
+16 6
+18 6
+35 6
+32 6
+36 6
+37 6
+33 6
+38 6
+19
+44 12
+19 6
+20 6
+22 6
+25 6
+29 6
+28 6
+7 3
+8 6
+10 6
+13 6
+17 3
+16 3
+35 6
+36 6
+31 6
+37 6
+38 6
+34 6
+19
+44 12
+19 6
+20 6
+22 6
+25 6
+29 6
+28 6
+7 3
+8 6
+10 6
+13 6
+17 3
+16 3
+35 6
+36 6
+31 6
+37 6
+38 6
+34 6
+19
+44 12
+24 6
+25 6
+26 6
+27 6
+28 6
+30 6
+12 3
+13 3
+14 3
+15 6
+16 6
+18 6
+35 6
+32 6
+36 6
+37 6
+33 6
+38 6
+22
+44 12
+19 6
+21 6
+24 6
+20 6
+23 6
+27 6
+7 6
+9 6
+12 6
+8 3
+11 3
+15 3
+32 6
+36 6
+31 6
+37 6
+33 6
+38 6
+34 6
+39 18
+42 18
+22
+44 12
+21 6
+22 6
+23 6
+29 6
+26 6
+30 6
+9 3
+10 3
+11 6
+17 6
+14 6
+18 3
+35 6
+32 6
+31 6
+37 6
+33 6
+38 6
+34 6
+40 18
+41 18
+22
+44 12
+19 6
+21 6
+24 6
+20 6
+23 6
+27 6
+7 6
+9 6
+12 6
+8 3
+11 3
+15 3
+35 6
+32 6
+36 6
+31 6
+33 6
+38 6
+34 6
+39 18
+42 18
+22
+44 12
+21 6
+22 6
+23 6
+29 6
+26 6
+30 6
+9 3
+10 3
+11 6
+17 6
+14 6
+18 3
+35 6
+32 6
+36 6
+31 6
+37 6
+33 6
+34 6
+40 18
+41 18
+4
+36 6
+38 6
+40 12
+41 12
+4
+35 6
+37 6
+39 12
+42 12
+4
+35 6
+37 6
+39 12
+42 12
+4
+36 6
+38 6
+40 12
+41 12
+0
+0
+end_CG

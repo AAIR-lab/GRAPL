@@ -1,0 +1,43 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Related to mini-gpt
+include/ppddl/mdpsim*
+include/ppddl/mini-gpt/planner
+
+# Other
+lib/*
+*.lp
+*.txt
+*.lp.*
+experiments/*
+scripts/*.track
+data/ppddl/reduced*
+mdp-lib.layout
+*683*
+*gurobi*
+*borra*
+*.kate*
+testclient
+planserv
+*.pyc
+*.gch

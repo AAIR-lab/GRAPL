@@ -1,0 +1,960 @@
+
+If holds: var0:0
+Execute: goal / SC / d=0
+
+If holds: var34:0 var38:1
+Execute: action0-a2 obj0-o obj1-o / SC / d=1
+
+If holds: var34:1 var38:0
+Execute: action0-a obj0-o obj1-o / SC / d=1
+
+If holds: var26:1 var10:0
+Execute: action0-a300 obj2-o obj1-o / SC / d=1
+
+If holds: var33:0 var37:1
+Execute: action0-a2 obj1-o obj0-o / SC / d=1
+
+If holds: var35:0 var39:1
+Execute: action0-a2 obj0-o obj2-o / SC / d=1
+
+If holds: var33:1 var37:0
+Execute: action0-a obj1-o obj0-o / SC / d=1
+
+If holds: var35:1 var39:0
+Execute: action0-a obj0-o obj2-o / SC / d=1
+
+If holds: var30:1 var14:0
+Execute: action0-a300 obj3-o obj1-o / SC / d=1
+
+If holds: var29:1 var13:0
+Execute: action0-a300 obj3-o obj0-o / SC / d=1
+
+If holds: var28:1 var12:0
+Execute: action0-a300 obj2-o obj3-o / SC / d=1
+
+If holds: var36:1 var40:0
+Execute: action0-a obj0-o obj3-o / SC / d=1
+
+If holds: var18:1 var2:0
+Execute: action0-a300 obj0-o obj1-o / SC / d=1
+
+If holds: var20:1 var4:0
+Execute: action0-a300 obj0-o obj3-o / SC / d=1
+
+If holds: var25:1 var9:0
+Execute: action0-a300 obj2-o obj0-o / SC / d=1
+
+If holds: var19:1 var3:0
+Execute: action0-a300 obj0-o obj2-o / SC / d=1
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:1 var30:0 var31:0 var2:0 var3:0 var13:0 var14:0 var15:0 var36:1 var40:1
+Execute: action2-a obj1-o obj3-o / SC / d=2
+
+If holds: var18:1 var2:0 var33:1 var37:1
+Execute: action0-a obj2-o obj0-o / SC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:1 var25:0 var24:1 var28:0 var29:0 var30:0 var26:0 var31:0 var2:0 var10:0 var38:1 var35:1 var39:1
+Execute: action2-a obj1-o obj2-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:1 var25:0 var24:1 var28:0 var29:0 var30:0 var26:0 var31:0 var2:0 var10:0 var35:1 var39:1
+Execute: action2-a obj1-o obj2-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var28:0 var29:0 var30:0 var26:1 var31:0 var2:0 var9:0 var12:0 var14:0 var35:1 var37:1 var39:1
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:1 var25:0 var20:1 var24:1 var28:0 var29:0 var30:0 var26:0 var31:0 var2:0 var9:0 var12:0 var14:0 var10:0 var35:1 var37:1 var39:1
+Execute: action2-a obj1-o obj2-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var28:0 var29:0 var30:0 var26:1 var31:0 var2:0 var9:0 var12:0 var13:0 var14:0 var15:0 var36:1 var40:1 var35:1 var37:1 var39:1 var42:0 var44:0
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var28:0 var29:0 var30:0 var26:0 var31:0 var2:0 var9:0 var12:0 var14:0 var35:1 var37:1 var39:1
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:1 var25:0 var20:1 var24:1 var28:0 var29:0 var30:0 var26:0 var31:0 var2:0 var9:0 var12:0 var14:0 var10:0 var35:1 var37:1 var39:1
+Execute: action2-a obj1-o obj2-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:1 var24:1 var28:0 var29:0 var30:0 var26:0 var31:0 var3:0 var33:1 var35:1 var37:1
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var29:0 var30:0 var31:0 var2:0 var3:0 var13:0 var14:0 var15:0 var36:1 var40:1 var37:1
+Execute: action2-a obj0-o obj3-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var29:0 var30:0 var31:0 var2:0 var3:0 var13:0 var14:0 var15:0 var36:1 var40:1 var33:1 var37:1
+Execute: action2-a obj0-o obj3-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:0 var31:0 var2:0 var3:0 var13:1 var14:0 var15:0 var36:1 var40:1
+Execute: action2-a obj1-o obj3-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:1 var30:0 var31:0 var2:0 var3:0 var14:0 var15:0 var36:1 var40:1
+Execute: action2-a obj1-o obj3-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:1 var26:0 var31:0 var2:0 var9:0 var4:0 var12:0 var33:1 var35:1 var39:1 var43:0
+Execute: action2-a2 obj3-o obj2-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:0 var26:0 var31:0 var2:0 var3:0 var9:0 var4:0 var12:0 var13:1 var14:0 var15:0 var36:1 var40:1 var33:0 var35:0 var37:0 var39:0 var42:0 var44:0
+Execute: action2-a obj1-o obj3-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:1 var26:0 var31:0 var2:0 var9:0 var4:0 var12:0 var33:1 var35:1 var37:1 var39:1 var43:0
+Execute: action2-a2 obj3-o obj2-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:1 var29:0 var30:1 var26:0 var3:0 var7:0 var4:0 var13:1 var15:0 var33:1 var35:1 var37:1 var44:0
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:1 var29:0 var30:1 var26:0 var3:0 var7:0 var4:0 var13:1 var15:0 var33:1 var35:1 var37:1 var39:1 var44:0
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var28:1 var29:0 var30:1 var26:0 var3:0 var7:0 var13:1 var15:0 var33:1 var35:1 var37:1 var39:1 var42:0 var44:0
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var28:1 var29:0 var30:1 var26:0 var3:0 var7:0 var9:0 var13:1 var15:0 var33:1 var35:1 var37:1 var39:1 var41:0 var43:0 var44:0
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:1 var29:0 var30:1 var26:0 var3:0 var7:0 var4:1 var15:0 var33:1 var35:1 var37:1 var39:1 var44:0
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:1 var29:0 var30:1 var26:0 var3:0 var7:0 var4:0 var13:1 var15:0 var33:1 var35:1 var37:1 var39:1 var44:0
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:1 var29:0 var30:1 var26:0 var3:0 var7:0 var4:1 var15:0 var33:1 var35:1 var37:1 var39:1 var42:0 var44:0
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:1 var29:0 var30:1 var26:0 var2:1 var3:0 var7:0 var4:0 var13:1 var15:0 var33:1 var35:1 var37:1 var44:0
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:1 var29:0 var30:1 var26:0 var2:1 var3:0 var7:0 var4:0 var13:1 var15:0 var33:1 var35:1 var37:1 var39:1 var44:0
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var28:1 var29:0 var30:1 var26:0 var2:1 var3:0 var7:0 var13:1 var15:0 var33:1 var35:1 var37:1 var39:1 var42:0 var44:0
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var28:1 var29:0 var30:1 var26:0 var2:1 var3:0 var7:0 var9:0 var13:1 var15:0 var33:1 var35:1 var37:1 var39:1 var41:0 var43:0 var44:0
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:1 var30:1 var26:0 var2:1 var3:0 var7:0 var4:1 var15:0 var33:1 var35:1 var37:1 var39:1 var44:0
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:1 var29:0 var30:1 var26:0 var2:1 var3:0 var7:0 var4:0 var13:1 var15:0 var33:1 var35:1 var37:1 var39:1 var44:0
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:1 var30:1 var26:0 var2:1 var3:0 var7:0 var4:1 var15:0 var33:1 var35:1 var37:1 var39:1 var42:0 var44:0
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:1 var29:0 var30:1 var26:0 var31:0 var2:0 var9:0 var4:0 var33:1 var35:1 var37:1 var39:1 var41:0 var43:0
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var30:1 var31:0 var2:0 var9:0 var4:0 var33:1 var35:1 var37:1 var39:1 var43:0
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:1 var26:0 var31:0 var2:0 var9:0 var4:0 var12:0 var33:1 var35:1 var37:1 var39:1 var43:0
+Execute: action2-a2 obj3-o obj2-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var24:1 var28:0 var30:1 var2:0 var3:0 var4:0 var13:1 var33:1 var37:1
+Execute: action2-a obj1-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:1 var26:0 var3:0 var7:0 var4:0 var12:1 var13:1 var15:0 var33:1 var35:1 var37:1 var44:0
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var24:1 var28:0 var29:0 var30:1 var26:0 var2:0 var3:0 var7:0 var4:0 var12:1 var13:1 var15:0 var33:1 var35:1 var37:1 var44:0
+Execute: action2-a obj1-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:1 var26:0 var31:0 var3:0 var7:0 var4:0 var12:1 var13:1 var15:0 var33:1 var35:1 var37:1 var39:1 var44:0
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var28:0 var29:0 var30:1 var26:0 var31:0 var3:0 var7:0 var12:1 var13:1 var15:0 var33:1 var35:1 var37:1 var39:1 var42:0 var44:0
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var28:0 var29:0 var30:1 var26:0 var31:0 var3:0 var7:0 var9:0 var12:1 var13:1 var15:0 var33:1 var35:1 var37:1 var39:1 var41:0 var43:0 var44:0
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:1 var31:0 var3:0 var7:0 var4:1 var15:0 var33:1 var35:1 var37:1 var39:1 var44:0
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:1 var26:0 var31:0 var3:0 var7:0 var4:0 var12:1 var13:1 var15:0 var33:1 var35:1 var37:1 var39:1 var44:0
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:1 var23:0 var25:0 var20:0 var28:0 var30:1 var9:0 var4:1 var13:0 var35:1 var39:1
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:1 var31:0 var3:0 var7:0 var4:1 var15:0 var33:1 var35:1 var37:1 var39:1 var42:0 var44:0
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:1 var26:0 var2:1 var3:0 var7:0 var4:0 var12:1 var13:1 var15:0 var33:1 var35:1 var37:1 var44:0
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var24:1 var28:0 var29:0 var30:1 var26:0 var2:0 var3:0 var7:0 var4:0 var12:1 var13:1 var15:0 var33:1 var35:1 var37:1 var44:0
+Execute: action2-a obj1-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:1 var26:0 var31:0 var2:1 var3:0 var7:0 var4:0 var12:1 var13:1 var15:0 var33:1 var35:1 var37:1 var39:1 var44:0
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var28:0 var29:0 var30:1 var26:0 var31:0 var2:1 var3:0 var7:0 var12:1 var13:1 var15:0 var33:1 var35:1 var37:1 var39:1 var42:0 var44:0
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var28:0 var29:0 var30:1 var26:0 var31:0 var2:1 var3:0 var7:0 var9:0 var12:1 var13:1 var15:0 var33:1 var35:1 var37:1 var39:1 var41:0 var43:0 var44:0
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:1 var31:0 var2:1 var3:0 var7:0 var4:1 var15:0 var33:1 var35:1 var37:1 var39:1 var44:0
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:1 var26:0 var31:0 var2:1 var3:0 var7:0 var4:0 var12:1 var13:1 var15:0 var33:1 var35:1 var37:1 var39:1 var44:0
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:1 var23:0 var25:0 var20:0 var24:1 var28:0 var30:1 var9:0 var4:1 var13:0 var35:1 var39:1
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:1 var31:0 var2:1 var3:0 var7:0 var4:1 var15:0 var33:1 var35:1 var37:1 var39:1 var42:0 var44:0
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var30:1 var31:0 var2:0 var9:0 var4:0 var33:1 var35:1 var37:1 var39:1 var41:0 var43:0
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:0 var31:0 var2:0 var9:0 var4:0 var12:0 var33:1 var35:1 var39:1 var43:0
+Execute: action2-a2 obj3-o obj2-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:0 var31:0 var2:0 var3:0 var9:0 var4:0 var12:0 var13:1 var14:0 var15:0 var36:1 var40:1 var33:0 var35:0 var37:0 var39:0 var42:0 var44:0
+Execute: action2-a obj1-o obj3-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:0 var31:0 var2:0 var9:0 var4:0 var12:0 var33:1 var35:1 var37:1 var39:1 var43:0
+Execute: action2-a2 obj3-o obj2-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var24:1 var28:1 var30:0 var2:0 var3:0 var33:1 var37:1
+Execute: action2-a obj1-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:1 var29:0 var30:0 var3:0 var7:0 var4:0 var15:0 var33:1 var35:1 var37:1 var44:0
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var24:1 var28:1 var29:0 var30:0 var2:0 var3:0 var7:0 var4:0 var15:0 var33:1 var35:1 var37:1 var44:0
+Execute: action2-a obj1-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:1 var29:0 var30:0 var3:0 var7:0 var4:0 var15:0 var33:1 var35:1 var37:1 var39:1 var44:0
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:1 var23:0 var25:0 var20:1 var24:1 var28:1 var29:0 var30:0 var26:0 var31:0 var9:0 var13:0 var14:1 var15:0 var35:1 var39:1
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var28:1 var29:0 var30:0 var3:0 var7:0 var15:0 var33:1 var35:1 var37:1 var39:1 var42:0 var44:0
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:1 var29:0 var30:0 var3:0 var7:0 var4:1 var15:0 var33:1 var35:1 var37:1 var39:1 var44:0
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:1 var29:0 var30:0 var3:0 var7:0 var4:0 var15:0 var33:1 var35:1 var37:1 var39:1 var44:0
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:1 var29:0 var30:0 var3:0 var7:0 var4:1 var15:0 var33:1 var35:1 var37:1 var39:1 var42:0 var44:0
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:1 var20:0 var24:1 var28:1 var30:0 var3:0 var4:1 var13:0 var15:0 var33:1 var35:1 var37:1 var39:1 var42:0 var44:0
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:1 var20:0 var24:1 var28:1 var30:0 var3:0 var4:1 var13:0 var15:0 var33:1 var37:1 var41:0
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:1 var29:0 var30:0 var2:1 var3:0 var7:0 var4:0 var15:0 var33:1 var35:1 var37:1 var44:0
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var24:1 var28:1 var29:0 var30:0 var2:0 var3:0 var7:0 var4:0 var15:0 var33:1 var35:1 var37:1 var44:0
+Execute: action2-a obj1-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:1 var29:0 var30:0 var2:1 var3:0 var7:0 var4:0 var15:0 var33:1 var35:1 var37:1 var39:1 var44:0
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:1 var23:0 var25:0 var20:1 var24:1 var28:1 var29:0 var30:0 var26:0 var31:0 var9:0 var13:0 var14:1 var35:1 var39:1
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var28:1 var29:0 var30:0 var2:1 var3:0 var7:0 var15:0 var33:1 var35:1 var37:1 var39:1 var42:0 var44:0
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:1 var30:0 var2:1 var3:0 var7:0 var4:1 var15:0 var33:1 var35:1 var37:1 var39:1 var44:0
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:1 var29:0 var30:0 var2:1 var3:0 var7:0 var4:0 var15:0 var33:1 var35:1 var37:1 var39:1 var44:0
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:1 var30:0 var2:1 var3:0 var7:0 var4:1 var15:0 var33:1 var35:1 var37:1 var39:1 var42:0 var44:0
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var24:1 var28:1 var30:0 var3:0 var4:1 var13:0 var15:0 var33:1 var35:1 var37:1 var39:1 var42:0 var44:0
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var24:1 var28:1 var30:0 var3:0 var4:1 var13:0 var15:0 var33:1 var37:1 var41:0
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:1 var29:0 var30:0 var31:0 var2:0 var9:0 var4:0 var33:1 var35:1 var37:1 var39:1 var41:0 var43:0
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var30:0 var31:0 var2:0 var9:0 var4:0 var33:1 var35:1 var37:1 var39:1 var43:0
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:0 var31:0 var2:0 var9:0 var4:0 var12:0 var33:1 var35:1 var37:1 var39:1 var43:0
+Execute: action2-a2 obj3-o obj2-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var24:1 var28:0 var30:0 var2:0 var3:0 var33:1 var37:1
+Execute: action2-a obj1-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:0 var3:0 var7:0 var4:0 var12:1 var15:0 var33:1 var35:1 var37:1 var44:0
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var24:1 var28:0 var29:0 var30:0 var2:0 var3:0 var7:0 var4:0 var12:1 var15:0 var33:1 var35:1 var37:1 var44:0
+Execute: action2-a obj1-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:0 var31:0 var3:0 var7:0 var4:0 var12:1 var15:0 var33:1 var35:1 var37:1 var39:1 var44:0
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:1 var23:0 var25:0 var20:1 var24:1 var28:0 var29:0 var30:0 var26:0 var31:0 var9:0 var12:1 var13:0 var14:1 var15:0 var35:1 var39:1
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var28:0 var29:0 var30:0 var31:0 var3:0 var7:0 var12:1 var15:0 var33:1 var35:1 var37:1 var39:1 var42:0 var44:0
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:0 var31:0 var3:0 var7:0 var4:1 var15:0 var33:1 var35:1 var37:1 var39:1 var44:0
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:0 var31:0 var3:0 var7:0 var4:0 var12:1 var15:0 var33:1 var35:1 var37:1 var39:1 var44:0
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:1 var23:0 var25:0 var20:0 var28:0 var30:0 var9:0 var13:0 var35:1 var39:1
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:0 var31:0 var3:0 var7:0 var4:1 var15:0 var33:1 var35:1 var37:1 var39:1 var42:0 var44:0
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:0 var2:1 var3:0 var7:0 var4:0 var12:1 var15:0 var33:1 var35:1 var37:1 var44:0
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var24:1 var28:0 var29:0 var30:0 var2:0 var3:0 var7:0 var4:0 var12:1 var15:0 var33:1 var35:1 var37:1 var44:0
+Execute: action2-a obj1-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:0 var31:0 var2:1 var3:0 var7:0 var4:0 var12:1 var15:0 var33:1 var35:1 var37:1 var39:1 var44:0
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:1 var23:0 var25:0 var20:1 var24:1 var28:0 var29:0 var30:0 var26:0 var31:0 var9:0 var12:1 var13:0 var14:1 var35:1 var39:1
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var28:0 var29:0 var30:0 var31:0 var2:1 var3:0 var7:0 var12:1 var15:0 var33:1 var35:1 var37:1 var39:1 var42:0 var44:0
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:0 var31:0 var2:1 var3:0 var7:0 var4:1 var15:0 var33:1 var35:1 var37:1 var39:1 var44:0
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:0 var31:0 var2:1 var3:0 var7:0 var4:0 var12:1 var15:0 var33:1 var35:1 var37:1 var39:1 var44:0
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:1 var23:0 var25:0 var20:0 var24:1 var28:0 var30:0 var9:0 var13:0 var35:1 var39:1
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:0 var31:0 var2:1 var3:0 var7:0 var4:1 var15:0 var33:1 var35:1 var37:1 var39:1 var42:0 var44:0
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var30:0 var31:0 var2:0 var9:0 var4:0 var33:1 var35:1 var37:1 var39:1 var41:0 var43:0
+Execute: action2-a obj0-o obj2-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:1 var30:0 var31:0 var2:0 var3:0 var9:0 var4:0 var14:0 var15:0 var36:1 var40:1 var33:0 var35:0 var37:0 var39:0 var42:0 var44:0
+Execute: action2-a obj1-o obj3-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var24:1 var28:0 var30:1 var31:0 var2:0 var5:0 var3:0 var4:0 var13:1 var15:0 var36:1 var40:1 var33:1 var37:1 var39:1
+Execute: action2-a obj1-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:1 var20:0 var24:0 var28:0 var30:1 var31:0 var5:0 var3:0 var13:0 var15:0 var36:1 var40:1 var33:1 var37:1 var39:1
+Execute: action2-a obj2-o obj3-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:1 var20:0 var24:0 var30:1 var31:1 var3:0 var33:1 var35:1 var37:1 var39:1
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:1 var20:0 var24:0 var28:0 var29:0 var30:1 var31:1 var4:0 var33:1 var37:1
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:1 var20:1 var24:0 var28:0 var29:0 var30:1 var31:1 var3:0 var33:1 var37:1
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:1 var20:0 var24:0 var28:0 var29:0 var30:1 var31:1 var3:0 var4:0 var33:1 var37:1
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:1 var20:0 var24:0 var30:1 var31:1 var3:0 var33:1 var37:1
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:1 var20:0 var24:0 var28:0 var29:0 var30:1 var31:1 var3:0 var4:0 var33:1 var37:1
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:1 var20:1 var24:0 var28:0 var29:0 var30:1 var31:1 var3:0 var13:0 var36:1 var40:1 var33:1 var37:1
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:1 var23:0 var25:1 var20:1 var24:0 var29:0 var30:1 var31:1 var13:0 var36:1 var40:1
+Execute: action2-a obj0-o obj3-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:1 var20:0 var24:0 var28:0 var30:1 var31:0 var5:0 var3:0 var13:0 var15:0 var36:1 var40:1 var33:1 var39:1 var42:0 var44:0
+Execute: action2-a obj2-o obj3-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:1 var23:0 var25:1 var20:1 var24:0 var29:0 var30:1 var31:1 var13:0 var36:1 var40:1 var33:0 var37:0 var41:0 var43:0
+Execute: action2-a obj0-o obj3-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var24:0 var28:0 var30:1 var31:0 var5:0 var3:0 var13:0 var15:0 var36:1 var40:1 var33:1 var39:1
+Execute: action2-a obj2-o obj3-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var24:0 var30:1 var31:1 var3:0 var33:1 var35:1 var37:1 var39:1
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var24:0 var28:0 var29:0 var30:1 var31:1 var4:0 var33:1 var37:1
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:1 var24:0 var28:0 var29:0 var30:1 var31:1 var3:0 var33:1 var37:1
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var24:0 var28:0 var29:0 var30:1 var31:1 var3:0 var4:0 var33:1 var37:1
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var24:0 var30:1 var31:1 var3:0 var33:1 var37:1
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var24:0 var28:0 var29:0 var30:1 var31:1 var3:0 var4:0 var33:1 var37:1
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:1 var24:0 var28:0 var29:0 var30:1 var31:1 var3:0 var13:0 var36:1 var40:1 var33:1 var37:1
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:1 var23:0 var25:1 var20:1 var24:0 var29:0 var30:1 var31:1 var13:0 var36:1 var40:1
+Execute: action2-a obj0-o obj3-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var24:0 var28:0 var30:1 var31:0 var5:0 var3:0 var13:0 var15:0 var36:1 var40:1 var33:1 var39:1 var42:0 var44:0
+Execute: action2-a obj2-o obj3-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:1 var23:0 var25:1 var20:1 var24:0 var29:0 var30:1 var31:1 var13:0 var36:1 var40:1 var33:0 var37:0 var41:0 var43:0
+Execute: action2-a obj0-o obj3-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:1 var30:0 var31:0 var2:0 var3:0 var9:0 var4:0 var14:0 var15:0 var36:1 var40:1 var33:0 var35:0 var37:0 var39:0 var42:0 var44:0
+Execute: action2-a obj1-o obj3-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var24:1 var28:0 var30:0 var31:0 var2:0 var5:0 var3:0 var15:0 var36:1 var40:1 var33:1 var37:1 var39:1
+Execute: action2-a obj1-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:1 var20:0 var24:0 var30:0 var31:1 var3:0 var33:1 var35:1 var37:1 var39:1
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:1 var20:0 var24:0 var28:0 var29:0 var30:0 var26:0 var31:1 var4:0 var33:1 var37:1
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:1 var20:1 var24:0 var28:0 var29:0 var30:0 var26:0 var31:1 var3:0 var33:1 var37:1
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:1 var20:0 var24:0 var28:0 var29:0 var30:0 var26:0 var31:1 var3:0 var4:0 var33:1 var37:1
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:1 var20:0 var24:0 var30:0 var31:1 var3:0 var33:1 var37:1
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:1 var20:0 var24:0 var28:0 var29:0 var30:0 var26:0 var31:1 var3:0 var4:0 var33:1 var37:1
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:1 var23:0 var25:1 var20:1 var24:0 var29:0 var30:0 var31:1 var13:0 var36:1 var40:1
+Execute: action2-a obj0-o obj3-o / NSC / d=2
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:1 var20:0 var24:0 var28:0 var31:0 var5:0 var3:0 var13:0 var15:0 var36:1 var40:1 var33:1 var39:1 var42:0 var44:0
+Execute: action2-a obj2-o obj3-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var24:1 var28:0 var30:0 var31:0 var2:0 var5:0 var3:0 var14:1 var15:0 var36:1 var40:1 var33:1 var37:1 var39:1
+Execute: action2-a obj1-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var24:0 var30:0 var31:1 var3:0 var33:1 var35:1 var37:1 var39:1
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var24:0 var28:0 var29:0 var30:0 var26:0 var31:1 var3:0 var4:0 var33:1 var37:1
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var24:0 var28:0 var29:0 var30:0 var26:0 var31:1 var3:0 var4:0 var36:1 var40:1 var33:1 var37:1
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:1 var24:0 var28:0 var29:0 var30:0 var26:0 var31:1 var3:0 var8:0 var33:1 var37:1
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var24:0 var28:0 var29:0 var30:0 var26:0 var31:1 var3:0 var4:0 var8:0 var33:1 var37:1
+Execute: action2-a obj3-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var24:0 var30:0 var31:1 var3:0 var33:1 var37:1
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:1 var23:0 var25:1 var20:1 var24:0 var29:0 var30:0 var31:1 var13:0 var36:1 var40:1
+Execute: action2-a obj0-o obj3-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:1 var24:0 var28:0 var29:0 var30:0 var26:0 var31:1 var2:1 var3:0 var8:0 var13:0 var36:1 var40:1 var33:1 var37:1
+Execute: action2-a obj2-o obj0-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:1 var24:0 var29:0 var30:0 var31:1 var2:1 var13:0 var36:1 var40:1 var33:1 var37:1
+Execute: action2-a obj0-o obj3-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:1 var24:0 var29:0 var30:0 var31:1 var2:1 var13:0 var36:1 var40:1
+Execute: action2-a obj0-o obj3-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var24:0 var28:0 var31:0 var5:0 var3:0 var13:0 var14:1 var15:0 var36:1 var40:1 var33:1 var39:1 var42:0 var44:0
+Execute: action2-a obj2-o obj3-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:1 var24:0 var29:0 var30:0 var31:1 var2:1 var13:0 var36:1 var40:1 var33:0 var37:0 var41:0 var43:0
+Execute: action2-a obj0-o obj3-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:1 var31:0 var2:0 var3:0 var13:1 var15:0 var36:1 var40:1 var35:1 var39:1
+Execute: action2-a obj2-o obj3-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:0 var31:0 var2:0 var3:0 var13:1 var14:0 var15:0 var36:1 var40:1 var35:1 var39:1
+Execute: action2-a obj1-o obj3-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:0 var31:0 var2:0 var3:0 var13:1 var14:1 var15:0 var36:1 var40:1 var35:1 var39:1
+Execute: action2-a obj2-o obj3-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:0 var31:0 var2:0 var3:0 var13:1 var14:0 var15:0 var36:1 var40:1 var35:1 var39:1
+Execute: action2-a obj1-o obj3-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:1 var30:1 var31:0 var2:0 var3:0 var15:0 var36:1 var40:1 var35:1 var39:1
+Execute: action2-a obj2-o obj3-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:1 var30:0 var31:0 var2:0 var3:0 var14:0 var15:0 var36:1 var40:1 var35:1 var39:1
+Execute: action2-a obj1-o obj3-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:1 var30:0 var31:0 var2:0 var3:0 var14:1 var15:0 var36:1 var40:1 var35:1 var39:1
+Execute: action2-a obj2-o obj3-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:1 var30:0 var31:0 var2:0 var3:0 var14:0 var15:0 var36:1 var40:1 var35:1 var39:1
+Execute: action2-a obj1-o obj3-o / NSC / d=2
+
+If holds: var18:0 var21:0 var19:0 var23:1 var25:0 var24:1 var28:0 var29:0 var30:0 var26:0 var31:0 var2:0 var12:0 var10:0 var35:1 var39:1
+Execute: action2-a2 obj3-o obj2-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var25:0 var20:1 var24:1 var28:0 var29:0 var30:0 var26:1 var31:0 var2:0 var9:0 var12:0 var14:0 var35:1 var37:1 var39:1
+Execute: action0-a obj1-o obj2-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var20:1 var24:1 var28:0 var29:0 var30:0 var26:1 var31:0 var2:0 var12:0 var14:0 var33:1 var35:1 var37:1 var39:1
+Execute: action0-a obj2-o obj0-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var25:0 var20:1 var24:1 var28:0 var29:0 var30:0 var26:0 var31:0 var2:0 var9:0 var12:0 var14:0 var35:1 var37:1 var39:1
+Execute: action0-a obj1-o obj2-o / NSC / d=3
+
+If holds: var18:0 var21:0 var23:0 var25:1 var20:1 var24:1 var28:0 var29:0 var30:0 var26:0 var31:0 var33:1 var35:1 var37:1 var39:1
+Execute: action0-a obj0-o obj2-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var20:1 var24:1 var29:0 var30:0 var31:0 var2:0 var3:0 var13:0 var14:0 var15:0 var36:1 var40:1 var33:1 var37:1
+Execute: action0-a obj2-o obj0-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var30:0 var31:0 var2:0 var3:0 var14:0 var15:0 var36:1 var40:1 var33:1 var37:1
+Execute: action0-a obj3-o obj0-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var24:1 var28:0 var29:0 var30:0 var31:0 var2:0 var3:0 var13:1 var14:0 var15:0 var36:1 var40:1
+Execute: action0-a obj0-o obj3-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var24:1 var28:0 var29:1 var30:0 var31:0 var2:0 var3:0 var14:0 var15:0 var36:1 var40:1
+Execute: action0-a obj0-o obj3-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:1 var26:0 var31:0 var2:0 var9:0 var4:0 var12:0 var33:1 var35:1 var39:1 var43:0
+Execute: action2-a2 obj3-o obj2-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var29:0 var30:1 var26:0 var31:0 var2:0 var9:0 var4:0 var36:1 var40:1 var33:1 var35:1 var39:1 var43:0
+Execute: action0-a obj2-o obj3-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var24:1 var28:1 var30:1 var26:0 var31:0 var2:0 var3:0 var4:0 var13:1 var33:1 var37:1
+Execute: action2-a obj1-o obj0-o / NSC / d=3
+
+If holds: var18:1 var21:0 var19:0 var23:0 var20:0 var24:1 var28:1 var29:0 var30:1 var26:0 var3:0 var7:0 var4:0 var13:1 var15:0 var33:1 var35:1 var37:1 var44:0
+Execute: action0-a obj2-o obj0-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var24:1 var28:1 var29:0 var30:1 var26:0 var31:0 var2:0 var3:0 var7:0 var4:0 var13:1 var15:0 var33:1 var35:1 var37:1 var44:0
+Execute: action2-a obj1-o obj0-o / NSC / d=3
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var28:1 var29:0 var30:1 var26:0 var3:0 var7:0 var13:1 var15:0 var33:1 var35:0 var37:1 var39:0 var42:0 var44:0
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var28:1 var29:0 var30:1 var26:0 var3:0 var7:0 var9:0 var13:1 var15:0 var33:0 var35:1 var37:0 var39:1 var41:0 var43:0
+Execute: action3-a2 obj2-o obj0-o / NSC / d=3
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:1 var29:0 var30:1 var26:0 var3:0 var7:0 var4:1 var15:0 var33:1 var35:0 var37:1 var39:0 var42:0 var44:0
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: var18:1 var21:0 var23:0 var25:1 var20:0 var24:1 var28:1 var26:0 var4:1 var13:1 var33:1 var35:1 var37:1 var39:1
+Execute: action0-a obj0-o obj2-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var20:0 var24:1 var28:1 var29:0 var30:1 var26:0 var2:1 var3:0 var7:0 var4:0 var13:1 var15:0 var33:1 var35:1 var37:1 var44:0
+Execute: action0-a obj2-o obj0-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var24:1 var28:1 var29:0 var30:1 var26:0 var31:0 var2:0 var3:0 var7:0 var4:0 var13:1 var15:0 var33:1 var35:1 var37:1 var44:0
+Execute: action2-a obj1-o obj0-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var28:1 var29:0 var30:1 var26:0 var2:1 var3:0 var7:0 var13:1 var15:0 var33:1 var35:0 var37:1 var39:0 var42:0 var44:0
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var28:1 var29:0 var30:1 var26:0 var2:1 var3:0 var7:0 var9:0 var13:1 var15:0 var33:0 var35:1 var37:0 var39:1 var41:0 var43:0
+Execute: action3-a2 obj2-o obj0-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:1 var30:1 var26:0 var2:1 var3:0 var7:0 var4:1 var15:0 var33:1 var35:0 var37:1 var39:0 var42:0 var44:0
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:1 var29:0 var30:1 var26:0 var31:0 var2:0 var9:0 var4:0 var33:0 var35:1 var37:0 var39:1 var41:0 var43:0
+Execute: action3-a2 obj2-o obj0-o / NSC / d=3
+
+If holds: var18:1 var21:0 var19:0 var23:0 var20:0 var24:1 var28:0 var29:0 var30:1 var26:0 var3:0 var7:0 var4:0 var12:1 var13:1 var15:0 var33:1 var35:1 var37:1 var44:0
+Execute: action0-a obj2-o obj0-o / NSC / d=3
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var28:0 var29:0 var30:1 var26:0 var31:0 var3:0 var7:0 var12:1 var13:1 var15:0 var33:1 var35:0 var37:1 var39:0 var42:0 var44:0
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var28:0 var29:0 var30:1 var26:0 var31:0 var3:0 var7:0 var9:0 var12:1 var13:1 var15:0 var33:0 var35:1 var37:0 var39:1 var41:0 var43:0
+Execute: action3-a2 obj2-o obj0-o / NSC / d=3
+
+If holds: var18:1 var21:0 var23:0 var25:1 var20:0 var24:1 var28:0 var30:1 var4:1 var12:1 var13:0 var15:0 var33:1 var35:1 var37:1 var39:1
+Execute: action0-a obj0-o obj2-o / NSC / d=3
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:1 var31:0 var3:0 var7:0 var4:1 var15:0 var33:1 var35:0 var37:1 var39:0 var42:0 var44:0
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var20:0 var24:1 var28:0 var29:0 var30:1 var26:0 var2:1 var3:0 var7:0 var4:0 var12:1 var13:1 var15:0 var33:1 var35:1 var37:1 var44:0
+Execute: action0-a obj2-o obj0-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var28:0 var29:0 var30:1 var26:0 var31:0 var2:1 var3:0 var7:0 var12:1 var13:1 var15:0 var33:1 var35:0 var37:1 var39:0 var42:0 var44:0
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var28:0 var29:0 var30:1 var26:0 var31:0 var2:1 var3:0 var7:0 var9:0 var12:1 var13:1 var15:0 var33:0 var35:1 var37:0 var39:1 var41:0 var43:0
+Execute: action3-a2 obj2-o obj0-o / NSC / d=3
+
+If holds: var18:0 var21:0 var23:0 var25:1 var20:0 var24:1 var28:0 var30:1 var4:1 var12:1 var13:0 var15:0 var33:1 var35:1 var37:1 var39:1
+Execute: action0-a obj0-o obj2-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:1 var31:0 var2:1 var3:0 var7:0 var4:1 var15:0 var33:1 var35:0 var37:1 var39:0 var42:0 var44:0
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var30:1 var31:0 var2:0 var9:0 var4:0 var33:0 var35:1 var37:0 var39:1 var41:0 var43:0
+Execute: action3-a2 obj2-o obj0-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:0 var31:0 var2:0 var9:0 var4:0 var12:0 var33:1 var35:1 var39:1 var43:0
+Execute: action2-a2 obj3-o obj2-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var29:0 var30:0 var31:0 var2:0 var9:0 var4:0 var36:1 var40:1 var33:1 var35:1 var39:1 var43:0
+Execute: action0-a obj2-o obj3-o / NSC / d=3
+
+If holds: var18:1 var21:0 var19:0 var23:0 var20:0 var24:1 var28:1 var29:0 var30:0 var3:0 var7:0 var4:0 var15:0 var33:1 var35:1 var37:1 var44:0
+Execute: action0-a obj2-o obj0-o / NSC / d=3
+
+If holds: var18:1 var21:0 var19:1 var23:0 var25:0 var20:1 var24:1 var28:1 var30:0 var26:0 var9:0 var33:1 var35:1 var37:1 var39:1
+Execute: action0-a obj3-o obj0-o / NSC / d=3
+
+If holds: var18:1 var21:0 var19:1 var23:0 var20:1 var24:1 var28:1 var29:0 var30:0 var26:0 var13:0 var33:1 var35:1 var37:1 var39:1
+Execute: action0-a obj2-o obj0-o / NSC / d=3
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var28:1 var29:0 var30:0 var3:0 var7:0 var15:0 var33:1 var35:0 var37:1 var39:0 var42:0 var44:0
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: var18:1 var21:0 var23:0 var25:1 var20:0 var24:1 var28:1 var30:0 var4:1 var13:0 var15:0 var33:1 var35:1 var37:1 var39:1
+Execute: action0-a obj0-o obj2-o / NSC / d=3
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:1 var29:0 var30:0 var3:0 var7:0 var4:1 var15:0 var33:1 var35:0 var37:1 var39:0 var42:0 var44:0
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:1 var20:0 var24:1 var28:1 var30:0 var3:0 var4:1 var13:0 var15:0 var33:1 var35:0 var37:1 var39:0 var42:0 var44:0
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var20:0 var24:1 var28:1 var29:0 var30:0 var2:1 var3:0 var7:0 var4:0 var15:0 var33:1 var35:1 var37:1 var44:0
+Execute: action0-a obj2-o obj0-o / NSC / d=3
+
+If holds: var18:0 var21:0 var23:0 var25:1 var20:1 var24:1 var28:1 var29:0 var30:0 var26:0 var31:0 var13:0 var14:1 var15:0 var33:1 var35:1 var37:1 var39:1
+Execute: action0-a obj0-o obj2-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var28:1 var29:0 var30:0 var2:1 var3:0 var7:0 var15:0 var33:1 var35:0 var37:1 var39:0 var42:0 var44:0
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: var18:0 var21:0 var23:0 var25:1 var20:0 var24:1 var28:1 var30:0 var4:1 var13:0 var15:0 var33:1 var35:1 var37:1 var39:1
+Execute: action0-a obj0-o obj2-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:1 var30:0 var2:1 var3:0 var7:0 var4:1 var15:0 var33:1 var35:0 var37:1 var39:0 var42:0 var44:0
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var24:1 var28:1 var30:0 var3:0 var4:1 var13:0 var15:0 var33:1 var35:0 var37:1 var39:0 var42:0 var44:0
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:1 var29:0 var30:0 var31:0 var2:0 var9:0 var4:0 var33:0 var35:1 var37:0 var39:1 var41:0 var43:0
+Execute: action3-a2 obj2-o obj0-o / NSC / d=3
+
+If holds: var18:1 var21:0 var19:0 var23:0 var20:0 var24:1 var28:0 var29:0 var30:0 var3:0 var7:0 var4:0 var12:1 var15:0 var33:1 var35:1 var37:1 var44:0
+Execute: action0-a obj2-o obj0-o / NSC / d=3
+
+If holds: var18:1 var21:0 var19:1 var23:0 var25:0 var20:1 var24:1 var28:0 var30:0 var26:0 var31:0 var9:0 var14:1 var33:1 var35:1 var37:1 var39:1
+Execute: action0-a obj3-o obj0-o / NSC / d=3
+
+If holds: var18:1 var21:0 var19:1 var23:0 var20:1 var24:1 var28:0 var29:0 var30:0 var26:0 var31:0 var13:0 var14:1 var33:1 var35:1 var37:1 var39:1
+Execute: action0-a obj2-o obj0-o / NSC / d=3
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var28:0 var29:0 var30:0 var31:0 var3:0 var7:0 var12:1 var15:0 var33:1 var35:0 var37:1 var39:0 var42:0 var44:0
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: var18:1 var21:0 var23:0 var25:1 var20:0 var24:1 var28:0 var30:0 var4:1 var13:0 var15:0 var33:1 var35:1 var37:1 var39:1
+Execute: action0-a obj0-o obj2-o / NSC / d=3
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:0 var31:0 var3:0 var7:0 var4:1 var15:0 var33:1 var35:0 var37:1 var39:0 var42:0 var44:0
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var20:0 var24:1 var28:0 var29:0 var30:0 var2:1 var3:0 var7:0 var4:0 var12:1 var15:0 var33:1 var35:1 var37:1 var44:0
+Execute: action0-a obj2-o obj0-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var28:0 var29:0 var30:0 var31:0 var2:1 var3:0 var7:0 var12:1 var15:0 var33:1 var35:0 var37:1 var39:0 var42:0 var44:0
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: var18:0 var21:0 var23:0 var25:1 var20:0 var24:1 var28:0 var30:0 var4:1 var13:0 var15:0 var33:1 var35:1 var37:1 var39:1
+Execute: action0-a obj0-o obj2-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:0 var31:0 var2:1 var3:0 var7:0 var4:1 var15:0 var33:1 var35:0 var37:1 var39:0 var42:0 var44:0
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var30:0 var31:0 var2:0 var9:0 var4:0 var33:0 var35:1 var37:0 var39:1 var41:0 var43:0
+Execute: action3-a2 obj2-o obj0-o / NSC / d=3
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:1 var20:0 var28:0 var30:1 var31:0 var5:0 var3:0 var13:0 var15:0 var36:1 var40:1 var33:1 var39:1
+Execute: action0-a obj1-o obj3-o / NSC / d=3
+
+If holds: var18:1 var21:0 var23:0 var25:1 var20:0 var24:0 var30:1 var31:1 var33:1 var35:1 var37:1 var39:1
+Execute: action0-a obj0-o obj2-o / NSC / d=3
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:1 var24:0 var28:0 var29:0 var30:1 var31:1 var36:1 var40:1 var33:1 var37:1
+Execute: action0-a obj0-o obj3-o / NSC / d=3
+
+If holds: var18:1 var21:0 var19:1 var23:0 var25:1 var20:1 var31:1 var36:1 var40:1 var33:1 var37:1
+Execute: action0-a obj3-o obj0-o / NSC / d=3
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:1 var20:0 var24:0 var28:0 var30:1 var31:0 var5:0 var3:0 var13:0 var15:0 var36:1 var40:1 var33:1 var35:0 var39:0 var42:0 var44:0
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var28:0 var30:1 var31:0 var5:0 var3:0 var13:0 var15:0 var36:1 var40:1 var33:1 var39:1
+Execute: action0-a obj1-o obj3-o / NSC / d=3
+
+If holds: var18:0 var21:0 var23:0 var25:1 var20:0 var24:0 var30:1 var31:1 var33:1 var35:1 var37:1 var39:1
+Execute: action0-a obj0-o obj2-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var24:0 var28:0 var29:0 var30:1 var31:1 var36:1 var40:1 var33:1 var37:1
+Execute: action0-a obj0-o obj3-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:1 var23:0 var25:1 var20:1 var31:1 var36:1 var40:1 var33:1 var37:1
+Execute: action0-a obj3-o obj0-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var24:0 var28:0 var30:1 var31:0 var5:0 var3:0 var13:0 var15:0 var36:1 var40:1 var33:1 var35:0 var39:0 var42:0 var44:0
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:1 var20:0 var28:0 var31:0 var5:0 var3:0 var13:0 var15:0 var36:1 var40:1 var33:1 var39:1
+Execute: action0-a obj1-o obj3-o / NSC / d=3
+
+If holds: var18:1 var21:0 var23:0 var25:1 var20:0 var24:0 var30:0 var31:1 var33:1 var35:1 var37:1 var39:1
+Execute: action0-a obj0-o obj2-o / NSC / d=3
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:1 var24:0 var28:0 var29:0 var30:0 var26:0 var31:1 var36:1 var40:1 var33:1 var37:1
+Execute: action0-a obj0-o obj3-o / NSC / d=3
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:1 var20:0 var24:0 var28:0 var31:0 var5:0 var3:0 var13:0 var15:0 var36:1 var40:1 var33:1 var35:0 var39:0 var42:0 var44:0
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var28:0 var31:0 var5:0 var3:0 var13:0 var14:1 var15:0 var36:1 var40:1 var33:1 var39:1
+Execute: action0-a obj1-o obj3-o / NSC / d=3
+
+If holds: var18:0 var21:0 var23:0 var25:1 var20:0 var24:0 var30:0 var31:1 var33:1 var35:1 var37:1 var39:1
+Execute: action0-a obj0-o obj2-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var24:0 var28:0 var29:0 var30:0 var26:0 var31:1 var3:0 var36:1 var40:1 var33:1 var37:1
+Execute: action0-a obj0-o obj3-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:1 var24:0 var30:0 var31:1 var2:1 var36:1 var40:1 var33:1 var37:1
+Execute: action0-a obj3-o obj0-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var24:0 var28:0 var31:0 var5:0 var3:0 var13:0 var14:1 var15:0 var36:1 var40:1 var33:1 var35:0 var39:0 var42:0 var44:0
+Execute: action3-a2 obj0-o obj2-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:1 var2:0 var3:0 var13:1 var36:1 var40:1 var35:1 var39:1
+Execute: action0-a obj3-o obj2-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:0 var2:0 var3:0 var13:1 var14:1 var36:1 var40:1 var35:1 var39:1
+Execute: action0-a obj3-o obj2-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:1 var30:1 var2:0 var3:0 var36:1 var40:1 var35:1 var39:1
+Execute: action0-a obj3-o obj2-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:1 var30:0 var2:0 var3:0 var14:1 var36:1 var40:1 var35:1 var39:1
+Execute: action0-a obj3-o obj2-o / NSC / d=3
+
+If holds: var18:0 var21:0 var19:0 var23:1 var25:0 var24:1 var28:0 var29:0 var26:0 var31:0 var2:0 var12:0 var10:0 var34:1 var38:1 var35:1 var39:1
+Execute: action0-a obj3-o obj1-o / NSC / d=4
+
+If holds: var18:0 var21:0 var19:0 var25:0 var20:1 var24:1 var28:0 var29:0 var30:0 var26:1 var31:0 var2:0 var9:0 var12:0 var14:0 var35:1 var37:1 var39:1
+Execute: action2-a2 obj3-o obj2-o / NSC / d=4
+
+If holds: var18:0 var21:0 var19:0 var23:0 var20:1 var24:1 var28:0 var29:0 var30:0 var26:1 var31:0 var2:0 var12:0 var14:0 var33:0 var35:1 var37:0 var39:1 var41:0 var43:0
+Execute: action3-a2 obj2-o obj0-o / NSC / d=4
+
+If holds: var18:0 var21:0 var19:0 var23:0 var20:1 var24:1 var28:0 var29:0 var30:0 var26:1 var2:0 var12:0 var14:0 var33:1 var35:1 var37:1 var39:1
+Execute: action0-a obj3-o obj2-o / NSC / d=4
+
+If holds: var18:0 var21:0 var19:0 var23:0 var20:1 var24:1 var28:0 var30:0 var26:1 var31:0 var2:0 var12:0 var14:0 var33:1 var35:1 var37:1 var39:1
+Execute: action0-a obj3-o obj0-o / NSC / d=4
+
+If holds: var18:0 var21:0 var19:0 var25:0 var20:1 var24:1 var28:0 var29:0 var30:0 var26:0 var31:0 var2:0 var9:0 var12:0 var14:0 var35:1 var37:1 var39:1
+Execute: action2-a2 obj3-o obj2-o / NSC / d=4
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var24:1 var28:0 var29:0 var30:0 var31:0 var2:0 var3:0 var13:0 var14:0 var15:0 var36:1 var40:1
+Execute: action2-a obj0-o obj3-o / NSC / d=4
+
+If holds: var18:1 var21:0 var23:0 var25:0 var20:1 var24:1 var28:1 var29:0 var30:1 var26:0 var7:0 var9:0 var13:1 var15:0 var33:0 var35:1 var37:0 var39:1 var41:0 var43:0
+Execute: action0-a obj0-o obj2-o / NSC / d=4
+
+If holds: var18:1 var21:0 var23:0 var25:0 var20:0 var24:1 var28:1 var29:0 var30:1 var26:0 var7:0 var9:0 var4:1 var15:0 var33:0 var35:1 var37:0 var39:1 var41:0 var43:0
+Execute: action0-a obj0-o obj2-o / NSC / d=4
+
+If holds: var18:0 var21:0 var23:0 var25:0 var20:1 var24:1 var28:1 var29:0 var30:1 var26:0 var2:1 var7:0 var9:0 var13:1 var15:0 var33:0 var35:1 var37:0 var39:1 var41:0 var43:0
+Execute: action0-a obj0-o obj2-o / NSC / d=4
+
+If holds: var18:0 var21:0 var23:0 var25:0 var20:0 var24:1 var28:1 var30:1 var26:0 var2:1 var7:0 var9:0 var4:1 var15:0 var33:0 var35:1 var37:0 var39:1 var41:0 var43:0
+Execute: action0-a obj0-o obj2-o / NSC / d=4
+
+If holds: var18:1 var21:0 var23:0 var25:0 var20:1 var24:1 var28:0 var29:0 var30:1 var26:0 var31:0 var7:0 var9:0 var12:1 var13:1 var15:0 var33:0 var35:1 var37:0 var39:1 var41:0 var43:0
+Execute: action0-a obj0-o obj2-o / NSC / d=4
+
+If holds: var18:0 var21:0 var23:0 var25:0 var20:1 var24:1 var28:0 var29:0 var30:1 var26:0 var31:0 var2:1 var7:0 var9:0 var12:1 var13:1 var15:0 var33:0 var35:1 var37:0 var39:1 var41:0 var43:0
+Execute: action0-a obj0-o obj2-o / NSC / d=4
+
+If holds: var18:1 var21:0 var19:1 var23:0 var25:0 var20:0 var24:1 var28:1 var30:0 var9:0 var4:1 var13:0 var15:0 var33:1 var35:1 var37:1 var39:1 var41:0 var43:0
+Execute: action2-a obj0-o obj2-o / NSC / d=4
+
+If holds: var18:0 var21:0 var19:1 var23:0 var25:0 var20:0 var24:1 var28:1 var30:0 var9:0 var4:1 var13:0 var15:0 var33:1 var35:1 var37:1 var39:1 var41:0 var43:0
+Execute: action2-a obj0-o obj2-o / NSC / d=4
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var30:1 var31:0 var2:0 var9:0 var4:0 var33:0 var35:0 var37:0 var39:0 var42:0 var44:0
+Execute: action3-a2 obj0-o obj2-o / NSC / d=4
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:1 var20:0 var28:0 var30:1 var31:0 var5:0 var3:0 var15:0 var36:1 var40:1 var33:1 var37:1 var39:1
+Execute: action0-a obj3-o obj0-o / NSC / d=4
+
+If holds: var18:1 var21:0 var19:1 var23:0 var25:1 var20:1 var31:1 var36:1 var40:1 var33:0 var37:0 var41:0 var43:0
+Execute: action3-a2 obj2-o obj0-o / NSC / d=4
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var28:0 var30:1 var31:0 var5:0 var3:0 var15:0 var36:1 var40:1 var33:1 var37:1 var39:1
+Execute: action0-a obj3-o obj0-o / NSC / d=4
+
+If holds: var18:0 var21:0 var19:1 var23:0 var25:1 var20:1 var31:1 var36:1 var40:1 var33:0 var37:0 var41:0 var43:0
+Execute: action3-a2 obj2-o obj0-o / NSC / d=4
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var30:0 var31:0 var2:0 var9:0 var4:0 var33:0 var35:0 var37:0 var39:0 var42:0 var44:0
+Execute: action3-a2 obj0-o obj2-o / NSC / d=4
+
+If holds: var18:1 var21:0 var19:0 var23:0 var25:1 var20:0 var28:0 var31:0 var5:0 var3:0 var15:0 var36:1 var40:1 var33:1 var37:1 var39:1
+Execute: action0-a obj3-o obj0-o / NSC / d=4
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:0 var28:0 var31:0 var5:0 var3:0 var14:1 var15:0 var36:1 var40:1 var33:1 var37:1 var39:1
+Execute: action0-a obj3-o obj0-o / NSC / d=4
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:1 var20:1 var24:0 var30:0 var31:1 var2:1 var36:1 var40:1 var33:0 var37:0 var41:0 var43:0
+Execute: action3-a2 obj2-o obj0-o / NSC / d=4
+
+If holds: var18:0 var21:0 var19:0 var23:1 var25:0 var24:1 var28:0 var29:0 var31:0 var2:0 var12:0 var34:1 var38:1 var35:1 var39:1
+Execute: action0-a obj2-o obj1-o / NSC / d=5
+
+If holds: var18:0 var21:0 var19:0 var23:0 var20:1 var24:1 var28:0 var29:0 var30:0 var26:1 var2:0 var3:0 var12:0 var14:0 var33:1 var35:0 var37:1 var39:0 var42:0 var44:0
+Execute: action3-a2 obj0-o obj2-o / NSC / d=5
+
+If holds: var18:0 var21:0 var19:0 var23:0 var20:1 var24:1 var28:0 var29:0 var30:0 var26:1 var2:0 var7:0 var12:0 var14:0 var36:1 var33:1 var35:0 var37:1 var39:0 var42:0 var44:0
+Execute: action3-a2 obj0-o obj2-o / NSC / d=5
+
+If holds: var18:0 var21:0 var19:0 var23:0 var20:1 var24:1 var28:0 var30:0 var26:1 var31:0 var2:0 var12:0 var14:0 var33:0 var35:1 var37:0 var39:1 var41:0 var43:0
+Execute: action3-a2 obj2-o obj0-o / NSC / d=5
+
+If holds: var18:0 var21:0 var23:0 var20:1 var24:1 var28:0 var29:0 var30:0 var26:1 var2:0 var12:0 var14:0 var33:1 var35:1 var37:1 var39:1
+Execute: action0-a obj0-o obj2-o / NSC / d=5
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:1 var26:0 var31:0 var2:0 var9:0 var4:0 var12:0 var33:0 var35:0 var37:0 var39:0 var42:0 var44:0
+Execute: action3-a2 obj0-o obj2-o / NSC / d=5
+
+If holds: var18:1 var21:0 var19:1 var23:0 var25:0 var20:0 var24:1 var28:0 var30:1 var9:0 var4:1 var12:1 var15:0 var33:1 var35:1 var37:1 var39:1
+Execute: action0-a obj3-o obj0-o / NSC / d=5
+
+If holds: var18:0 var21:0 var19:1 var23:0 var25:0 var20:0 var24:1 var28:0 var30:1 var9:0 var4:1 var12:1 var15:0 var33:1 var35:1 var37:1 var39:1
+Execute: action0-a obj3-o obj0-o / NSC / d=5
+
+If holds: var18:0 var21:0 var19:0 var23:0 var25:0 var20:0 var24:1 var28:0 var29:0 var30:0 var31:0 var2:0 var9:0 var4:0 var12:0 var33:0 var35:0 var37:0 var39:0 var42:0 var44:0
+Execute: action3-a2 obj0-o obj2-o / NSC / d=5
+
+If holds: var18:1 var21:0 var19:1 var23:0 var25:0 var20:0 var24:1 var28:1 var30:0 var9:0 var4:1 var15:0 var33:1 var35:1 var37:1 var39:1
+Execute: action0-a obj3-o obj0-o / NSC / d=5
+
+If holds: var18:1 var21:0 var19:1 var23:0 var25:0 var20:0 var24:1 var28:1 var30:0 var9:0 var4:1 var13:0 var15:0 var33:0 var35:1 var37:0 var39:1 var41:0 var43:0
+Execute: action3-a2 obj2-o obj0-o / NSC / d=5
+
+If holds: var18:0 var21:0 var19:1 var23:0 var25:0 var20:1 var24:1 var28:1 var30:0 var26:0 var31:0 var9:0 var14:1 var15:0 var33:1 var35:1 var37:1 var39:1
+Execute: action0-a obj3-o obj0-o / NSC / d=5
+
+If holds: var18:0 var21:0 var19:1 var23:0 var25:0 var20:0 var24:1 var28:1 var30:0 var9:0 var4:1 var15:0 var33:1 var35:1 var37:1 var39:1
+Execute: action0-a obj3-o obj0-o / NSC / d=5
+
+If holds: var18:0 var21:0 var19:1 var23:0 var25:0 var20:0 var24:1 var28:1 var30:0 var9:0 var4:1 var13:0 var15:0 var33:0 var35:1 var37:0 var39:1 var41:0 var43:0
+Execute: action3-a2 obj2-o obj0-o / NSC / d=5
+
+If holds: var18:1 var21:0 var19:1 var23:0 var25:0 var20:0 var24:1 var28:0 var30:0 var9:0 var4:1 var15:0 var33:1 var35:1 var37:1 var39:1
+Execute: action0-a obj3-o obj0-o / NSC / d=5
+
+If holds: var18:0 var21:0 var19:1 var23:0 var25:0 var20:1 var24:1 var28:0 var30:0 var26:0 var31:0 var9:0 var14:1 var33:1 var35:1 var37:1 var39:1
+Execute: action0-a obj3-o obj0-o / NSC / d=5
+
+If holds: var18:0 var21:0 var19:1 var23:0 var25:0 var20:0 var24:1 var28:0 var30:0 var9:0 var4:1 var15:0 var33:1 var35:1 var37:1 var39:1
+Execute: action0-a obj3-o obj0-o / NSC / d=5
+
+If holds: var21:0 var19:0 var23:1 var25:0 var24:1 var28:0 var29:0 var31:0 var12:0 var34:1 var38:1 var35:1 var39:1
+Execute: action0-a obj0-o obj1-o / NSC / d=6
+
+If holds: var18:0 var21:0 var19:0 var23:0 var20:1 var24:1 var28:0 var29:0 var30:0 var26:1 var31:0 var2:0 var12:0 var14:0 var15:0 var36:1 var40:1 var33:0 var37:0 var42:0 var44:0
+Execute: action2-a2 obj2-o obj3-o / NSC / d=6
+
+If holds: var18:0 var21:0 var19:0 var23:0 var20:1 var24:1 var28:0 var29:0 var30:0 var26:1 var31:0 var2:0 var3:0 var7:0 var12:0 var14:0 var15:0 var36:1 var40:1 var33:0 var37:0 var42:0 var41:0 var43:0 var44:0
+Execute: action2-a2 obj2-o obj3-o / NSC / d=6
+
+If holds: var18:0 var21:0 var19:0 var23:0 var20:1 var24:1 var28:0 var29:0 var30:0 var26:1 var2:0 var3:0 var7:0 var12:0 var13:0 var14:0 var36:1 var40:1 var33:1 var35:0 var37:1 var42:0 var41:0 var43:0 var44:0
+Execute: action2-a2 obj2-o obj0-o / NSC / d=6
+
+If holds: var18:0 var21:0 var19:0 var23:0 var20:1 var24:1 var28:0 var29:0 var30:0 var26:1 var31:0 var2:0 var12:0 var14:0 var15:0 var36:1 var40:1 var33:0 var35:1 var37:0 var39:1 var42:0 var44:0
+Execute: action2-a2 obj2-o obj3-o / NSC / d=6
+
+If holds: var18:0 var21:0 var19:0 var23:0 var20:1 var24:1 var28:0 var30:0 var26:1 var31:0 var2:0 var12:0 var14:0 var33:0 var35:0 var37:0 var39:0 var42:0 var44:0
+Execute: action3-a2 obj0-o obj2-o / NSC / d=6
+
+If holds: var18:0 var21:0 var23:0 var20:1 var24:1 var28:0 var29:0 var30:0 var26:1 var2:0 var3:0 var12:0 var14:0 var33:1 var35:0 var37:1 var39:0 var42:0 var44:0
+Execute: action3-a2 obj0-o obj2-o / NSC / d=6
+
+If holds: var18:0 var21:0 var19:0 var23:0 var20:1 var24:1 var28:0 var29:0 var30:0 var26:1 var2:0 var3:0 var7:0 var12:0 var13:0 var14:0 var36:1 var40:1 var33:1 var37:1 var39:0 var42:0 var41:0 var43:0 var44:0
+Execute: action2-a2 obj2-o obj0-o / NSC / d=6
+
+If holds: var21:0 var19:0 var23:1 var25:0 var24:1 var28:0 var29:0 var12:0 var34:1 var38:1 var35:1 var39:1
+Execute: action0-a obj3-o obj2-o / NSC / d=7
+
+If holds: var18:0 var21:0 var19:0 var23:0 var20:1 var24:1 var28:0 var29:0 var30:0 var26:1 var31:0 var2:0 var12:0 var13:0 var14:0 var15:0 var36:1 var40:1 var42:0 var44:0
+Execute: action2-a2 obj0-o obj3-o / NSC / d=7
+
+If holds: var18:0 var21:0 var19:0 var23:0 var20:1 var24:1 var28:0 var29:0 var30:0 var26:1 var2:0 var7:0 var12:0 var13:0 var14:0 var36:1 var40:1 var35:0 var39:0 var41:0 var43:0
+Execute: action2-a2 obj0-o obj3-o / NSC / d=7
+
+If holds: var18:0 var21:0 var19:0 var23:0 var20:1 var24:1 var28:0 var29:0 var30:0 var26:1 var2:0 var12:0 var14:0 var36:1 var40:1 var33:0 var35:1 var37:0 var39:1 var42:0 var44:0
+Execute: action0-a obj3-o obj2-o / NSC / d=7
+
+If holds: var18:0 var21:0 var19:0 var23:0 var20:1 var24:1 var28:0 var30:0 var26:1 var31:0 var2:0 var12:0 var14:0 var15:0 var36:1 var40:1 var33:0 var37:0 var42:0 var44:0
+Execute: action2-a2 obj2-o obj3-o / NSC / d=7
+
+If holds: var18:0 var21:0 var19:0 var23:0 var20:1 var24:1 var28:0 var29:0 var30:0 var26:1 var31:0 var2:0 var12:0 var13:0 var14:0 var15:0 var36:1 var40:1 var37:0 var42:0 var44:0
+Execute: action2-a2 obj0-o obj3-o / NSC / d=7
+
+If holds: var21:0 var19:0 var23:1 var25:0 var24:1 var29:0 var36:1 var34:1 var38:1 var40:1 var35:1 var39:1
+Execute: action0-a obj2-o obj3-o / NSC / d=8
+
+If holds: var18:0 var21:0 var19:0 var23:0 var20:1 var24:1 var28:0 var30:0 var26:1 var2:0 var12:0 var14:0 var36:1 var40:1 var33:0 var35:1 var37:0 var39:1 var42:0 var44:0
+Execute: action0-a obj3-o obj2-o / NSC / d=8
+
+If holds: var18:0 var21:0 var19:0 var23:0 var20:1 var24:1 var28:0 var30:0 var26:1 var2:0 var7:0 var12:0 var14:0 var36:1 var40:1 var33:1 var35:0 var37:1 var39:0 var41:0 var43:0
+Execute: action0-a obj3-o obj0-o / NSC / d=8
+
+If holds: var18:0 var21:0 var23:0 var20:1 var24:1 var28:0 var29:0 var30:0 var26:1 var2:0 var3:0 var12:0 var13:0 var14:0 var36:1 var40:1 var35:0 var39:0 var41:0 var43:0
+Execute: action2-a2 obj0-o obj3-o / NSC / d=8
+
+If holds: var19:0 var23:1 var25:0 var24:1 var29:0 var36:1 var34:1 var38:1 var40:1 var33:1 var35:1 var37:1 var39:1
+Execute: action0-a obj1-o obj0-o / NSC / d=9
+
+If holds: var18:0 var21:0 var23:0 var20:1 var24:1 var28:0 var30:0 var26:1 var2:0 var3:0 var12:0 var14:0 var36:1 var40:1 var33:1 var35:0 var37:1 var39:0 var41:0 var43:0
+Execute: action0-a obj3-o obj0-o / NSC / d=9
+
+If holds: var19:0 var23:1 var24:1 var29:0 var36:1 var34:1 var38:1 var40:1 var33:1 var35:1 var37:1 var39:1
+Execute: action0-a obj2-o obj0-o / NSC / d=10
+
+If holds: var19:0 var23:1 var24:1 var36:1 var34:1 var38:1 var40:1 var33:1 var35:1 var37:1 var39:1
+Execute: action0-a obj3-o obj0-o / NSC / d=11

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<robot name="stick">
+  <link name="base_link">
+    <!-- <contact> -->
+      <!-- <lateral_friction value="0.01"/> -->
+      <!-- <rolling_friction value="0.01"/> -->
+    <!-- </contact> -->
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.25" />
+      <inertia ixx="0.02" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <box size="0.8 0.03 0.03" />
+      </geometry>
+      <material name="gray">
+        <color rgba="0.2 0.2 0.2 0.9" />
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.8 0.03 0.03" />
+      </geometry>
+    </collision>
+   </link>
+</robot>

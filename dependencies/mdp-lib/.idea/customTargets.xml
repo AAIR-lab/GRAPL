@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CLionExternalBuildManager">
+    <target id="3993bd68-104b-4444-9195-58038e2be7d6" name="ppddl" defaultType="MAKE">
+      <configuration id="a81f4c2f-0450-4919-aa97-5d3a84abc889" name="ppddl">
+        <build type="MAKE">
+          <make targetName="ppddl" />
+        </build>
+        <clean type="MAKE">
+          <make targetName="clean" />
+        </clean>
+      </configuration>
+    </target>
+  </component>
+</project>

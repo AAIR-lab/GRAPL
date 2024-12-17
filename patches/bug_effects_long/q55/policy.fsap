@@ -1,0 +1,12 @@
+
+If holds: var32:1 var27:1 var22:1 var17:1 var16:1 var11:1 var6:1 var18:0 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var28:0 var29:0 var30:0 var26:0 var31:0 var2:0 var5:0 var3:0 var7:0 var9:0 var4:1 var8:1 var12:0 var13:0 var14:0 var10:1 var15:0 var36:1 var34:0 var38:0 var40:1 var35:0 var39:0 var42:1 var41:1 var43:1 var44:1 var1:1 var0:1
+Forbid: action2-a obj0-o obj3-o
+
+If holds: var32:1 var27:1 var22:1 var17:1 var16:1 var11:1 var6:1 var18:0 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var28:0 var29:0 var30:0 var26:1 var31:0 var2:0 var5:0 var3:0 var7:0 var9:0 var4:1 var8:1 var12:0 var13:0 var14:0 var10:1 var15:0 var34:0 var38:0 var33:1 var35:1 var37:1 var39:1 var41:1 var43:1 var1:1 var0:1
+Forbid: action2-a2 obj3-o obj2-o
+
+If holds: var32:1 var27:1 var22:1 var17:1 var16:1 var11:1 var6:1 var18:0 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var28:0 var29:0 var30:0 var26:0 var31:0 var2:0 var5:0 var3:0 var7:0 var9:0 var4:1 var8:1 var12:0 var13:0 var14:0 var10:1 var15:0 var34:0 var38:0 var33:1 var35:1 var37:1 var39:1 var41:1 var43:1 var1:1 var0:1
+Forbid: action2-a2 obj3-o obj2-o
+
+If holds: var32:1 var27:1 var22:1 var17:1 var16:1 var11:1 var6:1 var18:0 var21:0 var19:0 var23:0 var25:0 var20:1 var24:1 var28:0 var29:0 var30:0 var26:1 var31:0 var2:0 var5:0 var3:0 var7:0 var9:0 var4:1 var8:1 var12:0 var13:0 var14:0 var10:1 var15:0 var34:0 var38:0 var33:1 var35:1 var37:1 var39:1 var41:1 var43:1 var1:1 var0:1
+Forbid: action2-a obj3-o obj2-o

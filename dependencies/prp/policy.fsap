@@ -1,0 +1,21 @@
+
+If holds: var0:1 var1:0 var9:0
+Forbid: move-car n0 n18
+
+If holds: var0:1 var1:0 var9:6
+Forbid: move-car n14 n18
+
+If holds: var0:1 var1:0 var9:11
+Forbid: move-car n19 n18
+
+If holds: var0:1 var1:0 var9:13
+Forbid: move-car n20 n18
+
+If holds: var0:1 var1:0 var9:17
+Forbid: move-car n6 n18
+
+If holds: var0:1 var1:0 var9:18
+Forbid: move-car n7 n18
+
+If holds: var0:1 var1:0 var9:0
+Forbid: move-car n0 n18

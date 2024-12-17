@@ -1,0 +1,97 @@
+diff --git a/src/agent.py b/src/agent.py
+index 10791d6..9bc62c8 100644
+--- a/src/agent.py
++++ b/src/agent.py
+@@ -38,7 +38,22 @@ class Agent:
+     def get_problem(self):
+ 
+         return self.simulator.get_problem(0)
+-        
++
++class BFSNode:
++
++    def __init__(self, state, action=None, parent=None,
++                 depth=0):
++
++        self.state = state
++        self.action = action
++        self.parent = parent
++        self.depth = depth
++
++    @property
++    def literals(self):
++
++        return self.state.literals
++
+ class BFSAgent(Agent):
+     
+     DEFAULT_FILTER_FUNC = lambda _s, _a, _s_dash, _depth: True
+@@ -55,7 +70,7 @@ class BFSAgent(Agent):
+ 
+         # TODO: Can store simulation logs there.
+         assert base_dir is None
+-    
++
+     def generate_state_samples(self, 
+         pddlgym_state=None,
+         max_depth=float("inf"),
+@@ -73,12 +88,14 @@ class BFSAgent(Agent):
+             self.simulator.set_state(pddlgym_state)
+         
+         initial_state = self.simulator.get_state()
++        init_node = BFSNode(initial_state, None, None, 0)
+         fringe = collections.deque()
+         visited = set()
+-        
++
++
+         # previous_state, action_used, next_state, depth
+         # First two terms are for debug.
+-        fringe.append((None, None, initial_state, 0))
++        fringe.append(init_node)
+         samples = []
+ 
+         if show_progress:
+@@ -99,18 +116,23 @@ class BFSAgent(Agent):
+             if show_progress:
+                 progress_bar.update(1)
+             
+-            prev_state, action, state, depth = fringe.popleft()
+-            
++            node = fringe.popleft()
++
++            prev_state = node.parent.literals if node.parent else None
++            action = node.action
++            state = node.state
++            depth = node.depth
++
+             # Only add to samples if it passes the filter.
+             if filter_func(prev_state, action, state, depth):
+                 samples.append(storage_func(prev_state, action, state, 
+-                                            depth))
++                                            node))
+             
+             if state.literals in visited or depth >= max_depth:
+                 
+                 continue
+             else:
+-                
++
+                 visited.add(state.literals)
+                 self.simulator.set_state(state)
+                 actions = self.simulator.get_applicable_actions()
+@@ -141,8 +163,12 @@ class BFSAgent(Agent):
+                                 break
+ 
+                     total_steps += len(successors)
+-                    
+-                    fringe.extend([(state, action, x, depth + 1) for x in successors])
++
++                    for next_state in successors:
++
++                        child_node = BFSNode(next_state, action, node,
++                                             depth + 1)
++                        fringe.append(child_node)
+ 
+         if show_progress:
+             progress_bar.close()
